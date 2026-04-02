@@ -614,6 +614,127 @@
             gap: 10px;
         }
 
+        .compare-section,
+        .market-section {
+            display: grid;
+            gap: 24px;
+        }
+
+        .compare-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 24px;
+        }
+
+        .compare-column,
+        .market-support,
+        .market-card {
+            border-radius: 28px;
+            border: 1px solid var(--line);
+            background:
+                linear-gradient(180deg, rgba(21, 26, 32, 0.96), rgba(13, 17, 22, 0.98)),
+                radial-gradient(circle at top right, rgba(165, 136, 109, 0.08), transparent 38%);
+            box-shadow: 0 18px 44px rgba(0, 0, 0, 0.18);
+        }
+
+        .compare-column {
+            padding: 22px;
+            display: grid;
+            gap: 14px;
+        }
+
+        .compare-column--plain {
+            background:
+                linear-gradient(180deg, rgba(20, 24, 30, 0.92), rgba(12, 15, 20, 0.98)),
+                radial-gradient(circle at top left, rgba(92, 102, 114, 0.08), transparent 42%);
+        }
+
+        .compare-column--luvie {
+            border-color: var(--line-strong);
+            background:
+                linear-gradient(180deg, rgba(24, 29, 35, 0.98), rgba(13, 17, 22, 0.98)),
+                radial-gradient(circle at top right, rgba(165, 136, 109, 0.16), transparent 42%);
+        }
+
+        .compare-title {
+            display: grid;
+            gap: 6px;
+            padding-bottom: 4px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .compare-title span {
+            color: var(--brand-soft);
+            font-size: 12px;
+            line-height: 1;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+        }
+
+        .compare-title strong {
+            font-size: 22px;
+            line-height: 1.15;
+            color: var(--text);
+            font-family: "Songti SC", "STSong", "Noto Serif SC", serif;
+        }
+
+        .compare-stack {
+            display: grid;
+            gap: 12px;
+        }
+
+        .compare-item {
+            display: grid;
+            gap: 6px;
+            padding: 14px 0 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .compare-item strong {
+            font-size: 16px;
+            line-height: 1.45;
+            color: var(--text);
+        }
+
+        .compare-item p {
+            font-size: 14px;
+            line-height: 1.8;
+        }
+
+        .market-layout {
+            display: grid;
+            grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
+            gap: 24px;
+            align-items: start;
+        }
+
+        .market-cards {
+            display: grid;
+            gap: 18px;
+        }
+
+        .market-card {
+            padding: 20px;
+            display: grid;
+            gap: 10px;
+        }
+
+        .market-card strong {
+            font-size: 18px;
+            line-height: 1.3;
+            color: var(--text);
+        }
+
+        .market-card p {
+            font-size: 14px;
+        }
+
+        .market-support {
+            padding: 22px;
+            display: grid;
+            gap: 14px;
+        }
+
         .manufacturing-stage {
             display: grid;
             grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
@@ -710,7 +831,8 @@
             .hero-stage,
             .material-stage,
             .about-stage,
-            .manufacturing-stage {
+            .manufacturing-stage,
+            .market-layout {
                 grid-template-columns: 1fr;
             }
 
@@ -723,7 +845,8 @@
             .material-shelf,
             .scenes-grid,
             .support-grid,
-            .proof-grid {
+            .proof-grid,
+            .compare-grid {
                 grid-template-columns: repeat(2, minmax(0, 1fr));
             }
         }
@@ -830,7 +953,8 @@
             .scenes-grid,
             .support-grid,
             .proof-grid,
-            .fact-grid {
+            .fact-grid,
+            .compare-grid {
                 grid-template-columns: 1fr;
             }
 
@@ -839,6 +963,9 @@
             .support-card,
             .proof-card,
             .fact-card,
+            .compare-column,
+            .market-card,
+            .market-support,
             .material-sample,
             .cta-panel {
                 padding: 18px;
@@ -1046,6 +1173,100 @@
                                 <p>如果只有图片好看、没有材料基础和后续配合，品牌站就会失真。绿维更强调前端表达和后端能力同时站得住。</p>
                             </div>
                         </article>
+                    </div>
+                </div>
+                <div class="compare-section">
+                    <div class="section-head">
+                        <span class="section-tag">Why Luvie</span>
+                        <h2>为什么选择绿维</h2>
+                        <p>PDF 里的关键判断标准我重新放回来了，只是换成更适合网站阅读的秩序和层次，不再像展会画册那样直接堆信息。</p>
+                    </div>
+                    <div class="compare-grid">
+                        <article class="compare-column compare-column--plain">
+                            <div class="compare-title">
+                                <span>Ordinary Supplier</span>
+                                <strong>选择普通供应商</strong>
+                            </div>
+                            <div class="compare-stack">
+                                <div class="compare-item">
+                                    <strong>经验参差不齐</strong>
+                                    <p>对不同市场的产品结构、客户偏好和配套需求理解不够完整，常常只能围着单次报价转。</p>
+                                </div>
+                                <div class="compare-item">
+                                    <strong>质量与交期波动</strong>
+                                    <p>批次稳定性不足，项目推进时容易被色差、包装和交期问题拖慢，客户后续复购压力更大。</p>
+                                </div>
+                                <div class="compare-item">
+                                    <strong>需要自己补齐周边</strong>
+                                    <p>只卖单一墙板，走线槽、收口条和转角件还要客户再找别家拼单，整体采购链路更碎。</p>
+                                </div>
+                                <div class="compare-item">
+                                    <strong>对接成本更高</strong>
+                                    <p>多家沟通、多套出货标准、多轮确认，渠道管理和项目执行都更费力。</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="compare-column compare-column--luvie">
+                            <div class="compare-title">
+                                <span>Luvie Advantage</span>
+                                <strong>选择绿维</strong>
+                            </div>
+                            <div class="compare-stack">
+                                <div class="compare-item">
+                                    <strong>25年行业经验</strong>
+                                    <p>长期深耕墙面材料，更快理解客户要卖什么、怎么卖、怎么配更合理，不只是简单接单。</p>
+                                </div>
+                                <div class="compare-item">
+                                    <strong>自有制造底盘，质量更稳</strong>
+                                    <p>主营墙板主品由制造体系支撑，更利于稳定品质、稳定交期和持续复购，而不是一次性成交。</p>
+                                </div>
+                                <div class="compare-item">
+                                    <strong>一站式无忧配齐</strong>
+                                    <p>墙板是主业，走线槽、收口条、转角件等周边配套也能同步协同，一家解决更省心。</p>
+                                </div>
+                                <div class="compare-item">
+                                    <strong>合作效率更高</strong>
+                                    <p>从选型、打样、报价到出货由一套逻辑承接，更适合长期合作型进口商与经销商。</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="market-section">
+                    <div class="section-head">
+                        <span class="section-tag">Global Market</span>
+                        <h2>全球市场</h2>
+                        <p>南美与东南亚是重点区域，但我们的服务能力面向全球客户。网站里必须把这件事明确写出来，而不是让客户自己猜。</p>
+                    </div>
+                    <div class="market-layout">
+                        <div class="market-cards">
+                            <article class="market-card">
+                                <span class="meta-line">South America</span>
+                                <strong>南美</strong>
+                                <p>当前重点区域之一，主推 PVC + WPC 组合，适配翻新、零售走量和项目补货场景。</p>
+                            </article>
+                            <article class="market-card">
+                                <span class="meta-line">Southeast Asia</span>
+                                <strong>东南亚</strong>
+                                <p>高温高湿环境对防潮快装材料需求稳定，适合基础板和格栅组合的长期铺货。</p>
+                            </article>
+                            <article class="market-card">
+                                <span class="meta-line">Middle East / Africa</span>
+                                <strong>中东 / 非洲</strong>
+                                <p>项目与渠道双驱动，重点关注耐候性、交期、装柜效率以及面向不同预算段的组合能力。</p>
+                            </article>
+                        </div>
+                        <div class="market-support">
+                            <span class="meta-line">ToB Support</span>
+                            <strong>我们能帮客户做什么</strong>
+                            <ul class="plain-list">
+                                <li>样品与选型支持，帮助客户快速建立本地展示</li>
+                                <li>规格与包装定制，适配不同国家与渠道标准</li>
+                                <li>稳定供货节奏，按计划进行批次排产</li>
+                                <li>市场素材支持，提供产品图、应用图与卖点文案</li>
+                                <li>长期合作导向，支持区域客户的持续增长</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
