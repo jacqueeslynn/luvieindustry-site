@@ -614,6 +614,51 @@
             gap: 10px;
         }
 
+        .capsule-bar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .capsule-button {
+            appearance: none;
+            border: 1px solid var(--line);
+            background: rgba(255, 255, 255, 0.03);
+            color: var(--muted);
+            min-height: 38px;
+            padding: 0 15px;
+            border-radius: 999px;
+            font-size: 13px;
+            line-height: 1;
+            cursor: pointer;
+            transition: color 220ms ease, border-color 220ms ease, background 220ms ease, transform 220ms ease, box-shadow 220ms ease;
+        }
+
+        .capsule-button:hover {
+            color: var(--text);
+            border-color: var(--line-strong);
+            transform: translateY(-1px);
+        }
+
+        .capsule-button.is-active {
+            color: var(--text);
+            border-color: rgba(209, 183, 157, 0.42);
+            background: linear-gradient(135deg, rgba(165, 136, 109, 0.2), rgba(28, 33, 40, 0.84));
+            box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.04);
+        }
+
+        .tab-panels {
+            display: grid;
+        }
+
+        .tab-panel {
+            display: none;
+        }
+
+        .tab-panel.is-active {
+            display: grid;
+        }
+
         .compare-section,
         .market-section {
             display: grid;
@@ -623,6 +668,10 @@
         .compare-grid {
             display: grid;
             grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 24px;
+        }
+
+        .compare-panel {
             gap: 24px;
         }
 
@@ -706,6 +755,10 @@
             grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
             gap: 24px;
             align-items: start;
+        }
+
+        .market-panel {
+            gap: 24px;
         }
 
         .market-cards {
@@ -1179,93 +1232,215 @@
                     <div class="section-head">
                         <span class="section-tag">Why Luvie</span>
                         <h2>为什么选择绿维</h2>
-                        <p>PDF 里的关键判断标准我重新放回来了，只是换成更适合网站阅读的秩序和层次，不再像展会画册那样直接堆信息。</p>
+                        <p>从经验、质量到一站式协同，客户真正判断的是：这家供应商能不能支持长期合作，而不是只完成一次出货。</p>
                     </div>
-                    <div class="compare-grid">
-                        <article class="compare-column compare-column--plain">
-                            <div class="compare-title">
-                                <span>Ordinary Supplier</span>
-                                <strong>选择普通供应商</strong>
+                    <div class="capsule-bar" role="tablist" aria-label="为什么选择绿维" data-tab-group="compare">
+                        <button class="capsule-button is-active" type="button" role="tab" aria-selected="true" data-tab-target="compare" data-tab-value="experience">经验</button>
+                        <button class="capsule-button" type="button" role="tab" aria-selected="false" data-tab-target="compare" data-tab-value="quality">质量</button>
+                        <button class="capsule-button" type="button" role="tab" aria-selected="false" data-tab-target="compare" data-tab-value="one-stop">一站配齐</button>
+                        <button class="capsule-button" type="button" role="tab" aria-selected="false" data-tab-target="compare" data-tab-value="efficiency">合作效率</button>
+                    </div>
+                    <div class="tab-panels">
+                        <div class="tab-panel compare-panel is-active" data-tab-panel="compare" data-tab-value="experience">
+                            <div class="compare-grid">
+                                <article class="compare-column compare-column--plain">
+                                    <div class="compare-title">
+                                        <span>Ordinary Supplier</span>
+                                        <strong>选择普通供应商</strong>
+                                    </div>
+                                    <div class="compare-stack">
+                                        <div class="compare-item">
+                                            <strong>经验参差不齐</strong>
+                                            <p>对不同市场的产品结构、客户偏好和配套需求理解不够完整，常常只能围着单次报价转。</p>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="compare-column compare-column--luvie">
+                                    <div class="compare-title">
+                                        <span>Luvie Advantage</span>
+                                        <strong>选择绿维</strong>
+                                    </div>
+                                    <div class="compare-stack">
+                                        <div class="compare-item">
+                                            <strong>25年行业经验</strong>
+                                            <p>长期深耕墙面材料，更快理解客户要卖什么、怎么卖、怎么配更合理，不只是简单接单。</p>
+                                        </div>
+                                    </div>
+                                </article>
                             </div>
-                            <div class="compare-stack">
-                                <div class="compare-item">
-                                    <strong>经验参差不齐</strong>
-                                    <p>对不同市场的产品结构、客户偏好和配套需求理解不够完整，常常只能围着单次报价转。</p>
-                                </div>
-                                <div class="compare-item">
-                                    <strong>质量与交期波动</strong>
-                                    <p>批次稳定性不足，项目推进时容易被色差、包装和交期问题拖慢，客户后续复购压力更大。</p>
-                                </div>
-                                <div class="compare-item">
-                                    <strong>需要自己补齐周边</strong>
-                                    <p>只卖单一墙板，走线槽、收口条和转角件还要客户再找别家拼单，整体采购链路更碎。</p>
-                                </div>
-                                <div class="compare-item">
-                                    <strong>对接成本更高</strong>
-                                    <p>多家沟通、多套出货标准、多轮确认，渠道管理和项目执行都更费力。</p>
-                                </div>
+                        </div>
+                        <div class="tab-panel compare-panel" data-tab-panel="compare" data-tab-value="quality" hidden>
+                            <div class="compare-grid">
+                                <article class="compare-column compare-column--plain">
+                                    <div class="compare-title">
+                                        <span>Ordinary Supplier</span>
+                                        <strong>选择普通供应商</strong>
+                                    </div>
+                                    <div class="compare-stack">
+                                        <div class="compare-item">
+                                            <strong>质量与交期波动</strong>
+                                            <p>批次稳定性不足，项目推进时容易被色差、包装和交期问题拖慢，客户后续复购压力更大。</p>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="compare-column compare-column--luvie">
+                                    <div class="compare-title">
+                                        <span>Luvie Advantage</span>
+                                        <strong>选择绿维</strong>
+                                    </div>
+                                    <div class="compare-stack">
+                                        <div class="compare-item">
+                                            <strong>自有制造底盘，质量更稳</strong>
+                                            <p>主营墙板主品由制造体系支撑，更利于稳定品质、稳定交期和持续复购，而不是一次性成交。</p>
+                                        </div>
+                                    </div>
+                                </article>
                             </div>
-                        </article>
-                        <article class="compare-column compare-column--luvie">
-                            <div class="compare-title">
-                                <span>Luvie Advantage</span>
-                                <strong>选择绿维</strong>
+                        </div>
+                        <div class="tab-panel compare-panel" data-tab-panel="compare" data-tab-value="one-stop" hidden>
+                            <div class="compare-grid">
+                                <article class="compare-column compare-column--plain">
+                                    <div class="compare-title">
+                                        <span>Ordinary Supplier</span>
+                                        <strong>选择普通供应商</strong>
+                                    </div>
+                                    <div class="compare-stack">
+                                        <div class="compare-item">
+                                            <strong>需要自己补齐周边</strong>
+                                            <p>只卖单一墙板，走线槽、收口条和转角件还要客户再找别家拼单，整体采购链路更碎。</p>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="compare-column compare-column--luvie">
+                                    <div class="compare-title">
+                                        <span>Luvie Advantage</span>
+                                        <strong>选择绿维</strong>
+                                    </div>
+                                    <div class="compare-stack">
+                                        <div class="compare-item">
+                                            <strong>一站式无忧配齐</strong>
+                                            <p>墙板是主业，走线槽、收口条、转角件等周边配套也能同步协同，一家解决更省心。</p>
+                                        </div>
+                                    </div>
+                                </article>
                             </div>
-                            <div class="compare-stack">
-                                <div class="compare-item">
-                                    <strong>25年行业经验</strong>
-                                    <p>长期深耕墙面材料，更快理解客户要卖什么、怎么卖、怎么配更合理，不只是简单接单。</p>
-                                </div>
-                                <div class="compare-item">
-                                    <strong>自有制造底盘，质量更稳</strong>
-                                    <p>主营墙板主品由制造体系支撑，更利于稳定品质、稳定交期和持续复购，而不是一次性成交。</p>
-                                </div>
-                                <div class="compare-item">
-                                    <strong>一站式无忧配齐</strong>
-                                    <p>墙板是主业，走线槽、收口条、转角件等周边配套也能同步协同，一家解决更省心。</p>
-                                </div>
-                                <div class="compare-item">
-                                    <strong>合作效率更高</strong>
-                                    <p>从选型、打样、报价到出货由一套逻辑承接，更适合长期合作型进口商与经销商。</p>
-                                </div>
+                        </div>
+                        <div class="tab-panel compare-panel" data-tab-panel="compare" data-tab-value="efficiency" hidden>
+                            <div class="compare-grid">
+                                <article class="compare-column compare-column--plain">
+                                    <div class="compare-title">
+                                        <span>Ordinary Supplier</span>
+                                        <strong>选择普通供应商</strong>
+                                    </div>
+                                    <div class="compare-stack">
+                                        <div class="compare-item">
+                                            <strong>对接成本更高</strong>
+                                            <p>多家沟通、多套出货标准、多轮确认，渠道管理和项目执行都更费力。</p>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="compare-column compare-column--luvie">
+                                    <div class="compare-title">
+                                        <span>Luvie Advantage</span>
+                                        <strong>选择绿维</strong>
+                                    </div>
+                                    <div class="compare-stack">
+                                        <div class="compare-item">
+                                            <strong>合作效率更高</strong>
+                                            <p>从选型、打样、报价到出货由一套逻辑承接，更适合长期合作型进口商与经销商。</p>
+                                        </div>
+                                    </div>
+                                </article>
                             </div>
-                        </article>
+                        </div>
                     </div>
                 </div>
                 <div class="market-section">
                     <div class="section-head">
                         <span class="section-tag">Global Market</span>
                         <h2>全球市场</h2>
-                        <p>南美与东南亚是重点区域，但我们的服务能力面向全球客户。网站里必须把这件事明确写出来，而不是让客户自己猜。</p>
+                        <p>南美与东南亚是当前重点区域，同时以更完整的产品结构、交付协同与合作支持服务全球客户。</p>
                     </div>
-                    <div class="market-layout">
-                        <div class="market-cards">
-                            <article class="market-card">
-                                <span class="meta-line">South America</span>
-                                <strong>南美</strong>
-                                <p>当前重点区域之一，主推 PVC + WPC 组合，适配翻新、零售走量和项目补货场景。</p>
-                            </article>
-                            <article class="market-card">
-                                <span class="meta-line">Southeast Asia</span>
-                                <strong>东南亚</strong>
-                                <p>高温高湿环境对防潮快装材料需求稳定，适合基础板和格栅组合的长期铺货。</p>
-                            </article>
-                            <article class="market-card">
-                                <span class="meta-line">Middle East / Africa</span>
-                                <strong>中东 / 非洲</strong>
-                                <p>项目与渠道双驱动，重点关注耐候性、交期、装柜效率以及面向不同预算段的组合能力。</p>
-                            </article>
+                    <div class="capsule-bar" role="tablist" aria-label="全球市场切换" data-tab-group="market">
+                        <button class="capsule-button is-active" type="button" role="tab" aria-selected="true" data-tab-target="market" data-tab-value="south-america">南美</button>
+                        <button class="capsule-button" type="button" role="tab" aria-selected="false" data-tab-target="market" data-tab-value="southeast-asia">东南亚</button>
+                        <button class="capsule-button" type="button" role="tab" aria-selected="false" data-tab-target="market" data-tab-value="middle-east-africa">中东 / 非洲</button>
+                        <button class="capsule-button" type="button" role="tab" aria-selected="false" data-tab-target="market" data-tab-value="support">ToB 支持</button>
+                    </div>
+                    <div class="tab-panels">
+                        <div class="tab-panel market-panel is-active" data-tab-panel="market" data-tab-value="south-america">
+                            <div class="market-layout">
+                                <article class="market-card">
+                                    <span class="meta-line">South America</span>
+                                    <strong>南美</strong>
+                                    <p>当前重点区域之一，主推 PVC + WPC 组合，适配翻新、零售走量和项目补货场景。</p>
+                                </article>
+                                <div class="market-support">
+                                    <span class="meta-line">Regional Focus</span>
+                                    <strong>更适合什么打法</strong>
+                                    <ul class="plain-list">
+                                        <li>基础快装系列更适合渠道铺货和稳定走量</li>
+                                        <li>WPC 系列帮助客户提升中端价格带与毛利结构</li>
+                                        <li>围绕翻新、公寓和门店场景组织本地销售表达</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                        <div class="market-support">
-                            <span class="meta-line">ToB Support</span>
-                            <strong>我们能帮客户做什么</strong>
-                            <ul class="plain-list">
-                                <li>样品与选型支持，帮助客户快速建立本地展示</li>
-                                <li>规格与包装定制，适配不同国家与渠道标准</li>
-                                <li>稳定供货节奏，按计划进行批次排产</li>
-                                <li>市场素材支持，提供产品图、应用图与卖点文案</li>
-                                <li>长期合作导向，支持区域客户的持续增长</li>
-                            </ul>
+                        <div class="tab-panel market-panel" data-tab-panel="market" data-tab-value="southeast-asia" hidden>
+                            <div class="market-layout">
+                                <article class="market-card">
+                                    <span class="meta-line">Southeast Asia</span>
+                                    <strong>东南亚</strong>
+                                    <p>高温高湿环境对防潮快装材料需求稳定，适合基础板和格栅组合的长期铺货。</p>
+                                </article>
+                                <div class="market-support">
+                                    <span class="meta-line">Regional Focus</span>
+                                    <strong>更适合什么打法</strong>
+                                    <ul class="plain-list">
+                                        <li>突出耐潮、易安装和快速翻新的产品价值</li>
+                                        <li>基础板做底盘，格栅系列拉高终端展示感</li>
+                                        <li>更适合住宅升级、轻商业和高频翻新渠道</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-panel market-panel" data-tab-panel="market" data-tab-value="middle-east-africa" hidden>
+                            <div class="market-layout">
+                                <article class="market-card">
+                                    <span class="meta-line">Middle East / Africa</span>
+                                    <strong>中东 / 非洲</strong>
+                                    <p>项目与渠道双驱动，重点关注耐候性、交期、装柜效率以及面向不同预算段的组合能力。</p>
+                                </article>
+                                <div class="market-support">
+                                    <span class="meta-line">Regional Focus</span>
+                                    <strong>更适合什么打法</strong>
+                                    <ul class="plain-list">
+                                        <li>项目型客户更关注稳定交付与规格协同</li>
+                                        <li>渠道客户更关注装柜效率和可持续补货</li>
+                                        <li>需要把耐用性、价格带和展示感一起讲清楚</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-panel market-panel" data-tab-panel="market" data-tab-value="support" hidden>
+                            <div class="market-layout">
+                                <article class="market-card">
+                                    <span class="meta-line">ToB Support</span>
+                                    <strong>我们能帮客户做什么</strong>
+                                    <p>不只是供货，更是帮助进口商与经销商把样品、素材、包装和后续配套一起理顺。</p>
+                                </article>
+                                <div class="market-support">
+                                    <span class="meta-line">Support Scope</span>
+                                    <strong>合作支持内容</strong>
+                                    <ul class="plain-list">
+                                        <li>样品与选型支持，帮助客户快速建立本地展示</li>
+                                        <li>规格与包装定制，适配不同国家与渠道标准</li>
+                                        <li>稳定供货节奏，按计划进行批次排产</li>
+                                        <li>市场素材支持，提供产品图、应用图与卖点文案</li>
+                                        <li>长期合作导向，支持区域客户的持续增长</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1495,6 +1670,42 @@
                     if (!view) return;
                     event.preventDefault();
                     setActiveView(view);
+                });
+            });
+
+            function setActiveTab(group, value) {
+                const buttons = Array.from(document.querySelectorAll(`[data-tab-target="${group}"]`));
+                const panels = Array.from(document.querySelectorAll(`[data-tab-panel="${group}"]`));
+
+                buttons.forEach((button) => {
+                    const isCurrent = button.dataset.tabValue === value;
+                    button.classList.toggle('is-active', isCurrent);
+                    button.setAttribute('aria-selected', String(isCurrent));
+                });
+
+                panels.forEach((panel) => {
+                    const isCurrent = panel.dataset.tabValue === value;
+                    panel.classList.toggle('is-active', isCurrent);
+                    panel.hidden = !isCurrent;
+                });
+
+                if (stage.dataset.activeView === 'about') {
+                    requestAnimationFrame(() => syncHeight(activeSection));
+                }
+            }
+
+            const tabGroups = Array.from(document.querySelectorAll('[data-tab-group]'));
+            tabGroups.forEach((groupNode) => {
+                const group = groupNode.dataset.tabGroup;
+                const buttons = Array.from(groupNode.querySelectorAll(`[data-tab-target="${group}"]`));
+                const initial = buttons.find((button) => button.classList.contains('is-active'))?.dataset.tabValue || buttons[0]?.dataset.tabValue;
+                if (initial) {
+                    setActiveTab(group, initial);
+                }
+                buttons.forEach((button) => {
+                    button.addEventListener('click', () => {
+                        setActiveTab(group, button.dataset.tabValue);
+                    });
                 });
             });
 
