@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luvie 绿维 | 墙面系统全球合作方案</title>
+    <style>
+        :root {
+            --bg: #0a0d12;
+            --bg-soft: #10161f;
+            --panel: rgba(18, 24, 33, 0.88);
+            --panel-strong: rgba(24, 31, 42, 0.96);
+            --line: rgba(191, 137, 106, 0.18);
+            --line-strong: rgba(191, 137, 106, 0.32);
+            --text: #f3efe7;
+            --muted: rgba(232, 226, 214, 0.74);
+            --brand: #a76d4f;
+            --brand-soft: #c89a74;
+            --brand-fade: rgba(167, 109, 79, 0.18);
+            --accent: #8eb1c8;
+            --max: 1240px;
+            --radius: 24px;
+            --shadow: 0 24px 80px rgba(0, 0, 0, 0.34);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            color: var(--text);
+            font-family: "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+            background:
+                radial-gradient(circle at top left, rgba(167, 109, 79, 0.15), transparent 28%),
+                radial-gradient(circle at 85% 15%, rgba(142, 177, 200, 0.12), transparent 26%),
+                linear-gradient(180deg, #090c11 0%, #0f141d 38%, #0a0d12 100%);
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            background-image:
+                linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+            background-size: 48px 48px;
+            mask-image: linear-gradient(180deg, rgba(0,0,0,0.3), transparent 22%, transparent 78%, rgba(0,0,0,0.3));
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
+
+        .container {
+            width: min(calc(100% - 32px), var(--max));
+            margin: 0 auto;
+        }
+
+        .site-header {
+            position: sticky;
+            top: 0;
+            z-index: 30;
+            backdrop-filter: blur(18px);
+            background: rgba(8, 11, 15, 0.74);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .nav {
+            min-height: 78px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 24px;
+        }
+
+        .brand {
+            display: grid;
+            gap: 4px;
+        }
+
+        .brand-mark {
+            font-size: 12px;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: var(--brand-soft);
+        }
+
+        .brand-name {
+            font-size: 20px;
+            letter-spacing: 0.01em;
+            font-weight: 700;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 18px;
+            color: var(--muted);
+            font-size: 14px;
+        }
+
+        .nav-links a:hover {
+            color: var(--text);
+        }
+
+        .nav-cta {
+            padding: 10px 16px;
+            border-radius: 999px;
+            border: 1px solid var(--line-strong);
+            background: linear-gradient(135deg, rgba(167, 109, 79, 0.2), rgba(142, 177, 200, 0.08));
+            color: var(--text);
+        }
+
+        .hero {
+            padding: 56px 0 28px;
+        }
+
+        .hero-shell {
+            display: grid;
+            grid-template-columns: 1.08fr 0.92fr;
+            gap: 22px;
+            align-items: stretch;
+        }
+
+        .hero-copy,
+        .hero-media {
+            min-height: 640px;
+        }
+
+        .hero-copy {
+            display: grid;
+            gap: 18px;
+            padding: 34px;
+            border-radius: 30px;
+            background:
+                linear-gradient(150deg, rgba(84, 49, 39, 0.92) 0%, rgba(121, 74, 57, 0.9) 52%, rgba(150, 93, 69, 0.84) 100%);
+            box-shadow: 0 28px 80px rgba(92, 51, 38, 0.28);
+        }
+
+        .eyebrow {
+            display: inline-flex;
+            width: fit-content;
+            padding: 8px 12px;
+            border: 1px solid rgba(255, 230, 214, 0.28);
+            border-radius: 999px;
+            color: rgba(255, 243, 232, 0.88);
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            font-size: 12px;
+        }
+
+        h1, h2, h3 {
+            margin: 0;
+            font-family: "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif;
+            font-weight: 700;
+            letter-spacing: -0.03em;
+            line-height: 1.05;
+        }
+
+        h1 {
+            font-size: clamp(3.1rem, 6vw, 5.8rem);
+        }
+
+        h2 {
+            font-size: clamp(2rem, 3.4vw, 3.5rem);
+        }
+
+        h3 {
+            font-size: clamp(1.25rem, 2vw, 1.7rem);
+        }
+
+        p {
+            margin: 0;
+            color: var(--muted);
+            font-size: 16px;
+            line-height: 1.75;
+        }
+
+        .hero-copy p {
+            color: rgba(255, 243, 232, 0.86);
+            font-size: 17px;
+        }
+
+        .hero-note {
+            max-width: 680px;
+        }
+
+        .chip-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .chip {
+            padding: 9px 14px;
+            border-radius: 999px;
+            border: 1px solid rgba(255, 224, 201, 0.22);
+            background: rgba(255, 255, 255, 0.06);
+            color: rgba(255, 245, 235, 0.92);
+            font-size: 13px;
+        }
+
+        .hero-highlights {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 12px;
+        }
+
+        .hero-box {
+            padding: 16px 16px 18px;
+            border-radius: 18px;
+            background: rgba(14, 18, 25, 0.24);
+            border: 1px solid rgba(255, 230, 214, 0.12);
+        }
+
+        .hero-box strong {
+            display: block;
+            margin-bottom: 6px;
+            font-size: 15px;
+            line-height: 1.35;
+        }
+
+        .hero-box span {
+            display: block;
+            font-size: 13px;
+            line-height: 1.6;
+            color: rgba(255, 243, 232, 0.74);
+        }
+
+        .hero-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .button,
+        .button-ghost {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 48px;
+            padding: 0 18px;
+            border-radius: 999px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .button {
+            background: #f3e4d4;
+            color: #14161b;
+        }
+
+        .button-ghost {
+            border: 1px solid rgba(255, 230, 214, 0.28);
+            color: rgba(255, 245, 235, 0.88);
+        }
+
+        .hero-media {
+            position: relative;
+            overflow: hidden;
+            border-radius: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            background: var(--panel-strong);
+            box-shadow: var(--shadow);
+        }
+
+        .hero-media img {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .hero-media::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                linear-gradient(180deg, rgba(4, 6, 10, 0.18), rgba(4, 6, 10, 0.46)),
+                linear-gradient(135deg, transparent 48%, rgba(167, 109, 79, 0.22) 100%);
+        }
+
+        .hero-panel {
+            position: absolute;
+            left: 24px;
+            right: 24px;
+            bottom: 24px;
+            z-index: 2;
+            padding: 18px 20px;
+            border-radius: 20px;
+            background: rgba(10, 13, 18, 0.64);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(10px);
+        }
+
+        .hero-panel p {
+            color: rgba(239, 233, 223, 0.84);
+        }
+
+        .signal-band {
+            padding: 20px 0 16px;
+        }
+
+        .signal-grid {
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 14px;
+        }
+
+        .signal-card {
+            padding: 18px 18px 20px;
+            border-radius: 20px;
+            background: var(--panel);
+            border: 1px solid var(--line);
+            box-shadow: var(--shadow);
+        }
+
+        .signal-label {
+            color: var(--brand-soft);
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            font-size: 12px;
+        }
+
+        .signal-value {
+            margin-top: 10px;
+            font-size: clamp(1.6rem, 3vw, 2.6rem);
+            line-height: 1;
+            color: var(--text);
+            font-family: "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif;
+        }
+
+        .signal-card p {
+            margin-top: 8px;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .section {
+            padding: 56px 0;
+        }
+
+        .section-head {
+            max-width: 820px;
+            margin-bottom: 24px;
+            display: grid;
+            gap: 12px;
+        }
+
+        .section-tag {
+            color: var(--brand-soft);
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            font-size: 12px;
+        }
+
+        .section-lead {
+            font-size: 17px;
+        }
+
+        .compare-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 18px;
+        }
+
+        .compare-col {
+            overflow: hidden;
+            border-radius: 24px;
+            border: 1px solid var(--line);
+            background: linear-gradient(180deg, rgba(16, 20, 28, 0.96), rgba(11, 15, 22, 0.96));
+            box-shadow: var(--shadow);
+        }
+
+        .compare-head {
+            padding: 18px 20px;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            font-weight: 700;
+        }
+
+        .compare-head.bad {
+            color: #f0c4ac;
+            background: rgba(255, 255, 255, 0.04);
+        }
+
+        .compare-head.good {
+            color: #16181d;
+            background: linear-gradient(90deg, #c89672, #e0b48f);
+        }
+
+        .compare-list {
+            display: grid;
+        }
+
+        .compare-item {
+            padding: 18px 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .compare-item strong {
+            display: block;
+            margin-bottom: 6px;
+            font-size: 16px;
+            line-height: 1.35;
+        }
+
+        .compare-item p {
+            font-size: 14px;
+            line-height: 1.7;
+        }
+
+        .advantage-grid,
+        .series-grid,
+        .service-grid,
+        .market-grid {
+            display: grid;
+            gap: 16px;
+        }
+
+        .advantage-grid {
+            margin-top: 20px;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+
+        .series-grid {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+
+        .service-grid {
+            grid-template-columns: 1.05fr 0.95fr;
+            align-items: stretch;
+        }
+
+        .market-grid {
+            grid-template-columns: 0.94fr 1.06fr;
+        }
+
+        .card {
+            padding: 22px;
+            border-radius: 24px;
+            background: var(--panel);
+            border: 1px solid var(--line);
+            box-shadow: var(--shadow);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+        }
+
+        .card p + p {
+            margin-top: 8px;
+        }
+
+        .mini-tag {
+            display: inline-flex;
+            margin-bottom: 12px;
+            padding: 7px 10px;
+            border-radius: 999px;
+            border: 1px solid var(--line-strong);
+            background: var(--brand-fade);
+            color: #eed5bf;
+            font-size: 12px;
+            line-height: 1;
+        }
+
+        .image-card {
+            overflow: hidden;
+            padding: 0;
+        }
+
+        .image-card img {
+            width: 100%;
+            height: 100%;
+            min-height: 100%;
+            object-fit: cover;
+        }
+
+        .series-card {
+            overflow: hidden;
+            display: grid;
+            gap: 0;
+        }
+
+        .series-card .image-wrap {
+            aspect-ratio: 4 / 3;
+            overflow: hidden;
+            border-radius: 18px;
+            margin-bottom: 18px;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .series-card .image-wrap img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .series-points {
+            margin: 14px 0 0;
+            padding: 0;
+            list-style: none;
+            display: grid;
+            gap: 9px;
+        }
+
+        .series-points li,
+        .text-list li {
+            position: relative;
+            padding-left: 18px;
+            color: var(--muted);
+            line-height: 1.7;
+            font-size: 15px;
+        }
+
+        .series-points li::before,
+        .text-list li::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0.78em;
+            width: 7px;
+            height: 7px;
+            border-radius: 999px;
+            background: var(--brand);
+        }
+
+        .text-list {
+            margin: 12px 0 0;
+            padding: 0;
+            list-style: none;
+            display: grid;
+            gap: 10px;
+        }
+
+        .factory-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+
+        .factory-points {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 14px;
+        }
+
+        .factory-stat {
+            padding: 18px;
+            border-radius: 20px;
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.06);
+        }
+
+        .factory-stat strong {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 18px;
+        }
+
+        .route-list {
+            display: grid;
+            gap: 14px;
+        }
+
+        .route-item {
+            display: grid;
+            grid-template-columns: 56px 1fr;
+            gap: 14px;
+            align-items: start;
+        }
+
+        .route-index {
+            width: 56px;
+            height: 56px;
+            border-radius: 18px;
+            display: grid;
+            place-items: center;
+            color: var(--text);
+            font-size: 18px;
+            font-family: "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif;
+            background: linear-gradient(135deg, rgba(167, 109, 79, 0.22), rgba(142, 177, 200, 0.08));
+            border: 1px solid var(--line-strong);
+        }
+
+        .route-copy strong {
+            display: block;
+            margin-bottom: 6px;
+            font-size: 16px;
+        }
+
+        .market-note {
+            display: grid;
+            gap: 12px;
+        }
+
+        .region-card {
+            padding: 18px 18px 20px;
+            border-radius: 20px;
+            border-left: 3px solid var(--brand-soft);
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        .region-card h3 {
+            margin-bottom: 8px;
+        }
+
+        .cta {
+            padding: 32px;
+            border-radius: 30px;
+            background:
+                linear-gradient(145deg, rgba(16, 23, 33, 0.96), rgba(11, 15, 22, 0.98)),
+                radial-gradient(circle at top right, rgba(167, 109, 79, 0.18), transparent 30%);
+            border: 1px solid var(--line-strong);
+            box-shadow: var(--shadow);
+            display: grid;
+            gap: 12px;
+        }
+
+        .cta p strong {
+            color: #f1dcc8;
+        }
+
+        .footer {
+            padding: 28px 0 40px;
+            color: rgba(232, 226, 214, 0.52);
+            font-size: 13px;
+        }
+
+        @media (max-width: 1120px) {
+            .hero-shell,
+            .service-grid,
+            .market-grid,
+            .factory-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-copy,
+            .hero-media {
+                min-height: auto;
+            }
+
+            .signal-grid,
+            .series-grid,
+            .advantage-grid,
+            .factory-points {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+
+        @media (max-width: 760px) {
+            .nav {
+                padding: 14px 0;
+                align-items: start;
+                flex-direction: column;
+            }
+
+            .nav-links {
+                gap: 12px;
+            }
+
+            .hero {
+                padding-top: 28px;
+            }
+
+            .hero-copy {
+                padding: 22px;
+            }
+
+            .hero-highlights,
+            .signal-grid,
+            .compare-grid,
+            .advantage-grid,
+            .series-grid,
+            .factory-points {
+                grid-template-columns: 1fr;
+            }
+
+            .section {
+                padding: 40px 0;
+            }
+
+            h1 {
+                font-size: clamp(2.3rem, 11vw, 3.4rem);
+            }
+
+            h2 {
+                font-size: clamp(1.8rem, 8vw, 2.4rem);
+            }
+
+            .hero-panel {
+                left: 14px;
+                right: 14px;
+                bottom: 14px;
+                padding: 14px;
+            }
+
+            .button,
+            .button-ghost,
+            .nav-cta {
+                width: 100%;
+            }
+
+            .hero-actions {
+                display: grid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav">
+            <div class="brand">
+                <span class="brand-mark">Luvie Industry</span>
+                <span class="brand-name">海宁绿维进出口有限公司</span>
+            </div>
+            <nav class="nav-links" aria-label="站点导航">
+                <a href="#why">为什么选择我们</a>
+                <a href="#products">产品系统</a>
+                <a href="#factory">制造与品质</a>
+                <a href="#market">全球市场</a>
+                <a href="#contact" class="nav-cta">联系我们</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="top">
+            <div class="container hero-shell">
+                <div class="hero-copy">
+                    <span class="eyebrow">Premium PVC Surface Systems</span>
+                    <h1>更稳定的墙面系统，<br>更省心的全球合作体验</h1>
+                    <p class="hero-note">绿维主营 PVC 墙板、WPC 墙板、WPC 格栅系列，以稳定质量、稳定交期与一站式无忧配齐服务，为全球客户提供更适合零售与项目落地的墙面系统方案。</p>
+                    <div class="chip-row">
+                        <span class="chip">25年行业经验</span>
+                        <span class="chip">自有制造底盘</span>
+                        <span class="chip">OEM / ODM</span>
+                        <span class="chip">一站式无忧配齐</span>
+                    </div>
+                    <div class="hero-highlights">
+                        <div class="hero-box">
+                            <strong>经验成熟</strong>
+                            <span>长期深耕墙面材料，更懂不同市场的产品节奏与客户需求。</span>
+                        </div>
+                        <div class="hero-box">
+                            <strong>质量稳定</strong>
+                            <span>核心主品聚焦墙板，质量一致性与批次稳定性更可控。</span>
+                        </div>
+                        <div class="hero-box">
+                            <strong>一站式服务</strong>
+                            <span>墙板是主业，走线槽、收口条、转角件等周边配套可同步提供。</span>
+                        </div>
+                        <div class="hero-box">
+                            <strong>合作更省心</strong>
+                            <span>一家对接，减少多供应商拆分采购带来的沟通与交付压力。</span>
+                        </div>
+                    </div>
+                    <div class="hero-actions">
+                        <a class="button" href="#contact">获取合作资料</a>
+                        <a class="button-ghost" href="#products">查看三大系列</a>
+                    </div>
+                </div>
+                <div class="hero-media">
+                    <img src="haizhipai_materials/extracted_from_pdf/p01_12_Im34.jpg" alt="绿维格栅应用场景">
+                    <div class="hero-panel">
+                        <p>适合建材进口商、区域合作伙伴、工程项目客户与连锁装修客户的墙面系统供应方案。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="signal-band">
+            <div class="container signal-grid">
+                <div class="signal-card">
+                    <div class="signal-label">经验</div>
+                    <div class="signal-value">25 年</div>
+                    <p>长期聚焦墙面装饰材料，更理解客户终端应用与市场需求。</p>
+                </div>
+                <div class="signal-card">
+                    <div class="signal-label">产品</div>
+                    <div class="signal-value">3 大系列</div>
+                    <p>PVC 墙板、WPC 墙板、WPC 格栅，覆盖走量到溢价的主流场景。</p>
+                </div>
+                <div class="signal-card">
+                    <div class="signal-label">服务</div>
+                    <div class="signal-value">一站配齐</div>
+                    <p>从主品到周边配套，一家解决更适合持续合作与项目落地。</p>
+                </div>
+                <div class="signal-card">
+                    <div class="signal-label">市场</div>
+                    <div class="signal-value">全球合作</div>
+                    <p>南美、东南亚为重点，同时服务中东、非洲及其他区域客户。</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="why">
+            <div class="container">
+                <div class="section-head">
+                    <div class="section-tag">Why Luvie</div>
+                    <h2>选择普通供应商，和选择绿维，结果完全不一样</h2>
+                    <p class="section-lead">这不是单纯比一块板材的价格，而是比客户后续的质量稳定性、配套完整度与整体合作效率。</p>
+                </div>
+                <div class="compare-grid">
+                    <div class="compare-col">
+                        <div class="compare-head bad">选择普通供应商</div>
+                        <div class="compare-list">
+                            <div class="compare-item">
+                                <strong>经验参差不齐</strong>
+                                <p>对不同市场的产品结构、客户偏好与配套需求理解不够完整。</p>
+                            </div>
+                            <div class="compare-item">
+                                <strong>质量与交期波动</strong>
+                                <p>批次稳定性不足，项目推进时容易被色差、交期和包装问题拖慢。</p>
+                            </div>
+                            <div class="compare-item">
+                                <strong>需要自己补齐周边</strong>
+                                <p>只卖单一墙板，走线槽、收口条、转角件还要客户再找别家拼单。</p>
+                            </div>
+                            <div class="compare-item">
+                                <strong>对接成本更高</strong>
+                                <p>多家沟通、多次确认、多套出货标准，采购与项目管理压力更大。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="compare-col">
+                        <div class="compare-head good">选择绿维</div>
+                        <div class="compare-list">
+                            <div class="compare-item">
+                                <strong>25年行业经验</strong>
+                                <p>长期深耕墙面材料，能更快理解客户要卖什么、怎么卖、怎么配更合理。</p>
+                            </div>
+                            <div class="compare-item">
+                                <strong>自有制造底盘，质量更稳</strong>
+                                <p>主营墙板主品由制造体系支撑，更利于稳定品质、稳定交期和持续复购。</p>
+                            </div>
+                            <div class="compare-item">
+                                <strong>一站式无忧配齐</strong>
+                                <p>墙板是主业，走线槽、收口条、转角件等周边也能同步匹配，一家解决更省心。</p>
+                            </div>
+                            <div class="compare-item">
+                                <strong>合作效率更高</strong>
+                                <p>从选型、报价、打样到出货由一套逻辑承接，帮助客户更顺畅地推进零售和项目交付。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="advantage-grid">
+                    <div class="card">
+                        <span class="mini-tag">01</span>
+                        <h3>我们有经验</h3>
+                        <p>25年行业积累，让我们更懂客户需求、终端应用与市场适配方式。</p>
+                    </div>
+                    <div class="card">
+                        <span class="mini-tag">02</span>
+                        <h3>我们质量好</h3>
+                        <p>自有制造底盘承接墙板主品，强化品质一致性与交付稳定性。</p>
+                    </div>
+                    <div class="card">
+                        <span class="mini-tag">03</span>
+                        <h3>我们能一站式服务</h3>
+                        <p>主营墙板，同时帮助客户把走线与周边配套一并解决，合作更无忧。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="products">
+            <div class="container">
+                <div class="section-head">
+                    <div class="section-tag">Product Systems</div>
+                    <h2>三大主推系列，覆盖从走量到溢价的主流需求</h2>
+                    <p class="section-lead">以墙板主品为核心，形成更适合客户零售渠道、翻新场景与项目型订单的产品结构。</p>
+                </div>
+                <div class="series-grid">
+                    <article class="card series-card">
+                        <div class="image-wrap">
+                            <img src="haizhipai_materials/extracted_from_pdf/p01_11_Im33.jpg" alt="PVC 墙板系列">
+                        </div>
+                        <span class="mini-tag">PVC 墙板系列</span>
+                        <h3>快装、耐潮、适配高频翻新需求</h3>
+                        <p>适合大众建材客户与快速周转市场，是建立稳定销售网络的基础盘。</p>
+                        <ul class="series-points">
+                            <li>防潮、防霉、易安装</li>
+                            <li>适配公寓、出租房、门店翻新</li>
+                            <li>性价比高，适合零售走量</li>
+                        </ul>
+                    </article>
+                    <article class="card series-card">
+                        <div class="image-wrap">
+                            <img src="haizhipai_materials/application-scene-clean.png" alt="WPC 墙板系列">
+                        </div>
+                        <span class="mini-tag">WPC 墙板系列</span>
+                        <h3>兼顾耐用性与木饰面观感</h3>
+                        <p>在价格与效果之间形成更好的平衡，适合住宅升级与轻商业空间。</p>
+                        <ul class="series-points">
+                            <li>木塑复合结构，耐用稳定</li>
+                            <li>木纹视觉更强，适配中端客户</li>
+                            <li>有助于优化毛利结构</li>
+                        </ul>
+                    </article>
+                    <article class="card series-card">
+                        <div class="image-wrap">
+                            <img src="haizhipai_materials/extracted_from_pdf/p01_10_Im32.jpg" alt="WPC 格栅系列">
+                        </div>
+                        <span class="mini-tag">WPC 格栅系列</span>
+                        <h3>提升空间设计感与终端售价</h3>
+                        <p>作为形象产品线，帮助客户打开高客单和更具展示力的项目型订单。</p>
+                        <ul class="series-points">
+                            <li>适合背景墙、酒店与高端公寓</li>
+                            <li>现代风格明显，视觉辨识度高</li>
+                            <li>与 PVC / WPC 组合销售效果更好</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="factory">
+            <div class="container">
+                <div class="section-head">
+                    <div class="section-tag">Manufacturing & Quality</div>
+                    <h2>自有制造底盘 + 标准化质量流程，保障稳定交付</h2>
+                    <p class="section-lead">绿维前端做客户合作与输出，后端有稳定制造体系支撑，让质量、交期与配套能力更容易被客户信任。</p>
+                </div>
+                <div class="factory-grid">
+                    <div class="card image-card">
+                        <img src="haizhipai_materials/factory-building-clean.png" alt="工厂外观">
+                    </div>
+                    <div class="card">
+                        <span class="mini-tag">制造与品质</span>
+                        <h3>核心主品由制造体系承接，批次更稳，交期更稳</h3>
+                        <p>我们长期聚焦墙面装饰材料行业，依托浙江海宁尖山新区的制造底盘，为海外客户提供更可控的主品质量和更省心的交付体验。</p>
+                        <div class="factory-points">
+                            <div class="factory-stat">
+                                <strong>25年行业经验</strong>
+                                <p>更懂不同市场、不同客户的规格与应用需求。</p>
+                            </div>
+                            <div class="factory-stat">
+                                <strong>10+ 条线</strong>
+                                <p>公开平台信息显示具备多条挤出与配套生产线。</p>
+                            </div>
+                            <div class="factory-stat">
+                                <strong>OEM / ODM</strong>
+                                <p>支持定制包装、标签方案与标准化合作流程。</p>
+                            </div>
+                            <div class="factory-stat">
+                                <strong>出货前复核</strong>
+                                <p>支持标准化检验，减少客户项目落地的不确定性。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-head">
+                    <div class="section-tag">One-Stop Program</div>
+                    <h2>墙板是主业，但客户需要的不止是墙板</h2>
+                    <p class="section-lead">绿维的一站式价值，不是把产品做杂，而是围绕墙面系统，把客户真正会一起采购的关键配套同步解决。</p>
+                </div>
+                <div class="service-grid">
+                    <div class="card">
+                        <div class="route-list">
+                            <div class="route-item">
+                                <div class="route-index">01</div>
+                                <div class="route-copy">
+                                    <strong>先确定主品结构</strong>
+                                    <p>PVC、WPC、WPC 格栅作为主品，先把适合客户市场的核心墙板结构配清楚。</p>
+                                </div>
+                            </div>
+                            <div class="route-item">
+                                <div class="route-index">02</div>
+                                <div class="route-copy">
+                                    <strong>再同步周边配套</strong>
+                                    <p>走线槽、收口条、转角件等周边配件可同步匹配，减少客户再去找别家拆分采购。</p>
+                                </div>
+                            </div>
+                            <div class="route-item">
+                                <div class="route-index">03</div>
+                                <div class="route-copy">
+                                    <strong>最后统一出货逻辑</strong>
+                                    <p>从样品、选型、报价到出货按一套合作逻辑推进，整体效率更高，也更利于客户复购。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="mini-tag">一站式无忧配齐</span>
+                        <h3>找到绿维，相当于把墙面系统的一整条链路都理顺了</h3>
+                        <ul class="text-list">
+                            <li>主营墙板主品，确保核心产品稳定供应</li>
+                            <li>可同步提供走线槽、收口条、转角件等周边配套</li>
+                            <li>支持样品与选型资料，帮助客户快速做本地展示</li>
+                            <li>支持规格与包装定制，适配不同国家与渠道要求</li>
+                            <li>更适合区域合作、工程配套与长期客户增长</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="market">
+            <div class="container">
+                <div class="section-head">
+                    <div class="section-tag">Global Markets</div>
+                    <h2>南美与东南亚是重点，但我们的服务能力面向全球客户</h2>
+                    <p class="section-lead">重点市场明确，合作能力更要完整。绿维在产品结构、应用场景与供货方案上，都以全球客户视角来组织。</p>
+                </div>
+                <div class="market-grid">
+                    <div class="card market-note">
+                        <div class="region-card">
+                            <h3>南美</h3>
+                            <p>以 PVC + WPC 组合作为重点，适配翻新、零售走量和项目补货场景。</p>
+                        </div>
+                        <div class="region-card">
+                            <h3>东南亚</h3>
+                            <p>面向高温高湿环境，防潮快装需求明确，适合基础板和格栅组合推广。</p>
+                        </div>
+                        <div class="region-card">
+                            <h3>中东 / 非洲 / 其他区域</h3>
+                            <p>可根据客户所在市场的定位、预算和应用场景，提供对应产品结构与供货建议。</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="mini-tag">全球合作能力</span>
+                        <h3>不只是卖货，更是帮助客户更顺利地把货卖出去</h3>
+                        <ul class="text-list">
+                            <li>主营墙板主品，确保 PVC / WPC / WPC 格栅稳定供应</li>
+                            <li>支持样品、图片、应用图与基础卖点资料</li>
+                            <li>支持规格与包装定制，适配不同终端标准</li>
+                            <li>稳定供货节奏，适合客户分批推进零售与项目订单</li>
+                            <li>长期合作导向，服务区域合作客户的持续增长</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <div class="container">
+                <div class="cta">
+                    <span class="mini-tag">Contact Luvie</span>
+                    <h2>欢迎全球客户与项目伙伴洽谈合作</h2>
+                    <p>产品系列：<strong>PVC 墙板</strong> · <strong>WPC 墙板</strong> · <strong>WPC 格栅系列</strong></p>
+                    <p>工厂地址：<strong>浙江海宁尖山新区</strong></p>
+                    <p>合作方向：<strong>区域合作 / 工程配套 / OEM / ODM / 配套拼柜</strong></p>
+                    <p>网址：<strong>luvieindustry.com</strong></p>
+                    <p>公司名称：<strong>海宁绿维进出口有限公司 · Haining Luvie Industry Co., Ltd.</strong></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            Luvie Industry · Wall Panel Systems for Global Partners
+        </div>
+    </footer>
+</body>
+</html>
