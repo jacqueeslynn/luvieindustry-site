@@ -1770,6 +1770,237 @@
             }
         }
 
+        /* Extra small screen adaptation (mobile portrait) */
+        @media (max-width: 480px) {
+            :root {
+                --header-height: 64px;
+                --radius: 16px;
+            }
+
+            .container {
+                width: calc(100% - 20px);
+            }
+
+            .site-header {
+                min-height: var(--header-height);
+            }
+
+            .nav {
+                padding: 10px 0;
+                gap: 12px;
+            }
+
+            .brand-mark {
+                font-size: 9px;
+            }
+
+            .brand-name {
+                font-size: 14px;
+            }
+
+            .nav-links {
+                gap: 4px;
+                padding: 6px;
+            }
+
+            .nav-links a {
+                min-height: 36px;
+                padding: 0 12px;
+                font-size: 12px;
+            }
+
+            .nav-links a::before {
+                width: 4px;
+                height: 4px;
+            }
+
+            .nav-cta {
+                min-height: 44px;
+                font-size: 12px;
+                padding: 4px;
+            }
+
+            h1 {
+                font-size: clamp(2.2rem, 10vw, 3rem);
+                line-height: 1;
+            }
+
+            h2 {
+                font-size: clamp(1.6rem, 8vw, 2.2rem);
+            }
+
+            h3 {
+                font-size: clamp(1.2rem, 6vw, 1.5rem);
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 1.7;
+            }
+
+            .page-shell {
+                gap: 24px;
+            }
+
+            .view-section {
+                padding: 20px 0 40px;
+            }
+
+            .hero-copy {
+                padding-left: 12px;
+                padding-top: 8px;
+                gap: 18px;
+            }
+
+            .hero-lead {
+                font-size: 13px;
+            }
+
+            .hero-note {
+                font-size: 14px;
+            }
+
+            .hero-pills {
+                gap: 6px;
+            }
+
+            .hero-pill {
+                padding: 7px 10px;
+                font-size: 11px;
+            }
+
+            .button,
+            .button-secondary {
+                min-height: 48px;
+                padding: 4px;
+                font-size: 13px;
+            }
+
+            .hero-media,
+            .manufacturing-media {
+                min-height: 280px;
+            }
+
+            .hero-media-topline {
+                padding: 10px 12px;
+                font-size: 11px;
+            }
+
+            .hero-caption {
+                padding: 14px;
+            }
+
+            .hero-caption strong {
+                font-size: 15px;
+            }
+
+            .hero-caption p {
+                font-size: 13px;
+            }
+
+            .trust-bar {
+                gap: 12px;
+            }
+
+            .trust-item {
+                padding: 12px;
+                gap: 10px;
+            }
+
+            .trust-icon {
+                width: 32px;
+                height: 32px;
+            }
+
+            .trust-label {
+                font-size: 10px;
+            }
+
+            .trust-value {
+                font-size: 12px;
+            }
+
+            .hero-proof-item {
+                padding: 14px;
+            }
+
+            .hero-proof-item span {
+                font-size: 10px;
+            }
+
+            .hero-proof-item strong {
+                font-size: 24px;
+            }
+
+            .hero-proof-item p {
+                font-size: 13px;
+            }
+
+            .section-tag,
+            .eyebrow {
+                min-height: 26px;
+                padding: 0 12px;
+                font-size: 10px;
+            }
+
+            .material-sample,
+            .system-card,
+            .scene-card,
+            .support-card,
+            .proof-card,
+            .fact-card,
+            .compare-column,
+            .market-card,
+            .market-support,
+            .cta-panel {
+                padding: 14px;
+                border-radius: 16px;
+            }
+
+            .narrative-panel,
+            .manufacturing-panel {
+                padding: 16px 14px 18px;
+                border-radius: 16px;
+            }
+
+            .process-steps {
+                flex-direction: column;
+                gap: 16px;
+            }
+
+            .process-step {
+                width: 100%;
+                padding: 20px 16px;
+            }
+
+            .step-icon {
+                width: 48px;
+                height: 48px;
+                margin-bottom: 14px;
+            }
+
+            .step-number {
+                font-size: 20px;
+            }
+
+            .process-step h3 {
+                font-size: 16px;
+            }
+
+            .process-step p {
+                font-size: 13px;
+            }
+
+            .footer {
+                padding: 32px 0 24px;
+            }
+
+            .footer p,
+            .footer a {
+                font-size: 12px;
+            }
+        }
+
         @media (prefers-reduced-motion: reduce) {
             *,
             *::before,
