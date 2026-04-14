@@ -64,6 +64,60 @@
             }
         }
 
+        @keyframes scrollBounce {
+            0%, 100% {
+                transform: translateY(0);
+                opacity: 0.6;
+            }
+            50% {
+                transform: translateY(8px);
+                opacity: 1;
+            }
+        }
+
+        .scroll-indicator {
+            position: fixed;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 30;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+            animation: scrollBounce 2s ease-in-out infinite;
+            transition: opacity 0.3s ease;
+        }
+
+        .scroll-indicator.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .scroll-indicator-text {
+            font-size: 11px;
+            color: var(--muted);
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        .scroll-indicator-arrow {
+            width: 24px;
+            height: 24px;
+            border: 2px solid var(--brand-soft);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .scroll-indicator-arrow svg {
+            width: 12px;
+            height: 12px;
+            fill: var(--brand-soft);
+        }
+
         * {
             box-sizing: border-box;
         }
@@ -2719,6 +2773,16 @@
             </div>
         </section>
 
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator" id="scrollIndicator">
+            <span class="scroll-indicator-text">Scroll Down</span>
+            <div class="scroll-indicator-arrow">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 10l5 5 5-5z"/>
+                </svg>
+            </div>
+        </div>
+
         <section class="view-section" id="systems" data-view="systems">
             <div class="container page-shell">
                 <div class="section-head">
@@ -2954,7 +3018,7 @@
                     </div>
                 </div>
                 <div style="text-align:center;margin-top:48px;">
-                    <a href="mailto:contact@luvieindustry.com" class="cta-btn" style="display:inline-block;background:var(--accent);color:var(--text);padding:16px 40px;border-radius:var(--radius);font-size:15px;font-weight:600;letter-spacing:0.04em;text-decoration:none;transition:opacity 0.2s;" onmouseover="this.style.opacity='0.85'" onmouseout="this.style.opacity='1'">ImmediatelySend Inquiry →</a>
+                    <a href="mailto:globalsales@luvieindustry.com" class="cta-btn" style="display:inline-block;background:var(--accent);color:var(--text);padding:16px 40px;border-radius:var(--radius);font-size:15px;font-weight:600;letter-spacing:0.04em;text-decoration:none;transition:opacity 0.2s;" onmouseover="this.style.opacity='0.85'" onmouseout="this.style.opacity='1'">ImmediatelySend Inquiry →</a>
                 </div>
             </div>
         </section>
@@ -3317,7 +3381,7 @@
                         <h2>Get Luvie product catalog</h2>
                         <p>Learn MoreProduct Series、ApplicationsDirection andCooperationInformation，Continue to next step of communication。ForNeed long-termCooperationChannel customers with stable delivery，This will be the most effective starting point。</p>
                         <div class="cta-actions">
-                            <a class="button" href="mailto:info@luvieindustry.com?subject=Luvie%20Catalog%20Request">
+                            <a class="button" href="mailto:globalsales@luvieindustry.com?subject=Luvie%20Catalog%20Request">
                                 <span class="action-trigger__icon" aria-hidden="true">-></span>
                                 <span class="action-trigger__label">
                                     <strong>Contact Luvie for information</strong>
@@ -3543,6 +3607,41 @@
             markCurrent(initialSection.dataset.view);
             syncHeight(initialSection);
             observeSection(initialSection);
+
+            // Scroll indicator control
+            const scrollIndicator = document.querySelector('.scroll-indicator');
+            if (scrollIndicator) {
+                // Hide indicator when user scrolls or changes view
+                let hasScrolled = false;
+
+                window.addEventListener('scroll', () => {
+                    if (!hasScrolled) {
+                        hasScrolled = true;
+                        scrollIndicator.style.opacity = '0';
+                        setTimeout(() => {
+                            scrollIndicator.style.display = 'none';
+                        }, 300);
+                    }
+                });
+
+                // Hide when user clicks navigation
+                document.querySelectorAll('.nav-links a').forEach(link => {
+                    link.addEventListener('click', () => {
+                        scrollIndicator.style.opacity = '0';
+                        setTimeout(() => {
+                            scrollIndicator.style.display = 'none';
+                        }, 300);
+                    });
+                });
+
+                // Smooth scroll when clicking the indicator
+                scrollIndicator.addEventListener('click', () => {
+                    const aboutSection = document.querySelector('[data-view="about"]');
+                    if (aboutSection) {
+                        setActiveView('about');
+                    }
+                });
+            }
         })();
     </script>
 
@@ -3689,7 +3788,7 @@
                 );
 
                 // Send to customer service email（Usemailto，Production environment should use backendAPI）
-                const mailtoLink = 'mailto:info@luvieindustry.com?subject=' + emailSubject + '&body=' + emailBody;
+                const mailtoLink = 'mailto:globalsales@luvieindustry.com?subject=' + emailSubject + '&body=' + emailBody;
 
                 // Simulate send delay
                 setTimeout(function() {
