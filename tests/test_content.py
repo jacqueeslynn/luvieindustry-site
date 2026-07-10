@@ -17,6 +17,10 @@ PROHIBITED_CLAIMS = (
     "lifetime warranty",
     "zero formaldehyde",
 )
+VOID_ELEMENTS = {
+    "area", "base", "br", "col", "embed", "hr", "img", "input", "link",
+    "meta", "param", "source", "track", "wbr",
+}
 
 
 class SiteHTMLParser(HTMLParser):
@@ -35,6 +39,7 @@ class SiteHTMLParser(HTMLParser):
         self._captures = []
         self._body_depth = 0
         self._hidden_depth = 0
+        self._element_stack = []
 
     def handle_starttag(self, tag, attrs):
         tag = tag.lower()
@@ -42,8 +47,27 @@ class SiteHTMLParser(HTMLParser):
 
         if tag == "body":
             self._body_depth += 1
-        if tag in {"script", "style", "template", "noscript"}:
-            self._hidden_depth += 1
+        inline_style = attributes.get("style", "")
+        hides_content = (
+            tag in {"head", "script", "style", "template", "noscript"}
+            or "hidden" in attributes
+            or attributes.get("aria-hidden", "").strip().casefold() == "true"
+            or re.search(
+                r"(?:^|;)\s*display\s*:\s*none(?:\s*!important)?\s*(?:;|$)",
+                inline_style,
+                re.I,
+            )
+            or re.search(
+                r"(?:^|;)\s*visibility\s*:\s*hidden(?:\s*!important)?\s*(?:;|$)",
+                inline_style,
+                re.I,
+            )
+        )
+        if tag not in VOID_ELEMENTS:
+            hides_content = bool(hides_content)
+            self._element_stack.append((tag, hides_content))
+            if hides_content:
+                self._hidden_depth += 1
 
         if tag == "meta" and attributes.get("name", "").lower() == "description":
             self.meta_descriptions.append(attributes.get("content", "").strip())
@@ -51,7 +75,7 @@ class SiteHTMLParser(HTMLParser):
             rels = {part.lower() for part in attributes.get("rel", "").split()}
             if "canonical" in rels:
                 self.canonicals.append(attributes.get("href", "").strip())
-        if tag == "a" and "href" in attributes:
+        if tag in {"a", "link"} and "href" in attributes:
             self.hrefs.append(attributes["href"].strip())
 
         capture_kind = None
@@ -66,7 +90,13 @@ class SiteHTMLParser(HTMLParser):
             capture_kind = "json_ld"
         if capture_kind:
             self._captures.append(
-                {"tag": tag, "kind": capture_kind, "attrs": capture_attrs, "parts": []}
+                {
+                    "tag": tag,
+                    "kind": capture_kind,
+                    "attrs": capture_attrs,
+                    "parts": [],
+                    "visible": self._body_depth > 0 and self._hidden_depth == 0,
+                }
             )
 
     def handle_startendtag(self, tag, attrs):
@@ -86,15 +116,23 @@ class SiteHTMLParser(HTMLParser):
             elif capture["kind"] == "h1":
                 self.h1s.append(text)
             elif capture["kind"] == "time":
-                self.times.append((capture["attrs"], text))
+                if capture["visible"]:
+                    self.times.append((capture["attrs"], text))
             else:
                 self.json_ld_blocks.append("".join(capture["parts"]).strip())
             break
 
         if tag == "body" and self._body_depth:
             self._body_depth -= 1
-        if tag in {"script", "style", "template", "noscript"} and self._hidden_depth:
-            self._hidden_depth -= 1
+        matching_indexes = [
+            index
+            for index, (open_tag, _) in enumerate(self._element_stack)
+            if open_tag == tag
+        ]
+        if matching_indexes:
+            closing_entries = self._element_stack[matching_indexes[-1]:]
+            del self._element_stack[matching_indexes[-1]:]
+            self._hidden_depth -= sum(hides for _, hides in closing_entries)
 
     def handle_data(self, data):
         for capture in self._captures:
@@ -107,11 +145,118 @@ class SiteHTMLParser(HTMLParser):
         return " ".join(" ".join(self.visible_text_parts).split())
 
 
+class ValidationHelperTests(unittest.TestCase):
+    def parse_fixture(self, source):
+        parser = SiteHTMLParser()
+        parser.feed(source)
+        parser.close()
+        return parser
+
+    def test_parser_collects_anchor_and_link_hrefs(self):
+        parser = self.parse_fixture(
+            '<link rel="canonical" href="/articles/example.html">'
+            '<a href="other.html">Other</a>'
+        )
+        self.assertEqual(
+            parser.hrefs,
+            ["/articles/example.html", "other.html"],
+        )
+
+    def test_parser_excludes_hidden_publication_text_and_times(self):
+        parser = self.parse_fixture(
+            "<html>"
+            "<head><time datetime='2026-01-01'>Head +30 6947135317</time></head>"
+            "<body>"
+            "<template><time datetime='2026-01-02'>Template +30 6947135317</time></template>"
+            "<div hidden><time datetime='2026-01-03'>Hidden +30 6947135317</time></div>"
+            "<div hidden><div>Nested</div><time datetime='2026-01-08'>"
+            "Still hidden +30 6947135317</time></div>"
+            "<div aria-hidden='true'><time datetime='2026-01-04'>ARIA +30 6947135317</time></div>"
+            "<div style='display: none'><time datetime='2026-01-05'>Display +30 6947135317</time></div>"
+            "<div style='visibility:hidden'><time datetime='2026-01-06'>Visibility +30 6947135317</time></div>"
+            "<time datetime='2026-01-07'>Published 2026-01-07</time>"
+            "<p>Phone +30 6947135317</p>"
+            "</body></html>"
+        )
+        self.assertEqual(
+            parser.times,
+            [({"datetime": "2026-01-07"}, "Published 2026-01-07")],
+        )
+        self.assertEqual(parser.visible_text.count(APPROVED_PHONE), 1)
+
+    def test_local_href_resolution_handles_root_absolute_and_extensionless_urls(self):
+        source = ARTICLES_DIR / "what-is-pvc-wall-panel.html"
+        target = ARTICLES_DIR / "wall-panel-quality-inspection-guide.html"
+        self.assertEqual(
+            resolve_local_href_target(
+                source, "/articles/wall-panel-quality-inspection-guide.html"
+            ),
+            target,
+        )
+        self.assertEqual(
+            resolve_local_href_target(
+                source,
+                f"{SITE_ORIGIN}/articles/wall-panel-quality-inspection-guide.html?from=guide#top",
+            ),
+            target,
+        )
+        self.assertEqual(
+            resolve_local_href_target(source, "/articles"),
+            ARTICLES_DIR / "index.html",
+        )
+        self.assertIsNone(
+            resolve_local_href_target(source, "https://example.com/articles/external.html")
+        )
+
+    def test_prohibited_claims_scan_complete_html_source(self):
+        source = (
+            '<title>BEST IN THE WORLD</title>'
+            '<meta name="description" content="Lowest Price">'
+            '<div data-offer="Lifetime Warranty"></div>'
+            '<script type="application/ld+json">{"claim":"Zero Formaldehyde"}</script>'
+        )
+        self.assertEqual(set(find_prohibited_claims(source)), set(PROHIBITED_CLAIMS))
+
+
 def parse_html(path):
     parser = SiteHTMLParser()
     parser.feed(path.read_text(encoding="utf-8"))
     parser.close()
     return parser
+
+
+def resolve_local_href_target(source_page, href, root=ROOT, site_origin=SITE_ORIGIN):
+    """Resolve a local href to its filesystem target, or return None for ignored URLs."""
+    if not href or href.startswith("#"):
+        return None
+    split = urlsplit(href)
+    origin = urlsplit(site_origin)
+    if split.scheme or split.netloc:
+        effective_scheme = split.scheme.casefold() or origin.scheme.casefold()
+        if (
+            effective_scheme != origin.scheme.casefold()
+            or split.netloc.casefold() != origin.netloc.casefold()
+        ):
+            return None
+    path_text = unquote(split.path)
+    if not path_text:
+        return None
+    raw_target = (
+        root / path_text.lstrip("/")
+        if path_text.startswith("/") or split.netloc
+        else source_page.parent / path_text
+    )
+    target = raw_target.resolve()
+    if path_text.endswith("/") or target.is_dir():
+        return target / "index.html"
+    if not target.suffix and not target.is_file():
+        return target / "index.html"
+    return target
+
+
+def find_prohibited_claims(source):
+    normalized = source.casefold()
+    return [claim for claim in PROHIBITED_CLAIMS if claim.casefold() in normalized]
 
 
 def schema_types(value):
@@ -282,10 +427,9 @@ class ContentQualityTests(unittest.TestCase):
             label = str(page.relative_to(ROOT))
             linked_articles = set()
             for href in parser.hrefs:
-                split = urlsplit(href)
-                if split.scheme or split.netloc or not split.path:
+                target = resolve_local_href_target(page, href)
+                if target is None:
                     continue
-                target = (page.parent / unquote(split.path)).resolve()
                 if target.parent == ARTICLES_DIR.resolve() and target.name in article_names:
                     if target.name != page.name:
                         linked_articles.add(target.name)
@@ -308,19 +452,8 @@ class ContentQualityTests(unittest.TestCase):
         for page in html_pages:
             parser = parse_html(page)
             for href in parser.hrefs:
-                if not href or href.startswith("#"):
-                    continue
-                split = urlsplit(href)
-                if split.scheme or split.netloc:
-                    continue
-                path_text = unquote(split.path)
-                if not path_text:
-                    continue
-                raw_target = ROOT / path_text.lstrip("/") if path_text.startswith("/") else page.parent / path_text
-                target = raw_target.resolve()
-                if path_text.endswith("/") or target.is_dir():
-                    target = target / "index.html"
-                elif target.suffix.lower() != ".html":
+                target = resolve_local_href_target(page, href)
+                if target is None:
                     continue
                 try:
                     target.relative_to(ROOT)
@@ -339,11 +472,10 @@ class ContentQualityTests(unittest.TestCase):
 
     def test_articles_do_not_contain_prohibited_claims(self):
         violations = []
-        for page, parser in self.article_parsers.items():
-            normalized = re.sub(r"\s+", " ", parser.visible_text).casefold()
-            for claim in PROHIBITED_CLAIMS:
-                if claim.casefold() in normalized:
-                    violations.append(f"{page.relative_to(ROOT)} contains {claim!r}")
+        for page in self.article_pages:
+            source = page.read_text(encoding="utf-8")
+            for claim in find_prohibited_claims(source):
+                violations.append(f"{page.relative_to(ROOT)} contains {claim!r}")
         self.assertFalse(
             violations,
             "Remove prohibited marketing claims:\n"
