@@ -18,6 +18,20 @@ const queue = [
   ["wall-panel-product-mix-by-project.html", "Project planning", "Wall Panel Product Mix by Project", "Match wall panels, floors and accessories to hotel, retail and residential project requirements."],
   ["luvie-order-process-inquiry-to-shipment.html", "Working with Luvie", "From Inquiry to Shipment: Luvie's Five-Step Order Process", "See how product confirmation, samples, contracts, production inspection and shipping fit together."]
 ];
+const visuals = {
+  "questions-to-ask-wall-panel-supplier.html": ["../assets/articles/luvie-factory.png", "Luvie wall panel manufacturing facility for supplier evaluation"],
+  "evaluate-wall-panel-samples.html": ["../assets/articles/pvc-panel-texture.jpg", "PVC wall panel texture and surface sample details"],
+  "pvc-wall-panels-humid-areas.html": ["../assets/articles/pvc-humid-area.png", "PVC wall panels in a humid bathroom application visualization"],
+  "fluted-wall-panels-distributor-guide.html": ["../assets/articles/fluted-panel-installation.png", "Fluted decorative wall panel installation visualization"],
+  "pu-stone-panels-vs-natural-stone.html": ["../assets/catalogs/covers/pu-stone-panel.jpg", "PU stone wall panel product collection"],
+  "mixed-container-wall-panel-orders.html": ["../assets/articles/export-packaging.png", "Packaged wall panel products prepared for export"],
+  "wall-panel-export-packaging-checklist.html": ["../assets/articles/export-packaging.png", "Export wall panel packaging and warehouse preparation"],
+  "oem-private-label-wall-panels.html": ["../assets/articles/pvc-panel-profile.jpg", "Wall panel profile and surface options for private label programs"],
+  "fob-vs-cif-wall-panel-orders.html": ["../assets/articles/export-packaging.png", "Wall panel cargo prepared for international shipping"],
+  "reduce-wall-panel-batch-color-differences.html": ["../assets/articles/pvc-panel-texture.jpg", "PVC wall panel surface and color sample comparison"],
+  "wall-panel-product-mix-by-project.html": ["../assets/articles/wall-panel-projects.png", "Wall panel application scenes for residential and commercial projects"],
+  "luvie-order-process-inquiry-to-shipment.html": ["../assets/articles/luvie-factory.png", "Luvie factory supporting wall panel production and export orders"]
+};
 
 const pending = queue.filter(([file]) => !existsSync(`articles/${file}`)).slice(0, 2);
 if (!pending.length) {
@@ -35,13 +49,16 @@ const cards = [];
 const urls = [];
 
 for (const [file, category, title, description] of pending) {
+  const [image, alt] = visuals[file];
   let html = source(file)
     .replaceAll(/"datePublished": "\d{4}-\d{2}-\d{2}"/g, `"datePublished": "${today}"`)
     .replaceAll(/"dateModified": "\d{4}-\d{2}-\d{2}"/g, `"dateModified": "${today}"`)
-    .replaceAll(/datetime="\d{4}-\d{2}-\d{2}">\d{4}-\d{2}-\d{2}/g, `datetime="${today}">${today}`);
+    .replaceAll(/datetime="\d{4}-\d{2}-\d{2}">\d{4}-\d{2}-\d{2}/g, `datetime="${today}">${today}`)
+    .replace(/(<p class="lead">.*?<\/p>)/s, `$1<figure class="article-visual"><img src="${image}" alt="${alt}" loading="eager"><figcaption>Luvie product and application reference. Confirm final specifications for each SKU and project.</figcaption></figure>`);
   if (!dryRun) writeFileSync(`articles/${file}`, html);
   cards.push(`
             <a class="article-card" href="${file}">
+                <img src="${image}" alt="${alt}" loading="lazy">
                 <div>
                     <span>${category}</span>
                     <h2>${title}</h2>
