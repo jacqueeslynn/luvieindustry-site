@@ -1,0 +1,45 @@
+name: Publish two SEO articles
+
+on:
+  schedule:
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Preview without publishing"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-seo-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
+      - name: Fetch approved article source
+        run: git fetch origin feature/seo-geo-content:refs/remotes/origin/feature/seo-geo-content
+      - name: Publish next two articles
+        run: node scripts/publish-next-articles.mjs ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '--dry-run' || '' }}
+      - name: Validate generated pages
+        if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.dry_run) }}
+        run: |
+          test "$(git status --short | wc -l)" -gt 0
+          grep -q "luvieindustry.com/articles/" sitemap.xml
+          grep -q "article-card" articles/index.html
+      - name: Commit and publish
+        if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.dry_run) }}
+        run: |
+          git config user.name "Luvie Content Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add articles sitemap.xml
+          git commit -m "content: publish next two buyer guides"
+          git push origin main
