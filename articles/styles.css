@@ -201,6 +201,14 @@ h1 {
 .article-visual img { display: block; width: 100%; max-height: 520px; object-fit: cover; border: 1px solid var(--line); border-radius: 8px; background: rgba(255,255,255,.04); }
 .article-visual figcaption { margin-top: 9px; color: var(--muted); font-size: 12px; line-height: 1.5; }
 
+.table-wrap { width: 100%; overflow-x: auto; margin: 22px 0 30px; }
+.table-wrap table { width: 100%; min-width: 680px; border-collapse: collapse; }
+.table-wrap th, .table-wrap td { padding: 14px 16px; border: 1px solid var(--line); text-align: left; vertical-align: top; }
+.table-wrap th { background: rgba(201, 214, 222, 0.08); color: var(--text); }
+.table-wrap td { color: var(--muted-strong); }
+.note-box { margin: 34px 0; padding: 24px; border: 1px solid var(--line-strong); border-radius: 8px; background: rgba(82, 97, 106, 0.34); }
+.note-box h2 { margin-top: 0; }
+
 .article-body h3 {
     margin-top: 24px;
     font-size: 20px;
