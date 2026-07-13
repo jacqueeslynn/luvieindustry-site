@@ -2553,6 +2553,11 @@
             gap: 20px;
         }
 
+        .direct-contact-options { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 18px; }
+        .direct-contact-options a { padding: 12px 14px; border: 1px solid var(--line-strong); border-radius: 10px; color: var(--text); text-align: center; text-decoration: none; font-size: 13px; font-weight: 600; }
+        .direct-contact-options a:first-child { background: #1f8f5f; border-color: #1f8f5f; }
+        .direct-contact-options a:last-child { background: rgba(139,115,85,.38); }
+
         .form-group {
             display: grid;
             gap: 8px;
@@ -3260,7 +3265,7 @@
                     </div>
                 </div>
                 <div style="text-align:center;margin-top:48px;">
-                    <a href="mailto:jinsburg@luvieindustry.com,globalsales@luvieindustry.com" class="cta-btn" style="display:inline-block;background:var(--accent);color:var(--text);padding:16px 40px;border-radius:var(--radius);font-size:15px;font-weight:600;letter-spacing:0.04em;text-decoration:none;transition:opacity 0.2s;" onmouseover="this.style.opacity='0.85'" onmouseout="this.style.opacity='1'">Send Inquiry by Email →</a>
+                    <a href="mailto:globalsales@luvieindustry.com?cc=jinsburg@luvieindustry.com&subject=Wall%20Panel%20Inquiry" class="cta-btn" style="display:inline-block;background:var(--accent);color:var(--text);padding:16px 40px;border-radius:var(--radius);font-size:15px;font-weight:600;letter-spacing:0.04em;text-decoration:none;transition:opacity 0.2s;" onmouseover="this.style.opacity='0.85'" onmouseout="this.style.opacity='1'">Send Inquiry by Email →</a>
                 </div>
             </div>
         </section>
@@ -3623,7 +3628,7 @@
                         <h2>Get Luvie product catalog</h2>
                         <p>Download product catalogs for wall panels, PU stone, UV boards, and SPC flooring. For samples, project quotations, OEM packaging, or container planning, email us directly or contact WhatsApp: +30 6947135317.</p>
                         <div class="cta-actions">
-                            <a class="button" href="mailto:jinsburg@luvieindustry.com,globalsales@luvieindustry.com?subject=Luvie%20Catalog%20Request" data-meta-click="Catalog Email Request" data-meta-lead="Catalog Email Request">
+                            <a class="button" href="mailto:globalsales@luvieindustry.com?cc=jinsburg@luvieindustry.com&subject=Luvie%20Catalog%20Request" data-meta-click="Catalog Email Request" data-meta-lead="Catalog Email Request">
                                 <span class="action-trigger__icon" aria-hidden="true">-></span>
                                 <span class="action-trigger__label">
                                     <strong>Contact Luvie for information</strong>
@@ -3997,13 +4002,18 @@
             <div id="formContainer">
                 <div class="modal-header">
                     <h3>Quick Inquiry</h3>
-                    <p>Fill in the following information，Wewill be24hours to reply to you</p>
+                    <p>Contact our sales team directly, or prepare a detailed email inquiry below.</p>
+                </div>
+
+                <div class="direct-contact-options">
+                    <a href="https://wa.me/306947135317?text=Hello%20Luvie%2C%20I%20would%20like%20to%20discuss%20wall%20panel%20products.">Open WhatsApp</a>
+                    <a href="mailto:globalsales@luvieindustry.com?cc=jinsburg@luvieindustry.com&subject=Wall%20Panel%20Inquiry">Send Email</a>
                 </div>
 
                 <form class="inquiry-form" id="inquiryForm">
                     <div class="form-group">
                         <label for="inquiryName">Name *</label>
-                        <input type="text" id="inquiryName" name="name" required placeholder="Please enterYour Name">
+                        <input type="text" id="inquiryName" name="name" required placeholder="Your name">
                     </div>
 
                     <div class="form-group">
@@ -4013,15 +4023,15 @@
 
                     <div class="form-group">
                         <label for="inquiryCompany">Company Name</label>
-                        <input type="text" id="inquiryCompany" name="company" placeholder="YourCompany Name（Optional）">
+                        <input type="text" id="inquiryCompany" name="company" placeholder="Company name (optional)">
                     </div>
 
                     <div class="form-group">
                         <label for="inquiryMessage">Requirements Description *</label>
-                        <textarea id="inquiryMessage" name="message" required placeholder="Please briefly describeYourDemand，such as product type、Quantity、Destination, etc."></textarea>
+                        <textarea id="inquiryMessage" name="message" required placeholder="Product type, quantity, application and destination market"></textarea>
                     </div>
 
-                    <button type="submit" class="form-submit">Submit Inquiry</button>
+                    <button type="submit" class="form-submit">Prepare Email Inquiry</button>
                 </form>
             </div>
 
@@ -4030,8 +4040,8 @@
                     <circle cx="12" cy="12" r="10" stroke="#8b7355" stroke-width="2"/>
                     <path d="M8 12l2 2 4-4" stroke="#8b7355" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
-                <h4>Inquiry Submitted</h4>
-                <p>WereceivedYourInquiry，will be24hours to reply to you via email。<br>Inquiry number：<span id="inquiryId"></span></p>
+                <h4>Your email is ready</h4>
+                <p>Your email application has opened. Please press Send there to complete the inquiry.<br>Reference: <span id="inquiryId"></span></p>
             </div>
         </div>
     </div>
@@ -4086,7 +4096,7 @@
 
                 const submitBtn = form.querySelector('.form-submit');
                 submitBtn.disabled = true;
-                submitBtn.textContent = 'Submitting...';
+                submitBtn.textContent = 'Preparing email...';
 
                 // Get form data
                 const formData = {
@@ -4116,24 +4126,14 @@
                 );
 
                 // Send to customer service email（Usemailto，Production environment should use backendAPI）
-                const mailtoLink = 'mailto:jinsburg@luvieindustry.com,globalsales@luvieindustry.com?subject=' + emailSubject + '&body=' + emailBody;
+                const mailtoLink = 'mailto:globalsales@luvieindustry.com?cc=jinsburg@luvieindustry.com&subject=' + emailSubject + '&body=' + emailBody;
 
-                // Simulate send delay
-                setTimeout(function() {
-                    // Open email client
-                    window.location.href = mailtoLink;
-
-                    // Show success message
-                    formContainer.style.display = 'none';
-                    successContainer.classList.add('is-active');
-                    document.getElementById('inquiryId').textContent = inquiryId;
-
-                    submitBtn.disabled = false;
-                    submitBtn.textContent = 'Submit Inquiry';
-
-                    // 3seconds autoClose
-                    setTimeout(closeModal, 3000);
-                }, 1000);
+                window.location.href = mailtoLink;
+                formContainer.style.display = 'none';
+                successContainer.classList.add('is-active');
+                document.getElementById('inquiryId').textContent = inquiryId;
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Prepare Email Inquiry';
             });
         })();
 

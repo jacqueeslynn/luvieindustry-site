@@ -257,6 +257,9 @@ h1 {
     color: var(--muted);
 }
 
+.footer a { color: var(--brand-soft); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
 @media (max-width: 880px) {
     .nav {
         align-items: flex-start;
