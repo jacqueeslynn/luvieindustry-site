@@ -2,7 +2,11 @@ name: Publish two SEO articles
 
 on:
   schedule:
-    - cron: "0 7 * * *"
+    # GitHub scheduled workflows can be delayed or dropped during peak load.
+    # Staggered retries are safe because the publisher exits after today's batch.
+    - cron: "17 6 * * *"
+    - cron: "17 9 * * *"
+    - cron: "17 12 * * *"
   workflow_dispatch:
     inputs:
       dry_run:
@@ -29,14 +33,22 @@ jobs:
         run: git fetch origin feature/seo-geo-content:refs/remotes/origin/feature/seo-geo-content
       - name: Publish next two articles
         run: node scripts/publish-next-articles.mjs ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '--dry-run' || '' }}
-      - name: Validate generated pages
+      - name: Check whether a batch was created
+        id: changes
         if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.dry_run) }}
         run: |
-          test "$(git status --short | wc -l)" -gt 0
+          if git diff --quiet; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Validate generated pages
+        if: ${{ steps.changes.outputs.has_changes == 'true' }}
+        run: |
           grep -q "luvieindustry.com/articles/" sitemap.xml
           grep -q "article-card" articles/index.html
       - name: Commit and publish
-        if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.dry_run) }}
+        if: ${{ steps.changes.outputs.has_changes == 'true' }}
         run: |
           git config user.name "Luvie Content Bot"
           git config user.email "actions@users.noreply.github.com"

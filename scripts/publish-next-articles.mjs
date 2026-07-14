@@ -33,6 +33,15 @@ const visuals = {
   "luvie-order-process-inquiry-to-shipment.html": ["../assets/articles/luvie-factory.png", "Luvie factory supporting wall panel production and export orders"]
 };
 
+let index = readFileSync("articles/index.html", "utf8");
+const existingLastModified = [...index.matchAll(/<meta name="last-modified" content="(\d{4}-\d{2}-\d{2})">/g)]
+  .map((match) => match[1]);
+
+if (!dryRun && existingLastModified.includes(today)) {
+  console.log(`Today's article batch is already published for ${today}.`);
+  process.exit(0);
+}
+
 const pending = queue.filter(([file]) => !existsSync(`articles/${file}`)).slice(0, 2);
 if (!pending.length) {
   console.log("All queued articles are already published.");
@@ -43,7 +52,6 @@ function source(file) {
   return execFileSync("git", ["show", `${sourceBranch}:articles/${file}`], { encoding: "utf8" });
 }
 
-let index = readFileSync("articles/index.html", "utf8");
 let sitemap = readFileSync("sitemap.xml", "utf8");
 const cards = [];
 const urls = [];
@@ -76,6 +84,7 @@ if (!dryRun) {
   const close = "        </section>\n    </main>";
   if (!index.includes(close)) throw new Error("Article index insertion point not found.");
   index = index.replace(close, `${cards.join("")}\n        </section>\n    </main>`);
+  index = index.replaceAll(/\s*<meta name="last-modified" content="\d{4}-\d{2}-\d{2}">/g, "");
   index = index.replace(/(<link rel="canonical" href="https:\/\/luvieindustry\.com\/articles\/">)/, `$1\n    <meta name="last-modified" content="${today}">`);
   sitemap = sitemap.replace("</urlset>", `${urls.join("\n")}\n</urlset>`);
   writeFileSync("articles/index.html", index);
