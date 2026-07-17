@@ -3,6 +3,9 @@ import { readFileSync, writeFileSync, existsSync } from "node:fs";
 
 const sourceBranch = "origin/feature/seo-geo-content";
 const dryRun = process.argv.includes("--dry-run");
+const force = process.argv.includes("--force");
+const limitArg = process.argv.find((arg) => arg.startsWith("--limit="));
+const limit = limitArg ? Number.parseInt(limitArg.replace("--limit=", ""), 10) : 2;
 const today = new Date().toISOString().slice(0, 10);
 const queue = [
   ["questions-to-ask-wall-panel-supplier.html", "Supplier selection", "10 Questions to Ask a Wall Panel Supplier Before Ordering", "Compare suppliers using the same questions about specifications, samples, quality, packing, lead time and export support."],
@@ -62,12 +65,16 @@ let index = readFileSync("articles/index.html", "utf8");
 const existingLastModified = [...index.matchAll(/<meta name="last-modified" content="(\d{4}-\d{2}-\d{2})">/g)]
   .map((match) => match[1]);
 
-if (!dryRun && existingLastModified.includes(today)) {
+if (!Number.isInteger(limit) || limit < 1) {
+  throw new Error("--limit must be a positive integer.");
+}
+
+if (!dryRun && !force && existingLastModified.includes(today)) {
   console.log(`Today's article batch is already published for ${today}.`);
   process.exit(0);
 }
 
-const pending = queue.filter(([file]) => !existsSync(`articles/${file}`)).slice(0, 2);
+const pending = queue.filter(([file]) => !existsSync(`articles/${file}`)).slice(0, limit);
 if (!pending.length) {
   console.log("All queued articles are already published.");
   process.exit(0);
