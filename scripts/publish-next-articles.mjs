@@ -33,6 +33,31 @@ const visuals = {
   "luvie-order-process-inquiry-to-shipment.html": ["../assets/articles/luvie-factory.png", "Luvie factory supporting wall panel production and export orders"]
 };
 
+const trackingSnippet = `<script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window,document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1331142262420820');
+        fbq('track', 'PageView');
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VCLMP6Q5KJ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-VCLMP6Q5KJ');
+    </script>`;
+
+function ensureTracking(html) {
+  if (html.includes("googletagmanager.com/gtag/js?id=G-VCLMP6Q5KJ")) return html;
+  return html.replace("</head>", `${trackingSnippet}</head>`);
+}
+
 let index = readFileSync("articles/index.html", "utf8");
 const existingLastModified = [...index.matchAll(/<meta name="last-modified" content="(\d{4}-\d{2}-\d{2})">/g)]
   .map((match) => match[1]);
@@ -63,6 +88,7 @@ for (const [file, category, title, description] of pending) {
     .replaceAll(/"dateModified": "\d{4}-\d{2}-\d{2}"/g, `"dateModified": "${today}"`)
     .replaceAll(/datetime="\d{4}-\d{2}-\d{2}">\d{4}-\d{2}-\d{2}/g, `datetime="${today}">${today}`)
     .replace(/(<p class="lead">.*?<\/p>)/s, `$1<figure class="article-visual"><img src="${image}" alt="${alt}" loading="eager"><figcaption>Luvie product and application reference. Confirm final specifications for each SKU and project.</figcaption></figure>`);
+  html = ensureTracking(html);
   if (!dryRun) writeFileSync(`articles/${file}`, html);
   cards.push(`
             <a class="article-card" href="${file}">

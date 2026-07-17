@@ -10,4 +10,6 @@ test("daily publisher has retry windows and same-day idempotency", () => {
   assert.match(workflow, /git diff --quiet/);
   assert.match(publisher, /already published for/i);
   assert.match(publisher, /existingLastModified/);
+  assert.match(publisher, /G-VCLMP6Q5KJ/);
+  assert.match(publisher, /1331142262420820/);
 });
