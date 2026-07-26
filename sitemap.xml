@@ -7,7 +7,7 @@
     </url>
     <url>
         <loc>https://luvieindustry.com/articles/</loc>
-        <lastmod>2026-07-25</lastmod>
+        <lastmod>2026-07-27</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
@@ -88,6 +88,16 @@
     <url>
         <loc>https://luvieindustry.com/articles/choose-pvc-wall-panel-thickness-profile.html</loc>
         <lastmod>2026-07-25</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://luvieindustry.com/articles/calculate-wall-panel-order-quantity.html</loc>
+        <lastmod>2026-07-27</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://luvieindustry.com/articles/pvc-ceiling-panels-vs-wall-panels.html</loc>
+        <lastmod>2026-07-27</lastmod>
         <priority>0.8</priority>
     </url>
 </urlset>
