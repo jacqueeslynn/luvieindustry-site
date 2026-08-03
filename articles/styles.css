@@ -54,15 +54,31 @@ a {
 
 .brand {
     display: grid;
+    grid-template-columns: 46px auto;
+    align-items: center;
+    column-gap: 11px;
     gap: 2px;
     text-decoration: none;
 }
 
+.brand::before {
+    content: "";
+    grid-row: 1 / span 2;
+    width: 46px;
+    height: 46px;
+    border: 1px solid rgba(209, 183, 157, 0.42);
+    border-radius: 50%;
+    background: url("../assets/brand/luvie-logo.webp") center / cover no-repeat;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.28);
+}
+
 .brand strong {
+    grid-column: 2;
     font-size: 18px;
 }
 
 .brand span {
+    grid-column: 2;
     color: var(--muted);
     font-size: 12px;
 }
