@@ -162,6 +162,11 @@ h1 {
     display: block;
 }
 
+.article-card img.catalog-cover {
+    object-fit: contain;
+    background: #191817;
+}
+
 .article-card div {
     padding: 22px;
 }
