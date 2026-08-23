@@ -22,18 +22,18 @@ const queue = [
   ["luvie-order-process-inquiry-to-shipment.html", "Working with Luvie", "From Inquiry to Shipment: Luvie's Five-Step Order Process", "See how product confirmation, samples, contracts, production inspection and shipping fit together."]
 ];
 const visuals = {
-  "questions-to-ask-wall-panel-supplier.html": ["../assets/articles/luvie-factory.png", "Luvie wall panel manufacturing facility for supplier evaluation"],
-  "evaluate-wall-panel-samples.html": ["../assets/articles/pvc-panel-texture.jpg", "PVC wall panel texture and surface sample details"],
-  "pvc-wall-panels-humid-areas.html": ["../assets/articles/pvc-humid-area.png", "PVC wall panels in a humid bathroom application visualization"],
-  "fluted-wall-panels-distributor-guide.html": ["../assets/articles/fluted-panel-installation.png", "Fluted decorative wall panel installation visualization"],
+  "questions-to-ask-wall-panel-supplier.html": ["../assets/articles/luvie-factory.webp", "Luvie wall panel manufacturing facility for supplier evaluation"],
+  "evaluate-wall-panel-samples.html": ["../assets/articles/pvc-panel-texture.webp", "PVC wall panel texture and surface sample details"],
+  "pvc-wall-panels-humid-areas.html": ["../assets/articles/pvc-humid-area.webp", "PVC wall panels in a humid bathroom application visualization"],
+  "fluted-wall-panels-distributor-guide.html": ["../assets/articles/fluted-panel-installation.webp", "Fluted decorative wall panel installation visualization"],
   "pu-stone-panels-vs-natural-stone.html": ["../assets/catalogs/covers/pu-stone-panel.jpg", "PU stone wall panel product collection"],
-  "mixed-container-wall-panel-orders.html": ["../assets/articles/export-packaging.png", "Packaged wall panel products prepared for export"],
-  "wall-panel-export-packaging-checklist.html": ["../assets/articles/export-packaging.png", "Export wall panel packaging and warehouse preparation"],
-  "oem-private-label-wall-panels.html": ["../assets/articles/pvc-panel-profile.jpg", "Wall panel profile and surface options for private label programs"],
-  "fob-vs-cif-wall-panel-orders.html": ["../assets/articles/export-packaging.png", "Wall panel cargo prepared for international shipping"],
-  "reduce-wall-panel-batch-color-differences.html": ["../assets/articles/pvc-panel-texture.jpg", "PVC wall panel surface and color sample comparison"],
-  "wall-panel-product-mix-by-project.html": ["../assets/articles/wall-panel-projects.png", "Wall panel application scenes for residential and commercial projects"],
-  "luvie-order-process-inquiry-to-shipment.html": ["../assets/articles/luvie-factory.png", "Luvie factory supporting wall panel production and export orders"]
+  "mixed-container-wall-panel-orders.html": ["../assets/articles/export-packaging.webp", "Packaged wall panel products prepared for export"],
+  "wall-panel-export-packaging-checklist.html": ["../assets/articles/export-packaging.webp", "Export wall panel packaging and warehouse preparation"],
+  "oem-private-label-wall-panels.html": ["../assets/articles/pvc-panel-profile.webp", "Wall panel profile and surface options for private label programs"],
+  "fob-vs-cif-wall-panel-orders.html": ["../assets/articles/export-packaging.webp", "Wall panel cargo prepared for international shipping"],
+  "reduce-wall-panel-batch-color-differences.html": ["../assets/articles/pvc-panel-texture.webp", "PVC wall panel surface and color sample comparison"],
+  "wall-panel-product-mix-by-project.html": ["../assets/articles/wall-panel-buyer-guide-hero.webp", "Wall panel application scenes for residential and commercial projects"],
+  "luvie-order-process-inquiry-to-shipment.html": ["../assets/articles/luvie-factory.webp", "Luvie factory supporting wall panel production and export orders"]
 };
 
 const trackingSnippet = `<script>

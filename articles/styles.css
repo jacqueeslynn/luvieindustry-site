@@ -201,6 +201,53 @@ h1 {
     color: var(--muted-strong);
 }
 
+.resource-topic-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 4px 0 10px;
+}
+
+.resource-topic-nav a {
+    padding: 9px 13px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    color: var(--muted-strong);
+    background: rgba(201, 214, 222, 0.05);
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.resource-topic-nav a:hover,
+.resource-topic-nav a:focus-visible {
+    border-color: rgba(209, 183, 157, 0.58);
+    color: var(--text);
+}
+
+.article-section-heading {
+    grid-column: 1 / -1;
+    padding: 34px 0 4px;
+    border-top: 1px solid var(--line);
+}
+
+.article-section-heading:first-child {
+    padding-top: 0;
+    border-top: 0;
+}
+
+.article-section-heading span {
+    color: var(--accent-soft);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.article-section-heading h2 {
+    margin: 8px 0 0;
+    font-size: clamp(25px, 3vw, 34px);
+}
+
 .article-layout {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 310px;
@@ -245,6 +292,46 @@ h1 {
 .article-body h3 {
     margin-top: 24px;
     font-size: 20px;
+}
+
+.article-path {
+    margin: 8px 0 38px;
+    padding: 20px;
+    border: 1px solid rgba(209, 183, 157, 0.3);
+    border-radius: 8px;
+    background: rgba(139, 115, 85, 0.12);
+}
+
+.article-path > span {
+    display: block;
+    margin-bottom: 12px;
+    color: var(--accent-soft);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.article-path__links {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.article-path__links a {
+    padding: 12px 14px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    color: var(--text);
+    background: rgba(30, 32, 34, 0.42);
+    text-decoration: none;
+    line-height: 1.45;
+}
+
+.article-path__links a:hover,
+.article-path__links a:focus-visible {
+    border-color: rgba(209, 183, 157, 0.58);
+    background: rgba(139, 115, 85, 0.18);
 }
 
 .breadcrumbs,
@@ -429,6 +516,10 @@ h1 {
     }
 
     .faq-jump-links {
+        grid-template-columns: 1fr;
+    }
+
+    .article-path__links {
         grid-template-columns: 1fr;
     }
 
