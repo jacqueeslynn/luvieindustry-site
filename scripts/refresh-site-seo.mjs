@@ -28,6 +28,7 @@ const titles = {
   'wall-panel-product-mix-by-project.html': 'Best Wall Panel Mix for Hotels, Retail & Residential',
   'wall-panel-quality-inspection-guide.html': 'How to Check Wall Panel Quality Before Bulk Orders | Luvie',
   'wall-panel-buyer-faq.html': 'Are Wall Panels Waterproof? PVC, WPC & PU Stone FAQ',
+  'wall-panel-standards-evidence-guide.html': 'Wall Panel Standards & Independent Evidence Guide | Luvie',
   'what-is-pvc-wall-panel.html': 'Are PVC Wall Panels Good? Uses, Pros & Buyer Checks | Luvie',
 };
 
@@ -53,6 +54,7 @@ const descriptions = {
   'wall-panel-product-mix-by-project.html': 'Choose the right wall panel mix for hotels, retail stores and homes using PVC, WPC, fluted panels, PU stone, UV boards, SPC flooring and accessories.',
   'wall-panel-quality-inspection-guide.html': 'Use this wall panel quality checklist to verify approved samples, color, surface, dimensions, joint fit, packing and pre-shipment records before a bulk order.',
   'wall-panel-buyer-faq.html': 'Get direct answers to common buyer questions about PVC, WPC, PU stone and UV wall panels, from waterproofing and bathrooms to outdoor use and sourcing.',
+  'wall-panel-standards-evidence-guide.html': 'Use independent standards and research to assess PVC, WPC and decorative wall panels for moisture, weathering, fire, VOCs, color, inspection and shipping.',
   'what-is-pvc-wall-panel.html': 'Learn where PVC wall panels work, their practical advantages and limits, and what importers should check in profiles, trims, samples and bulk orders.',
 };
 
@@ -78,21 +80,23 @@ const headlines = {
   'wall-panel-product-mix-by-project.html': 'Best Wall Panel Mix for Hotels, Retail and Residential Projects',
   'wall-panel-quality-inspection-guide.html': 'How to Check Wall Panel Quality Before a Bulk Order',
   'wall-panel-buyer-faq.html': 'Are Wall Panels Waterproof? PVC, WPC, PU Stone and UV Board Answers',
+  'wall-panel-standards-evidence-guide.html': 'Wall Panel Standards and Independent Evidence: What Buyers Can Actually Verify',
   'what-is-pvc-wall-panel.html': 'Are PVC Wall Panels Good? Uses, Limits and Buyer Checks',
 };
 
 const topicLinks = {
-  'wall-panel-buyer-faq.html': ['what-is-pvc-wall-panel.html', 'pvc-wall-panel-vs-wpc-wall-panel.html', 'pu-stone-panels-vs-natural-stone.html', 'questions-to-ask-wall-panel-supplier.html'],
+  'wall-panel-buyer-faq.html': ['wall-panel-standards-evidence-guide.html', 'what-is-pvc-wall-panel.html', 'pvc-wall-panel-vs-wpc-wall-panel.html', 'questions-to-ask-wall-panel-supplier.html'],
+  'wall-panel-standards-evidence-guide.html': ['wall-panel-buyer-faq.html', 'pvc-wall-panel-vs-wpc-wall-panel.html', 'questions-to-ask-wall-panel-supplier.html', 'wall-panel-quality-inspection-guide.html'],
   'what-is-pvc-wall-panel.html': ['wall-panel-buyer-faq.html', 'pvc-wall-panel-vs-wpc-wall-panel.html', 'pvc-wall-panels-humid-areas.html', 'pvc-ceiling-panels-vs-wall-panels.html'],
-  'pvc-wall-panel-vs-wpc-wall-panel.html': ['what-is-pvc-wall-panel.html', 'pvc-wall-panels-humid-areas.html', 'fluted-wall-panels-distributor-guide.html', 'pvc-ceiling-panels-vs-wall-panels.html'],
+  'pvc-wall-panel-vs-wpc-wall-panel.html': ['wall-panel-standards-evidence-guide.html', 'what-is-pvc-wall-panel.html', 'pvc-wall-panels-humid-areas.html', 'fluted-wall-panels-distributor-guide.html'],
   'pvc-wall-panels-humid-areas.html': ['wall-panel-buyer-faq.html', 'pvc-ceiling-panels-vs-wall-panels.html', 'wall-panel-quality-inspection-guide.html', 'pu-stone-panels-vs-natural-stone.html'],
   'pvc-ceiling-panels-vs-wall-panels.html': ['what-is-pvc-wall-panel.html', 'choose-pvc-wall-panel-thickness-profile.html', 'pvc-wall-panels-humid-areas.html', 'wall-panel-buyer-faq.html'],
   'choose-pvc-wall-panel-thickness-profile.html': ['what-is-pvc-wall-panel.html', 'evaluate-wall-panel-samples.html', 'calculate-wall-panel-order-quantity.html', 'apartment-bedroom-feature-wall-case.html'],
   'fluted-wall-panels-distributor-guide.html': ['pvc-wall-panel-vs-wpc-wall-panel.html', 'evaluate-wall-panel-samples.html', 'hotel-corridor-fluted-wall-panel-case.html', 'reduce-wall-panel-batch-color-differences.html'],
   'pu-stone-panels-vs-natural-stone.html': ['wall-panel-buyer-faq.html', 'wall-panel-product-mix-by-project.html', 'mixed-container-wall-panel-orders.html', 'wall-panel-export-packaging-checklist.html'],
-  'questions-to-ask-wall-panel-supplier.html': ['wall-panel-quality-inspection-guide.html', 'evaluate-wall-panel-samples.html', 'luvie-order-process-inquiry-to-shipment.html', 'oem-private-label-wall-panels.html'],
+  'questions-to-ask-wall-panel-supplier.html': ['wall-panel-standards-evidence-guide.html', 'wall-panel-quality-inspection-guide.html', 'evaluate-wall-panel-samples.html', 'luvie-order-process-inquiry-to-shipment.html'],
   'evaluate-wall-panel-samples.html': ['wall-panel-quality-inspection-guide.html', 'questions-to-ask-wall-panel-supplier.html', 'reduce-wall-panel-batch-color-differences.html', 'apartment-bedroom-feature-wall-case.html'],
-  'wall-panel-quality-inspection-guide.html': ['evaluate-wall-panel-samples.html', 'questions-to-ask-wall-panel-supplier.html', 'office-lobby-decorative-wall-panel-case.html', 'reduce-wall-panel-batch-color-differences.html'],
+  'wall-panel-quality-inspection-guide.html': ['wall-panel-standards-evidence-guide.html', 'evaluate-wall-panel-samples.html', 'questions-to-ask-wall-panel-supplier.html', 'office-lobby-decorative-wall-panel-case.html'],
   'reduce-wall-panel-batch-color-differences.html': ['evaluate-wall-panel-samples.html', 'wall-panel-quality-inspection-guide.html', 'hotel-corridor-fluted-wall-panel-case.html', 'oem-private-label-wall-panels.html'],
   'luvie-order-process-inquiry-to-shipment.html': ['questions-to-ask-wall-panel-supplier.html', 'wall-panel-export-packaging-checklist.html', 'fob-vs-cif-wall-panel-orders.html', 'oem-private-label-wall-panels.html'],
   'calculate-wall-panel-order-quantity.html': ['choose-pvc-wall-panel-thickness-profile.html', 'wall-panel-product-mix-by-project.html', 'apartment-bedroom-feature-wall-case.html', 'wall-panel-export-packaging-checklist.html'],
@@ -331,7 +335,18 @@ for (const file of Object.keys(titles)) updateArticle(file);
 const sitemapPath = path.join(root, 'sitemap.xml');
 let sitemap = fs.readFileSync(sitemapPath, 'utf8');
 for (const file of Object.keys(titles)) {
-  const url = `https://luvieindustry.com/articles/${file}`.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const absoluteUrl = `https://luvieindustry.com/articles/${file}`;
+  if (!sitemap.includes(`<loc>${absoluteUrl}</loc>`)) {
+    const priority = file === 'wall-panel-standards-evidence-guide.html' ? '0.9' : '0.8';
+    const entry = `    <url>
+        <loc>${absoluteUrl}</loc>
+        <lastmod>${modifiedDate}</lastmod>
+        <priority>${priority}</priority>
+    </url>
+`;
+    sitemap = sitemap.replace('</urlset>', `${entry}</urlset>`);
+  }
+  const url = absoluteUrl.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   sitemap = sitemap.replace(
     new RegExp(`(<loc>${url}<\\/loc>\\s*<lastmod>)[^<]+(<\\/lastmod>)`),
     `$1${modifiedDate}$2`,

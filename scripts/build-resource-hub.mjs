@@ -12,6 +12,7 @@ const groups = [
     title: 'Answers to the questions buyers ask first',
     files: [
       'wall-panel-buyer-faq.html',
+      'wall-panel-standards-evidence-guide.html',
       'what-is-pvc-wall-panel.html',
       'pvc-wall-panel-vs-wpc-wall-panel.html',
     ],
@@ -67,6 +68,7 @@ const groups = [
 
 const cardTitles = {
   'wall-panel-buyer-faq.html': 'Are Wall Panels Waterproof? 15 Straight Answers for Buyers',
+  'wall-panel-standards-evidence-guide.html': 'Wall Panel Standards: What Independent Evidence Actually Proves',
   'what-is-pvc-wall-panel.html': 'Are PVC Wall Panels Good? Uses, Limits and Buyer Checks',
   'pvc-wall-panel-vs-wpc-wall-panel.html': 'PVC vs WPC Wall Panels: Which Is Better for Your Market?',
   'pvc-wall-panels-humid-areas.html': 'Are PVC Wall Panels Waterproof in Bathrooms?',
@@ -90,6 +92,17 @@ const cardTitles = {
   'office-lobby-decorative-wall-panel-case.html': 'Office Lobby Wall Panels: Design and Project Buyer Guide',
 };
 
+const fallbackCards = {
+  'wall-panel-standards-evidence-guide.html': `<a class="article-card" href="wall-panel-standards-evidence-guide.html">
+                <img src="../assets/articles/wall-panel-buyer-guide-hero.webp" alt="Independent standards and evidence for PVC, WPC and decorative wall panels" loading="lazy">
+                <div>
+                    <span>Standards and evidence</span>
+                    <h2>Wall Panel Standards: What Independent Evidence Actually Proves</h2>
+                    <p>Use institutional sources to assess moisture, weathering, fire, VOCs, color, inspection, packing and trade terms.</p>
+                </div>
+            </a>`,
+};
+
 let source = fs.readFileSync(target, 'utf8');
 const grid = source.match(/<section class="container article-grid"[^>]*>([\s\S]*?)<\/section>/);
 if (!grid) throw new Error('Resource card grid not found.');
@@ -107,6 +120,10 @@ for (const match of grid[1].matchAll(/<a class="article-card" href="([^"]+)">[\s
       .replace('Residential and commercial wall panel project scenes used for quantity planning', 'PVC wall panel profile and net coverage details used for quantity planning');
   }
   cards.set(file, card);
+}
+
+for (const [file, card] of Object.entries(fallbackCards)) {
+  if (!cards.has(file)) cards.set(file, card);
 }
 
 const orderedFiles = groups.flatMap((group) => group.files);

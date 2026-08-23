@@ -334,6 +334,61 @@ h1 {
     background: rgba(139, 115, 85, 0.18);
 }
 
+.authority-evidence {
+    margin: 0 0 38px;
+    padding: 22px 24px;
+    border: 1px solid rgba(201, 214, 222, 0.22);
+    border-radius: 8px;
+    background: rgba(201, 214, 222, 0.06);
+}
+
+.authority-evidence > span {
+    display: block;
+    margin-bottom: 9px;
+    color: var(--accent-soft);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.authority-evidence p {
+    margin: 0;
+}
+
+.authority-evidence p + p {
+    margin-top: 12px;
+}
+
+.authority-evidence a,
+.source-link,
+.source-list a {
+    color: var(--brand-soft);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+}
+
+.evidence-table td:first-child {
+    min-width: 150px;
+    color: var(--text);
+    font-weight: 700;
+}
+
+.source-list {
+    display: grid;
+    gap: 12px;
+    margin: 24px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.source-list li {
+    padding: 14px 16px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: rgba(30, 32, 34, 0.35);
+}
+
 .breadcrumbs,
 .article-meta {
     display: flex;

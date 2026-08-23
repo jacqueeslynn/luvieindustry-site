@@ -23,6 +23,8 @@ for (const file of articleFiles) {
   const h1Count = (source.match(/<h1\b/g) ?? []).length;
   const topicBlock = source.match(/<!-- topic-cluster-links:start -->([\s\S]*?)<!-- topic-cluster-links:end -->/)?.[1] ?? '';
   const topicTargets = [...topicBlock.matchAll(/href="([^"]+\.html)"/g)].map((match) => match[1]);
+  const externalSources = [...source.matchAll(/<a[^>]+href="(https:\/\/[^\"]+)"[^>]*rel="[^"]*external[^"]*"/g)]
+    .map((match) => match[1]);
 
   if (title.length < 45 || title.length > 65) add(file, `title length ${title.length} (target 45–65)`);
   if (description.length < 120 || description.length > 170) add(file, `description length ${description.length} (target 120–170)`);
@@ -35,6 +37,9 @@ for (const file of articleFiles) {
   if (!source.includes('<meta property="og:title"')) add(file, 'missing Open Graph title');
   if (!source.includes('<meta name="twitter:title"')) add(file, 'missing Twitter title');
   if (topicTargets.length !== 4) add(file, `expected 4 topic links, found ${topicTargets.length}`);
+  if (!externalSources.length) add(file, 'missing contextual external authority source');
+  if (file !== 'wall-panel-standards-evidence-guide.html' && !source.includes('<!-- authority-evidence:start -->')) add(file, 'missing independent-evidence block');
+  if (file === 'wall-panel-standards-evidence-guide.html' && externalSources.length < 10) add(file, `expected at least 10 primary sources, found ${externalSources.length}`);
   for (const target of topicTargets) {
     if (!incoming.has(target)) add(file, `broken article link ${target}`);
     else incoming.set(target, incoming.get(target) + 1);
