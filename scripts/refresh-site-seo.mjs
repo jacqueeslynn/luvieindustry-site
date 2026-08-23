@@ -26,6 +26,7 @@ const titles = {
   'wall-panel-export-packaging-checklist.html': 'Wall Panel Export Packaging Checklist for Buyers | Luvie',
   'wall-panel-product-mix-by-project.html': 'B2B Wall Panel Product Mix for Project Buyers | Luvie',
   'wall-panel-quality-inspection-guide.html': 'Wall Panel Quality Inspection Guide | Luvie Industry',
+  'wall-panel-buyer-faq.html': 'Wall Panel FAQ: PVC, WPC, PU Stone & UV Board | Luvie',
   'what-is-pvc-wall-panel.html': 'What Is a PVC Wall Panel? Guide for Importers | Luvie',
 };
 
@@ -42,6 +43,7 @@ const descriptions = {
   'reduce-wall-panel-batch-color-differences.html': 'Reduce wall panel batch differences by confirming reference samples, color ranges, surface direction, production records, packing labels and order planning.',
   'wall-panel-export-packaging-checklist.html': 'Use this wall panel export packaging checklist to confirm cartons, labels, protection, pallet options, container loading and receiving requirements.',
   'wall-panel-product-mix-by-project.html': 'Plan a wall panel product mix for hotels, retail stores and homes using PVC, WPC, fluted panels, UV marble boards, PU stone and SPC flooring options.',
+  'wall-panel-buyer-faq.html': 'Direct answers to common Google questions about PVC, WPC, PU stone and UV marble wall panels, including bathrooms, outdoor use and sourcing checks.',
   'what-is-pvc-wall-panel.html': 'Learn where PVC wall panels work best, how they compare with tiles and WPC, and what importers should verify in samples, profiles, trims and bulk orders.',
 };
 

@@ -133,6 +133,10 @@ h1 {
     font-size: clamp(38px, 6vw, 72px);
 }
 
+.faq-title {
+    font-size: clamp(42px, 5vw, 60px);
+}
+
 .lead {
     max-width: 760px;
     color: var(--muted-strong);
@@ -243,6 +247,97 @@ h1 {
     font-size: 20px;
 }
 
+.breadcrumbs,
+.article-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 12px;
+    margin-bottom: 14px;
+    color: var(--muted);
+    font-size: 13px;
+}
+
+.breadcrumbs a {
+    color: var(--brand-soft);
+    text-decoration: none;
+}
+
+.answer-box {
+    margin: 28px 0;
+    padding: 22px 24px;
+    border-left: 4px solid var(--accent-soft);
+    border-radius: 8px;
+    background: rgba(139, 115, 85, 0.18);
+}
+
+.answer-box p:last-child {
+    margin-bottom: 0;
+}
+
+.faq-jump-links {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    margin: 30px 0 40px;
+}
+
+.faq-jump-links a,
+.context-link {
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: rgba(201, 214, 222, 0.05);
+}
+
+.faq-jump-links a {
+    padding: 12px 14px;
+    color: var(--brand-soft);
+    text-decoration: none;
+}
+
+.faq-jump-links a:hover,
+.faq-jump-links a:focus-visible {
+    border-color: rgba(209, 183, 157, 0.52);
+    background: rgba(139, 115, 85, 0.14);
+}
+
+.faq-answer {
+    scroll-margin-top: 96px;
+    padding-top: 2px;
+}
+
+.faq-answer + .faq-answer {
+    border-top: 1px solid var(--line);
+    margin-top: 34px;
+}
+
+.faq-answer a,
+.context-link a {
+    color: var(--brand-soft);
+}
+
+.context-link {
+    margin: 24px 0;
+    padding: 16px 18px;
+}
+
+.faq-list {
+    display: grid;
+    gap: 10px;
+}
+
+.faq-list details {
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 14px 16px;
+    background: rgba(201, 214, 222, 0.04);
+}
+
+.faq-list summary {
+    cursor: pointer;
+    color: var(--text);
+    font-weight: 700;
+}
+
 .side-panel {
     min-width: 0;
     position: sticky;
@@ -252,11 +347,30 @@ h1 {
 }
 
 .toc,
-.cta-box {
+.cta-box,
+.fact-card {
     padding: 22px;
     border: 1px solid var(--line);
     border-radius: 8px;
     background: rgba(82, 97, 106, 0.42);
+}
+
+.fact-card span,
+.fact-card b {
+    display: block;
+}
+
+.fact-card span {
+    margin-bottom: 6px;
+    color: var(--accent-soft);
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.fact-card p {
+    margin-bottom: 0;
+    color: var(--muted-strong);
 }
 
 .toc a {
@@ -312,5 +426,13 @@ h1 {
 
     .article-body {
         padding: 24px;
+    }
+
+    .faq-jump-links {
+        grid-template-columns: 1fr;
+    }
+
+    .faq-title {
+        font-size: 34px;
     }
 }
