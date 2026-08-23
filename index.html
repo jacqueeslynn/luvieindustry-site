@@ -32,7 +32,20 @@
                 "legalName": "Haining Luvie Import & Export Co., Ltd.",
                 "url": "https://luvieindustry.com/",
                 "logo": "https://luvieindustry.com/assets/brand/luvie-logo.webp",
-                "telephone": "+30 6947135317"
+                "email": ["jinsburg@luvieindustry.com", "globalsales@luvieindustry.com"],
+                "telephone": "+30 6947135317",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Haining",
+                    "addressRegion": "Zhejiang",
+                    "addressCountry": "CN"
+                },
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "sales",
+                    "telephone": "+30 6947135317",
+                    "availableLanguage": ["English", "Chinese"]
+                }
             },
             {
                 "@type": "WebSite",
@@ -1727,6 +1740,37 @@
             }
         }
 
+        @media (max-width: 1500px) {
+            .nav {
+                gap: 12px;
+            }
+
+            .brand {
+                grid-template-columns: 46px auto;
+                column-gap: 10px;
+            }
+
+            .brand-logo {
+                width: 46px;
+                height: 46px;
+            }
+
+            .brand-name {
+                max-width: 285px;
+                font-size: 14px;
+            }
+
+            .nav-links a {
+                min-height: 40px;
+                padding: 0 9px;
+                font-size: 12px;
+            }
+
+            .nav-cta {
+                min-height: 48px;
+            }
+        }
+
         @media (max-width: 1120px) {
             .nav {
                 gap: 18px;
@@ -2742,7 +2786,7 @@
     <header class="site-header">
         <div class="container nav">
             <a class="brand" href="#top" data-view-target="top" aria-label="ReturnHome">
-                <img class="brand-logo" src="assets/brand/luvie-logo.webp" alt="">
+                <img class="brand-logo" src="assets/brand/luvie-logo.webp" alt="Luvie Industry logo">
                 <span class="brand-mark">Luvie Industry</span>
                 <span class="brand-name">Haining Luvie Import & Export Co., Ltd.</span>
             </a>
@@ -3361,12 +3405,12 @@
                 <div style="margin:40px 0 32px;">
                     <span class="meta-line" style="display:block;margin-bottom:16px;">Project Gallery · Selected Project Results</span>
                     <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;">
-                        <div style="aspect-ratio:4/3;border-radius:16px;overflow:hidden;"><img src="assets/material-photos/jimeng-2026-04-03-5636-Luxury apartment master bedroom, decorat....webp" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
-                        <div style="aspect-ratio:4/3;border-radius:16px;overflow:hidden;"><img src="assets/material-photos/jimeng-2026-04-03-7347-Hotel corridor with fluted panel feature....webp" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
-                        <div style="aspect-ratio:4/3;border-radius:16px;overflow:hidden;"><img src="assets/material-photos/jimeng-2026-04-03-5669-Luxury apartment master bedroom, decorat....webp" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
-                        <div style="aspect-ratio:4/3;border-radius:16px;overflow:hidden;"><img src="assets/material-photos/jimeng-2026-04-03-9409-Hotel corridor with fluted panel feature....webp" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
-                        <div style="aspect-ratio:4/3;border-radius:16px;overflow:hidden;"><img src="assets/material-photos/jimeng-2026-04-03-9819-Luxury apartment master bedroom, decorat....webp" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
-                        <div style="aspect-ratio:4/3;border-radius:16px;overflow:hidden;"><img src="assets/material-photos/jimeng-2026-04-03-6117-Fluted PVC decorative wall panel install....webp" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+                        <div style="aspect-ratio:4/3;border-radius:16px;overflow:hidden;"><img src="assets/material-photos/jimeng-2026-04-03-5636-Luxury apartment master bedroom, decorat....webp" alt="Luxury apartment bedroom with a decorative wall panel feature wall" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+                        <div style="aspect-ratio:4/3;border-radius:16px;overflow:hidden;"><img src="assets/material-photos/jimeng-2026-04-03-7347-Hotel corridor with fluted panel feature....webp" alt="Hotel corridor with a fluted wall panel feature" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+                        <div style="aspect-ratio:4/3;border-radius:16px;overflow:hidden;"><img src="assets/material-photos/jimeng-2026-04-03-5669-Luxury apartment master bedroom, decorat....webp" alt="Modern bedroom wall panel application" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+                        <div style="aspect-ratio:4/3;border-radius:16px;overflow:hidden;"><img src="assets/material-photos/jimeng-2026-04-03-9409-Hotel corridor with fluted panel feature....webp" alt="Hotel corridor decorative wall panel application" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+                        <div style="aspect-ratio:4/3;border-radius:16px;overflow:hidden;"><img src="assets/material-photos/jimeng-2026-04-03-9819-Luxury apartment master bedroom, decorat....webp" alt="Bedroom feature wall with decorative wall panels" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+                        <div style="aspect-ratio:4/3;border-radius:16px;overflow:hidden;"><img src="assets/material-photos/jimeng-2026-04-03-6117-Fluted PVC decorative wall panel install....webp" alt="Fluted PVC wall panel installation detail" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
                     </div>
                 </div>
                 <div class="compare-section">

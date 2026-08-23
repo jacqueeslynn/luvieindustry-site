@@ -179,6 +179,13 @@ h1 {
     text-transform: uppercase;
 }
 
+.article-byline {
+    margin: 0 0 12px;
+    color: var(--muted);
+    font-size: 13px;
+    letter-spacing: 0.04em;
+}
+
 .article-card h2 {
     margin: 10px 0;
     font-size: 23px;
@@ -199,6 +206,7 @@ h1 {
 }
 
 .article-body {
+    min-width: 0;
     padding: 34px;
     border: 1px solid var(--line);
     border-radius: 8px;
@@ -236,6 +244,7 @@ h1 {
 }
 
 .side-panel {
+    min-width: 0;
     position: sticky;
     top: 96px;
     display: grid;
