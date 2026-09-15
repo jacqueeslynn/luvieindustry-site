@@ -23,6 +23,7 @@ const groups = [
     title: 'Choose the right material and specification',
     files: [
       'pvc-wall-panels-humid-areas.html',
+      'outdoor-wpc-decking-importer-checklist.html',
       'fluted-wall-panels-distributor-guide.html',
       'pu-stone-panels-vs-natural-stone.html',
       'pvc-ceiling-panels-vs-wall-panels.html',
@@ -72,6 +73,7 @@ const cardTitles = {
   'what-is-pvc-wall-panel.html': 'Are PVC Wall Panels Good? Uses, Limits and Buyer Checks',
   'pvc-wall-panel-vs-wpc-wall-panel.html': 'PVC vs WPC Wall Panels: Which Is Better for Your Market?',
   'pvc-wall-panels-humid-areas.html': 'Are PVC Wall Panels Waterproof in Bathrooms?',
+  'outdoor-wpc-decking-importer-checklist.html': 'Outdoor WPC Decking: Importer Profile and System Checklist',
   'fluted-wall-panels-distributor-guide.html': 'Fluted Wall Panels: Profiles, Uses and Buyer Guide',
   'pu-stone-panels-vs-natural-stone.html': 'PU Stone Panels vs Natural Stone: Which Should You Choose?',
   'pvc-ceiling-panels-vs-wall-panels.html': 'PVC Ceiling Panels vs Wall Panels: Key Differences',
@@ -99,6 +101,14 @@ const fallbackCards = {
                     <span>Standards and evidence</span>
                     <h2>Wall Panel Standards: What Independent Evidence Actually Proves</h2>
                     <p>Use institutional sources to assess moisture, weathering, fire, VOCs, color, inspection, packing and trade terms.</p>
+                </div>
+            </a>`,
+  'outdoor-wpc-decking-importer-checklist.html': `<a class="article-card" href="outdoor-wpc-decking-importer-checklist.html">
+                <img src="../assets/articles/outdoor-wpc-decking-context.webp" alt="Outdoor WPC decking surface used for an importer profile and system checklist" loading="lazy">
+                <div>
+                    <span>Outdoor WPC · Published 15 September 2026</span>
+                    <h2>Outdoor WPC Decking: Importer Profile and System Checklist</h2>
+                    <p>Compare effective coverage, board profiles, accessories, installation boundaries and export packing before price.</p>
                 </div>
             </a>`,
 };
@@ -185,7 +195,7 @@ source = source.replace(
     Object.assign(collection, {
       name: 'Wall Panel Buying Guides: PVC, WPC and PU Stone',
       description: 'Practical wall panel selection, quality, ordering and project guides for importers and distributors.',
-      dateModified: '2026-08-24',
+      dateModified: '2026-09-15',
     });
     const itemList = {
       '@type': 'ItemList',
