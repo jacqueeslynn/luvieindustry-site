@@ -24,6 +24,7 @@ const groups = [
     files: [
       'pvc-wall-panels-humid-areas.html',
       'outdoor-wpc-decking-importer-checklist.html',
+      'self-adhesive-grooved-wall-panel-buyer-guide.html',
       'fluted-wall-panels-distributor-guide.html',
       'pu-stone-panels-vs-natural-stone.html',
       'pvc-ceiling-panels-vs-wall-panels.html',
@@ -74,6 +75,7 @@ const cardTitles = {
   'pvc-wall-panel-vs-wpc-wall-panel.html': 'PVC vs WPC Wall Panels: Which Is Better for Your Market?',
   'pvc-wall-panels-humid-areas.html': 'Are PVC Wall Panels Waterproof in Bathrooms?',
   'outdoor-wpc-decking-importer-checklist.html': 'Outdoor WPC Decking: Importer Profile and System Checklist',
+  'self-adhesive-grooved-wall-panel-buyer-guide.html': 'Gold-Grooved Self-Adhesive Wall Panels: Buyer Guide',
   'fluted-wall-panels-distributor-guide.html': 'Fluted Wall Panels: Profiles, Uses and Buyer Guide',
   'pu-stone-panels-vs-natural-stone.html': 'PU Stone Panels vs Natural Stone: Which Should You Choose?',
   'pvc-ceiling-panels-vs-wall-panels.html': 'PVC Ceiling Panels vs Wall Panels: Key Differences',
@@ -109,6 +111,14 @@ const fallbackCards = {
                     <span>Outdoor WPC · Published 15 September 2026</span>
                     <h2>Outdoor WPC Decking: Importer Profile and System Checklist</h2>
                     <p>Compare effective coverage, board profiles, accessories, installation boundaries and export packing before price.</p>
+                </div>
+            </a>`,
+  'self-adhesive-grooved-wall-panel-buyer-guide.html': `<a class="article-card" href="self-adhesive-grooved-wall-panel-buyer-guide.html">
+                <img src="../assets/articles/gold-leaf-grooved-panel-context.webp" alt="White marble-look decorative wall finish with fine gold groove details" loading="lazy">
+                <div>
+                    <span>Decorative panels · Published 16 September 2026</span>
+                    <h2>Gold-Grooved Self-Adhesive Wall Panels: Buyer Guide</h2>
+                    <p>Identify the product, review the physical finish, check the substrate and define the application boundary before sale.</p>
                 </div>
             </a>`,
 };
@@ -195,7 +205,7 @@ source = source.replace(
     Object.assign(collection, {
       name: 'Wall Panel Buying Guides: PVC, WPC and PU Stone',
       description: 'Practical wall panel selection, quality, ordering and project guides for importers and distributors.',
-      dateModified: '2026-09-15',
+      dateModified: '2026-09-16',
     });
     const itemList = {
       '@type': 'ItemList',
