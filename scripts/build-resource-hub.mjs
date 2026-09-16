@@ -25,6 +25,8 @@ const groups = [
       'pvc-wall-panels-humid-areas.html',
       'outdoor-wpc-decking-importer-checklist.html',
       'self-adhesive-grooved-wall-panel-buyer-guide.html',
+      'spc-flooring-distributor-spec-guide.html',
+      'pvc-wall-panels-vs-ceramic-tile-importers.html',
       'fluted-wall-panels-distributor-guide.html',
       'pu-stone-panels-vs-natural-stone.html',
       'pvc-ceiling-panels-vs-wall-panels.html',
@@ -37,6 +39,7 @@ const groups = [
     title: 'Evaluate samples, suppliers and production quality',
     files: [
       'questions-to-ask-wall-panel-supplier.html',
+      'pvc-ceiling-panel-supplier-checklist.html',
       'evaluate-wall-panel-samples.html',
       'wall-panel-quality-inspection-guide.html',
       'reduce-wall-panel-batch-color-differences.html',
@@ -50,6 +53,7 @@ const groups = [
     files: [
       'calculate-wall-panel-order-quantity.html',
       'wall-panel-product-mix-by-project.html',
+      'three-tier-interior-finish-range-pvc-spc-decor.html',
       'mixed-container-wall-panel-orders.html',
       'wall-panel-export-packaging-checklist.html',
       'oem-private-label-wall-panels.html',
@@ -76,17 +80,21 @@ const cardTitles = {
   'pvc-wall-panels-humid-areas.html': 'Are PVC Wall Panels Waterproof in Bathrooms?',
   'outdoor-wpc-decking-importer-checklist.html': 'Outdoor WPC Decking: Importer Profile and System Checklist',
   'self-adhesive-grooved-wall-panel-buyer-guide.html': 'Gold-Grooved Self-Adhesive Wall Panels: Buyer Guide',
+  'spc-flooring-distributor-spec-guide.html': 'SPC Flooring Specifications: Distributor Buyer Guide',
+  'pvc-wall-panels-vs-ceramic-tile-importers.html': 'PVC Wall Panels vs Ceramic Tile for Importers',
   'fluted-wall-panels-distributor-guide.html': 'Fluted Wall Panels: Profiles, Uses and Buyer Guide',
   'pu-stone-panels-vs-natural-stone.html': 'PU Stone Panels vs Natural Stone: Which Should You Choose?',
   'pvc-ceiling-panels-vs-wall-panels.html': 'PVC Ceiling Panels vs Wall Panels: Key Differences',
   'choose-pvc-wall-panel-thickness-profile.html': 'PVC Wall Panel Thickness and Profiles: What to Check',
   'questions-to-ask-wall-panel-supplier.html': '10 Questions to Ask a Wall Panel Supplier Before Ordering',
+  'pvc-ceiling-panel-supplier-checklist.html': 'PVC Ceiling Panel Supplier Checklist for a First Order',
   'evaluate-wall-panel-samples.html': 'Wall Panel Sample Checklist Before Mass Production',
   'wall-panel-quality-inspection-guide.html': 'How to Check Wall Panel Quality Before a Bulk Order',
   'reduce-wall-panel-batch-color-differences.html': 'How to Prevent Wall Panel Color Differences Between Batches',
   'luvie-order-process-inquiry-to-shipment.html': 'Wall Panel Order Process: From Inquiry to Shipment',
   'calculate-wall-panel-order-quantity.html': 'How Many Wall Panels Do I Need? Order Calculation Guide',
   'wall-panel-product-mix-by-project.html': 'Best Wall Panel Mix for Hotels, Retail and Homes',
+  'three-tier-interior-finish-range-pvc-spc-decor.html': 'How Distributors Build a Sellable Interior Finish Range',
   'mixed-container-wall-panel-orders.html': 'Mixed-Container Wall Panel Orders: A Buyer Planning Guide',
   'wall-panel-export-packaging-checklist.html': 'Wall Panel Packaging Checklist for Overseas Buyers',
   'oem-private-label-wall-panels.html': 'OEM Wall Panels: Private Label Checklist Before Production',
@@ -146,12 +154,31 @@ for (const [file, card] of Object.entries(fallbackCards)) {
   if (!cards.has(file)) cards.set(file, card);
 }
 
-const orderedFiles = groups.flatMap((group) => group.files);
-const missing = orderedFiles.filter((file) => !cards.has(file));
-if (missing.length) throw new Error(`Missing resource cards: ${missing.join(', ')}`);
+for (const file of groups.flatMap((group) => group.files)) {
+  if (cards.has(file)) continue;
+  const articlePath = path.join(root, 'articles', file);
+  if (!fs.existsSync(articlePath)) continue;
+  const article = fs.readFileSync(articlePath, 'utf8');
+  const description = article.match(/<meta name="description" content="([^"]+)">/)?.[1] ?? '';
+  const image = article.match(/<meta property="og:image" content="https:\/\/luvieindustry\.com\/([^"]+)">/)?.[1] ?? '';
+  const alt = article.match(/<img[^>]+alt="([^"]+)"/)?.[1] ?? cardTitles[file];
+  const published = article.match(/<meta property="article:published_time" content="(\d{4}-\d{2}-\d{2})">/)?.[1] ?? '';
+  const dateLabel = published ? ` · Published ${new Date(`${published}T00:00:00Z`).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' })}` : '';
+  cards.set(file, `<a class="article-card" href="${file}">
+                <img src="../${image}" alt="${alt}" loading="lazy">
+                <div>
+                    <span>Buyer guide${dateLabel}</span>
+                    <h2>${cardTitles[file]}</h2>
+                    <p>${description}</p>
+                </div>
+            </a>`);
+}
+
+const publishedGroups = groups.map((group) => ({ ...group, files: group.files.filter((file) => cards.has(file)) }));
+const orderedFiles = publishedGroups.flatMap((group) => group.files);
 if (cards.size !== orderedFiles.length) throw new Error(`Expected ${orderedFiles.length} cards, found ${cards.size}.`);
 
-const groupedCards = groups.map((group) => `
+const groupedCards = publishedGroups.map((group) => `
             <div class="article-section-heading" id="${group.id}">
                 <span>${group.eyebrow}</span>
                 <h2>${group.title}</h2>
@@ -161,7 +188,7 @@ const groupedCards = groups.map((group) => `
 
 const nav = `<!-- resource-topic-nav:start -->
         <nav class="container resource-topic-nav" aria-label="Browse buyer guide topics">
-            ${groups.map((group) => `<a href="#${group.id}">${group.eyebrow}</a>`).join('\n            ')}
+            ${publishedGroups.map((group) => `<a href="#${group.id}">${group.eyebrow}</a>`).join('\n            ')}
         </nav>
         <!-- resource-topic-nav:end -->`;
 
@@ -205,7 +232,11 @@ source = source.replace(
     Object.assign(collection, {
       name: 'Wall Panel Buying Guides: PVC, WPC and PU Stone',
       description: 'Practical wall panel selection, quality, ordering and project guides for importers and distributors.',
-      dateModified: '2026-09-16',
+      dateModified: orderedFiles.reduce((latest, file) => {
+        const article = fs.readFileSync(path.join(root, 'articles', file), 'utf8');
+        const modified = article.match(/<meta property="article:modified_time" content="(\d{4}-\d{2}-\d{2})">/)?.[1] ?? '';
+        return modified > latest ? modified : latest;
+      }, '2026-09-16'),
     });
     const itemList = {
       '@type': 'ItemList',

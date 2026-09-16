@@ -1,4 +1,4 @@
-name: Publish two SEO articles
+name: Publish one approved SEO article
 
 on:
   schedule:
@@ -30,8 +30,8 @@ jobs:
           fetch-depth: 0
           ref: main
       - name: Fetch approved article source
-        run: git fetch origin feature/seo-geo-content:refs/remotes/origin/feature/seo-geo-content
-      - name: Publish next two articles
+        run: git fetch origin feature/seo-geo-content-v7:refs/remotes/origin/feature/seo-geo-content-v7
+      - name: Publish next approved article
         run: node scripts/publish-next-articles.mjs ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '--dry-run' || '' }}
       - name: Check whether a batch was created
         id: changes
@@ -45,13 +45,13 @@ jobs:
       - name: Validate generated pages
         if: ${{ steps.changes.outputs.has_changes == 'true' }}
         run: |
-          grep -q "luvieindustry.com/articles/" sitemap.xml
-          grep -q "article-card" articles/index.html
+          node scripts/audit-site-seo.mjs
+          node --test scripts/publish-next-articles.test.mjs
       - name: Commit and publish
         if: ${{ steps.changes.outputs.has_changes == 'true' }}
         run: |
           git config user.name "Luvie Content Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add articles sitemap.xml
-          git commit -m "content: publish next two buyer guides"
+          git add .github/content-publish-state.json articles assets/articles sitemap.xml
+          git commit -m "content: publish next approved buyer guide"
           git push origin main
