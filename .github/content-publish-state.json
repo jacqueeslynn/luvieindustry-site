@@ -1,8 +1,10 @@
 {
-  "lastPublished": "2026-09-17",
+  "lastPublished": "2026-09-18",
   "releases": [
     "v7-outdoor-wpc",
     "v7-self-adhesive-grooved",
-    "v7-spc-flooring-spec"
+    "v7-spc-flooring-spec",
+    "v7-pvc-humid-areas",
+    "v7-pvc-vs-tile"
   ]
 }
