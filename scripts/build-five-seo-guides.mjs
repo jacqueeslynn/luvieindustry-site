@@ -271,7 +271,7 @@ function render(guide) {
     <!-- authority-evidence:start -->
     <aside class="authority-evidence" aria-label="Independent evidence"><span>Independent evidence</span><p>${guide.authority}</p></aside>
     <!-- authority-evidence:end -->
-    ${guide.body}
+${guide.body.trim()}
     <h2 id="faq">Buyer FAQ</h2><div class="faq">${faqHtml}</div>
   </article><aside class="aside"><strong>Move from search to a real sample</strong><p>Share your market, channel, target application and estimated quantity. Luvie can start with the relevant catalog and exact product details.</p><a href="${whatsapp}">Request product information &rarr;</a></aside></div></main>
   <section class="cta"><div class="container cta-box"><div><div class="eyebrow">Next step</div><h2>Turn this buyer question into a clear product shortlist.</h2><p>Tell us the target application, country, preferred finish and approximate quantity. We will organize the relevant catalog and sample discussion.</p></div><a class="button" href="${whatsapp}">Discuss Your Requirement</a></div></section>
