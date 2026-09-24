@@ -1,0 +1,51 @@
+:root {
+    --ink: #392a21;
+    --muted: #715d50;
+    --line: #ddcfbd;
+    --paper: #f6efe5;
+    --paper-2: #ecdfcf;
+    --clay: #8a5a3b;
+    --clay-dark: #6f452e;
+    --sand: #d7b993;
+    --pine: #593d2d;
+}
+
+body {
+    background:
+        radial-gradient(circle at 90% 4%, rgba(183, 142, 103, 0.16), transparent 26%),
+        var(--paper);
+}
+
+.topbar {
+    background: rgba(248, 243, 236, 0.93);
+    border-bottom-color: var(--line);
+}
+
+.related {
+    background: linear-gradient(135deg, #684834, #513729);
+}
+
+.button {
+    background: linear-gradient(135deg, #8a5a3b, #6f452e);
+}
+
+.button:hover {
+    background: #5d3827;
+}
+
+.callout,
+.authority-evidence {
+    background: #eee0d0;
+}
+
+.spec,
+.aside {
+    background: #fffaf3;
+}
+
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+    outline: 3px solid rgba(138, 90, 59, 0.28);
+    outline-offset: 3px;
+}
