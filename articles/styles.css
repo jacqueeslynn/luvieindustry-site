@@ -1,13 +1,14 @@
 :root {
-    --bg: #1e2022;
-    --bg-elevated: #2a2d30;
-    --line: rgba(201, 214, 222, 0.18);
-    --text: #f0f5f9;
-    --muted: rgba(201, 214, 222, 0.74);
-    --muted-strong: rgba(201, 214, 222, 0.9);
-    --brand-soft: #c9d6de;
-    --accent: #8b7355;
-    --accent-soft: #d1b79d;
+    --bg: #f3ece2;
+    --bg-elevated: #eadfce;
+    --line: rgba(91, 64, 46, 0.16);
+    --line-strong: rgba(91, 64, 46, 0.3);
+    --text: #392a21;
+    --muted: rgba(72, 53, 43, 0.7);
+    --muted-strong: rgba(57, 42, 33, 0.86);
+    --brand-soft: #8a5a3b;
+    --accent: #7b5035;
+    --accent-soft: #a8734d;
     --max: 1120px;
 }
 
@@ -19,8 +20,9 @@ body {
     margin: 0;
     font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     background:
-        radial-gradient(circle at 14% 10%, rgba(139, 115, 85, 0.18), transparent 30%),
-        linear-gradient(135deg, #1e2022 0%, #2a2d30 50%, #1e2022 100%);
+        radial-gradient(circle at 14% 10%, rgba(183, 142, 103, 0.18), transparent 30%),
+        radial-gradient(circle at 88% 16%, rgba(111, 78, 55, 0.08), transparent 26%),
+        linear-gradient(135deg, #f8f3ec 0%, #f1e8dc 52%, #eadfce 100%);
     color: var(--text);
     line-height: 1.7;
 }
@@ -34,7 +36,7 @@ a {
     top: 0;
     z-index: 10;
     border-bottom: 1px solid var(--line);
-    background: rgba(30, 32, 34, 0.9);
+    background: rgba(248, 243, 236, 0.92);
     backdrop-filter: blur(18px);
 }
 
@@ -66,10 +68,10 @@ a {
     grid-row: 1 / span 2;
     width: 46px;
     height: 46px;
-    border: 1px solid rgba(209, 183, 157, 0.42);
+    border: 1px solid rgba(111, 78, 55, 0.24);
     border-radius: 50%;
     background: url("../assets/brand/luvie-logo.webp") center / cover no-repeat;
-    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.28);
+    box-shadow: 0 8px 22px rgba(83, 57, 40, 0.15);
 }
 
 .brand strong {
@@ -103,9 +105,9 @@ a {
     min-height: 46px;
     padding: 0 18px;
     border-radius: 8px;
-    border: 1px solid rgba(209, 183, 157, 0.4);
-    background: rgba(139, 115, 85, 0.24);
-    color: var(--text);
+    border: 1px solid #6f4e37;
+    background: linear-gradient(135deg, #8a5a3b, #6f4e37);
+    color: #fffaf3;
     text-decoration: none;
     font-weight: 700;
 }
@@ -154,9 +156,9 @@ h1 {
     overflow: hidden;
     border: 1px solid var(--line);
     border-radius: 8px;
-    background: rgba(42, 45, 48, 0.82);
+    background: rgba(255, 251, 245, 0.9);
     text-decoration: none;
-    box-shadow: 0 24px 70px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 20px 58px rgba(83, 57, 40, 0.12);
 }
 
 .article-card img {
@@ -168,7 +170,7 @@ h1 {
 
 .article-card img.catalog-cover {
     object-fit: contain;
-    background: #191817;
+    background: #e2d3bf;
 }
 
 .article-card div {
@@ -213,14 +215,14 @@ h1 {
     border: 1px solid var(--line);
     border-radius: 999px;
     color: var(--muted-strong);
-    background: rgba(201, 214, 222, 0.05);
+    background: rgba(255, 251, 245, 0.66);
     text-decoration: none;
     font-size: 13px;
 }
 
 .resource-topic-nav a:hover,
 .resource-topic-nav a:focus-visible {
-    border-color: rgba(209, 183, 157, 0.58);
+    border-color: rgba(111, 78, 55, 0.42);
     color: var(--text);
 }
 
@@ -261,7 +263,7 @@ h1 {
     padding: 34px;
     border: 1px solid var(--line);
     border-radius: 8px;
-    background: rgba(42, 45, 48, 0.78);
+    background: rgba(255, 251, 245, 0.9);
 }
 
 .article-body img {
@@ -278,15 +280,15 @@ h1 {
 }
 
 .article-visual { margin: 26px 0 34px; }
-.article-visual img { display: block; width: 100%; max-height: 520px; object-fit: cover; border: 1px solid var(--line); border-radius: 8px; background: rgba(255,255,255,.04); }
+.article-visual img { display: block; width: 100%; max-height: 520px; object-fit: cover; border: 1px solid var(--line); border-radius: 8px; background: #eadfce; }
 .article-visual figcaption { margin-top: 9px; color: var(--muted); font-size: 12px; line-height: 1.5; }
 
 .table-wrap { width: 100%; overflow-x: auto; margin: 22px 0 30px; }
 .table-wrap table { width: 100%; min-width: 680px; border-collapse: collapse; }
 .table-wrap th, .table-wrap td { padding: 14px 16px; border: 1px solid var(--line); text-align: left; vertical-align: top; }
-.table-wrap th { background: rgba(201, 214, 222, 0.08); color: var(--text); }
+.table-wrap th { background: rgba(139, 94, 60, 0.1); color: var(--text); }
 .table-wrap td { color: var(--muted-strong); }
-.note-box { margin: 34px 0; padding: 24px; border: 1px solid var(--line-strong); border-radius: 8px; background: rgba(82, 97, 106, 0.34); }
+.note-box { margin: 34px 0; padding: 24px; border: 1px solid var(--line-strong); border-radius: 8px; background: rgba(183, 142, 103, 0.18); }
 .note-box h2 { margin-top: 0; }
 
 .article-body h3 {
@@ -297,9 +299,9 @@ h1 {
 .article-path {
     margin: 8px 0 38px;
     padding: 20px;
-    border: 1px solid rgba(209, 183, 157, 0.3);
+    border: 1px solid rgba(111, 78, 55, 0.24);
     border-radius: 8px;
-    background: rgba(139, 115, 85, 0.12);
+    background: rgba(183, 142, 103, 0.12);
 }
 
 .article-path > span {
@@ -323,23 +325,23 @@ h1 {
     border: 1px solid var(--line);
     border-radius: 8px;
     color: var(--text);
-    background: rgba(30, 32, 34, 0.42);
+    background: rgba(255, 251, 245, 0.72);
     text-decoration: none;
     line-height: 1.45;
 }
 
 .article-path__links a:hover,
 .article-path__links a:focus-visible {
-    border-color: rgba(209, 183, 157, 0.58);
-    background: rgba(139, 115, 85, 0.18);
+    border-color: rgba(111, 78, 55, 0.42);
+    background: rgba(183, 142, 103, 0.18);
 }
 
 .authority-evidence {
     margin: 0 0 38px;
     padding: 22px 24px;
-    border: 1px solid rgba(201, 214, 222, 0.22);
+    border: 1px solid rgba(111, 78, 55, 0.2);
     border-radius: 8px;
-    background: rgba(201, 214, 222, 0.06);
+    background: rgba(255, 251, 245, 0.68);
 }
 
 .authority-evidence > span {
@@ -386,7 +388,7 @@ h1 {
     padding: 14px 16px;
     border: 1px solid var(--line);
     border-radius: 8px;
-    background: rgba(30, 32, 34, 0.35);
+    background: rgba(255, 251, 245, 0.7);
 }
 
 .breadcrumbs,
@@ -427,7 +429,7 @@ h1 {
 .context-link {
     border: 1px solid var(--line);
     border-radius: 8px;
-    background: rgba(201, 214, 222, 0.05);
+    background: rgba(255, 251, 245, 0.66);
 }
 
 .faq-jump-links a {
@@ -471,7 +473,7 @@ h1 {
     border: 1px solid var(--line);
     border-radius: 8px;
     padding: 14px 16px;
-    background: rgba(201, 214, 222, 0.04);
+    background: rgba(255, 251, 245, 0.64);
 }
 
 .faq-list summary {
@@ -494,7 +496,7 @@ h1 {
     padding: 22px;
     border: 1px solid var(--line);
     border-radius: 8px;
-    background: rgba(82, 97, 106, 0.42);
+    background: rgba(235, 221, 203, 0.78);
 }
 
 .fact-card span,
