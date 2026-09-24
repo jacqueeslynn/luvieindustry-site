@@ -8,7 +8,12 @@ const seeds = [
   "can wpc wall panels",
   "are pu stone panels",
   "are uv marble sheets",
-  "how much wall panel"
+  "how much wall panel",
+  "what are uv marble sheets",
+  "how many wpc wall panels",
+  "wall panel trims",
+  "import wall panels from china",
+  "wall panel trends 2026"
 ];
 
 const records = [];

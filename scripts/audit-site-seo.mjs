@@ -12,6 +12,8 @@ const titles = new Map();
 const descriptions = new Map();
 const incoming = new Map(articleFiles.map((file) => [file, 0]));
 const seriesImages = new Map();
+const latestSeriesFiles = [];
+let latestArticleModified = '';
 
 const add = (file, message) => issues.push(`${file}: ${message}`);
 const text = (html) => html.replace(/<[^>]+>/g, '').replaceAll('&amp;', '&').trim();
@@ -22,6 +24,7 @@ for (const file of articleFiles) {
   const description = source.match(/<meta name="description" content="([^"]*)">/)?.[1] ?? '';
   const canonical = source.match(/<link rel="canonical" href="([^"]+)">/)?.[1] ?? '';
   const contentSeries = source.match(/<meta name="content-series" content="([^"]+)">/)?.[1] ?? '';
+  const modified = source.match(/<meta property="article:modified_time" content="(\d{4}-\d{2}-\d{2})">/)?.[1] ?? '';
   const socialImage = source.match(/<meta property="og:image" content="([^"]+)">/)?.[1] ?? '';
   const h1Count = (source.match(/<h1\b/g) ?? []).length;
   const topicBlock = source.match(/<!-- topic-cluster-links:start -->([\s\S]*?)<!-- topic-cluster-links:end -->/)?.[1] ?? '';
@@ -40,10 +43,12 @@ for (const file of articleFiles) {
   if (!source.includes('<meta property="og:title"')) add(file, 'missing Open Graph title');
   if (!source.includes('<meta name="twitter:title"')) add(file, 'missing Twitter title');
   if (contentSeries) {
+    if (contentSeries === '2026-v8') latestSeriesFiles.push(file);
     if (!socialImage) add(file, `missing Open Graph image for ${contentSeries}`);
     else if (seriesImages.has(`${contentSeries}:${socialImage}`)) add(file, `reuses series hero image from ${seriesImages.get(`${contentSeries}:${socialImage}`)}`);
     else seriesImages.set(`${contentSeries}:${socialImage}`, file);
   }
+  if (modified > latestArticleModified) latestArticleModified = modified;
   if (topicTargets.length !== 4) add(file, `expected 4 topic links, found ${topicTargets.length}`);
   if (!externalSources.length) add(file, 'missing contextual external authority source');
   if (file !== 'wall-panel-standards-evidence-guide.html' && !source.includes('<!-- authority-evidence:start -->')) add(file, 'missing independent-evidence block');
@@ -85,6 +90,15 @@ if (!hub.includes('"@type": "ItemList"')) add('articles/index.html', 'missing It
 const sitemap = fs.readFileSync(path.join(root, 'sitemap.xml'), 'utf8');
 for (const file of articleFiles) {
   if (!sitemap.includes(`https://luvieindustry.com/articles/${file}`)) add('sitemap.xml', `missing ${file}`);
+}
+const rootLastmod = sitemap.match(/<loc>https:\/\/luvieindustry\.com\/<\/loc>\s*<lastmod>([^<]+)<\/lastmod>/)?.[1] ?? '';
+const hubLastmod = sitemap.match(/<loc>https:\/\/luvieindustry\.com\/articles\/<\/loc>\s*<lastmod>([^<]+)<\/lastmod>/)?.[1] ?? '';
+if (rootLastmod !== latestArticleModified) add('sitemap.xml', `homepage lastmod ${rootLastmod || 'missing'} does not match latest article ${latestArticleModified}`);
+if (hubLastmod !== latestArticleModified) add('sitemap.xml', `resource hub lastmod ${hubLastmod || 'missing'} does not match latest article ${latestArticleModified}`);
+
+const homepage = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+for (const file of latestSeriesFiles) {
+  if (!homepage.includes(`href="articles/${file}"`)) add('index.html', `missing direct discovery link for ${file}`);
 }
 
 for (const file of ['index.html', 'articles/index.html', ...articleFiles.map((name) => `articles/${name}`)]) {

@@ -27,7 +27,10 @@ const groups = [
       'self-adhesive-grooved-wall-panel-buyer-guide.html',
       'spc-flooring-distributor-spec-guide.html',
       'pvc-wall-panels-vs-ceramic-tile-importers.html',
+      'uv-marble-sheet-buyer-guide.html',
       'fluted-wall-panels-distributor-guide.html',
+      'wall-panel-trims-accessories-guide.html',
+      'wall-panel-trends-2026-distributor-guide.html',
       'pu-stone-panels-vs-natural-stone.html',
       'pvc-ceiling-panels-vs-wall-panels.html',
       'choose-pvc-wall-panel-thickness-profile.html',
@@ -53,12 +56,14 @@ const groups = [
     title: 'Plan quantities, product mixes, branding and shipping',
     files: [
       'calculate-wall-panel-order-quantity.html',
+      'wpc-wall-panel-dimensions-coverage-calculator.html',
       'wall-panel-product-mix-by-project.html',
       'three-tier-interior-finish-range-pvc-spc-decor.html',
       'mixed-container-wall-panel-orders.html',
       'wall-panel-export-packaging-checklist.html',
       'oem-private-label-wall-panels.html',
       'fob-vs-cif-wall-panel-orders.html',
+      'import-wall-panels-china-document-checklist.html',
     ],
   },
   {
@@ -83,7 +88,10 @@ const cardTitles = {
   'self-adhesive-grooved-wall-panel-buyer-guide.html': 'Gold-Grooved Self-Adhesive Wall Panels: Buyer Guide',
   'spc-flooring-distributor-spec-guide.html': 'SPC Flooring Specifications: Distributor Buyer Guide',
   'pvc-wall-panels-vs-ceramic-tile-importers.html': 'PVC Wall Panels vs Ceramic Tile for Importers',
+  'uv-marble-sheet-buyer-guide.html': 'UV Marble Sheet Buyer Guide: Structure, Finish and Samples',
   'fluted-wall-panels-distributor-guide.html': 'Fluted Wall Panels: Profiles, Uses and Buyer Guide',
+  'wall-panel-trims-accessories-guide.html': 'Wall Panel Trims and Accessories: Complete Buyer Guide',
+  'wall-panel-trends-2026-distributor-guide.html': '2026 Wall Panel Trends: What Distributors Should Sample',
   'pu-stone-panels-vs-natural-stone.html': 'PU Stone Panels vs Natural Stone: Which Should You Choose?',
   'pvc-ceiling-panels-vs-wall-panels.html': 'PVC Ceiling Panels vs Wall Panels: Key Differences',
   'choose-pvc-wall-panel-thickness-profile.html': 'PVC Wall Panel Thickness and Profiles: What to Check',
@@ -95,12 +103,14 @@ const cardTitles = {
   'reduce-wall-panel-batch-color-differences.html': 'How to Prevent Wall Panel Color Differences Between Batches',
   'luvie-order-process-inquiry-to-shipment.html': 'Wall Panel Order Process: From Inquiry to Shipment',
   'calculate-wall-panel-order-quantity.html': 'How Many Wall Panels Do I Need? Order Calculation Guide',
+  'wpc-wall-panel-dimensions-coverage-calculator.html': 'WPC Wall Panel Dimensions and Coverage Calculator',
   'wall-panel-product-mix-by-project.html': 'Best Wall Panel Mix for Hotels, Retail and Homes',
   'three-tier-interior-finish-range-pvc-spc-decor.html': 'How Distributors Build a Sellable Interior Finish Range',
   'mixed-container-wall-panel-orders.html': 'Mixed-Container Wall Panel Orders: A Buyer Planning Guide',
   'wall-panel-export-packaging-checklist.html': 'Wall Panel Packaging Checklist for Overseas Buyers',
   'oem-private-label-wall-panels.html': 'OEM Wall Panels: Private Label Checklist Before Production',
   'fob-vs-cif-wall-panel-orders.html': 'FOB vs CIF for Wall Panel Orders: Which Is Better?',
+  'import-wall-panels-china-document-checklist.html': 'Import Wall Panels from China: Document and Cost Checklist',
   'hotel-corridor-fluted-wall-panel-case.html': 'Hotel Corridor Wall Panels: Fluted Panel Project Guide',
   'apartment-bedroom-feature-wall-case.html': 'Bedroom Feature Wall Panels: Layout and Ordering Guide',
   'office-lobby-decorative-wall-panel-case.html': 'Office Lobby Wall Panels: Design and Project Buyer Guide',
@@ -179,6 +189,11 @@ for (const file of groups.flatMap((group) => group.files)) {
 const publishedGroups = groups.map((group) => ({ ...group, files: group.files.filter((file) => cards.has(file)) }));
 const orderedFiles = publishedGroups.flatMap((group) => group.files);
 if (cards.size !== orderedFiles.length) throw new Error(`Expected ${orderedFiles.length} cards, found ${cards.size}.`);
+const latestModified = orderedFiles.reduce((latest, file) => {
+  const article = fs.readFileSync(path.join(root, 'articles', file), 'utf8');
+  const modified = article.match(/<meta property="article:modified_time" content="(\d{4}-\d{2}-\d{2})">/)?.[1] ?? '';
+  return modified > latest ? modified : latest;
+}, '2026-09-16');
 
 const groupedCards = publishedGroups.map((group) => `
             <div class="article-section-heading" id="${group.id}">
@@ -207,6 +222,7 @@ source = source.replace(
 source = source
   .replace(/<title>[\s\S]*?<\/title>/, '<title>Wall Panel Buying Guides: PVC, WPC &amp; PU Stone | Luvie</title>')
   .replace(/<meta name="description" content="[^"]*">/, '<meta name="description" content="Compare PVC, WPC, PU stone and UV wall panels with practical guides on waterproofing, samples, quality, ordering, packaging and supplier selection.">')
+  .replace(/<meta name="last-modified" content="[^"]*">/, `<meta name="last-modified" content="${latestModified}">`)
   .replace(/<meta property="og:title" content="[^"]*">/, '<meta property="og:title" content="Wall Panel Buying Guides: PVC, WPC &amp; PU Stone | Luvie">')
   .replace(/<meta property="og:description" content="[^"]*">/, '<meta property="og:description" content="Choose, inspect and order wall panel systems with practical guides for importers and distributors.">')
   .replace(/<meta property="og:image" content="[^"]*">/, '<meta property="og:image" content="https://luvieindustry.com/assets/articles/wall-panel-buyer-guide-hero.webp">')
@@ -234,11 +250,7 @@ source = source.replace(
     Object.assign(collection, {
       name: 'Wall Panel Buying Guides: PVC, WPC and PU Stone',
       description: 'Practical wall panel selection, quality, ordering and project guides for importers and distributors.',
-      dateModified: orderedFiles.reduce((latest, file) => {
-        const article = fs.readFileSync(path.join(root, 'articles', file), 'utf8');
-        const modified = article.match(/<meta property="article:modified_time" content="(\d{4}-\d{2}-\d{2})">/)?.[1] ?? '';
-        return modified > latest ? modified : latest;
-      }, '2026-09-16'),
+      dateModified: latestModified,
     });
     const itemList = {
       '@type': 'ItemList',
