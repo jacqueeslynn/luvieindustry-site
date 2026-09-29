@@ -178,6 +178,11 @@ body::after {
     color: rgba(255, 250, 243, 0.78);
 }
 
+.hero-media-topline strong,
+.hero-caption strong {
+    color: #fffaf3;
+}
+
 .hero-pill,
 .capsule-button,
 .section-tag,
