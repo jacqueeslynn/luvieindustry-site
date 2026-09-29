@@ -74,11 +74,46 @@ body::after {
 }
 
 .nav-links a.is-active,
+.nav-links a.is-current,
 .nav-links a:hover,
 .nav-links a:focus-visible {
     color: var(--text);
     background: rgba(139, 94, 60, 0.1);
     border-color: rgba(111, 78, 55, 0.2);
+}
+
+.nav-cta,
+.capsule-nav,
+.tab-list,
+.hero-proof,
+.hero-route,
+.trust-bar,
+.market-support,
+.systems-grid .system-card:first-child,
+.compare-column--plain,
+.compare-column--luvie,
+.tab-panel.is-active .compare-column--luvie {
+    border-color: var(--line);
+    background: linear-gradient(155deg, #fffaf3, #e9dac6);
+    color: var(--text);
+    box-shadow: 0 14px 38px rgba(83, 57, 40, 0.11);
+}
+
+.compare-column--plain,
+.compare-column--luvie {
+    opacity: 1;
+}
+
+.capsule-button.is-active,
+.hero-route a,
+.hero-proof-item,
+.trust-item {
+    color: var(--text);
+}
+
+.capsule-button.is-active {
+    border-color: var(--line-strong);
+    background: #ead9c4;
 }
 
 .page-shell,

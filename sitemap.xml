@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://luvieindustry.com/</loc>
-        <lastmod>2026-09-24</lastmod>
+        <lastmod>2026-09-29</lastmod>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://luvieindustry.com/articles/</loc>
-        <lastmod>2026-09-24</lastmod>
+        <lastmod>2026-09-29</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
@@ -183,6 +183,31 @@
     <url>
         <loc>https://luvieindustry.com/articles/wall-panel-trends-2026-distributor-guide.html</loc>
         <lastmod>2026-09-24</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://luvieindustry.com/articles/install-pvc-wall-panels-over-tile.html</loc>
+        <lastmod>2026-09-29</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://luvieindustry.com/articles/wall-panel-fire-rating-test-report-guide.html</loc>
+        <lastmod>2026-09-29</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://luvieindustry.com/articles/low-voc-wall-panels-emissions-evidence.html</loc>
+        <lastmod>2026-09-29</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://luvieindustry.com/articles/how-to-clean-wall-panels-maintenance-guide.html</loc>
+        <lastmod>2026-09-29</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://luvieindustry.com/articles/wall-panel-landed-cost-per-square-metre.html</loc>
+        <lastmod>2026-09-29</lastmod>
         <priority>0.8</priority>
     </url>
 </urlset>
