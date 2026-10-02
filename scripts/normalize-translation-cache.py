@@ -15,6 +15,9 @@ REPLACEMENTS = {
         "costo de tierra": "costo total puesto en destino",
         "coste de aterrizaje": "costo total puesto en destino",
         "promesa de acciones": "promesa de disponibilidad",
+        "compradoes": "compradores", "distribuidoes": "distribuidores", "impotadoes": "importadores",
+        "contenedoes": "contenedores", "instaladoes": "instaladores", "proveedoes": "proveedores",
+        "sujetadoes": "sujetadores", "selladoes": "selladores", "operadoes": "operadores",
     },
     "pt-br": {
         "Manufacturing": "Fabricação", "Haining Luvie Import & Export Co., Ltd.": "Haining Luvie Import & Export Co., Ltd.",
@@ -36,6 +39,9 @@ REPLACEMENTS = {
 }
 OVERRIDES = {
     "es": {
+        "By Luvie Industry": "Por Luvie Industry",
+        "By Luvie Industry · Buyer resource": "Por Luvie Industry · Guía para compradores",
+        "By Luvie Industry · Reviewed 24 August 2026": "Por Luvie Industry · Revisado el 24 de agosto de 2026",
         "Landed cost": "Costo total puesto en destino", "Resources": "Guías",
         "Bedroom Feature Wall Panels: Layout, Lighting and Ordering": "Paneles decorativos para el dormitorio: diseño, iluminación y pedido",
         "Gulf Hotel Wall Panels: Check Fire Evidence Before Approving the Finish": "Paneles de pared para hoteles del Golfo: revise las pruebas de reacción al fuego antes de aprobar el acabado",
