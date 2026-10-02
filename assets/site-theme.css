@@ -238,6 +238,32 @@ body::after {
     color: var(--text);
 }
 
+@media (max-width: 860px) {
+    .nav-links {
+        max-width: 100%;
+        justify-content: flex-start;
+        overflow-x: auto;
+        scroll-snap-type: x proximity;
+    }
+
+    .nav-links a {
+        flex: 0 0 auto;
+        white-space: nowrap;
+        scroll-snap-align: start;
+    }
+
+    .scroll-indicator {
+        display: none;
+    }
+}
+
+html[lang="ar"] .hero-heading h1 {
+    font-size: clamp(2rem, 6.5vw, 4rem);
+    line-height: 1.2;
+    letter-spacing: 0;
+    overflow-wrap: anywhere;
+}
+
 .form-group input:focus,
 .form-group textarea:focus,
 a:focus-visible,
