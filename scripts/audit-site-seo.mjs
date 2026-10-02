@@ -42,6 +42,8 @@ for (const file of articleFiles) {
   if ((source.match(/<meta name="twitter:title"/g) ?? []).length !== 1) add(file, 'duplicate Twitter title');
   if (!source.includes('<meta property="og:title"')) add(file, 'missing Open Graph title');
   if (!source.includes('<meta name="twitter:title"')) add(file, 'missing Twitter title');
+  if (!source.includes('G-VCLMP6Q5KJ')) add(file, 'missing GA4 page tag');
+  if (!source.includes('1331142262420820')) add(file, 'missing Meta Pixel page tag');
   if (contentSeries) {
     if (contentSeries === '2026-v8') latestSeriesFiles.push(file);
     if (!socialImage) add(file, `missing Open Graph image for ${contentSeries}`);
@@ -97,6 +99,9 @@ if (rootLastmod !== latestArticleModified) add('sitemap.xml', `homepage lastmod 
 if (hubLastmod !== latestArticleModified) add('sitemap.xml', `resource hub lastmod ${hubLastmod || 'missing'} does not match latest article ${latestArticleModified}`);
 
 const homepage = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+if (homepage.includes('data-meta-lead') || /fbq\(['"]track['"],\s*['"]Lead['"]/.test(homepage)) {
+  add('index.html', 'catalog or email-intent clicks must not be counted as confirmed leads');
+}
 for (const file of latestSeriesFiles) {
   if (!homepage.includes(`href="articles/${file}"`)) add('index.html', `missing direct discovery link for ${file}`);
 }
