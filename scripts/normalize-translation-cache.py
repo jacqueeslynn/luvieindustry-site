@@ -39,6 +39,13 @@ REPLACEMENTS = {
 }
 OVERRIDES = {
     "es": {
+        "Hotel feature wall": "Pared decorativa de hotel",
+        "02 / Hotel feature wall": "02 / Pared decorativa de hotel",
+        "Finish, cleaning and fire evidence": "Acabado, limpieza y documentación de reacción al fuego",
+        "Plan the trims": "Planifique las molduras",
+        "Match the test report": "Compruebe la correspondencia del informe de ensayo",
+        "Review the fixing": "Revise el sistema de fijación",
+        "Where should your project start?": "¿Por dónde empezar con su proyecto?",
         "By Luvie Industry": "Por Luvie Industry",
         "By Luvie Industry · Buyer resource": "Por Luvie Industry · Guía para compradores",
         "By Luvie Industry · Reviewed 24 August 2026": "Por Luvie Industry · Revisado el 24 de agosto de 2026",
@@ -56,6 +63,11 @@ OVERRIDES = {
         "PVC Wall Panels in Coastal Humid Interiors: Buyer Guide | Luvie": "Paneles de PVC para interiores costeros húmedos | Luvie",
     },
     "pt-br": {
+        "Hotel feature wall": "Parede de destaque em hotel",
+        "02 / Hotel feature wall": "02 / Parede de destaque em hotel",
+        "Finish, cleaning and fire evidence": "Acabamento, limpeza e laudos de reação ao fogo",
+        "Match the test report": "Confira a correspondência do laudo de ensaio",
+        "Review the fixing": "Revise o sistema de fixação",
         "Landed cost": "Custo total posto no destino", "Resources": "Guias",
         "Gulf Hotel Wall Panels: Check Fire Evidence Before Approving the Finish": "Painéis de parede para hotéis no Golfo: verifique os laudos de reação ao fogo antes de aprovar o acabamento",
         "PVC Ceiling Installation in Brazil: What Buyers Should Check Before Ordering": "Instalação de forro de PVC no Brasil: o que verificar antes de comprar",
@@ -69,6 +81,12 @@ OVERRIDES = {
         "PVC Wall Panels in Coastal Humid Interiors: Buyer Guide | Luvie": "Painéis de PVC para interiores úmidos no litoral | Luvie",
     },
     "ar": {
+        "Hotel feature wall": "جدار زخرفي في فندق",
+        "02 / Hotel feature wall": "02 / جدار زخرفي في فندق",
+        "Finish, cleaning and fire evidence": "التشطيب والتنظيف وتقارير اختبار الحريق",
+        "Plan the trims": "خطط لحليات التشطيب",
+        "Match the test report": "طابق تقرير الاختبار مع المنتج",
+        "Review the fixing": "راجع طريقة التثبيت",
         "Landed cost": "التكلفة الإجمالية بعد الاستيراد",
         "By Luvie Industry · Buyer resource": "بقلم Luvie Industry · دليل للمشترين",
         "PVC vs WPC Wall Panels: Which Is Better for Your Market?": "ألواح الجدران PVC أم WPC: أيهما أنسب لسوقك؟",

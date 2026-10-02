@@ -2864,6 +2864,7 @@
         .locale-nav a:focus-visible {outline:3px solid #b98b64;outline-offset:2px}
     </style>
     <link rel="stylesheet" href="assets/site-theme.css?v=20261003b">
+    <link rel="stylesheet" href="assets/site-interactions.css?v=20261003b">
 </head>
 <body>
     <noscript>
@@ -2939,11 +2940,11 @@
                                     <span>WhatsApp Sales</span>
                                 </span>
                             </a>
-                            <a class="button-secondary" href="articles/wall-panel-buyer-faq.html" data-meta-click="Wall Panel Buyer FAQ">
+                            <a class="button-secondary" href="#project-finder" data-meta-click="Project Material Finder">
                                 <span class="action-trigger__icon" aria-hidden="true">?</span>
                                 <span class="action-trigger__label">
-                                    <strong>Wall Panel Buyer FAQ</strong>
-                                    <span>Common Google Questions</span>
+                                    <strong>Find Your Starting Point</strong>
+                                    <span>Interactive Project Guide</span>
                                 </span>
                             </a>
                         </div>
@@ -3024,6 +3025,43 @@
                         </div>
                     </div>
                 </div>
+
+                <section class="decision-studio" id="project-finder" aria-labelledby="decision-studio-title">
+                    <div class="decision-studio__heading">
+                        <div>
+                            <span class="decision-studio__eyebrow">Material selection studio / 01</span>
+                            <h2 id="decision-studio-title">Where should your project start?</h2>
+                        </div>
+                        <p>Select the condition closest to your project. See a product family to review, the questions to ask, and the next buyer guide. This is a planning aid, not product approval.</p>
+                    </div>
+                    <div class="decision-studio__layout">
+                        <div class="decision-studio__choices" role="tablist" aria-label="Project conditions">
+                            <button class="decision-choice is-selected" type="button" role="tab" id="decision-tab-renovation" aria-controls="decision-panel-renovation" aria-selected="true" tabindex="0" data-decision-tab="renovation"><span>01</span><strong>Interior renovation</strong><small>Existing walls and fast visual renewal</small></button>
+                            <button class="decision-choice" type="button" role="tab" id="decision-tab-hotel" aria-controls="decision-panel-hotel" aria-selected="false" tabindex="-1" data-decision-tab="hotel"><span>02</span><strong>Hotel feature wall</strong><small>Finish, cleaning and fire evidence</small></button>
+                            <button class="decision-choice" type="button" role="tab" id="decision-tab-coastal" aria-controls="decision-panel-coastal" aria-selected="false" tabindex="-1" data-decision-tab="coastal"><span>03</span><strong>Humid coastal interior</strong><small>Ventilation, joints and substrate</small></button>
+                            <button class="decision-choice" type="button" role="tab" id="decision-tab-sun" aria-controls="decision-panel-sun" aria-selected="false" tabindex="-1" data-decision-tab="sun"><span>04</span><strong>Strong indoor sunlight</strong><small>Heat and UV evidence first</small></button>
+                        </div>
+                        <div class="decision-studio__results" aria-live="polite">
+                            <article class="decision-panel" role="tabpanel" id="decision-panel-renovation" aria-labelledby="decision-tab-renovation" data-decision-panel="renovation">
+                                <div class="decision-panel__image"><img src="assets/material-photos/material-1.webp" alt="Close-up of a PVC wall-panel sample" loading="lazy"></div>
+                                <div class="decision-panel__copy"><span class="decision-panel__index">01 / Interior renovation</span><h3>Review PVC wall-panel options.</h3><p>Start with the existing wall, not the finish photo. Check substrate condition, moisture, fixing method, trims and the exact sample before specifying a panel.</p><div class="decision-panel__checks"><span>Check the substrate</span><span>Approve the sample</span><span>Plan the trims</span></div><div class="decision-panel__links"><a href="products/pvc-wall-panels.html">Explore PVC panels <span aria-hidden="true">↗</span></a><a href="articles/install-pvc-wall-panels-over-tile.html">Read the installation guide <span aria-hidden="true">↗</span></a><a href="assets/catalogs/dream-house-wall-panel-catalog.pdf">View PVC catalog PDF <span aria-hidden="true">↗</span></a></div></div>
+                            </article>
+                            <article class="decision-panel" role="tabpanel" id="decision-panel-hotel" aria-labelledby="decision-tab-hotel" data-decision-panel="hotel" hidden>
+                                <div class="decision-panel__image"><img src="assets/articles/gulf-hospitality-panel-evidence.webp" alt="Illustrative hotel material-selection desk with panel samples" loading="lazy"></div>
+                                <div class="decision-panel__copy"><span class="decision-panel__index">02 / Hotel feature wall</span><h3>Compare fluted finishes with the required evidence.</h3><p>A visual shortlist is only the first step. Match the exact SKU, mounting system, cleaning plan and fire documentation to the room and local approval route.</p><div class="decision-panel__checks"><span>Identify the room</span><span>Match the test report</span><span>Review the fixing</span></div><div class="decision-panel__links"><a href="products/wpc-wall-panels.html">Explore WPC panels <span aria-hidden="true">↗</span></a><a href="articles/gulf-hotel-wall-panel-fire-evidence-checklist.html">Read the evidence checklist <span aria-hidden="true">↗</span></a><a href="assets/catalogs/wpc-collection-2026.pdf">View WPC catalog PDF <span aria-hidden="true">↗</span></a></div></div>
+                            </article>
+                            <article class="decision-panel" role="tabpanel" id="decision-panel-coastal" aria-labelledby="decision-tab-coastal" data-decision-panel="coastal" hidden>
+                                <div class="decision-panel__image"><img src="assets/articles/coastal-humid-interior-panel-check.webp" alt="Illustrative coastal interior with wall-panel sample" loading="lazy"></div>
+                                <div class="decision-panel__copy"><span class="decision-panel__index">03 / Humid coastal interior</span><h3>Solve the moisture detail before choosing a surface.</h3><p>Review water sources, ventilation, wall dryness, joints and edge details. A decorative finish does not replace waterproofing or correct a damp substrate.</p><div class="decision-panel__checks"><span>Trace moisture</span><span>Inspect ventilation</span><span>Detail the joints</span></div><div class="decision-panel__links"><a href="products/pvc-wall-panels.html">Explore PVC panels <span aria-hidden="true">↗</span></a><a href="articles/pvc-wall-panels-coastal-humid-interiors.html">Read the coastal buyer guide <span aria-hidden="true">↗</span></a><a href="assets/catalogs/dream-house-wall-panel-catalog.pdf">View PVC catalog PDF <span aria-hidden="true">↗</span></a></div></div>
+                            </article>
+                            <article class="decision-panel" role="tabpanel" id="decision-panel-sun" aria-labelledby="decision-tab-sun" data-decision-panel="sun" hidden>
+                                <div class="decision-panel__image"><img src="assets/articles/pvc-hot-climate-sample-review.webp" alt="Illustrative panel samples beside strong window light" loading="lazy"></div>
+                                <div class="decision-panel__copy"><span class="decision-panel__index">04 / Strong indoor sunlight</span><h3>Confirm the exposure before selecting a panel.</h3><p>Ask whether the wall is shaded, behind glazing or outdoors. Request product-specific UV and heat evidence; do not treat an indoor decorative panel as an exterior-rated product.</p><div class="decision-panel__checks"><span>Map the sunlight</span><span>Check the exact SKU</span><span>Review test conditions</span></div><div class="decision-panel__links"><a href="articles/pvc-wall-panels-direct-sun-hot-climate.html">Read the hot-climate checklist <span aria-hidden="true">↗</span></a><a href="articles/evaluate-wall-panel-samples.html">Learn to evaluate samples <span aria-hidden="true">↗</span></a><a href="assets/catalogs/dream-house-wall-panel-catalog.pdf">View finish catalog PDF <span aria-hidden="true">↗</span></a></div></div>
+                            </article>
+                        </div>
+                    </div>
+                    <p class="decision-studio__note">For any selected finish, confirm the product data, intended use and local project requirements before ordering.</p>
+                </section>
 
                 <nav class="buyer-guide-strip" aria-label="Popular wall panel buying guides">
                     <div class="buyer-guide-strip__intro">
@@ -4382,5 +4420,7 @@
             });
         })();
     </script>
+    <script defer src="assets/vendor/gsap.min.js"></script>
+    <script defer src="assets/site-interactions.js?v=20261003b"></script>
 </body>
 </html>

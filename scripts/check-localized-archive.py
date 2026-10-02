@@ -95,6 +95,16 @@ for source_route in ("/", "/products/pvc-wall-panels.html", "/products/wpc-wall-
         canonical = soup.find("link", rel="canonical")
         if not canonical or canonical.get("href") != BASE + target_route:
             errors.append(f"core canonical: {target_route}")
+        if source_route == "/":
+            studio = soup.find(id="project-finder")
+            tabs = studio.find_all(attrs={"data-decision-tab": True}) if studio else []
+            panels = studio.find_all(attrs={"data-decision-panel": True}) if studio else []
+            if len(tabs) != 4 or len(panels) != 4:
+                errors.append(f"project finder parity: {target_route}")
+            elif any(tab.get("aria-controls") != panel.get("id") for tab, panel in zip(tabs, panels)):
+                errors.append(f"project finder tab pairing: {target_route}")
+            if not soup.find("script", src=re.compile(r"/assets/site-interactions\.js")):
+                errors.append(f"project finder script: {target_route}")
         for tag in soup.find_all(True):
             for key in ("href", "src"):
                 value = tag.get(key)
