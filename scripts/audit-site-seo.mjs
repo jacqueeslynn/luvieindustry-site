@@ -99,8 +99,11 @@ if (rootLastmod !== latestArticleModified) add('sitemap.xml', `homepage lastmod 
 if (hubLastmod !== latestArticleModified) add('sitemap.xml', `resource hub lastmod ${hubLastmod || 'missing'} does not match latest article ${latestArticleModified}`);
 
 const homepage = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
-if (homepage.includes('data-meta-lead') || /fbq\(['"]track['"],\s*['"]Lead['"]/.test(homepage)) {
+if (homepage.includes('data-meta-lead')) {
   add('index.html', 'catalog or email-intent clicks must not be counted as confirmed leads');
+}
+if (!homepage.includes("result.success !== 'true'") || !homepage.includes("window.gtag('event', 'generate_lead'") || !homepage.includes("window.fbq('track', 'Lead'")) {
+  add('index.html', 'confirmed website submissions must be the only source of lead events');
 }
 for (const file of latestSeriesFiles) {
   if (!homepage.includes(`href="articles/${file}"`)) add('index.html', `missing direct discovery link for ${file}`);

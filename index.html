@@ -9,7 +9,7 @@
     <meta name="description" content="Source PVC, WPC, fluted and decorative wall panel systems from Luvie, with buyer guides, catalogs, sample support and export order coordination.">
     <meta name="robots" content="index, follow, max-image-preview:large">
     <link rel="canonical" href="https://luvieindustry.com/">
-    <meta name="last-modified" content="2026-09-29">
+    <meta name="last-modified" content="2026-10-02">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Luvie Industry">
     <meta property="og:title" content="PVC &amp; WPC Wall Panel Manufacturer for Importers | Luvie">
@@ -2817,6 +2817,12 @@
             margin: 0;
         }
 
+        .form-error { display: none; margin: 0; color: #a33d2e; font-size: 13px; line-height: 1.5; }
+        .form-error.is-active { display: block; }
+        .form-privacy { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.5; }
+        .form-privacy a, .form-error a { color: var(--brand); text-decoration: underline; }
+        .form-honeypot { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+
         @media (max-width: 640px) {
             .quick-inquiry-btn {
                 bottom: 20px;
@@ -3025,6 +3031,9 @@
                     <a href="articles/import-wall-panels-china-document-checklist.html">Which documents are needed to import wall panels?</a>
                     <a href="articles/wall-panel-trends-2026-distributor-guide.html">Which 2026 wall panel trends should distributors test?</a>
                     <a href="articles/install-pvc-wall-panels-over-tile.html">Can PVC panels go over existing tile?</a>
+                    <a href="articles/can-pvc-wall-panels-go-on-plasterboard.html">Can PVC panels go on plasterboard?</a>
+                    <a href="articles/can-indoor-wpc-wall-panels-be-used-outside.html">Can indoor WPC panels be used outside?</a>
+                    <a href="articles/fluted-wall-panels-retail-store-checklist.html">Which fluted panels work in a retail store?</a>
                     <a href="articles/wall-panel-fire-rating-test-report-guide.html">How to verify a wall panel fire report</a>
                     <a href="articles/low-voc-wall-panels-emissions-evidence.html">What proves a low VOC wall panel claim?</a>
                     <a href="articles/how-to-clean-wall-panels-maintenance-guide.html">How should wall panels be cleaned?</a>
@@ -4204,7 +4213,7 @@
             <div id="formContainer">
                 <div class="modal-header">
                     <h3>Quick Inquiry</h3>
-                    <p>Contact our sales team directly, or prepare a detailed email inquiry below.</p>
+                    <p>Send your requirements directly from this page. Our sales team receives them by email.</p>
                 </div>
 
                 <div class="direct-contact-options">
@@ -4212,28 +4221,35 @@
                     <a href="mailto:jinsburg@luvieindustry.com?cc=globalsales@luvieindustry.com&subject=Wall%20Panel%20Inquiry">Send Email</a>
                 </div>
 
-                <form class="inquiry-form" id="inquiryForm">
+                <form class="inquiry-form" id="inquiryForm" method="POST" action="https://formsubmit.co/jinsburg@luvieindustry.com">
+                    <input type="hidden" name="_subject" value="New Luvie website inquiry">
+                    <input type="hidden" name="_cc" value="globalsales@luvieindustry.com">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_url" value="https://luvieindustry.com/">
+                    <div class="form-honeypot" aria-hidden="true"><label for="inquiryWebsite">Leave this field empty</label><input type="text" id="inquiryWebsite" name="_honey" tabindex="-1" autocomplete="off"></div>
                     <div class="form-group">
                         <label for="inquiryName">Name *</label>
-                        <input type="text" id="inquiryName" name="name" required placeholder="Your name">
+                        <input type="text" id="inquiryName" name="name" required maxlength="100" autocomplete="name" placeholder="Your name">
                     </div>
 
                     <div class="form-group">
                         <label for="inquiryEmail">Email *</label>
-                        <input type="email" id="inquiryEmail" name="email" required placeholder="example@company.com">
+                        <input type="email" id="inquiryEmail" name="email" required maxlength="160" autocomplete="email" placeholder="example@company.com">
                     </div>
 
                     <div class="form-group">
                         <label for="inquiryCompany">Company Name</label>
-                        <input type="text" id="inquiryCompany" name="company" placeholder="Company name (optional)">
+                        <input type="text" id="inquiryCompany" name="company" maxlength="160" autocomplete="organization" placeholder="Company name (optional)">
                     </div>
 
                     <div class="form-group">
                         <label for="inquiryMessage">Requirements Description *</label>
-                        <textarea id="inquiryMessage" name="message" required placeholder="Product type, quantity, application and destination market"></textarea>
+                        <textarea id="inquiryMessage" name="message" required maxlength="4000" placeholder="Product type, quantity, application and destination market"></textarea>
                     </div>
 
-                    <button type="submit" class="form-submit">Prepare Email Inquiry</button>
+                    <p class="form-privacy">We use these details only to reply to your inquiry. The form is processed by <a href="https://formsubmit.co/privacy.pdf" target="_blank" rel="noopener noreferrer">FormSubmit</a> and emailed to Luvie sales. Please do not include payment or other sensitive information.</p>
+                    <p class="form-error" id="formError" role="alert">We could not confirm your submission. Please <a href="mailto:jinsburg@luvieindustry.com?cc=globalsales@luvieindustry.com&subject=Wall%20Panel%20Inquiry">email our sales team</a> or use WhatsApp.</p>
+                    <button type="submit" class="form-submit">Send Inquiry</button>
                 </form>
             </div>
 
@@ -4242,8 +4258,8 @@
                     <circle cx="12" cy="12" r="10" stroke="#8b7355" stroke-width="2"/>
                     <path d="M8 12l2 2 4-4" stroke="#8b7355" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
-                <h4>Your inquiry has not been sent yet</h4>
-                <p>If your email app opened, review the draft and press Send there. This website does not receive or save the form. If nothing opened, <a id="preparedEmailLink" href="mailto:jinsburg@luvieindustry.com">open the prepared email again</a> or <a href="https://wa.me/306947135317?text=Hello%20Luvie%2C%20I%20would%20like%20to%20discuss%20wall%20panel%20products.">contact us on WhatsApp</a>.</p>
+                <h4>Inquiry submitted</h4>
+                <p>Thank you. The form service accepted your inquiry for delivery to Luvie sales. We will review your requirements and reply by email. You can also <a href="https://wa.me/306947135317?text=Hello%20Luvie%2C%20I%20just%20submitted%20a%20website%20inquiry.">contact us on WhatsApp</a>.</p>
             </div>
         </div>
     </div>
@@ -4257,6 +4273,7 @@
             const form = document.getElementById('inquiryForm');
             const formContainer = document.getElementById('formContainer');
             const successContainer = document.getElementById('formSuccess');
+            const errorMessage = document.getElementById('formError');
 
             // Open modal
             btn.addEventListener('click', function() {
@@ -4273,6 +4290,7 @@
                     form.reset();
                     formContainer.style.display = 'block';
                     successContainer.classList.remove('is-active');
+                    errorMessage.classList.remove('is-active');
                 }, 300);
             }
 
@@ -4293,48 +4311,41 @@
             });
 
             // Form submission
-            form.addEventListener('submit', function(e) {
+            form.addEventListener('submit', async function(e) {
                 e.preventDefault();
-
                 const submitBtn = form.querySelector('.form-submit');
                 submitBtn.disabled = true;
-                submitBtn.textContent = 'Preparing email...';
+                submitBtn.textContent = 'Sending...';
+                errorMessage.classList.remove('is-active');
 
-                // Get form data
-                const formData = {
-                    name: document.getElementById('inquiryName').value,
-                    email: document.getElementById('inquiryEmail').value,
-                    company: document.getElementById('inquiryCompany').value,
-                    message: document.getElementById('inquiryMessage').value,
-                    timestamp: new Date().toISOString()
-                };
+                const controller = new AbortController();
+                const timeout = setTimeout(() => controller.abort(), 15000);
+                try {
+                    const fields = Object.fromEntries(new FormData(form).entries());
+                    const response = await fetch('https://formsubmit.co/ajax/jinsburg@luvieindustry.com', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+                        body: JSON.stringify(fields),
+                        signal: controller.signal
+                    });
+                    const result = await response.json();
+                    if (!response.ok || (result.success !== 'true' && result.success !== true)) throw new Error('Submission not confirmed');
 
-                // Build email content
-                const emailSubject = encodeURIComponent('Wall Panel Inquiry');
-                const emailBody = encodeURIComponent(
-                    'Customer Information:\n' +
-                    'Name:' + formData.name + '\n' +
-                    'Email:' + formData.email + '\n' +
-                    'Company:' + (formData.company || 'Not provided') + '\n\n' +
-                    'Requirements Description:\n' + formData.message + '\n\n' +
-                    'Prepared on: ' + new Date(formData.timestamp).toLocaleString('en-GB')
-                );
-
-                // This only opens an email draft. No message is sent or stored by the website.
-                const mailtoLink = 'mailto:jinsburg@luvieindustry.com?cc=globalsales@luvieindustry.com&subject=' + emailSubject + '&body=' + emailBody;
-
-                document.getElementById('preparedEmailLink').href = mailtoLink;
-                if (typeof window.gtag === 'function') {
-                    window.gtag('event', 'email_draft_opened', {contact_method: 'email'});
+                    formContainer.style.display = 'none';
+                    successContainer.classList.add('is-active');
+                    if (typeof window.gtag === 'function') {
+                        window.gtag('event', 'generate_lead', {method: 'website_form'});
+                    }
+                    if (typeof window.fbq === 'function') {
+                        window.fbq('track', 'Lead', {content_category: 'Website Inquiry'});
+                    }
+                } catch (error) {
+                    errorMessage.classList.add('is-active');
+                } finally {
+                    clearTimeout(timeout);
+                    submitBtn.disabled = false;
+                    submitBtn.textContent = 'Send Inquiry';
                 }
-                if (typeof window.fbq === 'function') {
-                    window.fbq('trackCustom', 'LuvieEmailDraftOpened', {contact_method: 'email'});
-                }
-                window.location.href = mailtoLink;
-                formContainer.style.display = 'none';
-                successContainer.classList.add('is-active');
-                submitBtn.disabled = false;
-                submitBtn.textContent = 'Prepare Email Inquiry';
             });
         })();
 
