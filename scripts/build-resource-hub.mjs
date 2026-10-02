@@ -207,6 +207,15 @@ for (const file of groups.flatMap((group) => group.files)) {
 const publishedGroups = groups.map((group) => ({ ...group, files: group.files.filter((file) => cards.has(file)) }));
 const orderedFiles = publishedGroups.flatMap((group) => group.files);
 if (cards.size !== orderedFiles.length) throw new Error(`Expected ${orderedFiles.length} cards, found ${cards.size}.`);
+const portuguesePath = path.join(root, 'pt-br', 'articles', 'painel-ripado-pvc-parede.html');
+const portugueseCard = fs.existsSync(portuguesePath) ? `<a class="article-card" href="../pt-br/articles/painel-ripado-pvc-parede.html" lang="pt-BR" hreflang="pt-BR">
+                <img src="../assets/quote-product-images/image6.jpeg" alt="Amostra física de painel decorativo com perfil ripado" loading="lazy">
+                <div>
+                    <span>Português (Brasil) · Guia de compra</span>
+                    <h2>Painel ripado de PVC para parede: como escolher</h2>
+                    <p>Compare material, cobertura útil, ambiente de instalação e acessórios antes de solicitar uma cotação.</p>
+                </div>
+            </a>` : '';
 const latestModified = orderedFiles.reduce((latest, file) => {
   const article = fs.readFileSync(path.join(root, 'articles', file), 'utf8');
   const modified = article.match(/<meta property="article:modified_time" content="(\d{4}-\d{2}-\d{2})">/)?.[1] ?? '';
@@ -218,7 +227,7 @@ const groupedCards = publishedGroups.map((group) => `
                 <span>${group.eyebrow}</span>
                 <h2>${group.title}</h2>
             </div>
-            ${group.files.map((file) => cards.get(file)).join('\n            ')}`
+            ${group.files.map((file) => `${cards.get(file)}${file === 'fluted-wall-panels-distributor-guide.html' && portugueseCard ? `\n            ${portugueseCard}` : ''}`).join('\n            ')}`
 ).join('\n');
 
 const nav = `<!-- resource-topic-nav:start -->
@@ -273,13 +282,18 @@ source = source.replace(
     const itemList = {
       '@type': 'ItemList',
       name: 'Luvie wall panel buyer guides',
-      numberOfItems: orderedFiles.length,
-      itemListElement: orderedFiles.map((file, index) => ({
+      numberOfItems: orderedFiles.length + Number(Boolean(portugueseCard)),
+      itemListElement: [...orderedFiles.map((file, index) => ({
         '@type': 'ListItem',
         position: index + 1,
         name: cardTitles[file],
         url: `https://luvieindustry.com/articles/${file}`,
-      })),
+      })), ...(portugueseCard ? [{
+        '@type': 'ListItem',
+        position: orderedFiles.length + 1,
+        name: 'Painel ripado de PVC para parede: como escolher',
+        url: 'https://luvieindustry.com/pt-br/articles/painel-ripado-pvc-parede.html',
+      }] : [])],
     };
     const currentIndex = graph.findIndex((item) => item['@type'] === 'ItemList');
     if (currentIndex >= 0) graph[currentIndex] = itemList;

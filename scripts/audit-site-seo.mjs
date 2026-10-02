@@ -91,6 +91,20 @@ for (const file of articleFiles) {
 if (!hub.includes('"@type": "ItemList"')) add('articles/index.html', 'missing ItemList schema');
 
 const sitemap = fs.readFileSync(path.join(root, 'sitemap.xml'), 'utf8');
+const portugueseRelative = 'pt-br/articles/painel-ripado-pvc-parede.html';
+const portugueseUrl = `https://luvieindustry.com/${portugueseRelative}`;
+const englishRelative = 'articles/fluted-wall-panels-distributor-guide.html';
+const englishUrl = `https://luvieindustry.com/${englishRelative}`;
+const portuguese = fs.readFileSync(path.join(root, portugueseRelative), 'utf8');
+const english = fs.readFileSync(path.join(root, englishRelative), 'utf8');
+for (const [file, source, canonical] of [[portugueseRelative, portuguese, portugueseUrl], [englishRelative, english, englishUrl]]) {
+  if (!source.includes(`<link rel="canonical" href="${canonical}">`)) add(file, 'missing self canonical');
+  for (const [locale, url] of [['en', englishUrl], ['pt-BR', portugueseUrl]]) {
+    if (!source.includes(`<link rel="alternate" hreflang="${locale}" href="${url}">`)) add(file, `missing ${locale} alternate`);
+  }
+}
+if (!hub.includes('href="../pt-br/articles/painel-ripado-pvc-parede.html"')) add('articles/index.html', 'missing Portuguese guide card');
+if (!sitemap.includes(`<loc>${portugueseUrl}</loc>`)) add('sitemap.xml', 'missing Portuguese guide');
 for (const file of articleFiles) {
   if (!sitemap.includes(`https://luvieindustry.com/articles/${file}`)) add('sitemap.xml', `missing ${file}`);
 }
