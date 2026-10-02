@@ -5,7 +5,7 @@ const base = 'https://luvieindustry.com';
 const articles = [
   {
     slug: 'pvc-ceiling-installation-brazil-support-spacing.html',
-    title: 'PVC Ceiling Installation in Brazil: Support, Gaps &amp; Buyer Checks | Luvie',
+    title: 'PVC Ceiling Installation Brazil: Support &amp; Gaps | Luvie',
     heading: 'PVC Ceiling Installation in Brazil: What Buyers Should Check Before Ordering',
     description: 'Planning forro de PVC for Brazil? Check support spacing, expansion gaps, heat, trims and the exact manufacturer instructions before approving panels.',
     image: 'pvc-ceiling-brazil-installation.webp',
@@ -45,7 +45,7 @@ const articles = [
   },
   {
     slug: 'import-pvc-wall-panels-uzbekistan-2026-checklist.html',
-    title: 'Import PVC Wall Panels to Uzbekistan: 2026 Buyer Checklist | Luvie',
+    title: 'Import PVC Wall Panels to Uzbekistan: 2026 Guide | Luvie',
     heading: 'Importing PVC Wall Panels to Uzbekistan: A 2026 Buyer Checklist',
     description: 'Buying PVC wall panels for Uzbekistan? Confirm product code, local conformity route, language, documents, cartons and shipment terms before the deposit.',
     image: 'uzbekistan-panel-shipment-check.webp',
@@ -108,6 +108,13 @@ const articles = [
 
 function articleHtml(article) {
   const url = `${base}/articles/${article.slug}`;
+  const index = articles.indexOf(article);
+  const relatedGuides = [articles[(index + 1) % articles.length], articles[(index + 2) % articles.length]];
+  const topicLinks = [
+    ...relatedGuides.map((guide) => `<a href="${guide.slug}">${guide.heading}</a>`),
+    '<a href="wall-panel-standards-evidence-guide.html">Standards and evidence</a>',
+    '<a href="evaluate-wall-panel-samples.html">How to evaluate samples</a>',
+  ].join('\n');
   const imageUrl = `${base}/assets/articles/${article.image}`;
   const plainTitle = article.title.replaceAll('&amp;', '&');
   const schema = JSON.stringify({
@@ -131,6 +138,8 @@ function articleHtml(article) {
 <script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','1331142262420820');fbq('track','PageView');</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-VCLMP6Q5KJ"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-VCLMP6Q5KJ');</script></head>
 <body><header class="site-header"><div class="nav"><a class="brand" href="../"><strong>Luvie Industry</strong><span>Wall systems for global partners</span></a><nav class="nav-links"><a href="../">Home</a><a href="./">Resources</a><a href="../products/pvc-wall-panels.html">PVC panels</a></nav><a class="nav-cta" href="https://wa.me/306947135317">Discuss your market</a></div></header>
 <main class="container article-layout"><article class="article-body"><nav class="breadcrumbs"><a href="../">Home</a><span>/</span><a href="./">Resources</a><span>/</span><span>${article.topic}</span></nav><div class="article-meta"><span>${article.topic}</span><span>Published <time datetime="${date}">${date}</time></span></div><p class="article-byline">By Luvie Industry · Buyer resource</p><h1>${article.heading}</h1>
+<!-- topic-cluster-links:start --><nav class="related" aria-label="Related buyer guides"><strong>Continue your research</strong><p>${topicLinks}</p></nav><!-- topic-cluster-links:end -->
+<!-- authority-evidence:start --><aside class="authority-evidence" aria-label="Independent evidence"><strong>Independent evidence</strong><p><a href="${article.citation}" rel="noopener noreferrer external">Review the primary source</a> for the specific requirement or test scope discussed below. This source does not certify a Luvie product; verify the exact SKU and local project conditions separately.</p></aside><!-- authority-evidence:end -->
 ${article.body}
 <nav class="related" aria-label="Related buyer guides"><strong>Continue your research</strong><a href="wall-panel-standards-evidence-guide.html">Standards and evidence</a><a href="evaluate-wall-panel-samples.html">How to evaluate samples</a><a href="wall-panel-export-packaging-checklist.html">Export packing</a></nav></article>
 <aside class="side-panel"><div class="toc"><strong>Buyer resource</strong><p>Product-specific price, MOQ, stock, lead time, test evidence and destination approval require written confirmation for the exact order. Illustrative images do not document a real project.</p></div><div class="fact-card"><span>Contact Luvie</span><b>PVC · WPC · Decorative panels</b><p>Share your country, application and selected sample to discuss the right next step.</p></div></aside></main>

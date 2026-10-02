@@ -56,7 +56,8 @@ for (const file of articleFiles) {
   if (!externalSources.length) add(file, 'missing contextual external authority source');
   if (file !== 'wall-panel-standards-evidence-guide.html' && !source.includes('<!-- authority-evidence:start -->')) add(file, 'missing independent-evidence block');
   if (file === 'wall-panel-standards-evidence-guide.html' && externalSources.length < 10) add(file, `expected at least 10 primary sources, found ${externalSources.length}`);
-  for (const target of topicTargets) {
+  const contextualTargets = new Set([...source.matchAll(/href="([^"/#]+\.html)"/g)].map((match) => match[1]));
+  for (const target of contextualTargets) {
     if (!incoming.has(target)) add(file, `broken article link ${target}`);
     else incoming.set(target, incoming.get(target) + 1);
   }
@@ -96,9 +97,11 @@ for (const [locale, htmlLang, direction] of [['es', 'es', 'ltr'], ['pt-br', 'pt-
     const file = `${locale}/${route}`;
     const source = fs.readFileSync(path.join(root, file), 'utf8');
     const url = `https://luvieindustry.com/${locale}/${route === 'index.html' ? '' : route}`;
-    if (!source.includes(`<html lang="${htmlLang}" dir="${direction}">`)) add(file, 'wrong page language or direction');
-    if (!source.includes(`<link rel="canonical" href="${url}">`)) add(file, 'missing self canonical');
-    if (!source.includes(`<link rel="alternate" hreflang="${htmlLang}" href="${url}">`)) add(file, 'missing self hreflang');
+    const htmlTag = source.match(/<html\b[^>]*>/)?.[0] ?? '';
+    const linkTags = [...source.matchAll(/<link\b[^>]*>/g)].map((match) => match[0]);
+    if (!htmlTag.includes(`lang="${htmlLang}"`) || !htmlTag.includes(`dir="${direction}"`)) add(file, 'wrong page language or direction');
+    if (!linkTags.some((tag) => tag.includes('rel="canonical"') && tag.includes(`href="${url}"`))) add(file, 'missing self canonical');
+    if (!linkTags.some((tag) => tag.includes('rel="alternate"') && tag.includes(`hreflang="${htmlLang}"`) && tag.includes(`href="${url}"`))) add(file, 'missing self hreflang');
     if (!sitemap.includes(`<loc>${url}</loc>`)) add('sitemap.xml', `missing ${file}`);
     for (const image of source.matchAll(/<img[^>]+src="([^\"]+)"/g)) {
       if (image[1].startsWith('/') && !fs.existsSync(path.join(root, image[1].slice(1)))) add(file, `missing image ${image[1]}`);

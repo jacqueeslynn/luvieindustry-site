@@ -183,10 +183,7 @@ def localized_alternates(soup: BeautifulSoup, source: Path, locale: str) -> None
     for language, route in [("en", source_route), *[(LANGS[code], localized_url(code, source_route)) for code in LANGS]]:
         soup.head.append(soup.new_tag("link", rel="alternate", hreflang=language, href=BASE + route))
     soup.html["lang"] = LANGS[locale]
-    if locale == "ar":
-        soup.html["dir"] = "rtl"
-    else:
-        soup.html.attrs.pop("dir", None)
+    soup.html["dir"] = "rtl" if locale == "ar" else "ltr"
     for tag in soup.find_all("meta", property="og:url"):
         tag["content"] = BASE + local_route
     for tag in soup.find_all("script", type="application/ld+json"):
