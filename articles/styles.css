@@ -31,6 +31,9 @@ a {
     color: inherit;
 }
 
+.language-entry { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; padding: 12px 0; font-size: 14px; }
+.language-entry a { border: 1px solid var(--line-strong); border-radius: 20px; padding: 3px 11px; text-decoration: none; }
+
 .site-header {
     position: sticky;
     top: 0;

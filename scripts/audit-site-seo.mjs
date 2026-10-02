@@ -91,20 +91,45 @@ for (const file of articleFiles) {
 if (!hub.includes('"@type": "ItemList"')) add('articles/index.html', 'missing ItemList schema');
 
 const sitemap = fs.readFileSync(path.join(root, 'sitemap.xml'), 'utf8');
+for (const [locale, htmlLang, direction] of [['es', 'es', 'ltr'], ['pt-br', 'pt-BR', 'ltr'], ['ar', 'ar', 'rtl']]) {
+  for (const route of ['index.html', 'products/pvc-wall-panels.html', 'products/wpc-wall-panels.html', 'contact.html']) {
+    const file = `${locale}/${route}`;
+    const source = fs.readFileSync(path.join(root, file), 'utf8');
+    const url = `https://luvieindustry.com/${locale}/${route === 'index.html' ? '' : route}`;
+    if (!source.includes(`<html lang="${htmlLang}" dir="${direction}">`)) add(file, 'wrong page language or direction');
+    if (!source.includes(`<link rel="canonical" href="${url}">`)) add(file, 'missing self canonical');
+    if (!source.includes(`<link rel="alternate" hreflang="${htmlLang}" href="${url}">`)) add(file, 'missing self hreflang');
+    if (!sitemap.includes(`<loc>${url}</loc>`)) add('sitemap.xml', `missing ${file}`);
+    for (const image of source.matchAll(/<img[^>]+src="([^\"]+)"/g)) {
+      if (image[1].startsWith('/') && !fs.existsSync(path.join(root, image[1].slice(1)))) add(file, `missing image ${image[1]}`);
+    }
+    for (const local of source.matchAll(/<a[^>]+href="(\/[^\"]+)"/g)) {
+      const target = local[1].split('#')[0];
+      const targetFile = target.endsWith('/') ? `${target}index.html` : target;
+      if (!fs.existsSync(path.join(root, targetFile.slice(1)))) add(file, `broken local link ${target}`);
+    }
+  }
+}
 const portugueseRelative = 'pt-br/articles/painel-ripado-pvc-parede.html';
 const portugueseUrl = `https://luvieindustry.com/${portugueseRelative}`;
 const englishRelative = 'articles/fluted-wall-panels-distributor-guide.html';
 const englishUrl = `https://luvieindustry.com/${englishRelative}`;
 const portuguese = fs.readFileSync(path.join(root, portugueseRelative), 'utf8');
 const english = fs.readFileSync(path.join(root, englishRelative), 'utf8');
-for (const [file, source, canonical] of [[portugueseRelative, portuguese, portugueseUrl], [englishRelative, english, englishUrl]]) {
+const spanishRelative = 'es/articles/panel-ranurado-pvc-pared.html';
+const arabicRelative = 'ar/articles/fluted-pvc-wall-panels.html';
+const spanishUrl = `https://luvieindustry.com/${spanishRelative}`;
+const arabicUrl = `https://luvieindustry.com/${arabicRelative}`;
+for (const [file, source, canonical] of [[portugueseRelative, portuguese, portugueseUrl], [englishRelative, english, englishUrl], [spanishRelative, fs.readFileSync(path.join(root, spanishRelative), 'utf8'), spanishUrl], [arabicRelative, fs.readFileSync(path.join(root, arabicRelative), 'utf8'), arabicUrl]]) {
   if (!source.includes(`<link rel="canonical" href="${canonical}">`)) add(file, 'missing self canonical');
-  for (const [locale, url] of [['en', englishUrl], ['pt-BR', portugueseUrl]]) {
+  for (const [locale, url] of [['en', englishUrl], ['es', spanishUrl], ['pt-BR', portugueseUrl], ['ar', arabicUrl]]) {
     if (!source.includes(`<link rel="alternate" hreflang="${locale}" href="${url}">`)) add(file, `missing ${locale} alternate`);
   }
 }
 if (!hub.includes('href="../pt-br/articles/painel-ripado-pvc-parede.html"')) add('articles/index.html', 'missing Portuguese guide card');
 if (!sitemap.includes(`<loc>${portugueseUrl}</loc>`)) add('sitemap.xml', 'missing Portuguese guide');
+if (!sitemap.includes(`<loc>${spanishUrl}</loc>`)) add('sitemap.xml', 'missing Spanish guide');
+if (!sitemap.includes(`<loc>${arabicUrl}</loc>`)) add('sitemap.xml', 'missing Arabic guide');
 for (const file of articleFiles) {
   if (!sitemap.includes(`https://luvieindustry.com/articles/${file}`)) add('sitemap.xml', `missing ${file}`);
 }
