@@ -109,7 +109,7 @@ const cardTitles = {
   'low-voc-wall-panels-emissions-evidence.html': 'Low VOC Wall Panels: What Evidence to Request',
   'wall-panel-landed-cost-per-square-metre.html': 'Wall Panel Landed Cost per Square Metre',
   'pu-stone-panels-vs-natural-stone.html': 'PU Stone Panels vs Natural Stone: Which Should You Choose?',
-  'pvc-ceiling-panels-vs-wall-panels.html': 'PVC Ceiling Panels vs Wall Panels: Key Differences',
+  'pvc-ceiling-panels-vs-wall-panels.html': 'Can PVC Ceiling Panels Be Used on Walls? Buyer Guide',
   'choose-pvc-wall-panel-thickness-profile.html': 'PVC Wall Panel Thickness and Profiles: What to Check',
   'questions-to-ask-wall-panel-supplier.html': '10 Questions to Ask a Wall Panel Supplier Before Ordering',
   'pvc-ceiling-panel-supplier-checklist.html': 'PVC Ceiling Panel Supplier Checklist for a First Order',
@@ -162,11 +162,13 @@ const fallbackCards = {
 let source = fs.readFileSync(target, 'utf8');
 const grid = source.match(/<section class="container article-grid"[^>]*>([\s\S]*?)<\/section>/);
 if (!grid) throw new Error('Resource card grid not found.');
+const productPaths = grid[1].match(/<!-- product-paths:start -->[\s\S]*?<!-- product-paths:end -->/)?.[0] ?? '';
 
 const cards = new Map();
 for (const match of grid[1].matchAll(/<a class="article-card" href="([^"]+)">[\s\S]*?<\/a>/g)) {
   let card = match[0];
   const file = match[1];
+  if (file.startsWith('../')) continue;
   if (cardTitles[file]) {
     card = card.replace(/<h2>[\s\S]*?<\/h2>/, `<h2>${cardTitles[file]}</h2>`);
   }
@@ -209,7 +211,7 @@ const latestModified = orderedFiles.reduce((latest, file) => {
   const article = fs.readFileSync(path.join(root, 'articles', file), 'utf8');
   const modified = article.match(/<meta property="article:modified_time" content="(\d{4}-\d{2}-\d{2})">/)?.[1] ?? '';
   return modified > latest ? modified : latest;
-}, '2026-09-16');
+}, source.match(/<meta name="last-modified" content="(\d{4}-\d{2}-\d{2})">/)?.[1] ?? '2026-09-16');
 
 const groupedCards = publishedGroups.map((group) => `
             <div class="article-section-heading" id="${group.id}">
@@ -232,7 +234,7 @@ source = source.replace(
 );
 source = source.replace(
   /<section class="container article-grid"[^>]*>[\s\S]*?<\/section>/,
-  `<section class="container article-grid" aria-label="Luvie buying guides">${groupedCards}\n        </section>`,
+  `<section class="container article-grid" aria-label="Luvie buying guides">\n            ${productPaths}${groupedCards}\n        </section>`,
 );
 
 source = source

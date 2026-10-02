@@ -7,6 +7,7 @@ const articleDir = path.join(root, 'articles');
 const articleFiles = fs.readdirSync(articleDir)
   .filter((file) => file.endsWith('.html') && file !== 'index.html')
   .sort();
+const productFiles = ['pvc-wall-panels.html', 'wpc-wall-panels.html'];
 const issues = [];
 const titles = new Map();
 const descriptions = new Map();
@@ -95,10 +96,30 @@ for (const file of articleFiles) {
 }
 const rootLastmod = sitemap.match(/<loc>https:\/\/luvieindustry\.com\/<\/loc>\s*<lastmod>([^<]+)<\/lastmod>/)?.[1] ?? '';
 const hubLastmod = sitemap.match(/<loc>https:\/\/luvieindustry\.com\/articles\/<\/loc>\s*<lastmod>([^<]+)<\/lastmod>/)?.[1] ?? '';
-if (rootLastmod !== latestArticleModified) add('sitemap.xml', `homepage lastmod ${rootLastmod || 'missing'} does not match latest article ${latestArticleModified}`);
-if (hubLastmod !== latestArticleModified) add('sitemap.xml', `resource hub lastmod ${hubLastmod || 'missing'} does not match latest article ${latestArticleModified}`);
+if (!rootLastmod || rootLastmod < latestArticleModified) add('sitemap.xml', `homepage lastmod ${rootLastmod || 'missing'} predates latest article ${latestArticleModified}`);
+if (!hubLastmod || hubLastmod < latestArticleModified) add('sitemap.xml', `resource hub lastmod ${hubLastmod || 'missing'} predates latest article ${latestArticleModified}`);
 
 const homepage = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+for (const file of productFiles) {
+  const relative = `products/${file}`;
+  const source = fs.readFileSync(path.join(root, relative), 'utf8');
+  const canonical = `https://luvieindustry.com/${relative}`;
+  if (!source.includes(`<link rel="canonical" href="${canonical}">`)) add(relative, 'missing or incorrect canonical');
+  if (!source.includes('<meta name="robots" content="index, follow, max-image-preview:large">')) add(relative, 'missing indexable robots meta');
+  if ((source.match(/<h1\b/g) ?? []).length !== 1) add(relative, 'expected one H1');
+  if (!source.includes('"@type":"CollectionPage"')) add(relative, 'missing CollectionPage schema');
+  if (!source.includes('G-VCLMP6Q5KJ') || !source.includes('1331142262420820')) add(relative, 'missing analytics tag');
+  if (!homepage.includes(`href="${relative}"`)) add('index.html', `missing direct product link ${relative}`);
+  if (!hub.includes(`href="../${relative}"`)) add('articles/index.html', `missing product link ${relative}`);
+  if (!sitemap.includes(`<loc>${canonical}</loc>`)) add('sitemap.xml', `missing product ${relative}`);
+  for (const image of source.matchAll(/<img[^>]+src="([^"]+)"/g)) {
+    if (!fs.existsSync(path.resolve(root, 'products', image[1]))) add(relative, `missing image ${image[1]}`);
+  }
+  for (const anchor of source.matchAll(/<a[^>]+href="([^"]+)"/g)) {
+    const href = anchor[1];
+    if (href.startsWith('../') && !href.includes('#') && !fs.existsSync(path.resolve(root, 'products', href))) add(relative, `missing local link ${href}`);
+  }
+}
 if (homepage.includes('data-meta-lead')) {
   add('index.html', 'catalog or email-intent clicks must not be counted as confirmed leads');
 }
@@ -120,4 +141,4 @@ if (issues.length) {
   process.exit(1);
 }
 
-console.log(`SEO audit passed: ${articleFiles.length} articles, unique metadata, valid schemas, four topic links per article, at least two incoming topic links, and complete sitemap coverage.`);
+console.log(`SEO audit passed: ${articleFiles.length} articles and ${productFiles.length} product-family pages, unique article metadata, valid schemas, topic links, and complete sitemap coverage.`);
