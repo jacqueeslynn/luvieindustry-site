@@ -3,7 +3,7 @@ name: Publish approved 20-article buyer-guide batch
 on:
   schedule:
     # GitHub Actions cron is best-effort; a second pass gives delayed runs a recovery window.
-    - cron: "7,37 * * * *"
+    - cron: "10,40 * * * *"
   workflow_dispatch:
     inputs:
       dry_run:
