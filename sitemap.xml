@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://luvieindustry.com/</loc>
-        <lastmod>2026-10-03</lastmod>
+        <lastmod>2026-10-04</lastmod>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://luvieindustry.com/articles/</loc>
-        <lastmod>2026-10-03</lastmod>
+        <lastmod>2026-10-04</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
@@ -1054,5 +1054,10 @@
         <loc>https://luvieindustry.com/ar/articles/wpc-wall-panel-dimensions-coverage-calculator.html</loc>
         <lastmod>2026-10-03</lastmod>
         <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://luvieindustry.com/articles/are-pvc-wall-panels-safe-indoors.html</loc>
+        <lastmod>2026-10-04</lastmod>
+        <priority>0.8</priority>
     </url>
 </urlset>

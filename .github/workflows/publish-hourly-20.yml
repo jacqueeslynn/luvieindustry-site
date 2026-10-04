@@ -1,0 +1,54 @@
+name: Publish approved 20-article buyer-guide batch
+
+on:
+  schedule:
+    # GitHub Actions cron is best-effort; a second pass gives delayed runs a recovery window.
+    - cron: "7,37 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Preview the next due article without publishing"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-seo-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Fetch approved article queue
+        run: git fetch origin content/hourly-20-20261004:refs/remotes/origin/content/hourly-20-20261004
+      - name: Release the next due article
+        run: node scripts/publish-hourly-20.mjs ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '--dry-run' || '' }}
+      - name: Check whether the site changed
+        id: changes
+        if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.dry_run) }}
+        run: |
+          if test -z "$(git status --porcelain)"; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Validate the published page and links
+        if: ${{ steps.changes.outputs.has_changes == 'true' }}
+        run: |
+          node scripts/audit-site-seo.mjs
+          node --test scripts/publish-hourly-20.test.mjs
+      - name: Commit and deploy
+        if: ${{ steps.changes.outputs.has_changes == 'true' }}
+        run: |
+          git config user.name "Luvie Content Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add .github/hourly-publish-state.json articles sitemap.xml
+          git commit -m "content: publish next scheduled buyer answer"
+          git push origin main
