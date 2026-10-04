@@ -8,6 +8,7 @@ const sourceRef = 'origin/content/hourly-20-20261004';
 const planPath = path.join(root, '.github', 'hourly-publication-plan.json');
 const statePath = path.join(root, '.github', 'hourly-publish-state.json');
 const dryRun = process.argv.includes('--dry-run');
+const publishFirst = process.argv.includes('--publish-first');
 const nowArg = process.argv.find((arg) => arg.startsWith('--now='));
 const now = nowArg ? new Date(nowArg.slice(6)) : new Date();
 if (Number.isNaN(now.valueOf())) throw new Error('Invalid --now timestamp.');
@@ -17,7 +18,7 @@ if (!fs.existsSync(planPath)) {
 }
 
 const plan = JSON.parse(fs.readFileSync(planPath, 'utf8'));
-if (plan.status !== 'active' && !dryRun) {
+if (plan.status !== 'active' && !dryRun && !publishFirst) {
   console.log('Hourly publication plan is awaiting the timing decision; no article published.');
   process.exit(0);
 }
@@ -32,6 +33,7 @@ if (Number.isNaN(startAt.valueOf())) throw new Error('Invalid plan startAt.');
 const elapsed = now.valueOf() - startAt.valueOf();
 const dueIndex = Math.floor(elapsed / (plan.intervalMinutes * 60_000));
 const state = fs.existsSync(statePath) ? JSON.parse(fs.readFileSync(statePath, 'utf8')) : { published: [], lastPublishedAt: null };
+if (publishFirst && state.published.length !== 0) throw new Error('--publish-first is only valid before the first release.');
 if (state.published.length >= 20) { console.log('All 20 articles are already published.'); process.exit(0); }
 if (dueIndex < state.published.length) { console.log(`No article due yet at ${now.toISOString()}.`); process.exit(0); }
 if (state.lastPublishedAt && now.valueOf() - new Date(state.lastPublishedAt).valueOf() < plan.intervalMinutes * 60_000) {
