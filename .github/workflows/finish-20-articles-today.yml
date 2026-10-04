@@ -1,0 +1,43 @@
+name: Finish 20 buyer articles today
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-seo-publisher
+  cancel-in-progress: false
+
+jobs:
+  first-ten:
+    runs-on: ubuntu-latest
+    timeout-minutes: 230
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Set author
+        run: |
+          git config user.name "Luvie Content Bot"
+          git config user.email "actions@users.noreply.github.com"
+      - name: Publish ten articles at 19-minute spacing
+        run: bash scripts/run-timed-article-release.sh 10 true
+
+  final-nine:
+    needs: first-ten
+    runs-on: ubuntu-latest
+    timeout-minutes: 210
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Set author
+        run: |
+          git config user.name "Luvie Content Bot"
+          git config user.email "actions@users.noreply.github.com"
+      - name: Publish final nine articles at 19-minute spacing
+        run: bash scripts/run-timed-article-release.sh 9 false

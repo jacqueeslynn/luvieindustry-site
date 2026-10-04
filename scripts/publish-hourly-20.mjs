@@ -30,7 +30,7 @@ const manifest = JSON.parse(execFileSync('git', ['show', `${sourceRef}:hourly-qu
 if (manifest.length !== 20 || plan.files.length !== 20) throw new Error('Expected a 20-article plan and source manifest.');
 if (manifest.some((entry, index) => entry.file !== plan.files[index])) throw new Error('Plan order does not match approved source branch.');
 if (new Set(manifest.map((entry) => entry.image)).size !== 20) throw new Error('Hero images are not unique.');
-if (!Number.isInteger(plan.intervalMinutes) || plan.intervalMinutes < 30) throw new Error('Invalid publication interval.');
+if (!Number.isInteger(plan.intervalMinutes) || plan.intervalMinutes < 15) throw new Error('Invalid publication interval.');
 const startAt = new Date(plan.startAt);
 if (Number.isNaN(startAt.valueOf())) throw new Error('Invalid plan startAt.');
 

@@ -2,7 +2,7 @@
   "status": "active",
   "startAt": "2026-10-04T12:09:22+08:00",
   "stopAt": "2026-10-04T23:59:59+08:00",
-  "intervalMinutes": 60,
+  "intervalMinutes": 18,
   "files": [
     "are-pvc-wall-panels-safe-indoors.html",
     "can-pvc-wall-panels-be-painted.html",
