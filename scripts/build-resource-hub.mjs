@@ -4,6 +4,10 @@ import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const target = path.join(root, 'articles', 'index.html');
+const hourlyPlanPath = path.join(root, '.github', 'hourly-publication-plan.json');
+const hourlyFiles = fs.existsSync(hourlyPlanPath)
+  ? JSON.parse(fs.readFileSync(hourlyPlanPath, 'utf8')).files
+  : [];
 
 const groups = [
   {
@@ -90,6 +94,13 @@ const groups = [
     ],
   },
 ];
+
+if (hourlyFiles.length) groups.push({
+  id: 'new-buyer-questions',
+  eyebrow: 'New buyer questions',
+  title: 'Fresh answers for product and import decisions',
+  files: hourlyFiles,
+});
 
 const cardTitles = {
   'wall-panel-buyer-faq.html': 'Are Wall Panels Waterproof? 15 Straight Answers for Buyers',
@@ -204,17 +215,18 @@ for (const file of groups.flatMap((group) => group.files)) {
   const alt = article.match(/<img[^>]+alt="([^"]+)"/)?.[1] ?? cardTitles[file];
   const published = article.match(/<meta property="article:published_time" content="(\d{4}-\d{2}-\d{2})">/)?.[1] ?? '';
   const dateLabel = published ? ` · Published ${new Date(`${published}T00:00:00Z`).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' })}` : '';
+  const displayTitle = cardTitles[file] ?? article.match(/<h1>([\s\S]*?)<\/h1>/)?.[1] ?? file;
   cards.set(file, `<a class="article-card" href="${file}">
                 <img src="../${image}" alt="${alt}" loading="lazy">
                 <div>
                     <span>Buyer guide${dateLabel}</span>
-                    <h2>${cardTitles[file]}</h2>
+                    <h2>${displayTitle}</h2>
                     <p>${description}</p>
                 </div>
             </a>`);
 }
 
-const publishedGroups = groups.map((group) => ({ ...group, files: group.files.filter((file) => cards.has(file)) }));
+const publishedGroups = groups.map((group) => ({ ...group, files: group.files.filter((file) => cards.has(file)) })).filter((group) => group.files.length);
 const orderedFiles = publishedGroups.flatMap((group) => group.files);
 if (cards.size !== orderedFiles.length) throw new Error(`Expected ${orderedFiles.length} cards, found ${cards.size}.`);
 const portuguesePath = path.join(root, 'pt-br', 'articles', 'painel-ripado-pvc-parede.html');
@@ -296,7 +308,7 @@ source = source.replace(
       itemListElement: [...orderedFiles.map((file, index) => ({
         '@type': 'ListItem',
         position: index + 1,
-        name: cardTitles[file],
+        name: cardTitles[file] ?? cards.get(file).match(/<h2>([\s\S]*?)<\/h2>/)?.[1] ?? file,
         url: `https://luvieindustry.com/articles/${file}`,
       })), ...(portugueseCard ? [{
         '@type': 'ListItem',
