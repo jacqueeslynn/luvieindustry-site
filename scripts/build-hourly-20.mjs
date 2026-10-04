@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { articles } from './hourly-article-data.mjs';
+import { articles, buyerScenarios } from './hourly-article-data.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
 const output = path.join(root, 'hourly-queue');
@@ -18,6 +18,7 @@ for (const field of ['slug', 'title', 'description', 'question', 'image', 'catal
 if (new Set(articles.map((article) => article.slug)).size !== articles.length) throw new Error('Duplicate slug.');
 if (new Set(articles.map((article) => article.image)).size !== articles.length) throw new Error('Hero images must be unique across this batch.');
 for (const article of articles) {
+  if (!buyerScenarios[article.slug]) throw new Error(`${article.slug}: missing buyer scenario.`);
   if (!fs.existsSync(path.join(root, article.image))) throw new Error(`Missing image: ${article.image}`);
   if (!fs.existsSync(path.join(root, article.catalog))) throw new Error(`Missing catalog: ${article.catalog}`);
   if (article.related.length !== 4) throw new Error(`${article.slug}: expected four related articles.`);
@@ -59,6 +60,7 @@ for (const article of articles) {
 <!-- authority-evidence:start --><aside class="authority-evidence" aria-label="Independent evidence"><strong>Independent evidence</strong><p><a href="${sourceUrl}" rel="noopener noreferrer external">${htmlEscape(article.source[1])}</a>: ${htmlEscape(article.source[2])} This source does not certify a Luvie product; request evidence for the exact SKU.</p></aside><!-- authority-evidence:end -->
 <p class="lead">${htmlEscape(article.intro)}</p><figure class="article-visual"><img src="../${article.image}" alt="${htmlEscape(article.alt)}" loading="eager" decoding="async"><figcaption>Illustrative context or catalog image, not proof of a real project or a test result.</figcaption></figure>
 <div class="answer-box"><strong>Short answer</strong><p>${htmlEscape(article.answer)}</p></div>${sections}
+<section><h2>Illustrative buyer situation</h2><p>${htmlEscape(buyerScenarios[article.slug])}</p></section>
 <section><h2>Buyer checklist before ordering</h2><ul class="checklist">${checklist}</ul><p>Save the approved sample, product code and document references with the purchase order. A catalog helps shortlist a finish but does not establish the final specification, local acceptance, price or delivery terms.</p></section>
 <section><h2>Common buyer questions</h2><div class="faq-list">${faqs}</div></section>
 <section><h2>Compare the range and request the exact specification</h2><p>Browse the <a href="../${article.catalog}">relevant product catalog (PDF, English)</a>, then tell Luvie the destination market, room or project use, approximate quantity and the finish you want to sample. We can discuss which current SKU and documents are available; do not assume a catalog image establishes certification or a guaranteed lead time.</p></section>
