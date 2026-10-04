@@ -22,6 +22,10 @@ if (plan.status !== 'active' && !dryRun && !publishFirst) {
   console.log('Hourly publication plan is awaiting the timing decision; no article published.');
   process.exit(0);
 }
+if (plan.stopAt && now.valueOf() > new Date(plan.stopAt).valueOf()) {
+  console.log(`This publication window ended at ${plan.stopAt}; remaining articles are held.`);
+  process.exit(0);
+}
 const manifest = JSON.parse(execFileSync('git', ['show', `${sourceRef}:hourly-queue/manifest.json`], { cwd: root, encoding: 'utf8' }));
 if (manifest.length !== 20 || plan.files.length !== 20) throw new Error('Expected a 20-article plan and source manifest.');
 if (manifest.some((entry, index) => entry.file !== plan.files[index])) throw new Error('Plan order does not match approved source branch.');
