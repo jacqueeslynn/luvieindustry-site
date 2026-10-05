@@ -1,12 +1,6 @@
 name: Publish one approved SEO article
 
 on:
-  schedule:
-    # GitHub scheduled workflows can be delayed or dropped during peak load.
-    # Staggered retries are safe because the publisher exits after today's batch.
-    - cron: "17 6 * * *"
-    - cron: "17 9 * * *"
-    - cron: "17 12 * * *"
   workflow_dispatch:
     inputs:
       dry_run:
