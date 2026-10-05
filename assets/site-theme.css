@@ -221,7 +221,34 @@ body::after {
 }
 
 .modal-overlay {
-    background: rgba(57, 42, 33, 0.52);
+    background: rgba(57, 42, 33, 0.36);
+}
+
+.buyer-guide-strip {
+    border-color: var(--line-strong);
+    background: #e9dccb;
+    box-shadow: 0 18px 44px rgba(83, 57, 40, 0.12);
+}
+
+.buyer-guide-strip__intro {
+    color: var(--text);
+}
+
+.buyer-guide-strip__intro span {
+    color: var(--brand);
+}
+
+.buyer-guide-strip a {
+    border-color: var(--line);
+    background: #fffaf3;
+    color: var(--text);
+}
+
+.buyer-guide-strip a:hover,
+.buyer-guide-strip a:focus-visible {
+    border-color: var(--brand-soft);
+    background: #f3e7d7;
+    color: var(--text);
 }
 
 .modal-content,
