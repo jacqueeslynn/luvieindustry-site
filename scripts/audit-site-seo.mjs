@@ -7,7 +7,9 @@ const articleDir = path.join(root, 'articles');
 const articleFiles = fs.readdirSync(articleDir)
   .filter((file) => file.endsWith('.html') && file !== 'index.html')
   .sort();
-const productFiles = ['pvc-wall-panels.html', 'wpc-wall-panels.html'];
+const productFiles = fs.readdirSync(path.join(root, 'products'))
+  .filter((file) => file.endsWith('.html'))
+  .sort();
 const issues = [];
 const titles = new Map();
 const descriptions = new Map();
