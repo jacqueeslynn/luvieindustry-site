@@ -2799,6 +2799,7 @@
         .modal-header h3, .form-success h4, .modal-close { color: #392a21; }
         .modal-header p, .form-group label, .form-success p, .form-privacy { color: #6d584a; }
         .modal-close:hover { background: #f0e4d5; color: #392a21; }
+        .modal-close:focus-visible, .direct-contact-options a:focus-visible, .form-submit:focus-visible { outline: 3px solid #b98b64; outline-offset: 3px; }
         .direct-contact-options a { color: #392a21; border-color: #d9c7b3; }
         .direct-contact-options a:first-child { color: #fff; }
         .direct-contact-options a:last-child { background: #efe1cf; }
@@ -4200,19 +4201,19 @@
 </svg>
 </button>
 <!-- Quick InquiryButton -->
-<button aria-label="Consulta Rápida" class="quick-inquiry-btn" id="quickInquiryBtn">
+<button aria-label="Consulta Rápida" class="quick-inquiry-btn" id="quickInquiryBtn" aria-controls="inquiryModal" aria-expanded="false">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"></path>
 <path d="M7 9h10v2H7zm0-3h10v2H7zm0 6h7v2H7z"></path>
 </svg>
 </button>
 <!-- InquiryModal -->
-<div class="modal-overlay" id="inquiryModal">
+<div class="modal-overlay" id="inquiryModal" role="dialog" aria-modal="true" aria-labelledby="inquiryModalTitle">
 <div class="modal-content">
 <button aria-label="Fechar" class="modal-close" id="modalClose">×</button>
 <div id="formContainer">
 <div class="modal-header">
-<h3>Consulta Rápida</h3>
+<h3 id="inquiryModalTitle">Consulta Rápida</h3>
 <p>Envie seus requisitos diretamente desta página. Nossa equipe de vendas os recebe por e-mail.</p>
 </div>
 <div class="direct-contact-options">
@@ -4271,12 +4272,16 @@
             btn.addEventListener('click', function() {
                 modal.classList.add('is-active');
                 document.body.style.overflow = 'hidden';
+                btn.setAttribute('aria-expanded', 'true');
+                closeBtn.focus();
             });
 
             // CloseModal
             function closeModal() {
                 modal.classList.remove('is-active');
                 document.body.style.overflow = '';
+                btn.setAttribute('aria-expanded', 'false');
+                btn.focus();
                 // Reset form
                 setTimeout(function() {
                     form.reset();
@@ -4299,6 +4304,24 @@
             document.addEventListener('keydown', function(e) {
                 if (e.key === 'Escape' && modal.classList.contains('is-active')) {
                     closeModal();
+                }
+            });
+
+            document.addEventListener('keydown', function(e) {
+                if (e.key !== 'Tab' || !modal.classList.contains('is-active')) return;
+                const focusable = Array.from(modal.querySelectorAll('a[href], button:not([disabled]), input:not([disabled]):not([type="hidden"]):not([tabindex="-1"]), textarea:not([disabled])')).filter(el => el.getClientRects().length);
+                if (!focusable.length) return;
+                const first = focusable[0];
+                const last = focusable[focusable.length - 1];
+                if (e.shiftKey && document.activeElement === first) {
+                    e.preventDefault();
+                    last.focus();
+                } else if (!e.shiftKey && document.activeElement === last) {
+                    e.preventDefault();
+                    first.focus();
+                } else if (!modal.contains(document.activeElement)) {
+                    e.preventDefault();
+                    first.focus();
                 }
             });
 
