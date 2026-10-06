@@ -2793,6 +2793,27 @@
         .form-privacy a, .form-error a { color: var(--brand); text-decoration: underline; }
         .form-honeypot { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
 
+        /* Keep the inquiry readable and reachable on short phone screens. */
+        .modal-overlay { background: rgba(42, 31, 23, 0.62); overflow-y: auto; overscroll-behavior: contain; }
+        .modal-content { background: #fffaf3; border-color: #d9c7b3; box-shadow: 0 24px 64px rgba(57, 42, 33, 0.24); color: #392a21; }
+        .modal-header h3, .form-success h4, .modal-close { color: #392a21; }
+        [dir="rtl"] .modal-close { right: auto; left: 16px; }
+        .modal-header p, .form-group label, .form-success p, .form-privacy { color: #6d584a; }
+        .modal-close:hover { background: #f0e4d5; color: #392a21; }
+        .direct-contact-options a { color: #392a21; border-color: #d9c7b3; }
+        .direct-contact-options a:first-child { color: #fff; }
+        .direct-contact-options a:last-child { background: #efe1cf; }
+        .form-group input, .form-group textarea { background: #fff; border-color: #d9c7b3; color: #392a21; }
+        .form-group input:focus, .form-group textarea:focus { background: #fff; border-color: #754b32; outline: 2px solid #b98b64; outline-offset: 2px; }
+        .form-privacy a, .form-error a { color: #754b32; }
+        @media (max-width: 640px) {
+            .modal-overlay { align-items: flex-start; padding: 16px 0; }
+            .modal-content { width: calc(100% - 32px); margin: 0 auto; }
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .modal-content { animation: none; }
+        }
+
         @media (max-width: 640px) {
             .quick-inquiry-btn {
                 bottom: 20px;
@@ -4189,7 +4210,7 @@
 <!-- InquiryModal -->
 <div class="modal-overlay" id="inquiryModal">
 <div class="modal-content">
-<button aria-label="قَريب" class="modal-close" id="modalClose">×</button>
+<button aria-label="إغلاق" class="modal-close" id="modalClose">×</button>
 <div id="formContainer">
 <div class="modal-header">
 <h3>استفسار سريع</h3>
