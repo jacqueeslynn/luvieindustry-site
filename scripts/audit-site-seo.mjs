@@ -144,6 +144,11 @@ if (!rootLastmod || rootLastmod < latestArticleModified) add('sitemap.xml', `hom
 if (!hubLastmod || hubLastmod < latestArticleModified) add('sitemap.xml', `resource hub lastmod ${hubLastmod || 'missing'} predates latest article ${latestArticleModified}`);
 
 const homepage = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+const notFoundPage = fs.readFileSync(path.join(root, '404.html'), 'utf8');
+if (!notFoundPage.includes('<meta name="robots" content="noindex, follow">')) add('404.html', 'missing noindex directive');
+for (const target of ['/', '/articles/', '/products/pvc-wall-panels.html', '/products/wpc-wall-panels.html', '/products/pu-stone-panels.html']) {
+  if (!notFoundPage.includes(`href="${target}"`)) add('404.html', `missing recovery route ${target}`);
+}
 for (const file of productFiles) {
   const relative = `products/${file}`;
   const source = fs.readFileSync(path.join(root, relative), 'utf8');
