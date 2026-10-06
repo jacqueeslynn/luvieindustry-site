@@ -5,8 +5,9 @@ import test from "node:test";
 const workflow = readFileSync(".github/workflows/publish-articles.yml", "utf8");
 const publisher = readFileSync("scripts/publish-next-articles.mjs", "utf8");
 
-test("daily publisher releases one approved article with retry safety and unique visuals", () => {
-  assert.ok((workflow.match(/- cron:/g) ?? []).length >= 3);
+test("legacy publisher remains manually available with retry safety and unique visuals", () => {
+  assert.match(workflow, /workflow_dispatch:/);
+  assert.doesNotMatch(workflow, /- cron:/);
   assert.match(workflow, /git diff --quiet/);
   assert.match(publisher, /already published for/i);
   assert.match(publisher, /content-publish-state\.json/);

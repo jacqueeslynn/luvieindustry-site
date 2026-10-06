@@ -102,6 +102,17 @@ if (hourlyFiles.length) groups.push({
   files: hourlyFiles,
 });
 
+groups.push({
+  id: 'daily-buyer-guides',
+  eyebrow: 'Daily buyer guides',
+  title: 'Regional import and installation questions',
+  files: [
+    'brazil-pvc-ceiling-panel-import-documents.html',
+    'gulf-hotel-decorative-wall-condensation.html',
+    'uzbekistan-wall-panels-winter-delivery.html',
+  ],
+});
+
 const cardTitles = {
   'wall-panel-buyer-faq.html': 'Are Wall Panels Waterproof? 15 Straight Answers for Buyers',
   'wall-panel-standards-evidence-guide.html': 'Wall Panel Standards: What Independent Evidence Actually Proves',
