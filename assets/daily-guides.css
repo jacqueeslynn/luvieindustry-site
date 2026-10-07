@@ -3,3 +3,4 @@
 .languages a{justify-content:center;padding-inline:14px}
 .cta a{justify-content:center}
 :where(.site-header a,.languages a,.breadcrumbs a,.related a,.authority-evidence a,article section a,.cta a,.footer a):focus-visible{outline:3px solid #8a5a3b;outline-offset:3px}
+@media(max-width:650px){.site-header .nav a{display:inline-flex;align-items:center;min-height:44px}}
