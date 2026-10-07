@@ -69,6 +69,8 @@ a:focus-visible { outline: 3px solid #b98b64; outline-offset: 3px; }
 @media (max-width: 800px) {
   .hero-grid, .layout { grid-template-columns: minmax(0, 1fr); }
   .nav { align-items: flex-start; flex-direction: column; padding: 17px 0; gap: 8px; }
+  .nav-links a, .language-links a, .side a { min-height: 44px; display: inline-flex; align-items: center; }
+  .side a { display: flex; margin: 0; }
   .hero { padding: 38px 0; }
   .side { position: static; }
   .article h2 { margin-top: 35px; }
