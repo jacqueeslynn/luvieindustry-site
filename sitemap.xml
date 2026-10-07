@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://luvieindustry.com/</loc>
-        <lastmod>2026-10-06</lastmod>
+        <lastmod>2026-10-07</lastmod>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://luvieindustry.com/articles/</loc>
-        <lastmod>2026-10-06</lastmod>
+        <lastmod>2026-10-07</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
@@ -332,17 +332,17 @@
     </url>
     <url>
         <loc>https://luvieindustry.com/es/articles/</loc>
-        <lastmod>2026-10-03</lastmod>
+        <lastmod>2026-10-07</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://luvieindustry.com/pt-br/articles/</loc>
-        <lastmod>2026-10-03</lastmod>
+        <lastmod>2026-10-07</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://luvieindustry.com/ar/articles/</loc>
-        <lastmod>2026-10-03</lastmod>
+        <lastmod>2026-10-07</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -1187,4 +1187,16 @@
     <url><loc>https://luvieindustry.com/es/articles/uzbekistan-wall-panels-winter-delivery.html</loc><lastmod>2026-10-06</lastmod><priority>0.7</priority></url>
     <url><loc>https://luvieindustry.com/pt-br/articles/uzbekistan-wall-panels-winter-delivery.html</loc><lastmod>2026-10-06</lastmod><priority>0.7</priority></url>
     <url><loc>https://luvieindustry.com/ar/articles/uzbekistan-wall-panels-winter-delivery.html</loc><lastmod>2026-10-06</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/articles/south-america-wall-panel-colour-sample-lighting.html</loc><lastmod>2026-10-07</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/es/articles/south-america-wall-panel-colour-sample-lighting.html</loc><lastmod>2026-10-07</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/pt-br/articles/south-america-wall-panel-colour-sample-lighting.html</loc><lastmod>2026-10-07</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/ar/articles/south-america-wall-panel-colour-sample-lighting.html</loc><lastmod>2026-10-07</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/articles/gulf-wall-panels-near-air-conditioning-diffusers.html</loc><lastmod>2026-10-07</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/es/articles/gulf-wall-panels-near-air-conditioning-diffusers.html</loc><lastmod>2026-10-07</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/pt-br/articles/gulf-wall-panels-near-air-conditioning-diffusers.html</loc><lastmod>2026-10-07</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/ar/articles/gulf-wall-panels-near-air-conditioning-diffusers.html</loc><lastmod>2026-10-07</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/articles/uzbekistan-spc-flooring-concrete-slab-moisture-check.html</loc><lastmod>2026-10-07</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/es/articles/uzbekistan-spc-flooring-concrete-slab-moisture-check.html</loc><lastmod>2026-10-07</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/pt-br/articles/uzbekistan-spc-flooring-concrete-slab-moisture-check.html</loc><lastmod>2026-10-07</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/ar/articles/uzbekistan-spc-flooring-concrete-slab-moisture-check.html</loc><lastmod>2026-10-07</lastmod><priority>0.7</priority></url>
 </urlset>
