@@ -598,6 +598,12 @@ h1 {
         flex-wrap: wrap;
     }
 
+    .nav-links a {
+        display: inline-flex;
+        align-items: center;
+        min-height: 44px;
+    }
+
     .article-grid,
     .article-layout {
         grid-template-columns: 1fr;
