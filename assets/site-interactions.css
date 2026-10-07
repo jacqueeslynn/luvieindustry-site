@@ -10,6 +10,11 @@
     scroll-margin-top: 125px;
 }
 
+.modal-close {
+    min-width: 44px;
+    min-height: 44px;
+}
+
 .decision-studio::before {
     content: "";
     position: absolute;
