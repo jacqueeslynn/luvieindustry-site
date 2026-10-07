@@ -54,6 +54,8 @@ a:focus-visible { outline: 3px solid #b98b64; outline-offset: 3px; }
 .callout, .table-wrap, .next { padding: 20px 23px; border: 1px solid var(--line); background: var(--cream); border-radius: 9px; }
 .callout { border-left: 5px solid var(--clay); }
 .table-wrap { overflow-x: auto; padding: 0; max-width: 100%; }
+.table-wrap:focus-visible { outline: 3px solid var(--clay); outline-offset: 3px; }
+.table-scroll-hint { display: none; }
 .article table { width: 100%; border-collapse: collapse; min-width: 550px; }
 .article th, .article td { text-align: left; vertical-align: top; padding: 13px; border-bottom: 1px solid var(--line); }
 .article th { background: #eddfcf; }
@@ -70,4 +72,7 @@ a:focus-visible { outline: 3px solid #b98b64; outline-offset: 3px; }
   .hero { padding: 38px 0; }
   .side { position: static; }
   .article h2 { margin-top: 35px; }
+}
+@media (max-width: 560px) {
+  .table-scroll-hint { display: block; margin: 6px 0 8px; color: var(--muted); font-size: .9rem; font-weight: 650; }
 }
