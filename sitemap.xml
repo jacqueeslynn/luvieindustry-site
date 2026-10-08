@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://luvieindustry.com/</loc>
-        <lastmod>2026-10-08</lastmod>
+        <lastmod>2026-10-09</lastmod>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://luvieindustry.com/articles/</loc>
-        <lastmod>2026-10-08</lastmod>
+        <lastmod>2026-10-09</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
@@ -332,17 +332,17 @@
     </url>
     <url>
         <loc>https://luvieindustry.com/es/articles/</loc>
-        <lastmod>2026-10-08</lastmod>
+        <lastmod>2026-10-09</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://luvieindustry.com/pt-br/articles/</loc>
-        <lastmod>2026-10-08</lastmod>
+        <lastmod>2026-10-09</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://luvieindustry.com/ar/articles/</loc>
-        <lastmod>2026-10-08</lastmod>
+        <lastmod>2026-10-09</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -1715,4 +1715,16 @@
         <lastmod>2026-10-08</lastmod>
         <priority>0.7</priority>
     </url>
+    <url><loc>https://luvieindustry.com/articles/spc-flooring-subfloor-flatness-before-order.html</loc><lastmod>2026-10-09</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/es/articles/spc-flooring-subfloor-flatness-before-order.html</loc><lastmod>2026-10-09</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/pt-br/articles/spc-flooring-subfloor-flatness-before-order.html</loc><lastmod>2026-10-09</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/ar/articles/spc-flooring-subfloor-flatness-before-order.html</loc><lastmod>2026-10-09</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/articles/pvc-wall-panel-disinfectant-compatibility.html</loc><lastmod>2026-10-09</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/es/articles/pvc-wall-panel-disinfectant-compatibility.html</loc><lastmod>2026-10-09</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/pt-br/articles/pvc-wall-panel-disinfectant-compatibility.html</loc><lastmod>2026-10-09</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/ar/articles/pvc-wall-panel-disinfectant-compatibility.html</loc><lastmod>2026-10-09</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/articles/wall-panel-wood-packaging-ispm15-check.html</loc><lastmod>2026-10-09</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/es/articles/wall-panel-wood-packaging-ispm15-check.html</loc><lastmod>2026-10-09</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/pt-br/articles/wall-panel-wood-packaging-ispm15-check.html</loc><lastmod>2026-10-09</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/ar/articles/wall-panel-wood-packaging-ispm15-check.html</loc><lastmod>2026-10-09</lastmod><priority>0.7</priority></url>
 </urlset>
