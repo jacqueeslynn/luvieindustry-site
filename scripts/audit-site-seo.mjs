@@ -95,6 +95,7 @@ for (const file of articleFiles) {
 if (!hub.includes('"@type": "ItemList"')) add('articles/index.html', 'missing ItemList schema');
 
 const sitemap = fs.readFileSync(path.join(root, 'sitemap.xml'), 'utf8');
+const contactNavLabels = { es: ['Navegación principal', 'Idiomas'], 'pt-br': ['Navegação principal', 'Idiomas'], ar: ['التنقل الرئيسي', 'اللغات'] };
 for (const [locale, htmlLang, direction] of [['es', 'es', 'ltr'], ['pt-br', 'pt-BR', 'ltr'], ['ar', 'ar', 'rtl']]) {
   for (const route of ['index.html', 'products/pvc-wall-panels.html', 'products/wpc-wall-panels.html', 'contact.html']) {
     const file = `${locale}/${route}`;
@@ -106,6 +107,11 @@ for (const [locale, htmlLang, direction] of [['es', 'es', 'ltr'], ['pt-br', 'pt-
     if (!linkTags.some((tag) => tag.includes('rel="canonical"') && tag.includes(`href="${url}"`))) add(file, 'missing self canonical');
     if (!linkTags.some((tag) => tag.includes('rel="alternate"') && tag.includes(`hreflang="${htmlLang}"`) && tag.includes(`href="${url}"`))) add(file, 'missing self hreflang');
     if (!sitemap.includes(`<loc>${url}</loc>`)) add('sitemap.xml', `missing ${file}`);
+    if (route === 'contact.html') {
+      const [mainLabel, languageLabel] = contactNavLabels[locale];
+      if (!source.includes(`aria-label="${mainLabel}"`)) add(file, 'missing localized main-navigation label');
+      if (!source.includes(`aria-label="${languageLabel}"`) || !source.includes(`>${languageLabel}:</span>`)) add(file, 'missing localized language-navigation label');
+    }
     for (const image of source.matchAll(/<img[^>]+src="([^\"]+)"/g)) {
       if (image[1].startsWith('/') && !fs.existsSync(path.join(root, image[1].slice(1)))) add(file, `missing image ${image[1]}`);
     }
