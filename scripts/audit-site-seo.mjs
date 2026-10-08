@@ -143,9 +143,10 @@ const arabicRelative = 'ar/articles/fluted-pvc-wall-panels.html';
 const spanishUrl = `https://luvieindustry.com/${spanishRelative}`;
 const arabicUrl = `https://luvieindustry.com/${arabicRelative}`;
 for (const [file, source, canonical] of [[portugueseRelative, portuguese, portugueseUrl], [englishRelative, english, englishUrl], [spanishRelative, fs.readFileSync(path.join(root, spanishRelative), 'utf8'), spanishUrl], [arabicRelative, fs.readFileSync(path.join(root, arabicRelative), 'utf8'), arabicUrl]]) {
-  if (!source.includes(`<link rel="canonical" href="${canonical}">`)) add(file, 'missing self canonical');
+  const links = [...source.matchAll(/<link\b[^>]*>/g)].map(match => match[0]);
+  if (!links.some(tag => tag.includes('rel="canonical"') && tag.includes(`href="${canonical}"`))) add(file, 'missing self canonical');
   for (const [locale, url] of [['en', englishUrl], ['es', spanishUrl], ['pt-BR', portugueseUrl], ['ar', arabicUrl]]) {
-    if (!source.includes(`<link rel="alternate" hreflang="${locale}" href="${url}">`)) add(file, `missing ${locale} alternate`);
+    if (!links.some(tag => tag.includes('rel="alternate"') && tag.includes(`hreflang="${locale}"`) && tag.includes(`href="${url}"`))) add(file, `missing ${locale} alternate`);
   }
 }
 if (!hub.includes('href="../pt-br/articles/painel-ripado-pvc-parede.html"')) add('articles/index.html', 'missing Portuguese guide card');

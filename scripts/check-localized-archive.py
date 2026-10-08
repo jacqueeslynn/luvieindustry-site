@@ -57,7 +57,7 @@ for source in source_pages:
             alternates = {tag.get("hreflang"): tag.get("href") for tag in soup.find_all("link", rel="alternate") if tag.get("hreflang")}
             if set(alternates) != {"en", "es", "pt-BR", "ar"}:
                 errors.append(f"hreflang: {target_route}")
-            if not soup.find("nav", class_="language-switch"):
+            if not soup.select_one('nav.language-switch, nav.languages, nav.language-links'):
                 errors.append(f"language switch: {target_route}")
         for tag in soup.find_all(True):
             for key in ("href", "src"):
@@ -78,7 +78,7 @@ for source in source_pages:
                 if sum(c.isascii() and c.isalpha() for c in sentence) > 50:
                     warnings.append(f"possible English text: {target_route}: {sentence[:100]}")
 
-for source_route in ("/", "/products/pvc-wall-panels.html", "/products/wpc-wall-panels.html"):
+for source_route in ("/", *[f'/products/{p.name}' for p in sorted((ROOT/'products').glob('*.html'))]):
     english = BeautifulSoup(local_file(source_route).read_text(), "html.parser")
     expected_sections = len(english.find_all("section"))
     for code, language in LOCALES.items():
@@ -126,6 +126,35 @@ for source in source_pages:
     for target_route in [source_route, *[locale_route(code, source_route) for code in LOCALES]]:
         if BASE + target_route not in sitemap_urls:
             errors.append(f"sitemap missing: {target_route}")
+
+for product in (ROOT/'products').glob('*.html'):
+    route=f'/products/{product.name}'
+    for prefix in ('', '/es', '/pt-br', '/ar'):
+        target=prefix+route
+        soup=BeautifulSoup(local_file(target).read_text(),'html.parser')
+        if BASE+target not in sitemap_urls: errors.append(f'sitemap missing product: {target}')
+        expected={'en':BASE+route,**{tag:BASE+f'/{code}'+route for code,tag in LOCALES.items()}}
+        actual={x.get('hreflang'):x.get('href') for x in soup.find_all('link',rel='alternate')}
+        if any(actual.get(k)!=v for k,v in expected.items()): errors.append(f'product hreflang: {target}')
+
+for page in (ROOT/'es').rglob('*.html'):
+    if re.search(r'\b(?:decoativos|sopote|coodinación|expotación|compradorr)\b',page.read_text(),re.I):
+        errors.append(f'known Spanish spelling regression: {page.relative_to(ROOT)}')
+
+# A new batch must be discoverable on the homepage, not buried at the archive end.
+for code in ('',*LOCALES):
+    prefix=f'/{code}' if code else ''
+    home=BeautifulSoup(local_file(prefix+'/').read_text(),'html.parser')
+    recent=home.select('#latest-guides a.latest-guide')
+    dates=[]
+    for file in (ROOT/code/'articles').glob('*.html'):
+        article=BeautifulSoup(file.read_text(),'html.parser')
+        published=article.find('meta',property='article:published_time')
+        if published:dates.append(published['content'])
+    newest=max(dates)
+    if len(recent)!=3: errors.append(f'homepage recent guide count: {prefix or "/"}')
+    for card in recent:
+        if not card.find('time') or card.time.get('datetime')!=newest: errors.append(f'stale homepage guide: {prefix or "/"}')
 
 regional_images = [
     "pvc-ceiling-brazil-installation.webp", "pvc-hot-climate-sample-review.webp",

@@ -123,7 +123,7 @@ def save_cache(path: Path, cache: dict[str, str]) -> None:
     path.write_text(json.dumps(cache, ensure_ascii=False, indent=2) + "\n")
 
 
-def translate_missing(locale: str, values: set[str], cache: dict[str, str], cache_path: Path, command: str, limit: int | None, jobs: int) -> None:
+def translate_missing(locale: str, values: set[str], cache: dict[str, str], cache_path: Path, command: str, limit: int | None, jobs: int, quality: str = "high") -> None:
     missing = sorted(value for value in values if value not in cache)
     print(f"{locale}: {len(missing)} untranslated strings, {sum(map(len, missing))} characters", flush=True)
     if limit is not None:
@@ -131,7 +131,7 @@ def translate_missing(locale: str, values: set[str], cache: dict[str, str], cach
     for offset in range(0, len(missing), 100):
         batch = missing[offset:offset + 100]
         response = subprocess.run(
-            [command, "--from", "en", "--to", TRANSLATOR_CODES[locale], "--quality", "high", "--concurrency", str(jobs), "--buffer-size", "512"],
+            [command, "--from", "en", "--to", TRANSLATOR_CODES[locale], "--quality", quality, "--concurrency", str(jobs), "--buffer-size", "4096"],
             input="\n".join(batch) + "\n", text=True, capture_output=True, check=False, timeout=180,
         )
         targets = [line.strip() for line in response.stdout.splitlines() if line.strip()]
@@ -198,7 +198,7 @@ def localized_alternates(soup: BeautifulSoup, source: Path, locale: str) -> None
                 if item.get("@type") in {"Article", "WebPage", "CollectionPage", "BlogPosting"}:
                     item["inLanguage"] = LANGS[locale]
                 for key, value in item.items():
-                    if key in {"url", "item", "mainEntityOfPage", "@id"} and isinstance(value, str) and value.startswith(BASE + "/articles/"):
+                    if key in {"url", "item", "mainEntityOfPage", "@id"} and isinstance(value, str) and value.startswith((BASE + "/articles/", BASE + "/products/")):
                         item[key] = BASE + localized_url(locale, value[len(BASE):])
                     elif key in {"headline", "name", "description", "text"} and isinstance(value, str) and value in cache_for_schema:
                         item[key] = cache_for_schema[value]

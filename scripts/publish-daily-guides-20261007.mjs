@@ -3,6 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { date, guides } from '../content/daily-guides-20261007.mjs';
 import { localizeDailyGuideNav } from './localize-daily-guide-nav.mjs';
+import { refreshHomepageLatest } from './refresh-homepage-latest.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const base = 'https://luvieindustry.com';
@@ -52,7 +53,7 @@ for (const guide of guides) {
   for (const code of codes) {
     if (!guide[code] || guide[code].sections.length !== 4) throw new Error(`Incomplete ${code} article ${guide.file}`);
     const existing = path.join(root, route(code, guide.file).slice(1));
-    if (fs.existsSync(existing) && !fs.readFileSync(existing, 'utf8').includes(`<meta property="article:published_time" content="${date}">`)) throw new Error(`Refusing to overwrite ${route(code, guide.file)}`);
+    if (fs.existsSync(existing) && ![...fs.readFileSync(existing, 'utf8').matchAll(/<meta\b[^>]*>/g)].some(([tag]) => tag.includes('property="article:published_time"') && tag.includes(`content="${date}"`))) throw new Error(`Refusing to overwrite ${route(code, guide.file)}`);
   }
 }
 const sitemapFile = path.join(root, 'sitemap.xml');
@@ -87,3 +88,4 @@ for (const code of codes) {
 sitemap = sitemap.replace(/(<loc>https:\/\/luvieindustry\.com\/<\/loc>\s*<lastmod>)([^<]+)/, (_, prefix, current) => `${prefix}${current > date ? current : date}`);
 fs.writeFileSync(sitemapFile, sitemap);
 console.log(`Created ${guides.length} English guides and ${guides.length * 3} translations for ${date}`);
+refreshHomepageLatest();

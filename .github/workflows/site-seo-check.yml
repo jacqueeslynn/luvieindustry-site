@@ -18,7 +18,16 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install HTML validation dependency
+        run: python -m pip install beautifulsoup4==4.13.4
       - name: Validate SEO and publishing rules
         run: |
           node scripts/audit-site-seo.mjs
           node --test scripts/publish-next-articles.test.mjs
+          python scripts/test-translation-normalization.py
+          python scripts/check-localized-archive.py
+          node scripts/check-daily-guides-20261007.mjs
+          node scripts/check-daily-guides-20261008.mjs

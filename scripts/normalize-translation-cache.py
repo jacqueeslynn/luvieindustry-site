@@ -6,7 +6,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 REPLACEMENTS = {
     "es": {
-        "or": "o", "Manufacturing": "Fabricación", "Haining Luvie Import & Export Co., Ltd.": "Haining Luvie Import & Export Co., Ltd.",
+        "Manufacturing": "Fabricación", "Haining Luvie Import & Export Co., Ltd.": "Haining Luvie Import & Export Co., Ltd.",
         "costo de la construcción de la tierra": "costo total puesto en destino",
         "costo de aterrizaje": "costo total puesto en destino",
         "costo de desembarque": "costo total puesto en destino",
@@ -39,6 +39,7 @@ REPLACEMENTS = {
 }
 OVERRIDES = {
     "es": {
+        "or": "o",
         "Hotel feature wall": "Pared decorativa de hotel",
         "02 / Hotel feature wall": "02 / Pared decorativa de hotel",
         "Finish, cleaning and fire evidence": "Acabado, limpieza y documentación de reacción al fuego",
@@ -108,19 +109,18 @@ OVERRIDES = {
     },
 }
 
-for locale, replacements in REPLACEMENTS.items():
-    path = ROOT / "content" / "translations" / f"{locale}.json"
-    cache = json.loads(path.read_text())
-    changed = 0
-    for source, target in cache.items():
-        revised = target
-        for before, after in replacements.items():
-            revised = revised.replace(before, after)
-            revised = revised.replace(before[0].upper() + before[1:], after[0].upper() + after[1:])
-        if source in OVERRIDES.get(locale, {}):
-            revised = OVERRIDES[locale][source]
-        if revised != target:
-            cache[source] = revised
-            changed += 1
-    path.write_text(json.dumps(cache, ensure_ascii=False, indent=2) + "\n")
-    print(f"{locale}: normalized {changed} cached strings")
+def normalize(locale, source, target):
+    revised = target
+    for before, after in REPLACEMENTS[locale].items():
+        revised = revised.replace(before, after)
+        revised = revised.replace(before[0].upper() + before[1:], after[0].upper() + after[1:])
+    return OVERRIDES.get(locale, {}).get(source, revised)
+
+
+if __name__ == '__main__':
+    for locale in REPLACEMENTS:
+        path = ROOT / "content" / "translations" / f"{locale}.json"
+        cache = json.loads(path.read_text())
+        revised = {source: normalize(locale, source, target) for source, target in cache.items()}
+        path.write_text(json.dumps(revised, ensure_ascii=False, indent=2) + "\n")
+        print(f"{locale}: normalized {sum(cache[k] != v for k,v in revised.items())} cached strings")
