@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { date, guides } from '../content/daily-guides-20261007.mjs';
+import { localizeDailyGuideNav } from './localize-daily-guide-nav.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const base = 'https://luvieindustry.com';
@@ -58,7 +59,7 @@ const sitemapFile = path.join(root, 'sitemap.xml');
 let sitemap = fs.readFileSync(sitemapFile, 'utf8');
 for (const guide of guides) for (const code of codes) {
   const target = path.join(root, route(code, guide.file).slice(1));
-  fs.writeFileSync(target, page(guide, code));
+  fs.writeFileSync(target, localizeDailyGuideNav(page(guide, code), code));
   if (!sitemap.includes(`<loc>${base}${route(code, guide.file)}</loc>`)) sitemap = sitemap.replace('</urlset>', `    <url><loc>${base}${route(code, guide.file)}</loc><lastmod>${date}</lastmod><priority>0.7</priority></url>\n</urlset>`);
 }
 for (const code of codes) {

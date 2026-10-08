@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { navLabels } from './localize-daily-guide-nav.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const articleDir = path.join(root, 'articles');
@@ -113,6 +114,16 @@ for (const [locale, htmlLang, direction] of [['es', 'es', 'ltr'], ['pt-br', 'pt-
       const targetFile = target.endsWith('/') ? `${target}index.html` : target;
       if (!fs.existsSync(path.join(root, targetFile.slice(1)))) add(file, `broken local link ${target}`);
     }
+  }
+}
+for (const [locale, labels] of Object.entries(navLabels)) {
+  const directory = path.join(root, locale === 'en' ? 'articles' : `${locale}/articles`);
+  for (const name of fs.readdirSync(directory).filter((entry) => entry.endsWith('.html') && entry !== 'index.html')) {
+    const file = `${locale === 'en' ? '' : `${locale}/`}articles/${name}`;
+    const source = fs.readFileSync(path.join(directory, name), 'utf8');
+    if (!source.includes('<meta name="content-series" content="2026-daily">')) continue;
+    if (!source.includes(`aria-label="${labels.languages}"`)) add(file, 'missing localized language-navigation label');
+    if (!source.includes(`aria-label="${labels.related}"`)) add(file, 'missing localized related-guides label');
   }
 }
 const portugueseRelative = 'pt-br/articles/painel-ripado-pvc-parede.html';

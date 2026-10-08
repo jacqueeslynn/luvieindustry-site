@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { localizeDailyGuideNav } from './localize-daily-guide-nav.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const date = '2026-10-06';
@@ -256,7 +257,7 @@ for (const guide of guides) {
 for (const guide of guides) for (const locale of Object.keys(locales)) {
   const target = path.join(root, route(locale, guide.file).slice(1));
   fs.mkdirSync(path.dirname(target), { recursive: true });
-  fs.writeFileSync(target, html(guide, locale));
+  fs.writeFileSync(target, localizeDailyGuideNav(html(guide, locale), locale));
 }
 for (const locale of ['es', 'pt-br', 'ar']) {
   const target = path.join(root, locale, 'articles/index.html');
