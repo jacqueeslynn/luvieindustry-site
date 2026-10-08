@@ -26,6 +26,11 @@ for (const guide of guides) {
     check(source.includes(guide.catalog), `Missing catalog: ${route}`);
     const productRoute = fs.existsSync(path.join(root, `${settings.prefix}${guide.product}`.slice(1))) ? `${settings.prefix}${guide.product}` : guide.product;
     check(source.includes(`href="${productRoute}"`), `Missing product link: ${route}`);
+    if (locale !== 'en' && productRoute === guide.product) {
+      const englishNotice = { es: 'en inglés', 'pt-br': 'em inglês', ar: 'بالإنجليزية' }[locale];
+      const productLinkText = source.split(`<a href="${productRoute}">`)[1]?.split('</a>')[0] ?? '';
+      check(productLinkText.includes(englishNotice), `Missing English-page notice: ${route}`);
+    }
     check(source.includes(`<meta property="article:published_time" content="${date}">`), `Wrong date: ${route}`);
     check(sitemap.includes(`<loc>${base}${route}</loc>`), `Missing sitemap URL: ${route}`);
     check(!/[\u3400-\u9fff]/u.test(source), `Chinese text in ${route}`);
