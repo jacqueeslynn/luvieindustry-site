@@ -12,6 +12,7 @@ export function refreshHomepageLatest(){
   }).filter(x=>x.date&&x.title).sort((a,b)=>b.date.localeCompare(a.date)||a.file.localeCompare(b.file));
   const articles=archive.slice(0,3);
   const hubPath=path.join(folder,'index.html'); let hub=fs.readFileSync(hubPath,'utf8');
+  hub=hub.replace(/(["'])(\/articles\/)?styles\.css(?:\?[^"']*)?(["'])/g,'$1$2styles.css?v=20261009-review$3');
   const pattern=/<a\b[^>]*class="article-card"[^>]*>[\s\S]*?<\/a>/g;
   const seen=new Set();
   const cardsInHub=[...hub.matchAll(pattern)].map(([html])=>({html,date:archive.find(x=>html.match(/href="([^"]+)"/)?.[1].split('/').pop()===x.file)?.date??''})).filter(card=>{
