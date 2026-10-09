@@ -8,10 +8,10 @@ items={
  'prevent-container-condensation-wall-panels.html':('export-packaging.webp','container-moisture-20261009.webp'),
 }
 captions={
- '':'AI-generated editorial illustration; not a product photograph, test result or loading instruction. Confirm the actual model and procedure separately.',
- 'es':'Ilustración editorial generada con IA; no es una foto de producto, un resultado de ensayo ni una instrucción de carga. Confirme el modelo y el procedimiento reales.',
- 'pt-br':'Ilustração editorial gerada por IA; não é foto de produto, resultado de ensaio ou instrução de carregamento. Confirme o modelo e o procedimento reais.',
- 'ar':'صورة تحريرية مولدة بالذكاء الاصطناعي؛ ليست صورة منتج أو نتيجة اختبار أو تعليمات تحميل. تحقق من الطراز والإجراء الفعليين بصورة مستقلة.',
+ '':'Editorial illustration; not a product photograph, test result or loading instruction. Confirm the actual model and procedure separately.',
+ 'es':'Ilustración editorial; no es una foto de producto, un resultado de ensayo ni una instrucción de carga. Confirme el modelo y el procedimiento reales.',
+ 'pt-br':'Ilustração editorial; não é foto de produto, resultado de ensaio ou instrução de carregamento. Confirme o modelo e o procedimento reais.',
+ 'ar':'صورة توضيحية؛ ليست صورة منتج أو نتيجة اختبار أو تعليمات تحميل. تحقق من الطراز والإجراء الفعليين بصورة مستقلة.',
 }
 for locale,caption in captions.items():
  folder=ROOT/locale/'articles'
