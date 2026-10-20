@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://luvieindustry.com/</loc>
-        <lastmod>2026-10-19</lastmod>
+        <lastmod>2026-10-20</lastmod>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://luvieindustry.com/articles/</loc>
-        <lastmod>2026-10-19</lastmod>
+        <lastmod>2026-10-20</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
@@ -332,17 +332,17 @@
     </url>
     <url>
         <loc>https://luvieindustry.com/es/articles/</loc>
-        <lastmod>2026-10-19</lastmod>
+        <lastmod>2026-10-20</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://luvieindustry.com/pt-br/articles/</loc>
-        <lastmod>2026-10-19</lastmod>
+        <lastmod>2026-10-20</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://luvieindustry.com/ar/articles/</loc>
-        <lastmod>2026-10-19</lastmod>
+        <lastmod>2026-10-20</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -1763,4 +1763,16 @@
     <url><loc>https://luvieindustry.com/es/articles/wall-panel-carton-label-batch-traceability.html</loc><lastmod>2026-10-19</lastmod><priority>0.7</priority></url>
     <url><loc>https://luvieindustry.com/pt-br/articles/wall-panel-carton-label-batch-traceability.html</loc><lastmod>2026-10-19</lastmod><priority>0.7</priority></url>
     <url><loc>https://luvieindustry.com/ar/articles/wall-panel-carton-label-batch-traceability.html</loc><lastmod>2026-10-19</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/articles/spc-flooring-attached-pad-extra-underlay.html</loc><lastmod>2026-10-20</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/es/articles/spc-flooring-attached-pad-extra-underlay.html</loc><lastmod>2026-10-20</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/pt-br/articles/spc-flooring-attached-pad-extra-underlay.html</loc><lastmod>2026-10-20</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/ar/articles/spc-flooring-attached-pad-extra-underlay.html</loc><lastmod>2026-10-20</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/articles/decorative-wall-panels-service-access-hatch.html</loc><lastmod>2026-10-20</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/es/articles/decorative-wall-panels-service-access-hatch.html</loc><lastmod>2026-10-20</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/pt-br/articles/decorative-wall-panels-service-access-hatch.html</loc><lastmod>2026-10-20</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/ar/articles/decorative-wall-panels-service-access-hatch.html</loc><lastmod>2026-10-20</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/articles/pu-stone-panel-outside-corner-order-planning.html</loc><lastmod>2026-10-20</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/es/articles/pu-stone-panel-outside-corner-order-planning.html</loc><lastmod>2026-10-20</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/pt-br/articles/pu-stone-panel-outside-corner-order-planning.html</loc><lastmod>2026-10-20</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/ar/articles/pu-stone-panel-outside-corner-order-planning.html</loc><lastmod>2026-10-20</lastmod><priority>0.7</priority></url>
 </urlset>

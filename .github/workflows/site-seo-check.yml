@@ -35,4 +35,5 @@ jobs:
           node scripts/check-daily-guides-20261010.mjs
           node scripts/check-daily-guides-20261013.mjs
           node scripts/check-daily-guides-20261019.mjs
+          node scripts/check-daily-guides-20261020.mjs
           node scripts/check-archive-navigation.mjs
