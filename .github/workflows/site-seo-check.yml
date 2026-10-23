@@ -39,4 +39,5 @@ jobs:
           node scripts/check-regional-guides-20261020.mjs
           node scripts/check-daily-guides-20261021.mjs
           node scripts/check-daily-guides-20261022.mjs
+          node scripts/check-daily-guides-20261023.mjs
           node scripts/check-archive-navigation.mjs
