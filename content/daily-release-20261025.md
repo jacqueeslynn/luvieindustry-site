@@ -1,0 +1,9 @@
+# October 25 daily release
+
+Three genuinely new regional guides, each in English, Spanish, Brazilian Portuguese and Arabic: Brazil PVC ceiling lighting coordination; Saudi WPC corridor impact-protection scope; Uzbekistan PU seam mockup approval. Keyword URLs use country/product/problem; no density stuffing, search-volume claims or fabricated product facts. Real-time searches informed questions; Uzbekistan search results were mixed and do not establish high search demand. Search Console/Keyword Planner demand and indexing remain unverified.
+
+Primary references: Real PVC installation manual, Inpro commercial wall protection category, Orac panel seam FAQ. Each is used narrowly with explicit limits; no transfer of another manufacturer's specifications to Luvie. Three new topic-specific built-in illustrations, retained originals and final WebP paths/prompts in daily-images-20261025.md. No customer messages, PDF changes or automation schedule changes.
+
+Checks passed: dated guide validator (12 URLs), SEO audit (113 articles and six families), localized archive (114 English entries / 342 counterparts), three translation normalization tests, publisher regression, four-language archive navigation, 228 local href/src targets, git diff whitespace. Skill SEO optimizer assessed main English bodies at 77/72/77; density-increase suggestion deliberately not applied to avoid stuffing. Complete pages additionally include FAQ, checklist and related/product links.
+
+Captured all 12 pages at 390 and 1440 px in ../verification-daily-20261025: zero measured horizontal overflow and zero broken images. Inspected eight full-page captures across four languages and all three topics. Click-tested Arabic-to-Spanish same-article switch then Spanish PU product link. These checks do not imply professional native-language editorial certification. Remote main remained 6faa5e9 before publishing. Deployment and public URL verification follow push.
