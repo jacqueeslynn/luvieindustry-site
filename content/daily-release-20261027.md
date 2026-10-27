@@ -9,3 +9,5 @@ Local checks passed: dated guide checker, site SEO audit (119 articles), archive
 Generic SEO optimizer was run but cannot parse this compact HTML structure correctly. Its keyword-density and missing-heading suggestions were not used to stuff copy; actual HTML checks validate headings, metadata and links. Professional native editorial approval and Google indexing are not established by these tests.
 
 Deployment and public-page checks follow push; no claim of completion until they pass. No changes to PDF bodies, schedules or customer messaging.
+
+Conversion follow-up requested by user: this batch now offers explicit email and WhatsApp choices, localized procurement prompts and article context. Contact clicks emit guide_contact_click, not generate_lead; no personal field values are included. Eight desktop/mobile CTA screenshots captured across four languages. Browser click intercepted to prevent external navigation verified the event payload without sending a message. This does not verify inbox delivery or prove the cause of missing inquiries; traffic quality and full funnel data remain uninspected.
