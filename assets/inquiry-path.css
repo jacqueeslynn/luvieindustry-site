@@ -1,0 +1,6 @@
+.online-inquiry{max-width:800px;margin:40px auto;padding:24px;background:#fffaf4;border:1px solid #dcc9b7;border-radius:14px;color:#392a21;box-sizing:border-box}
+.online-inquiry h2{font-size:clamp(24px,3vw,32px);line-height:1.25;margin:0 0 12px;text-wrap:balance}
+.online-inquiry p{font-size:17px;line-height:1.65;margin:0 0 16px}
+.online-inquiry a{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:10px 20px;background:#6f4e37;color:#fff;border-radius:8px;text-decoration:none;font-weight:700;line-height:1.5;max-width:100%;box-sizing:border-box;text-align:center}
+.online-inquiry a:focus-visible{outline:3px solid #8a5a3b;outline-offset:4px}
+@media(max-width:650px){.online-inquiry{margin:28px 18px;padding:20px}.online-inquiry a{width:100%}}

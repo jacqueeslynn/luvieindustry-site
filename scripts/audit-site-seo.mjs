@@ -116,7 +116,7 @@ for (const [locale, htmlLang, direction] of [['es', 'es', 'ltr'], ['pt-br', 'pt-
       if (image[1].startsWith('/') && !fs.existsSync(path.join(root, image[1].slice(1)))) add(file, `missing image ${image[1]}`);
     }
     for (const local of source.matchAll(/<a[^>]+href="(\/[^\"]+)"/g)) {
-      const target = local[1].split('#')[0];
+      const target = local[1].split(/[?#]/)[0];
       const targetFile = target.endsWith('/') ? `${target}index.html` : target;
       if (!fs.existsSync(path.join(root, targetFile.slice(1)))) add(file, `broken local link ${target}`);
     }
