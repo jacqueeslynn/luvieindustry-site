@@ -1,0 +1,95 @@
+{
+  "mode": "built-in image_gen, 15 separate generate calls",
+  "assets": [
+    {
+      "id": "brazil-spc-wear-layer",
+      "prompt": "Use case: stylized-concept. Asset: 3:2 landscape editorial illustration for Luvie B2B buyer guide. Macro exploded editorial still life of a wood-look rigid flooring sample, thin transparent surface layer floating above decorative film, pale mineral core and dark backing. No numerical dimensions. Walnut workbench, detailed clean edges. Warm beige and brown palette, sophisticated tactile material rendering, plausible geometry. No text, logos, watermark, flags, certification or claims of a real product/project. One complete image.",
+      "original": "/Users/mac/.codex/generated_images/019fc5d2-a412-7900-a024-83ab8a045577/exec-7892888e-47f2-4dd1-8c8e-daf530ef8221.png",
+      "final": "assets/articles/brazil-spc-wear-layer-20261028.webp"
+    },
+    {
+      "id": "chile-spc-transitions",
+      "prompt": "Use case: stylized-concept. Asset: 3:2 landscape editorial illustration for Luvie B2B buyer guide. Wide architectural illustration of an apartment doorway where warm oak-look planks meet a beige tiled floor, separate loose transition profile lying nearby, side-on low camera, door clearance visible. Warm beige and brown palette, sophisticated tactile material rendering, plausible geometry. No text, logos, watermark, flags, certification or claims of a real product/project. One complete image.",
+      "original": "/Users/mac/.codex/generated_images/019fc5d2-a412-7900-a024-83ab8a045577/exec-927508be-273f-4af1-b784-6394774cd72a.png",
+      "final": "assets/articles/chile-spc-transitions-20261028.webp"
+    },
+    {
+      "id": "peru-spc-stair-nosing",
+      "prompt": "Use case: stylized-concept. Asset: 3:2 landscape editorial illustration for Luvie B2B buyer guide. Architectural studio illustration of three stair tread and nosing sample assemblies on a terracotta pedestal, cutaway profile and matching wood-look finish, no people. Warm beige and brown palette, sophisticated tactile material rendering, plausible geometry. No text, logos, watermark, flags, certification or claims of a real product/project. One complete image.",
+      "original": "/Users/mac/.codex/generated_images/019fc5d2-a412-7900-a024-83ab8a045577/exec-b74ddc2f-2649-451f-882c-5d5d84b0f2ca.png",
+      "final": "assets/articles/peru-spc-stair-nosing-20261028.webp"
+    },
+    {
+      "id": "colombia-spc-office-chairs",
+      "prompt": "Use case: stylized-concept. Asset: 3:2 landscape editorial illustration for Luvie B2B buyer guide. Editorial interior illustration of one office swivel chair with clearly visible soft casters on a transparent floor protection mat over pale oak-look flooring, warm daylight, close low perspective. Warm beige and brown palette, sophisticated tactile material rendering, plausible geometry. No text, logos, watermark, flags, certification or claims of a real product/project. One complete image.",
+      "original": "/Users/mac/.codex/generated_images/019fc5d2-a412-7900-a024-83ab8a045577/exec-24ec562f-cfb9-428e-9a04-9a06f2186fba.png",
+      "final": "assets/articles/colombia-spc-office-chairs-20261028.webp"
+    },
+    {
+      "id": "iraq-spc-fixed-cabinets",
+      "prompt": "Use case: stylized-concept. Asset: 3:2 landscape editorial illustration for Luvie B2B buyer guide. Architectural cutaway illustration of a kitchen island base and floating wood-look floor ending beside it, separated loose trim sample, warm cream and walnut, not a technical installation diagram. Warm beige and brown palette, sophisticated tactile material rendering, plausible geometry. No text, logos, watermark, flags, certification or claims of a real product/project. One complete image.",
+      "original": "/Users/mac/.codex/generated_images/019fc5d2-a412-7900-a024-83ab8a045577/exec-a0621c2d-8877-4314-932d-a4596539388f.png",
+      "final": "assets/articles/iraq-spc-fixed-cabinets-20261028.webp"
+    },
+    {
+      "id": "saudi-spc-sunlit-retail",
+      "prompt": "Use case: stylized-concept. Asset: 3:2 landscape editorial illustration for Luvie B2B buyer guide. Stylized premium retail interior illustration with long afternoon sunlight through glazing across wood-look flooring, adjustable fabric blinds partly lowered, minimal brown display plinths. Warm beige and brown palette, sophisticated tactile material rendering, plausible geometry. No text, logos, watermark, flags, certification or claims of a real product/project. One complete image.",
+      "original": "/Users/mac/.codex/generated_images/019fc5d2-a412-7900-a024-83ab8a045577/exec-99e90cef-7a71-459e-a264-f66f94b7f181.png",
+      "final": "assets/articles/saudi-spc-sunlit-retail-20261028.webp"
+    },
+    {
+      "id": "uae-wpc-acoustic-report",
+      "prompt": "Use case: stylized-concept. Asset: 3:2 landscape editorial illustration for Luvie B2B buyer guide. Editorial tabletop illustration with fluted brown wall sample, separate felt layer sample, acoustic measurement microphone and blank test-folder sheets. Focus on evidence review, no logos or invented charts. Warm beige and brown palette, sophisticated tactile material rendering, plausible geometry. No text, logos, watermark, flags, certification or claims of a real product/project. One complete image.",
+      "original": "/Users/mac/.codex/generated_images/019fc5d2-a412-7900-a024-83ab8a045577/exec-7e5943e0-dadf-41e8-a3d0-9f4c4ed4242f.png",
+      "final": "assets/articles/uae-wpc-acoustic-report-20261028.webp"
+    },
+    {
+      "id": "qatar-wpc-demountable-fitout",
+      "prompt": "Use case: stylized-concept. Asset: 3:2 landscape editorial illustration for Luvie B2B buyer guide. Architectural illustration of a small modular retail display wall with one decorative wood-look panel removed to reveal a reusable frame, neatly organized separate mounting parts, cream studio backdrop. Warm beige and brown palette, sophisticated tactile material rendering, plausible geometry. No text, logos, watermark, flags, certification or claims of a real product/project. One complete image.",
+      "original": "/Users/mac/.codex/generated_images/019fc5d2-a412-7900-a024-83ab8a045577/exec-9bd64863-43cd-420c-bf50-1968ab7cb235.png",
+      "final": "assets/articles/qatar-wpc-demountable-fitout-20261028.webp"
+    },
+    {
+      "id": "brazil-pvc-warranty",
+      "prompt": "Use case: stylized-concept. Asset: 3:2 landscape editorial illustration for Luvie B2B buyer guide. Editorial still life of cream PVC panel sample beside an open blank warranty folder, a magnifier and a small labeled-style blank sample tag, coffee brown desk, overhead photography-like illustration. Warm beige and brown palette, sophisticated tactile material rendering, plausible geometry. No text, logos, watermark, flags, certification or claims of a real product/project. One complete image.",
+      "original": "/Users/mac/.codex/generated_images/019fc5d2-a412-7900-a024-83ab8a045577/exec-9c0f7d62-187b-4894-a697-5a0665260958.png",
+      "final": "assets/articles/brazil-pvc-warranty-20261028.webp"
+    },
+    {
+      "id": "chile-pvc-adhesive-quantity",
+      "prompt": "Use case: stylized-concept. Asset: 3:2 landscape editorial illustration for Luvie B2B buyer guide. Studio illustration of a neutral PVC panel offcut, unbranded adhesive cartridge, applicator and neat adhesive trial beads on a separate scrap board, beige workbench close-up. Warm beige and brown palette, sophisticated tactile material rendering, plausible geometry. No text, logos, watermark, flags, certification or claims of a real product/project. One complete image.",
+      "original": "/Users/mac/.codex/generated_images/019fc5d2-a412-7900-a024-83ab8a045577/exec-f7fd82eb-d047-44f1-aa01-af2f1adee467.png",
+      "final": "assets/articles/chile-pvc-adhesive-quantity-20261028.webp"
+    },
+    {
+      "id": "peru-uv-marble-bookmatch",
+      "prompt": "Use case: stylized-concept. Asset: 3:2 landscape editorial illustration for Luvie B2B buyer guide. Architectural illustration of two large white marble-look decorative sheets with charcoal veining arranged as a mirrored pair beside a mismatched spare sheet, no real stone claim, warm gallery setting. Warm beige and brown palette, sophisticated tactile material rendering, plausible geometry. No text, logos, watermark, flags, certification or claims of a real product/project. One complete image.",
+      "original": "/Users/mac/.codex/generated_images/019fc5d2-a412-7900-a024-83ab8a045577/exec-79678344-5d6b-4a98-bdf8-0dbb9002152e.png",
+      "final": "assets/articles/peru-uv-marble-bookmatch-20261028.webp"
+    },
+    {
+      "id": "colombia-uv-sheet-handling",
+      "prompt": "Use case: stylized-concept. Asset: 3:2 landscape editorial illustration for Luvie B2B buyer guide. Editorial construction logistics illustration of large decorative marble-look sheets safely resting in a padded sheet trolley in a spacious unobstructed interior corridor, no workers, protective edge pads visible. Warm beige and brown palette, sophisticated tactile material rendering, plausible geometry. No text, logos, watermark, flags, certification or claims of a real product/project. One complete image.",
+      "original": "/Users/mac/.codex/generated_images/019fc5d2-a412-7900-a024-83ab8a045577/exec-6bc55af0-7b7c-4639-92b7-d7f4f3022664.png",
+      "final": "assets/articles/colombia-uv-sheet-handling-20261028.webp"
+    },
+    {
+      "id": "uzbekistan-pu-repair-kit",
+      "prompt": "Use case: stylized-concept. Asset: 3:2 landscape editorial illustration for Luvie B2B buyer guide. Editorial tabletop illustration of textured cream faux-stone panel offcuts beside a small colour repair sample board and unbranded maintenance containers, one sample shows a tiny edge chip, no text. Warm beige and brown palette, sophisticated tactile material rendering, plausible geometry. No text, logos, watermark, flags, certification or claims of a real product/project. One complete image.",
+      "original": "/Users/mac/.codex/generated_images/019fc5d2-a412-7900-a024-83ab8a045577/exec-ddaae570-e5d4-4cfa-a4dc-88d4d9407a53.png",
+      "final": "assets/articles/uzbekistan-pu-repair-kit-20261028.webp"
+    },
+    {
+      "id": "uzbekistan-wpc-batch-reservation",
+      "prompt": "Use case: stylized-concept. Asset: 3:2 landscape editorial illustration for Luvie B2B buyer guide. Warehouse concept illustration of two distinct reserved lots of wood-look wall panel cartons on separate orderly racks with blank coloured tags, one opened sample at front, warm clean lighting, no logos. Warm beige and brown palette, sophisticated tactile material rendering, plausible geometry. No text, logos, watermark, flags, certification or claims of a real product/project. One complete image.",
+      "original": "/Users/mac/.codex/generated_images/019fc5d2-a412-7900-a024-83ab8a045577/exec-9626a973-7777-4624-b352-de36bf8007e4.png",
+      "final": "assets/articles/uzbekistan-wpc-batch-reservation-20261028.webp"
+    },
+    {
+      "id": "iraq-pvc-ceiling-lengths",
+      "prompt": "Use case: stylized-concept. Asset: 3:2 landscape editorial illustration for Luvie B2B buyer guide. Editorial warehouse illustration of two bundles of white hollow PVC ceiling panels of different lengths with supported ends on long padded pallets, measuring tape beside them without legible numerals. Warm beige and brown palette, sophisticated tactile material rendering, plausible geometry. No text, logos, watermark, flags, certification or claims of a real product/project. One complete image.",
+      "original": "/Users/mac/.codex/generated_images/019fc5d2-a412-7900-a024-83ab8a045577/exec-112f228c-e98a-4f88-a9a8-7cf82a00cc53.png",
+      "final": "assets/articles/iraq-pvc-ceiling-lengths-20261028.webp"
+    }
+  ]
+}

@@ -1,6 +1,8 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
-import {guides} from '../content/daily-guides-20261027.mjs';
+import {guides as dailyGuides} from '../content/daily-guides-20261027.mjs';
+import {guides as regionalGuides} from '../content/regional-guides-20261028.mjs';
+const guides = [...dailyGuides, ...regionalGuides];
 let count=0;
 for(const prefix of ['', 'es/', 'pt-br/', 'ar/']) {
   const home=fs.readFileSync(prefix+'index.html','utf8');
