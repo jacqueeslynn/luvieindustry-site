@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-30",
+  "mode": "built-in imagegen",
+  "status": "Three distinct generations visually inspected. Editorial illustrations, not verified product or project photographs.",
+  "images": [
+    {
+      "path": "assets/articles/brazil-pvc-sockets-20261030.webp",
+      "original": "/Users/mac/.codex/generated_images/019fc5d2-a412-7900-a024-83ab8a045577/exec-975f8e04-1e0a-48d7-9877-38dfd8ea4ee3.png",
+      "prompt": "Use case: stylized-concept. Editorial 3D illustration for a PVC wall-panel procurement article about coordinating outlet faceplates. Wide 3:2, warm beige and walnut palette. A clean tabletop exploded material study: decorative ivory wall-panel sample with a rectangular aperture, a separate plain white outlet cover with no holes showing wiring, a depth gauge and a blank elevation drawing. No electrical wires, no installation instructions or dimensions, no people, no text or logos. Components arranged for specification review, not a verified product photograph. Refined tactile materials, soft daylight."
+    },
+    {
+      "path": "assets/articles/saudi-wpc-ceiling-20261030.webp",
+      "original": "/Users/mac/.codex/generated_images/019fc5d2-a412-7900-a024-83ab8a045577/exec-531ddbe6-f422-4f49-ab8c-be1f1a513ad3.png",
+      "prompt": "Use case: stylized-concept. Wide 3:2 architectural editorial illustration for evaluating WPC decorative panels for overhead use in Saudi interiors. A miniature open-sided reception-room model on a warm ivory drafting table, a fluted brown ceiling finish shown as a separate floating conceptual sample above the model, with a blank reflected ceiling plan and panel cross-section samples nearby. No people, no construction crew, no text, logos, screws or prescriptive fixing detail. Distinctive isometric composition, beige/brown tactile 3D rendering, clearly a design study not a completed real project or proof of suitability."
+    },
+    {
+      "path": "assets/articles/uzbekistan-pu-wallpaper-20261030.webp",
+      "original": "/Users/mac/.codex/generated_images/019fc5d2-a412-7900-a024-83ab8a045577/exec-15fd33f4-b2e5-4e80-a3b4-f1828e7913ba.png",
+      "prompt": "Use case: stylized-concept. Wide 3:2 editorial illustration for assessing an old wallpaper substrate before choosing PU stone-look wall panels. Close architectural material study: a small freestanding wall sample with a corner of neutral beige patterned wallpaper gently peeled back, separate lightweight stone-relief panel samples resting on a walnut table, blank inspection clipboard nearby. No person, tools in use, moisture stains, text or brand logos. Clearly conceptual material assessment, not a real customer's wall or product test. Soft warm daylight, tactile ivory stone relief, brown and sand palette, refined uncluttered composition."
+    }
+  ]
+}

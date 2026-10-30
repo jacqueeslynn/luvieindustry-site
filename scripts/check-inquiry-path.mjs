@@ -3,7 +3,8 @@ import assert from 'node:assert/strict';
 import {guides as dailyGuides} from '../content/daily-guides-20261027.mjs';
 import {guides as regionalGuides} from '../content/regional-guides-20261028.mjs';
 import {guides as latestGuides} from '../content/daily-guides-20261029.mjs';
-const guides = [...dailyGuides, ...regionalGuides, ...latestGuides];
+import {guides as october30Guides} from '../content/daily-guides-20261030.mjs';
+const guides = [...dailyGuides, ...regionalGuides, ...latestGuides, ...october30Guides];
 let count=0;
 for(const prefix of ['', 'es/', 'pt-br/', 'ar/']) {
   const home=fs.readFileSync(prefix+'index.html','utf8');
