@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-31",
+  "mode": "built-in image_gen; three separate generation calls",
+  "publicStatus": "Editorial illustrations, not product specifications or verified project photographs",
+  "images": [
+    {
+      "file": "assets/articles/brazil-pvc-ventilation-20261031.webp",
+      "original": "/Users/mac/.codex/generated_images/019fc5d2-a412-7900-a024-83ab8a045577/exec-491bc4c3-ad47-4357-858a-34d7cac93021.png",
+      "prompt": "Use case: stylized-concept. Asset type: 3:2 editorial hero illustration for a building-material buyer guide about coordinating bathroom PVC ceilings with ventilation. An elegant warm ivory architectural bathroom model with a clearly visible white linear-panel ceiling, a small neutral exhaust grille and a separate uninstalled ceiling panel sample and simple room plan on a foreground desk. The ceiling grille is the visual subject, no cutaway ducts or installation instructions. Warm beige plaster, muted brown timber, restrained natural daylight. Refined realistic miniature architectural visualization, not a real customer project or branded product. No people, logos, text, badges, watermarks, certification marks, excessive decoration. Wide 1536x1024 composition."
+    },
+    {
+      "file": "assets/articles/uae-wpc-recycled-evidence-20261031.webp",
+      "original": "/Users/mac/.codex/generated_images/019fc5d2-a412-7900-a024-83ab8a045577/exec-f47451a8-657b-4243-8cd1-4f94c06dc871.png",
+      "prompt": "Use case: stylized-concept. Asset type: 3:2 editorial hero illustration for a WPC recycled-content evidence buyer guide. Carefully arranged unbranded brown composite fluted-panel sample, two modest glass specimen jars with different neutral polymer granules, and a plain unmarked document folder under a magnifying glass on a warm ivory materials-review desk. Precise tactile surfaces, side-lit macro editorial still-life, beige and walnut palette. The image illustrates comparing material evidence, not proof of composition or certification. No recycling logos, percentages, leaves, green badges, readable text, people, factory, watermarks. Wide 1536x1024 composition."
+    },
+    {
+      "file": "assets/articles/uzbekistan-pu-lighting-20261031.webp",
+      "original": "/Users/mac/.codex/generated_images/019fc5d2-a412-7900-a024-83ab8a045577/exec-f25e6ea8-6d61-4e8f-9d16-e42b49e08dc6.png",
+      "prompt": "Use case: stylized-concept. Asset type: 3:2 editorial hero illustration for a PU stone-look panel lighting mockup guide. A freestanding warm cream stone-relief sample wall on a small studio base, visible vertical panel junction, one compact adjustable light near the upper edge creating gentle grazing shadows that reveal the raised stone texture. On the desk a smaller matching relief sample and a plain sketch sheet. Architectural material-study visualization, refined sand and chocolate palette, quiet dark brown studio backdrop. Not a real installation or specific product. No labels, text, logos, people, certificates, watermark or dramatic colored lights. Wide 1536x1024 composition."
+    }
+  ]
+}
