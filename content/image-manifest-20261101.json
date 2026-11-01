@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-01",
+  "mode": "generate",
+  "tool": "image_gen",
+  "usage": "Editorial illustrations, not actual product or project photographs.",
+  "images": [
+    {
+      "prompt": "Use case: stylized-concept. Wide 1536x1024 editorial illustration for a Brazil procurement guide comparing PVC wall panels and wallpaper. Warm beige architectural sample desk, one unbranded ivory hollow wall-panel offcut standing upright beside a partly unrolled subtle botanical beige wallpaper swatch, with a neutral apartment wall elevation sheet. Clearly different rigid and flexible materials. Refined tactile 3D editorial still life, soft daylight, cocoa brown shadows, calm composition. Not a real product or client project; no people, logos, words, seals, watermark, performance badges.",
+      "original": "/Users/mac/.codex/generated_images/019fc5d2-a412-7900-a024-83ab8a045577/exec-f74ea02e-73d2-44cd-8713-2588f2bafd1e.png",
+      "file": "assets/articles/brazil-pvc-wallpaper-20261101.webp",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "prompt": "Use case: stylized-concept. Wide 1536x1024 editorial illustration comparing WPC fluted wall cladding and solid timber for UAE interiors. A precise unbranded hollow brown composite profile offcut and a solid natural oak batten with visible end grain, side by side on an ivory stone shelf, warm neutral material review setting with a subtle blurred reception wall behind. Refined close editorial 3D visualization, tactile grain, warm beige and walnut palette, no claims of actual product identity. No people, words, logos, certificates, numerical labels, watermark.",
+      "original": "/Users/mac/.codex/generated_images/019fc5d2-a412-7900-a024-83ab8a045577/exec-497610d2-d28f-46af-97e9-a88800a975b1.png",
+      "file": "assets/articles/uae-wpc-solid-wood-20261101.webp",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "prompt": "Use case: stylized-concept. Wide 1536x1024 editorial illustration comparing PU stone-look decorative panels and cast gypsum relief for an Uzbekistan feature-wall buyer guide. One cream stone-relief sample panel and one white sculpted gypsum relief sample on separate low beige plinths, plain brush and unmarked finish swatches on a restrained studio table. Composition emphasizes different finish workflows, no balance scales or implied weights. Sophisticated warm ivory/clay studio visualization, no actual brand or project claim. No people, text, logos, certificates, watermark.",
+      "original": "/Users/mac/.codex/generated_images/019fc5d2-a412-7900-a024-83ab8a045577/exec-8731ed6e-43cb-4674-bb1a-854f42aedd50.png",
+      "file": "assets/articles/uzbekistan-pu-gypsum-20261101.webp",
+      "dimensions": [
+        1200,
+        800
+      ]
+    }
+  ]
+}

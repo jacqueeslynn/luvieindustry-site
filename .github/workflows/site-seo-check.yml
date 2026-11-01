@@ -48,5 +48,6 @@ jobs:
           node scripts/check-daily-guides-20261029.mjs
           node scripts/check-daily-guides-20261030.mjs
           node scripts/check-daily-guides-20261031.mjs
+          node scripts/check-daily-guides-20261101.mjs
           node scripts/check-archive-navigation.mjs
           node scripts/check-inquiry-path.mjs
