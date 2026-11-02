@@ -8,7 +8,7 @@ const limitArg = process.argv.find((arg) => arg.startsWith('--limit='));
 const limit = limitArg ? Number.parseInt(limitArg.replace('--limit=', ''), 10) : 1;
 const today = new Date().toISOString().slice(0, 10);
 const statePath = '.github/content-publish-state.json';
-const whatsapp = 'https://wa.me/306947135317?text=Hello%20Luvie%2C%20I%20would%20like%20product%20information%20and%20samples.';
+const whatsapp = 'https://wa.me/8619005833027?text=Hello%20Luvie%2C%20I%20would%20like%20product%20information%20and%20samples.';
 
 const queue = [
   {
@@ -96,7 +96,7 @@ if (!pending.length) { console.log('All approved articles are already published.
 const sourceText = (file) => execFileSync('git', ['show', `${sourceBranch}:content-queue/articles/${file}`], { encoding: 'utf8' });
 const sourceAsset = (file) => execFileSync('git', ['show', `${sourceBranch}:content-queue/assets/${file}`]);
 const pageSchema = (entry) => JSON.stringify({ '@context': 'https://schema.org', '@graph': [
-  { '@type': 'Organization', '@id': 'https://luvieindustry.com/#organization', name: 'Luvie Industry', legalName: 'Haining Luvie Import & Export Co., Ltd.', url: 'https://luvieindustry.com/', logo: 'https://luvieindustry.com/assets/brand/luvie-logo.webp', telephone: '+30 6947135317' },
+  { '@type': 'Organization', '@id': 'https://luvieindustry.com/#organization', name: 'Luvie Industry', legalName: 'Haining Luvie Import & Export Co., Ltd.', url: 'https://luvieindustry.com/', logo: 'https://luvieindustry.com/assets/brand/luvie-logo.webp', telephone: '+86 19005833027' },
   { '@type': 'Article', headline: entry.cardTitle, description: entry.description, datePublished: today, dateModified: today, image: `https://luvieindustry.com/assets/articles/${entry.image}`, author: { '@id': 'https://luvieindustry.com/#organization' }, publisher: { '@id': 'https://luvieindustry.com/#organization' }, mainEntityOfPage: `https://luvieindustry.com/articles/${entry.file}`, citation: [entry.authorityUrl] },
   { '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://luvieindustry.com/' }, { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://luvieindustry.com/articles/' }, { '@type': 'ListItem', position: 3, name: entry.cardTitle, item: `https://luvieindustry.com/articles/${entry.file}` }] },
 ] });

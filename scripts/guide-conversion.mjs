@@ -7,10 +7,10 @@ const copy = {
 export function enhanceGuideConversion(html, locale, heading, url) {
   const [title, intro, email, whatsapp, greeting, fields] = copy[locale];
   const body = encodeURIComponent(`${greeting}\n${heading}\n${url}\n\n${fields}`);
-  const mail = `mailto:jinsburg@luvieindustry.com?subject=${encodeURIComponent(heading)}&amp;body=${body}`;
-  const wa = `https://wa.me/306947135317?text=${body}`;
+  const mail = `mailto:globalsales@luvieindustry.com?subject=${encodeURIComponent(heading)}&amp;body=${body}`;
+  const wa = `https://wa.me/8619005833027?text=${body}`;
   const card = `<aside class="answer inquiry-options"><strong>${title}</strong><p>${intro}</p><p><a data-contact-method="email" href="${mail}">${email}</a></p><p><a data-contact-method="whatsapp" href="${wa}">${whatsapp}</a></p></aside>`;
   return html.replace(/<div class="cta">[\s\S]*?<\/div>/, card)
-    .replace(/<a class="contact" href="https:\/\/wa.me\/306947135317">[^<]*<\/a>/, `<a class="contact" data-contact-method="whatsapp" href="${wa}">${whatsapp}</a>`)
+    .replace(/<a class="contact" href="https:\/\/wa.me\/8619005833027">[^<]*<\/a>/, `<a class="contact" data-contact-method="whatsapp" href="${wa}">${whatsapp}</a>`)
     .replace('</body>', '<script src="/assets/guide-conversion.js" defer></script></body>');
 }

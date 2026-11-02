@@ -1,5 +1,8 @@
 # Luvie website release rules
 
+- Contact override authorized 2026-11-02: use globalsales@luvieindustry.com and +86 19005833027 (WhatsApp https://wa.me/8619005833027) for current website and new drafts. Older contact defaults in historical notes are superseded. Do not change PDF bodies. FormSubmit recipient activation/delivery must be verified separately; changing a link does not prove delivery.
+- The requested 60-article review batch must stay on Desktop outside this repository and must not be published or added to sitemap without subsequent approval.
+
 Read `.impeccable.md` for the approved audience and beige/brown design direction.
 
 - Daily publishing remains three original English guides at 08:30 Asia/Shanghai, each with full Spanish, Brazilian Portuguese and Arabic counterparts. Do not increase counts or republish old work to imply new activity.

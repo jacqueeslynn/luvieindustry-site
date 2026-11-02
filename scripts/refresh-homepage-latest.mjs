@@ -28,7 +28,7 @@ export function refreshHomepageLatest(){
   }[locale];
   const homeRoute=locale?`/${locale}/`:'/';
   hub=hub.replace(/<nav\b[^>]*class="[^"]*resource-topic-nav[^"]*"[^>]*>[\s\S]*?<\/nav>/,
-   `<nav class="container resource-topic-nav" aria-label="${labels[0]}"><a href="#latest-guides">${labels[0]}</a><a href="${homeRoute}#systems">${labels[2]}</a><a href="${homeRoute}#catalog">${labels[3]}</a><a href="mailto:jinsburg@luvieindustry.com">${labels[4]}</a></nav>`);
+   `<nav class="container resource-topic-nav" aria-label="${labels[0]}"><a href="#latest-guides">${labels[0]}</a><a href="${homeRoute}#systems">${labels[2]}</a><a href="${homeRoute}#catalog">${labels[3]}</a><a href="mailto:globalsales@luvieindustry.com">${labels[4]}</a></nav>`);
   hub=hub.replace(/(<section\b[^>]*class="[^"]*article-grid[^"]*"[^>]*>)[\s\S]*?(<\/section>)/,
    (_,open,close)=>`${open}\n<div class="article-section-heading" id="latest-guides"><h2>${labels[0]}</h2><p>${labels[1]}</p></div>\n${cardsInHub.map(x=>x.html).join('\n')}\n${close}`);
   hub=hub.replace(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g,(whole,json)=>{

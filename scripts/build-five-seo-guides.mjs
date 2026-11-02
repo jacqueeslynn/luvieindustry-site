@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 
 const published = '2026-09-24';
-const whatsapp = 'https://wa.me/306947135317?text=Hello%20Luvie%2C%20I%20would%20like%20product%20information%20and%20samples.';
+const whatsapp = 'https://wa.me/8619005833027?text=Hello%20Luvie%2C%20I%20would%20like%20product%20information%20and%20samples.';
 
 const guides = [
   {
@@ -201,7 +201,7 @@ function schemaFor(guide) {
   return JSON.stringify({
     '@context': 'https://schema.org',
     '@graph': [
-      {'@type': 'Organization', '@id': 'https://luvieindustry.com/#organization', name: 'Luvie Industry', legalName: 'Haining Luvie Import & Export Co., Ltd.', url: 'https://luvieindustry.com/', logo: 'https://luvieindustry.com/assets/brand/luvie-logo.webp', telephone: '+30 6947135317'},
+      {'@type': 'Organization', '@id': 'https://luvieindustry.com/#organization', name: 'Luvie Industry', legalName: 'Haining Luvie Import & Export Co., Ltd.', url: 'https://luvieindustry.com/', logo: 'https://luvieindustry.com/assets/brand/luvie-logo.webp', telephone: '+86 19005833027'},
       {'@type': 'Article', headline: guide.cardTitle, description: guide.description, datePublished: published, dateModified: published, image: guide.absoluteImage, author: {'@id': 'https://luvieindustry.com/#organization'}, publisher: {'@id': 'https://luvieindustry.com/#organization'}, mainEntityOfPage: `https://luvieindustry.com/articles/${guide.file}`, citation: guide.citations.map(([url]) => url)},
       {'@type': 'FAQPage', mainEntity: guide.faqs.map(([question, answer]) => ({'@type': 'Question', name: question, acceptedAnswer: {'@type': 'Answer', text: answer}}))},
       {'@type': 'BreadcrumbList', itemListElement: [

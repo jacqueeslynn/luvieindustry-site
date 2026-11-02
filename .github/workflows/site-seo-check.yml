@@ -51,3 +51,4 @@ jobs:
           node scripts/check-daily-guides-20261101.mjs
           node scripts/check-archive-navigation.mjs
           node scripts/check-inquiry-path.mjs
+          node scripts/check-company-contact.mjs

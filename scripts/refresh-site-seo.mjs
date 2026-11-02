@@ -159,7 +159,7 @@ function updateSchema(source, canonical, heading, description, image) {
         item.legalName ??= 'Haining Luvie Import & Export Co., Ltd.';
         item.url ??= 'https://luvieindustry.com/';
         item.logo ??= 'https://luvieindustry.com/assets/brand/luvie-logo.webp';
-        item.telephone ??= '+30 6947135317';
+        item.telephone ??= '+86 19005833027';
       });
 
       if (!breadcrumb) {

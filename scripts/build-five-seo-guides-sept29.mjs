@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const date = '2026-09-29';
 const base = 'https://luvieindustry.com/articles/';
-const contact = 'https://wa.me/306947135317?text=Hello%20Luvie%2C%20please%20send%20the%20current%20wall%20panel%20catalog%20and%20sample%20details.';
+const contact = 'https://wa.me/8619005833027?text=Hello%20Luvie%2C%20please%20send%20the%20current%20wall%20panel%20catalog%20and%20sample%20details.';
 const escape = (s) => s.replaceAll('&', '&amp;').replaceAll('"', '&quot;');
 
 const guides = [
