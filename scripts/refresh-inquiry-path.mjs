@@ -7,7 +7,8 @@ import {guides as october31Guides} from '../content/daily-guides-20261031.mjs';
 import {guides as november1Guides} from '../content/daily-guides-20261101.mjs';
 import {guides as november3Guides} from '../content/daily-guides-20261103.mjs';
 import {guides as november4Guides} from '../content/daily-guides-20261104.mjs';
-const guides = [...dailyGuides, ...regionalGuides, ...latestGuides, ...october30Guides, ...october31Guides, ...november1Guides, ...november3Guides, ...november4Guides];
+import {guides as approvedSixtyGuides} from '../content/review-batch-20261106.mjs';
+const guides = [...dailyGuides, ...regionalGuides, ...latestGuides, ...october30Guides, ...october31Guides, ...november1Guides, ...november3Guides, ...november4Guides, ...approvedSixtyGuides];
 const labels = {
   '': ['Request product details or a quotation', 'No WhatsApp or email app needed. Use our website form to tell us what you are considering; an approximate quantity is enough to start the conversation.', 'Open online inquiry form'],
   'es/': ['Solicite detalles del producto o una cotización', 'No necesita WhatsApp ni una aplicación de correo. Use el formulario del sitio para explicar qué busca; una cantidad aproximada basta para iniciar la conversación.', 'Abrir formulario de consulta'],

@@ -1,7 +1,7 @@
 # Luvie website release rules
 
 - Contact override authorized 2026-11-02: use globalsales@luvieindustry.com and +86 19005833027 (WhatsApp https://wa.me/8619005833027) for current website and new drafts. Older contact defaults in historical notes are superseded. Do not change PDF bodies. FormSubmit recipient activation/delivery must be verified separately; changing a link does not prove delivery.
-- The requested 60-article review batch must stay on Desktop outside this repository and must not be published or added to sitemap without subsequent approval.
+- The 60-article Desktop review batch received explicit publication approval on 2026-11-06 ("上线这六十篇吧直接"). Its release source is content/review-batch-20261106.mjs, with 240 language URLs. Do not publish it again or count it as fresh content on later days. Preserve the Desktop originals. This one-off release does not change the daily cadence.
 
 Read `.impeccable.md` for the approved audience and beige/brown design direction.
 
