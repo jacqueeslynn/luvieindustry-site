@@ -1,0 +1,260 @@
+{
+  "brazil-pvc-wall-panels-obsolete-sku-migration.html": {
+    "es": {
+      "title": "Paneles PVC en Brasil: retirar un SKU obsoleto | Luvie",
+      "heading": "Paneles de pared PVC en Brasil: migre un SKU obsoleto sin reescribir el historial de pedidos",
+      "description": "Retire un código de existencias de paneles PVC en Brasil conservando pedidos, devoluciones e identidad del producto. Separe recomendar un sustituto de afirmar equivalencia.",
+      "lead": "Un distribuidor puede retirar una gama de paneles de pared PVC sin perder los registros necesarios para atender a compradores anteriores. El momento difícil llega cuando el sistema de ventas trata el sustituto como si fuera el mismo artículo: las facturas antiguas muestran de pronto nuevas dimensiones, un cliente recibe un perfil de unión diferente o una devolución se registra contra existencias que nunca abastecieron el pedido. Para los distribuidores brasileños, una migración controlada de SKU es un traspaso operativo entre dos registros de producto, no simplemente una nueva fotografía en una ficha existente.",
+      "answer": "Conserve intactas la referencia descatalogada y sus especificaciones históricas. Cree un sustituto identificado por separado cuando corresponda, conecte los registros con una relación explícita y revise los pedidos abiertos antes de redirigir nuevas consultas. No describa un sucesor como intercambiable hasta comprobar las dimensiones, el perfil, el acabado y la aplicación pertinentes.",
+      "sections": [
+        [
+          "Separe la retirada de la eliminación",
+          "Registre por qué se retira la referencia antigua y quién confirmó su situación con el proveedor. Distinga una retirada permanente de una interrupción temporal de suministro o una decisión local de dejar de almacenar el artículo. Conserve el código original del proveedor, el SKU local, la especificación aprobada, la unidad de venta y las imágenes con sus fechas de revisión. Las facturas y registros de despacho históricos deben seguir identificando lo que el cliente compró realmente. Las orientaciones de GS1 sobre la no reutilización del GTIN refuerzan la importancia de preservar la identidad del producto, pero un SKU interno de almacén no es automáticamente un GTIN. Si su gama utiliza identificadores GS1, aplique las reglas de asignación correspondientes en lugar de transferir un número retirado a un producto diferente por comodidad."
+        ],
+        [
+          "Prepare una comparación antes de recomendar el sucesor",
+          "Cree una revisión paralela de la referencia antigua y la nueva propuesta. Confirme dimensiones, cobertura efectiva, geometría de unión, molduras compatibles, identificación del acabado y aplicación prevista mediante registros actuales del proveedor. Un nombre comercial coincidente no demuestra que dos perfiles puedan unirse en una instalación. Cuando un dato sea desconocido, márquelo como pregunta pendiente en lugar de completar la celda con la especificación anterior. Decida si la relación significa equivalente para un uso definido, alternativa que requiere aprobación o simplemente otra opción. Registre quién aprobó esa descripción y las pruebas revisadas. No prometa que un acabado de producción nueva coincidirá de forma invisible con una instalación envejecida."
+        ],
+        [
+          "Resuelva la demanda existente antes de cambiar la tienda",
+          "Enumere pedidos sin completar, cotizaciones pendientes, cajas reservadas, muestras en manos de clientes y devoluciones previstas. Contacte al responsable de cada cuenta para decidir si cada compromiso aún puede cumplirse según lo cotizado o requiere un cambio documentado aceptado por el comprador. Mantenga las existencias antiguas restantes visibles para el personal autorizado sin sugerir reposición ilimitada. En la página del producto en portugués, explique la disponibilidad real y ofrezca una alternativa claramente descrita cuando resulte adecuada. No redirija silenciosamente una página antigua detallada a otro modelo conservando las afirmaciones técnicas anteriores. Revise las especificaciones descargables y los mensajes comerciales junto con la ficha en línea para evitar que sigan circulando versiones contradictorias."
+        ],
+        [
+          "Pruebe la migración con situaciones operativas reales",
+          "Antes de cerrar el cambio, pida al personal que consulte una factura antigua, procese una devolución simulada y prepare una nueva cotización para el sucesor. Cada tarea debe conservar la identidad correcta del producto y la unidad de venta. Compruebe que escanear un código de barras no permita asignar existencias del sustituto a un pedido que requiere el artículo descatalogado sin un cambio aprobado. Asigne un responsable para las muestras obsoletas y las fichas comerciales impresas; márquelas o retírelas de la venta activa conservando los archivos necesarios. Establezca una fecha de revisión para las existencias residuales y los compromisos con clientes pendientes. El resultado debe ser una transición comercial clara, no un catálogo más limpio que oculte la información necesaria para el servicio y la rendición de cuentas."
+        ]
+      ],
+      "checklist": [
+        "Identidad del producto antiguo y especificación histórica conservadas.",
+        "Relación con el sucesor respaldada por una comparación técnica documentada.",
+        "Pedidos, cotizaciones, devoluciones y existencias restantes revisados.",
+        "Fichas en portugués y casos de prueba operativos comprobados conjuntamente."
+      ],
+      "faq": [
+        [
+          "¿Podemos reutilizar el código antiguo para un panel nuevo similar?",
+          "Evite sobrescribir el historial. Utilice un registro separado cuando sea necesario y un vínculo explícito con el sucesor. Si interviene un GTIN, siga las reglas de asignación y no reutilización de GS1 en lugar de tratarlo como un código interno arbitrario."
+        ],
+        [
+          "¿Debe desaparecer inmediatamente toda página descatalogada?",
+          "No necesariamente. Los clientes existentes pueden necesitar sus especificaciones. Conserve la información histórica útil claramente marcada y distíngala de la oferta disponible actualmente para pedidos nuevos."
+        ]
+      ],
+      "closing": "Envíe a Luvie la referencia PVC que se retira y el sucesor propuesto. Solicite una comparación actual de identidad, perfil y embalaje antes de cambiar su catálogo brasileño o aceptar pedidos de sustitución."
+    },
+    "pt-br": {
+      "title": "Painéis PVC no Brasil: retirar um SKU obsoleto | Luvie",
+      "heading": "Painéis de parede PVC no Brasil: migre um SKU obsoleto sem reescrever o histórico dos pedidos",
+      "description": "Retire um código de estoque de painéis PVC no Brasil preservando pedidos, devoluções e identidade do produto. Separe recomendar um substituto de afirmar equivalência.",
+      "lead": "Um distribuidor pode retirar uma linha de painéis de parede PVC sem perder os registros necessários para atender compradores anteriores. O momento difícil ocorre quando o sistema de vendas trata o substituto como o mesmo item: faturas antigas passam a mostrar novas dimensões, um cliente recebe um perfil de encaixe diferente ou uma devolução é lançada contra um estoque que nunca atendeu ao pedido. Para distribuidores brasileiros, uma migração controlada de SKU é uma transferência operacional entre dois registros de produto, não apenas uma nova fotografia em um anúncio existente.",
+      "answer": "Mantenha intactas a referência descontinuada e suas especificações históricas. Crie um substituto identificado separadamente quando apropriado, conecte os registros com uma relação explícita e revise os pedidos em aberto antes de redirecionar novas consultas. Não descreva um sucessor como intercambiável até conferir as dimensões, o perfil, o acabamento e a aplicação pertinentes.",
+      "sections": [
+        [
+          "Separe descontinuação de exclusão",
+          "Registre por que a referência antiga está sendo retirada e quem confirmou a situação com o fornecedor. Distinga a descontinuação permanente de uma interrupção temporária de fornecimento ou de uma decisão local de deixar de manter o item em estoque. Preserve o código original do fornecedor, o SKU local, a especificação aprovada, a unidade de venda e as imagens com suas datas de revisão. Faturas e registros históricos de expedição devem continuar identificando o que o cliente efetivamente comprou. A orientação da GS1 sobre não reutilização de GTIN reforça a importância de preservar a identidade do produto, mas um SKU interno de armazém não é automaticamente um GTIN. Se a linha utiliza identificadores GS1, aplique as regras pertinentes de atribuição, em vez de transferir por conveniência um número retirado para um produto diferente."
+        ],
+        [
+          "Compare o sucessor antes de recomendá-lo",
+          "Crie uma análise lado a lado da referência antiga e da nova proposta. Confirme dimensões, cobertura efetiva, geometria do encaixe, acabamentos de borda compatíveis, identificação do acabamento e aplicação pretendida usando registros atuais do fornecedor. Um nome comercial igual não prova que dois perfis possam ser unidos em uma instalação. Quando um detalhe for desconhecido, marque-o como questão em aberto em vez de preencher a célula com a especificação anterior. Decida se a relação significa equivalente para um uso definido, alternativa que exige aprovação ou simplesmente outra opção. Registre quem aprovou essa descrição e as evidências analisadas. Não prometa que um acabamento recém-produzido combinará de forma invisível com uma instalação envelhecida."
+        ],
+        [
+          "Resolva a demanda existente antes de mudar a vitrine",
+          "Liste pedidos não atendidos, cotações pendentes, caixas reservadas, amostras com clientes e devoluções esperadas. Contate o responsável pela conta para decidir se cada compromisso ainda pode ser atendido conforme a cotação ou exige uma mudança documentada aceita pelo comprador. Mantenha o estoque antigo restante visível para funcionários autorizados sem sugerir reposição ilimitada. Na página do produto em português, explique a disponibilidade real e apresente uma alternativa claramente descrita quando adequada. Não redirecione silenciosamente uma página antiga detalhada para outro modelo mantendo as alegações técnicas anteriores. Revise as especificações para download e as mensagens de vendas juntamente com o anúncio on-line para que versões contraditórias não permaneçam em circulação."
+        ],
+        [
+          "Teste a migração com situações operacionais reais",
+          "Antes de encerrar a alteração, peça à equipe que consulte uma fatura antiga, processe uma devolução simulada e prepare uma nova cotação para o sucessor. Cada tarefa deve preservar a identidade correta do produto e a unidade de venda. Verifique se a leitura de um código de barras não consegue alocar estoque do substituto a um pedido que exige o item descontinuado sem uma mudança aprovada. Designe um responsável por amostras obsoletas e fichas comerciais impressas; identifique-as ou retire-as da venda ativa, preservando os arquivos necessários. Defina uma data de revisão para estoque residual e compromissos pendentes com clientes. O resultado deve ser uma transição comercial clara, não um catálogo mais limpo que esconda informações necessárias ao atendimento e à prestação de contas."
+        ]
+      ],
+      "checklist": [
+        "Identidade do produto antigo e especificação histórica preservadas.",
+        "Relação com o sucessor apoiada por comparação técnica documentada.",
+        "Pedidos, cotações, devoluções e estoque restante revisados.",
+        "Anúncios em português e casos de teste operacionais conferidos em conjunto."
+      ],
+      "faq": [
+        [
+          "Podemos reutilizar o código de estoque antigo para um painel novo semelhante?",
+          "Evite sobrescrever o histórico. Use um registro separado quando necessário e um vínculo explícito com o sucessor. Se houver um GTIN, siga as regras de atribuição e não reutilização da GS1 em vez de tratá-lo como um código interno arbitrário."
+        ],
+        [
+          "Toda página de produto descontinuado deve desaparecer imediatamente?",
+          "Não necessariamente. Clientes existentes podem precisar das especificações. Mantenha informações históricas úteis claramente identificadas e diferencie-as da oferta atualmente disponível para novos pedidos."
+        ]
+      ],
+      "closing": "Envie à Luvie a referência PVC em retirada e o sucessor proposto. Solicite uma comparação atual de identidade do produto, perfil e embalagem antes de alterar o catálogo brasileiro ou aceitar pedidos de substituição."
+    }
+  },
+  "uae-wpc-wall-panels-quotation-currency-unit-comparison.html": {
+    "es": {
+      "title": "Paneles WPC para EAU: comparar unidades y monedas | Luvie",
+      "heading": "Paneles de pared WPC para EAU: compare cotizaciones sobre una base declarada común",
+      "description": "Normalice cotizaciones WPC para una compra en EAU por moneda, unidad de venta, cobertura útil y alcance de entrega sin inventar costes de importación.",
+      "lead": "Una cotización WPC puede indicar un precio por panel en una moneda y otra por caja en otra moneda. Una tercera puede cotizar metros cuadrados sin explicar si corresponden a superficie nominal o cobertura efectiva instalada. Por tanto, la cifra visible más baja no es necesariamente la oferta comparable más económica. Un equipo de compras de EAU necesita una hoja de comparación controlada que conserve cada cotización original y haga visibles todos los supuestos de conversión a quienes aprueban el pedido.",
+      "answer": "Confirme primero la referencia exacta y el alcance comercial; después normalice cantidades y moneda mediante datos documentados. Mantenga precio del producto, accesorios, embalaje y costes de entrega en filas separadas. Marque los importes ausentes como pendientes, no como cero, y distinga una estimación interna de comparación del importe del proveedor que realmente se facturará.",
+      "sections": [
+        [
+          "Defina una cantidad de producto realmente comparable",
+          "Registre la referencia del proveedor, dimensiones, piezas por caja y unidad de venta cotizada. Pregunte cómo se calcula la cobertura útil del perfil seleccionado y si la superficie cotizada utiliza la misma definición. No suponga que la anchura visible equivale a la anchura efectiva instalada. Elija una cantidad común de comparación vinculada a la necesidad del proyecto y muestre su conversión a paneles y cajas completos. Mantenga visible el redondeo, porque un pedido no siempre permite comprar una fracción de una caja sellada. Separe la previsión para recortes de la cobertura del fabricante; es un supuesto de planificación del proyecto, no una forma de aumentar la superficie del producto. Si dos diseños requieren accesorios diferentes, incorpore esas diferencias a la comparación."
+        ],
+        [
+          "Declare el supuesto de tipo de cambio y su fecha",
+          "Mantenga intactos la moneda cotizada y el importe original en las columnas de origen. En las columnas de comparación, registre la moneda de presentación elegida, la fuente de conversión, el sentido del tipo de cambio y la fecha. Un tipo expresado como unidades de moneda de presentación por unidad de moneda del proveedor utiliza un cálculo distinto de su inverso, por lo que debe escribir el sentido con palabras. Trátelo como una comparación de compra, no como garantía del tipo de liquidación. Pregunte al equipo financiero qué comisiones o condiciones de pago necesitan consideración separada y regístrelas solo cuando se conozcan. Si una cotización vence antes de la decisión prevista, solicite confirmación en lugar de mantener su precio como si su validez fuera ilimitada."
+        ],
+        [
+          "Iguale el alcance de entrega antes de sumar totales",
+          "La ICC explica que las reglas Incoterms aclaran tareas, costes y riesgos de entrega entre vendedores y compradores. Registre la regla exacta acordada, el lugar o puerto designado y la edición de cada cotización, y pida a los responsables aclarar cualquier redacción incompleta. Un precio asociado a un punto de entrega no debe compararse directamente con otro que cubre un alcance diferente. Mantenga flete, manipulación, seguro cuando corresponda y cargos evaluados por el importador como datos identificados por separado y respaldados por información actual. Esta guía no calcula impuestos de EAU ni determina el tratamiento aduanero. No llame a un subtotal coste completo puesto en destino mientras sigan pendientes cargos o responsabilidades necesarios."
+        ],
+        [
+          "Conserve la trazabilidad de la decisión cuando cambien los supuestos",
+          "Guarde las cotizaciones de los proveedores junto con la revisión y fecha de la comparación. Identifique qué celdas contienen hechos confirmados por el proveedor, cuáles son supuestos del proyecto y cuáles siguen pendientes. Recalcule cuando cambien cantidades de embalaje, cobertura, supuestos de moneda o alcance de entrega; no edite únicamente el total general. Pida a un segundo revisor que reproduzca una conversión de manera independiente y la compare con el resultado de la hoja. La decisión de compra también debe considerar la adecuación de las especificaciones y las pruebas de respaldo, no solo la clasificación de precios. Antes de emitir el pedido, confirme con el proveedor la cantidad final, la moneda de facturación, las condiciones de pago y la redacción de entrega. Archive la versión aceptada para que futuras comprobaciones de facturas utilicen la base acordada."
+        ]
+      ],
+      "checklist": [
+        "Producto exacto, unidad de venta y cobertura efectiva confirmados.",
+        "Moneda original conservada y sentido y fecha de conversión documentados.",
+        "Regla de entrega, ubicación designada y costes excluidos visibles.",
+        "Pedido final contrastado con la revisión aceptada de la comparación."
+      ],
+      "faq": [
+        [
+          "¿Puede compararse directamente una cotización por metro cuadrado con otra por panel?",
+          "Solo después de confirmar la definición de cobertura del panel seleccionado y la conversión de cantidad. Incluya por separado el redondeo a cajas completas y los accesorios pertinentes."
+        ],
+        [
+          "¿El total convertido es el importe que cargará el banco?",
+          "No necesariamente. Es una estimación basada en supuestos declarados. Los tipos de liquidación, comisiones y condiciones de pago acordadas requieren confirmación separada con los responsables financieros."
+        ]
+      ],
+      "closing": "Envíe a Luvie la referencia WPC, la cantidad del proyecto y la base de entrega requerida. Pida que se indiquen claramente la unidad de venta, las cantidades de embalaje y la moneda de cotización antes de comparar ofertas para su pedido de EAU."
+    },
+    "pt-br": {
+      "title": "Painéis WPC para EAU: comparar unidades e moedas | Luvie",
+      "heading": "Painéis de parede WPC para EAU: compare cotações em uma base declarada comum",
+      "description": "Normalize cotações WPC para uma compra nos EAU por moeda, unidade de venda, cobertura útil e escopo de entrega sem inventar custos de importação.",
+      "lead": "Uma cotação WPC pode trazer preço por painel em uma moeda, enquanto outra traz preço por caixa em outra moeda. Uma terceira pode cotar metros quadrados sem explicar se isso significa área nominal da face ou cobertura efetiva instalada. Portanto, o menor número visível não é necessariamente a menor oferta comparável. Uma equipe de compras dos EAU precisa de uma planilha de comparação controlada que preserve cada cotação original e torne todas as premissas de conversão visíveis às pessoas que aprovam o pedido.",
+      "answer": "Confirme primeiro a referência exata e o escopo comercial; depois normalize quantidades e moeda com dados documentados. Mantenha preço do produto, acessórios, embalagem e custos de entrega em linhas separadas. Marque valores ausentes como pendentes, não como zero, e diferencie uma estimativa interna de comparação do valor do fornecedor que será efetivamente faturado.",
+      "sections": [
+        [
+          "Defina uma quantidade de produto realmente comparável",
+          "Registre a referência do fornecedor, dimensões, peças por caixa e unidade de venda cotada. Pergunte como a cobertura útil é calculada para o perfil selecionado e se a área cotada usa a mesma definição. Não presuma que a largura visível seja igual à largura efetiva instalada. Escolha uma quantidade comum de comparação ligada à necessidade do projeto e mostre sua conversão em painéis e caixas inteiros. Mantenha o arredondamento visível, pois nem sempre é possível comprar uma fração de uma caixa lacrada. Separe a margem para cortes da cobertura do fabricante; ela é uma premissa de planejamento do projeto, não uma forma de aumentar a área do produto. Se dois desenhos exigirem acessórios diferentes, leve essas diferenças para a comparação."
+        ],
+        [
+          "Declare a premissa cambial e sua data",
+          "Mantenha a moeda cotada e o valor original inalterados nas colunas de origem. Nas colunas de comparação, registre a moeda de apresentação escolhida, a fonte de conversão, o sentido da taxa e a data. Uma taxa expressa em unidades da moeda de apresentação por unidade da moeda do fornecedor usa um cálculo diferente de seu inverso; por isso, escreva o sentido por extenso. Trate isso como comparação de compra, não como garantia da taxa de liquidação. Pergunte à equipe financeira quais tarifas ou condições de pagamento precisam ser consideradas separadamente e registre-as apenas quando conhecidas. Se uma cotação vencer antes da decisão planejada, peça confirmação em vez de manter o preço como se a validade fosse ilimitada."
+        ],
+        [
+          "Alinhe o escopo de entrega antes de somar os totais",
+          "A ICC explica que as regras Incoterms esclarecem tarefas, custos e riscos na entrega entre vendedores e compradores. Registre a regra exata acordada, o local ou porto nomeado e a edição de cada cotação, e peça aos responsáveis que esclareçam qualquer redação incompleta. Um preço associado a um ponto de entrega não deve ser comparado diretamente com outro que cobre um escopo diferente. Mantenha frete, manuseio, seguro quando pertinente e encargos apurados pelo importador como dados separados, apoiados por informações atuais. Este guia não calcula impostos dos EAU nem determina o tratamento aduaneiro. Não chame um subtotal de custo total posto no destino enquanto encargos ou responsabilidades necessários permanecerem pendentes."
+        ],
+        [
+          "Mantenha a decisão rastreável quando as premissas mudarem",
+          "Guarde as cotações dos fornecedores junto com a revisão e a data da comparação. Identifique quais células são fatos confirmados pelo fornecedor, quais são premissas do projeto e quais continuam em aberto. Recalcule quando mudarem quantidades de embalagem, cobertura, premissas cambiais ou escopo de entrega; não edite apenas o total geral. Peça a um segundo revisor que reproduza uma conversão de forma independente e a compare com o resultado da planilha. A decisão de compra também deve considerar a adequação das especificações e as evidências de apoio, não apenas a classificação por preço. Antes de emitir o pedido, confirme com o fornecedor a quantidade final do produto, a moeda de faturamento, as condições de pagamento e a redação da entrega. Arquive a versão aceita para que conferências posteriores de faturas usem a base acordada."
+        ]
+      ],
+      "checklist": [
+        "Produto exato, unidade de venda e cobertura efetiva confirmados.",
+        "Moeda original preservada e sentido e data da conversão documentados.",
+        "Regra de entrega, local nomeado e custos excluídos visíveis.",
+        "Pedido final conferido com a revisão aceita da comparação."
+      ],
+      "faq": [
+        [
+          "Uma cotação por metro quadrado pode ser comparada diretamente com uma por painel?",
+          "Somente após confirmar a definição de cobertura do painel selecionado e a conversão de quantidade. Inclua separadamente o arredondamento para caixas inteiras e os acessórios pertinentes."
+        ],
+        [
+          "O total convertido da comparação é o valor que o banco debitará?",
+          "Não necessariamente. É uma estimativa baseada em premissas declaradas. Taxas de liquidação, tarifas e condições de pagamento acordadas exigem confirmação separada com os responsáveis financeiros."
+        ]
+      ],
+      "closing": "Envie à Luvie a referência WPC, a quantidade do projeto e a base de entrega necessária. Peça que a unidade de venda, as quantidades de embalagem e a moeda da cotação sejam declaradas claramente antes de comparar ofertas para seu pedido nos EAU."
+    }
+  },
+  "uzbekistan-pu-stone-panels-maintenance-reserve-handover.html": {
+    "es": {
+      "title": "Paneles PU para Uzbekistán: entrega de reserva | Luvie",
+      "heading": "Paneles de piedra PU para Uzbekistán: entregue una reserva útil para mantenimiento",
+      "description": "Planifique repuestos de paneles de piedra PU para proyectos de Uzbekistán con correspondencia de acabados, custodia de almacenamiento, registros de retirada y criterios de reposición.",
+      "lead": "Los paneles de piedra PU de repuesto tienen poco valor para mantenimiento si nadie sabe dónde se guardan o con qué pared corresponden. Un contratista puede dejar varias cajas tras instalar, pero estas pueden mezclar piezas completas sin usar, material dañado y recortes de acabados diferentes. Para un proyecto en Uzbekistán, la entrega útil es una reserva documentada a cargo de un custodio designado, con una regla clara para retirar piezas y un registro que perdure después de que el equipo instalador abandone la obra.",
+      "answer": "Acuerde el alcance de la reserva antes del pedido final, separe existencias utilizables de sobrantes de instalación e identifique cada referencia conservada con sus ubicaciones terminadas. Registre custodia, instrucciones de almacenamiento y retiradas autorizadas. La cantidad de reserva debe responder a la situación del proyecto; esta guía no prescribe un porcentaje universal ni promete disponibilidad futura del acabado.",
+      "sections": [
+        [
+          "Elija la reserva según necesidades reales de mantenimiento",
+          "Analice con el equipo del proyecto las ubicaciones instaladas, la exposición a daños accidentales, el método práctico de sustitución y la incertidumbre del suministro futuro. Una esquina sometida a contacto frecuente puede necesitar un plan de mantenimiento distinto del de una zona decorativa inaccesible. Confirme si las reparaciones requerirían paneles completos, molduras asociadas u otros componentes compatibles. Determine la reserva usando el plano aprobado y las unidades de embalaje del proveedor, separando la previsión para recortes de instalación del material retenido intencionadamente para mantenimiento posterior. Registre el fundamento en lugar de copiar un porcentaje de otro proyecto. ISO 55000 ofrece principios generales de gestión de activos; no establece una cantidad de repuestos de paneles PU ni valida un método de instalación concreto."
+        ],
+        [
+          "Identifique las piezas conservadas antes de despejar la obra",
+          "En la entrega, cuente por separado paneles completos utilizables, molduras y cualquier recorte utilizable acordado. Inspeccione el estado visible y aísle las piezas dañadas en lugar de contarlas como sustitutos listos. Conserve la referencia del proveedor, el código de acabado, los identificadores pertinentes del embalaje y la referencia del pedido del proyecto cuando estén disponibles. Cree un mapa de ubicaciones que vincule el material conservado con las habitaciones o zonas de pared donde se instaló el producto correspondiente. Las fotografías pueden ayudar a explicar el mapa, pero no deben sustituir la identificación escrita. Si se utilizaron entregas diferentes, conserve esas distinciones cuando sea posible. No prometa una coincidencia de color invisible en el futuro: iluminación, envejecimiento y variaciones de producción pueden afectar al aspecto del sustituto."
+        ],
+        [
+          "Asigne un custodio y un registro de almacenamiento",
+          "Acuerde quién recibe el material, dónde se guarda y quién puede autorizar su retirada. Solicite instrucciones de almacenamiento y manipulación específicas del producto y entréguelas al operador del edificio en lugar de inventar límites universales de apilamiento o condiciones ambientales. Mantenga las cajas identificables y protegidas conforme a las instrucciones aplicables y evite colocar la reserva donde una limpieza habitual pueda desecharla. Incluya una hoja de inventario con cantidades, estado, ubicación y fecha de entrega. El instalador y el custodio receptor deben reconocer las discrepancias mientras ambos puedan inspeccionar las existencias. Haga accesibles los registros al futuro personal de mantenimiento sin depender del teléfono personal de un empleado o de un grupo temporal de mensajes de obra."
+        ],
+        [
+          "Registre las retiradas y defina la siguiente decisión",
+          "Cuando se entregue una pieza, anote su referencia, cantidad, destino, motivo y persona que la autoriza. Registre si la reparación se completó y si el material sin utilizar devuelto a la reserva sigue siendo apto para reutilización. Revise el saldo después de retiradas o cambios en la distribución del edificio. Acuerde un criterio para considerar la reposición, pero distíngalo de un compromiso del proveedor de mantener existencias coincidentes indefinidamente. Si la referencia original ya no está disponible, solicite una evaluación documentada de alternativas en lugar de mezclar productos silenciosamente. En las revisiones periódicas de entrega, compruebe tanto el inventario físico como la accesibilidad de sus registros. Una reserva pequeña y bien identificada es más útil que una pila sin verificar descrita simplemente como paneles de repuesto."
+        ]
+      ],
+      "checklist": [
+        "Fundamento de cantidad de reserva separado de la previsión para instalación.",
+        "Existencias útiles conservadas identificadas con sus ubicaciones instaladas.",
+        "Custodio designado, ubicación e instrucciones de almacenamiento registrados.",
+        "Registro de retiradas y criterio para decidir la reposición acordados."
+      ],
+      "faq": [
+        [
+          "¿Todos los proyectos deben conservar el mismo porcentaje de paneles de repuesto?",
+          "Aquí no se establece un porcentaje universal. Considere distribución, método de sustitución, riesgo, unidades de embalaje e incertidumbre del suministro futuro con el equipo responsable del proyecto."
+        ],
+        [
+          "¿Pueden contarse todos los recortes sobrantes como repuestos de mantenimiento?",
+          "No. Cuente únicamente piezas con un propósito útil de sustitución definido y un estado aceptable. Registre sus dimensiones aprovechables por separado de los paneles completos."
+        ]
+      ],
+      "closing": "Envíe a Luvie su referencia de panel de piedra PU y el plano del proyecto. Analice una reserva de mantenimiento identificada por separado y solicite la información pertinente sobre embalaje, identificación y almacenamiento antes de la entrega del proyecto en Uzbekistán."
+    },
+    "pt-br": {
+      "title": "Painéis PU para Uzbequistão: entrega de reserva | Luvie",
+      "heading": "Painéis de pedra PU para Uzbequistão: entregue uma reserva útil para manutenção",
+      "description": "Planeje a alocação de peças de reserva de painéis PU para projetos no Uzbequistão com mapeamento de acabamentos, custódia do armazenamento, registros de retirada e critérios de reposição.",
+      "lead": "Painéis de pedra PU de reserva têm pouco valor para manutenção se ninguém sabe onde estão guardados ou com qual parede correspondem. Um empreiteiro pode deixar várias caixas após a instalação, mas elas podem misturar peças inteiras sem uso, material danificado e sobras de cortes de acabamentos diferentes. Para um projeto no Uzbequistão, a entrega útil é uma reserva documentada sob custódia de um responsável nomeado, com uma regra clara para retirada de peças e um registro que permaneça depois da saída da equipe de instalação.",
+      "answer": "Acorde o escopo da reserva antes do pedido final, separe estoque utilizável de sobras da instalação e identifique cada referência retida em relação aos locais concluídos. Registre custódia, orientações de armazenamento e retiradas autorizadas. A quantidade de reserva deve acompanhar a situação do projeto; este guia não prescreve um percentual universal nem promete disponibilidade futura do acabamento.",
+      "sections": [
+        [
+          "Escolha a reserva conforme as necessidades reais de manutenção",
+          "Discuta com a equipe do projeto os locais instalados, a exposição a danos acidentais, o método prático de substituição e a incerteza do fornecimento futuro. Um canto sujeito a contato frequente pode precisar de um plano de manutenção diferente de uma área decorativa inacessível. Confirme se reparos exigiriam painéis inteiros, acabamentos de borda associados ou outros componentes compatíveis. Determine a reserva usando o layout aprovado e as unidades de embalagem do fornecedor, mantendo a margem de corte da instalação separada do material intencionalmente retido para manutenção futura. Registre a justificativa em vez de copiar um percentual de outro projeto. A ISO 55000 apresenta princípios gerais de gestão de ativos; não estabelece uma quantidade de peças de reserva de painéis PU nem valida um método específico de instalação."
+        ],
+        [
+          "Identifique as peças retidas antes de desmobilizar a obra",
+          "Na entrega, conte separadamente painéis inteiros utilizáveis, acabamentos de borda e quaisquer sobras de corte acordadas como úteis. Inspecione a condição visível e isole peças danificadas em vez de contá-las como substitutos prontos. Preserve a referência do fornecedor, o código de acabamento, os identificadores pertinentes da embalagem e a referência do pedido do projeto quando disponíveis. Crie um mapa de localização que vincule o material retido aos ambientes ou trechos de parede onde o produto correspondente foi instalado. Fotografias podem ajudar a explicar o mapa, mas não devem substituir a identificação escrita. Se diferentes entregas foram utilizadas, preserve essas distinções quando possível. Não prometa uma correspondência futura de cor invisível: iluminação, envelhecimento e variação de produção podem afetar a aparência do substituto."
+        ],
+        [
+          "Defina um responsável pela custódia e um registro de armazenamento",
+          "Combine quem recebe o material, onde ele será armazenado e quem pode autorizar a retirada. Solicite orientações de armazenamento e manuseio específicas do produto e repasse-as ao operador do edifício, em vez de inventar limites universais de empilhamento ou condições ambientais. Mantenha as caixas identificáveis e protegidas conforme as orientações aplicáveis e evite colocar a reserva onde a limpeza rotineira possa descartá-la. Inclua uma folha de inventário com quantidades, condição, localização e data de entrega. O instalador e o responsável que recebe a custódia devem reconhecer divergências enquanto ambos puderem inspecionar o estoque. Disponibilize os registros à futura equipe de manutenção sem depender do telefone pessoal de um funcionário ou de um grupo temporário de mensagens da obra."
+        ],
+        [
+          "Registre retiradas e defina a próxima decisão",
+          "Quando uma peça for retirada, anote sua referência, quantidade, destino, motivo e pessoa que autorizou. Registre se o reparo foi concluído e se o material não utilizado devolvido à reserva continua adequado para reutilização. Revise o saldo após retiradas ou alterações no layout do edifício. Acorde um critério para considerar a reposição, mas diferencie esse critério de um compromisso do fornecedor de manter estoque correspondente indefinidamente. Se a referência original não estiver mais disponível, solicite uma avaliação documentada de alternativa em vez de misturar produtos silenciosamente. Nas revisões periódicas de entrega, verifique tanto o inventário físico quanto a acessibilidade de seus registros. Uma reserva pequena e bem identificada é mais útil do que uma pilha não verificada descrita apenas como painéis sobressalentes."
+        ]
+      ],
+      "checklist": [
+        "Justificativa da quantidade de reserva separada da margem de instalação.",
+        "Estoque útil retido identificado em relação aos locais instalados.",
+        "Responsável pela custódia, local e orientações de armazenamento registrados.",
+        "Registro de retiradas e critério de decisão de reposição acordados."
+      ],
+      "faq": [
+        [
+          "Todos os projetos devem manter o mesmo percentual de painéis de reserva?",
+          "Nenhum percentual universal é estabelecido aqui. Considere layout, método de substituição, risco, unidades de embalagem e incerteza de fornecimento futuro com a equipe responsável pelo projeto."
+        ],
+        [
+          "Todas as sobras de corte podem ser contadas como peças de manutenção?",
+          "Não. Conte apenas peças com uma finalidade útil de substituição definida e condição aceitável. Registre suas dimensões utilizáveis separadamente dos painéis inteiros."
+        ]
+      ],
+      "closing": "Envie à Luvie sua referência de painel de pedra PU e o layout do projeto. Discuta uma reserva de manutenção identificada separadamente e solicite as informações pertinentes de embalagem, identificação e armazenamento antes da entrega do projeto no Uzbequistão."
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "images": [
+    {
+      "path": "assets/articles/makeup1108-brazil.webp",
+      "source": "/Users/mac/.codex/generated_images/01a1c052-f5e7-7453-a3fd-3c36b4e3ad7d/exec-ca2b8a38-8276-4a9c-9031-9a6d473aac72.png",
+      "prompt": "Wide landscape editorial conceptual illustration for a building-materials procurement guide. Brazil PVC wall-panel dealer migrating old SKUs to new SKUs: two organized sample racks of cream hollow PVC panel pieces, old beige blank sample tags and new terracotta blank tags, a clipboard showing abstract matching rows without text. Warm beige brown palette, elegant tactile 3D illustrative style, soft daylight. No readable text, letters, numbers, logos, watermark or identifiable real premises. Distinct emphasis on sample-label matching, not warehouse cartons.",
+      "generator": "built-in image_gen",
+      "type": "AI-generated conceptual illustration",
+      "generatedAt": "2026-11-09",
+      "makeupFor": "2026-11-08"
+    },
+    {
+      "path": "assets/articles/makeup1108-uae.webp",
+      "source": "/Users/mac/.codex/generated_images/01a1c052-f5e7-7453-a3fd-3c36b4e3ad7d/exec-68111ee7-16d8-4649-b7e1-ffc017601825.png",
+      "prompt": "Wide landscape editorial conceptual illustration for building-material purchasing. UAE WPC wall-panel quotation comparison: overhead tabletop with walnut fluted WPC sample, two clean quotation sheets side by side, matching abstract rows and outlined quantity boxes, ruler and calculator with blank keys, visual alignment of material quantities. Warm beige brown palette, elegant tactile 3D style, soft daylight. No readable text, letters, numbers, logos, watermark or certification seals. Conceptual illustration not real factory.",
+      "generator": "built-in image_gen",
+      "type": "AI-generated conceptual illustration",
+      "generatedAt": "2026-11-09",
+      "makeupFor": "2026-11-08"
+    },
+    {
+      "path": "assets/articles/makeup1108-uzbekistan.webp",
+      "source": "/Users/mac/.codex/generated_images/01a1c052-f5e7-7453-a3fd-3c36b4e3ad7d/exec-993a7bc3-156e-4514-8ce9-81e5bfc0fa9c.png",
+      "prompt": "Wide landscape editorial conceptual illustration for building-material maintenance. Uzbekistan PU faux-stone wall-panel spare-piece allocation: several cream stone-relief lightweight panels organized in small protective storage compartments, one full panel and smaller spare pieces next to a tidy maintenance tray and blank allocation cards. Warm beige brown palette, elegant tactile 3D style, soft daylight. Show spare storage and allocation clearly. No readable text, letters, numbers, logos or watermarks. Conceptual not real premises.",
+      "generator": "built-in image_gen",
+      "type": "AI-generated conceptual illustration",
+      "generatedAt": "2026-11-09",
+      "makeupFor": "2026-11-08"
+    }
+  ]
+}
