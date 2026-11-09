@@ -1,0 +1,31 @@
+{
+  "images": [
+    {
+      "country": "brazil",
+      "path": "assets/articles/november9-brazil.webp",
+      "source": "/Users/mac/.codex/generated_images/01a1c052-f5e7-7453-a3fd-3c36b4e3ad7d/exec-c94c3b9b-6128-4eac-ae0b-360c4379b0dc.png",
+      "prompt": "Editorial website illustration, wide landscape. Brazilian PVC wall-panel distributor quality-control scene: a small group of suspect plain cartons isolated from orderly stock by a simple floor boundary, one open box showing cream hollow PVC panel ends. Warm beige and brown palette, sophisticated tactile 3D illustration, soft studio daylight, quiet minimal composition. No text, letters, logos, watermark, flags, people or actual identifiable factory. Conceptual illustration only.",
+      "generator": "built-in image_gen",
+      "type": "AI-generated conceptual illustration",
+      "date": "2026-11-09"
+    },
+    {
+      "country": "uae",
+      "path": "assets/articles/november9-uae.webp",
+      "source": "/Users/mac/.codex/generated_images/01a1c052-f5e7-7453-a3fd-3c36b4e3ad7d/exec-aaa77131-b04b-483a-a1d3-379bfc57a6b5.png",
+      "prompt": "Editorial website illustration, wide landscape. UAE WPC wall-panel shipment packaging substitution inspection: close three-quarter view of two wooden pallets with different protective corner profiles and wrapping, dark walnut fluted WPC sample laid beside a clipboard with blank geometric checkboxes, magnifying glass emphasizing packaging detail. Warm beige and brown palette, sophisticated tactile 3D illustration, soft studio daylight. No text, letters, logos, watermark, flags or real identifiable factory. Conceptual illustration only.",
+      "generator": "built-in image_gen",
+      "type": "AI-generated conceptual illustration",
+      "date": "2026-11-09"
+    },
+    {
+      "country": "uzbekistan",
+      "path": "assets/articles/november9-uzbekistan.webp",
+      "source": "/Users/mac/.codex/generated_images/01a1c052-f5e7-7453-a3fd-3c36b4e3ad7d/exec-d2c3efa7-c8b7-4d26-a918-bb1310755354.png",
+      "prompt": "Editorial website illustration, wide landscape. Uzbekistan PU stone panel sample and certificate scope review: tabletop still life of a lightweight cream faux-stone relief sample, its exposed foam edge, adjacent plain paperwork sheets with abstract blank boxes and a small magnifying glass linking material sample to document scope. Warm beige and brown palette, sophisticated tactile 3D illustration, overhead composition and soft daylight. No readable text, letters, logos, watermarks, flags or fake certification seal. Conceptual illustration only.",
+      "generator": "built-in image_gen",
+      "type": "AI-generated conceptual illustration",
+      "date": "2026-11-09"
+    }
+  ]
+}

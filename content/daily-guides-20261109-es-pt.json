@@ -1,0 +1,260 @@
+{
+  "brazil-pvc-wall-panels-stop-sale-batch-isolation.html": {
+    "es": {
+      "title": "Paneles PVC en Brasil: aislamiento de lotes | Luvie",
+      "heading": "Paneles de pared PVC en Brasil: aísle un lote sospechoso antes de que salga otro pedido",
+      "description": "Establezca un proceso práctico de suspensión de ventas de paneles PVC en Brasil: aísle existencias, concilie pedidos, conserve pruebas y documente la liberación.",
+      "lead": "Una referencia de lote solo resulta útil si el almacén puede actuar a partir de ella. Cuando un distribuidor brasileño recibe una reclamación creíble sobre paneles de pared PVC, la pregunta operativa inmediata no es lo atractivo que resulta su hoja de seguimiento. Es qué cajas todavía pueden salir del edificio, qué pedidos ya contienen las mismas existencias y quién puede autorizar el siguiente movimiento. Esta guía describe un procedimiento propuesto de control interno, no afirma que un producto concreto tenga un defecto ni sustituye las obligaciones brasileñas aplicables.",
+      "answer": "Someta las existencias potencialmente afectadas a un bloqueo documentado de venta y despacho, vincule las cajas físicas con los registros de inventario y pedidos y conserve las pruebas necesarias para decidir el alcance. Mantenga separadas la investigación, la comunicación con los clientes y la autoridad para liberar existencias. Una explicación del proveedor, por sí sola, no debe eliminar silenciosamente un bloqueo del almacén.",
+      "sections": [
+        [
+          "Defina el bloqueo sin adivinar la causa",
+          "Registre la fecha de la reclamación, la referencia del proveedor, el acabado, los identificadores de las cajas, la orden de compra y la condición comunicada. Describa las observaciones en lugar de declarar una causa técnica antes del examen. Si una caja carece de una identificación de lote utilizable, identifíquela mediante su registro de recepción y ubicación y deje constancia explícita de la incertidumbre. Comience con el alcance que permitan justificar las pruebas disponibles; si los registros no permiten separar las existencias sospechosas de otras entregas, puede ser necesario un bloqueo temporal más amplio. Designe un responsable del incidente y un suplente para que la decisión no quede desatendida cuando falte un empleado. Conserve fotografías y mensajes originales sin eliminar contexto útil."
+        ],
+        [
+          "Haga coincidir los bloqueos físicos y digitales",
+          "Traslade las cajas a una ubicación de bloqueo claramente identificada cuando sea viable e impida su preparación para pedidos mediante el proceso de inventario. Una etiqueta de papel no basta si el canal en línea aún puede asignar esas mismas existencias. Revise las muestras de exposición, las cajas abiertas, las devoluciones y las existencias almacenadas por terceros. Pida a cada ubicación que confirme la instrucción y comunique su cantidad en la misma unidad. Separe paneles, cajas y metros cuadrados en lugar de sumar cifras con unidades distintas. Registre cualquier movimiento realizado para inspección para evitar que el material examinado vuelva accidentalmente al inventario disponible. Un responsable de almacén designado debe verificar el bloqueo, no limitarse a suponer que se leyó un correo."
+        ],
+        [
+          "Concilie los pedidos antes de comunicar una conclusión",
+          "Elabore una tabla de movimientos que muestre las cantidades recibidas, las existencias restantes, los pedidos despachados, las devoluciones y cualquier pérdida o muestra documentada. Investigue las diferencias sin explicación antes de reducir el alcance del bloqueo. Las orientaciones de trazabilidad de GS1 ofrecen un marco útil para conectar identificadores y eventos de la cadena de suministro, pero un identificador no investiga por sí mismo una reclamación ni determina responsabilidades legales. Identifique a los clientes que podrían haber recibido las existencias pertinentes y conserve los vínculos con los pedidos. La comunicación con los clientes debe distinguir entre una comprobación preventiva y un defecto confirmado. Consulte al importador responsable y a los asesores adecuados sobre las notificaciones y medidas exigidas; este procedimiento no establece los umbrales de retirada de productos en Brasil."
+        ],
+        [
+          "Libere las existencias solo mediante una decisión documentada",
+          "Deje por escrito qué pruebas respaldan la liberación, sustitución, inspección adicional u otra medida, quién la aprobó y qué unidades exactas abarca. Mantenga las muestras conservadas y los registros de inspección vinculados al incidente cuando corresponda. Liberar una parte verificada no debe liberar automáticamente todas las cajas con el mismo nombre de acabado. Actualice tanto el estado del almacén como los canales de venta y después compruebe un pedido de prueba frente a la cantidad que deba estar disponible. Concluya con una revisión breve de por qué las existencias pudieron o no aislarse rápidamente. Mejore las etiquetas de recepción, las definiciones de unidades o los vínculos entre pedidos donde la investigación haya revelado carencias, conservando el historial original del incidente."
+        ]
+      ],
+      "checklist": [
+        "Responsable del incidente, observaciones y alcance provisional del lote registrados.",
+        "Bloqueos del almacén, asignación en línea y existencias de terceros conciliados.",
+        "Recepciones, despachos, devoluciones y cantidades restantes comparados.",
+        "Pruebas de la decisión y autoridad exacta para liberar conservadas."
+      ],
+      "faq": [
+        [
+          "¿Una suspensión de ventas demuestra que los paneles son defectuosos?",
+          "No. Un bloqueo preventivo controla los movimientos mientras se examinan los hechos. Explique esta distinción y evite conclusiones técnicas o legales sin respaldo."
+        ],
+        [
+          "¿Puede el equipo comercial retirar el bloqueo tras una llamada del proveedor?",
+          "Utilice una decisión documentada de la autoridad designada, respaldada por las pruebas pertinentes. Registre la conversación, pero no permita que una garantía informal eluda el proceso acordado."
+        ]
+      ],
+      "closing": "Envíe a Luvie la referencia PVC seleccionada, los identificadores de las cajas afectadas y una descripción objetiva del problema. Solicite los registros de pedidos y embalaje disponibles que necesite para investigar; no incluya datos personales innecesarios de los clientes."
+    },
+    "pt-br": {
+      "title": "Painéis PVC no Brasil: isolamento de lotes | Luvie",
+      "heading": "Painéis de parede PVC no Brasil: isole um lote suspeito antes da saída de outro pedido",
+      "description": "Crie um fluxo prático de suspensão de vendas de painéis PVC no Brasil: isole o estoque, concilie pedidos, preserve evidências e documente a liberação.",
+      "lead": "Uma referência de lote só é útil se o armazém puder agir com base nela. Quando um distribuidor brasileiro recebe uma reclamação plausível sobre painéis de parede PVC, a questão operacional imediata não é a aparência da planilha de rastreamento. É quais caixas ainda podem sair do prédio, quais pedidos já contêm o mesmo estoque e quem pode autorizar a próxima movimentação. Este guia descreve um procedimento proposto de controle interno, não afirma que determinado produto apresenta defeito nem substitui as obrigações brasileiras aplicáveis.",
+      "answer": "Coloque o estoque potencialmente afetado sob bloqueio documentado de venda e expedição, vincule as caixas físicas aos registros de estoque e pedidos e preserve as evidências necessárias para decidir a abrangência. Mantenha separadas a investigação, a comunicação com clientes e a autoridade para liberação. Uma explicação do fornecedor, por si só, não deve retirar silenciosamente um bloqueio do armazém.",
+      "sections": [
+        [
+          "Defina o bloqueio sem presumir a causa",
+          "Registre a data da reclamação, a referência do fornecedor, o acabamento, os identificadores das caixas, o pedido de compra e a condição relatada. Descreva observações em vez de declarar uma causa técnica antes da análise. Se uma caixa não tiver uma identificação de lote utilizável, identifique-a pelo registro de recebimento e pela localização e registre explicitamente a incerteza. Comece pela abrangência justificável com as evidências disponíveis; se os registros não permitirem separar o estoque suspeito de outras entregas, pode ser necessário um bloqueio temporário mais amplo. Designe um responsável pelo incidente e um substituto para que a decisão não fique esquecida na ausência de um funcionário. Preserve fotografias e mensagens originais sem editar e eliminar contexto útil."
+        ],
+        [
+          "Faça os bloqueios físico e digital coincidirem",
+          "Transfira as caixas para uma área de bloqueio claramente identificada quando viável e impeça sua separação para pedidos pelo processo de estoque. Uma etiqueta de papel não basta se o canal on-line ainda puder alocar o mesmo estoque. Revise amostras do showroom, caixas abertas, devoluções e estoque armazenado por terceiros. Peça a cada local que confirme a instrução e informe sua quantidade na mesma unidade. Separe painéis, caixas e metros quadrados, em vez de somar números com unidades diferentes. Registre qualquer movimentação para inspeção para que o material examinado não retorne acidentalmente ao estoque disponível. Um responsável nomeado pelo armazém deve verificar o bloqueio, não apenas presumir que um e-mail foi lido."
+        ],
+        [
+          "Concilie os pedidos antes de comunicar uma conclusão",
+          "Monte uma tabela de movimentações com quantidades recebidas, estoque restante, pedidos expedidos, devoluções e eventuais perdas ou amostras documentadas. Investigue diferenças sem explicação antes de reduzir a abrangência do bloqueio. As orientações de rastreabilidade da GS1 oferecem uma estrutura útil para conectar identificadores e eventos da cadeia de suprimentos, mas um identificador não investiga uma reclamação nem determina responsabilidades legais. Identifique quais clientes podem ter recebido o estoque pertinente e preserve os vínculos com os pedidos. A comunicação com clientes deve distinguir uma verificação preventiva de um defeito confirmado. Consulte o importador responsável e os assessores adequados sobre notificações e ações obrigatórias; este procedimento não estabelece os critérios brasileiros para recolhimento de produtos."
+        ],
+        [
+          "Libere somente com uma decisão de destinação registrada",
+          "Registre quais evidências sustentam a liberação, substituição, inspeção adicional ou outra destinação, quem a aprovou e quais unidades exatas ela abrange. Mantenha amostras retidas e registros de inspeção vinculados ao incidente quando apropriado. A liberação de uma parcela verificada não deve liberar automaticamente todas as caixas com o mesmo nome de acabamento. Atualize o status do armazém e os canais de venda e depois confira um pedido de teste em relação à quantidade que deve ficar disponível. Encerre com uma breve análise de por que foi ou não possível isolar o estoque rapidamente. Melhore etiquetas de recebimento, definições de unidades ou vínculos de pedidos onde a investigação revelou lacunas, preservando o histórico original do incidente."
+        ]
+      ],
+      "checklist": [
+        "Responsável pelo incidente, observações e abrangência provisória do lote registrados.",
+        "Bloqueios do armazém, alocação on-line e estoque de terceiros conciliados.",
+        "Recebimentos, expedições, devoluções e quantidades restantes comparados.",
+        "Evidências da destinação e autoridade exata para liberação preservadas."
+      ],
+      "faq": [
+        [
+          "Uma suspensão de vendas prova que os painéis têm defeito?",
+          "Não. Um bloqueio preventivo controla a movimentação enquanto os fatos são examinados. Explique essa distinção e evite conclusões técnicas ou jurídicas sem respaldo."
+        ],
+        [
+          "A equipe de vendas pode remover o bloqueio após uma ligação do fornecedor?",
+          "Use uma decisão documentada da autoridade designada, apoiada pelas evidências pertinentes. Registre a conversa, mas não permita que uma garantia informal contorne o processo acordado."
+        ]
+      ],
+      "closing": "Envie à Luvie a referência PVC selecionada, os identificadores das caixas afetadas e uma descrição factual da preocupação. Solicite os registros disponíveis de pedidos e embalagem necessários à investigação; não inclua dados pessoais desnecessários de clientes."
+    }
+  },
+  "uae-wpc-wall-panels-pallet-substitution-packing-revision.html": {
+    "es": {
+      "title": "Paneles WPC para EAU: control del cambio de palé | Luvie",
+      "heading": "Paneles de pared WPC para EAU: apruebe la sustitución del palé antes de cargar",
+      "description": "Controle cambios tardíos de palés en pedidos WPC para EAU con registros de embalaje revisados, comprobaciones de materiales, revisión de manipulación y autorización clara de carga.",
+      "lead": "Un pedido de paneles WPC puede estar listo cuando el palé previsto inicialmente deja de estar disponible. Sustituir la base puede parecer una decisión menor del almacén, pero puede cambiar los puntos de apoyo, el peso bruto, el acceso para manipulación y la descripción que utiliza el equipo de transporte. Para una entrega en EAU, trate la sustitución como una revisión del embalaje que debe comprobarse antes de cargar. Este es un procedimiento de control del comprador, no una confirmación de que un palé o envío concreto cumple los requisitos del destino.",
+      "answer": "Identifique el material y la construcción del reemplazo, compárelos con la disposición de embalaje aprobada, actualice los registros del envío afectados y obtenga la aprobación de las partes responsables. Compruebe por separado la aplicabilidad de las normas sobre embalaje de madera y la protección mecánica. El nombre de un producto WPC no establece de qué están hechos su palé, sus bloques de apoyo o su madera de estiba.",
+      "sections": [
+        [
+          "Describa lo que realmente cambia",
+          "Solicite una propuesta de cambio fechada con las dimensiones, materiales, disposición de apoyos y peso bruto previsto del palé original y del sustituto. Incluya bloques, largueros y material de estiba suelto, en lugar de describir únicamente la plataforma superior visible. Registre el número de cajas y cómo se sujetarán. Pregunte si el cambio afecta la distancia entre apoyos de los paneles o deja extremos sin apoyo. Las fotografías deben mostrar el conjunto de embalaje realmente propuesto; una imagen genérica de un palé no identifica la configuración del envío. Conserve la revisión original del embalaje para que el comprador pueda comparar la propuesta en lugar de reconstruirla a partir de varios mensajes."
+        ],
+        [
+          "Separe las reglas sobre materiales de la idoneidad para el transporte",
+          "La IPPC describe la NIMF 15 como una norma que aborda los riesgos de plagas asociados al embalaje de madera en bruto en el comercio internacional, incluida la madera de estiba, y que excluye determinados embalajes de madera procesada, como el contrachapado. Esa distinción se refiere al material del embalaje, no a una aprobación general del envío. Una plataforma de contrachapado con componentes de madera en bruto no debe evaluarse únicamente por su superficie. Pida al importador o asesor de transporte que confirme los requisitos aplicables al conjunto y la ruta reales. Revise por separado si el reemplazo puede proteger los paneles durante la manipulación prevista. La condición fitosanitaria no demuestra la capacidad de carga, y un palé resistente no resuelve por sí solo las cuestiones fitosanitarias."
+        ],
+        [
+          "Revise conjuntamente documentos e instrucciones de manipulación",
+          "Compare el reemplazo con las dimensiones y los pesos previstos en la reserva de transporte. Si cambian las medidas del conjunto embalado, pida al equipo de transporte que evalúe el efecto sobre el plan de envío antes de cargar. Actualice la lista de empaque y las instrucciones de manipulación pertinentes con el mismo identificador de revisión. Compruebe el acceso de la carretilla elevadora, los puntos de elevación permitidos, la protección de bordes y la disposición de sujeción con el responsable del embalaje. Evite inventar un límite de apilamiento o una capacidad de carga a partir de la apariencia del palé. Solicite información de respaldo o una revisión documentada apropiada para la carga. Asegúrese de que el personal de carga recibe la revisión aprobada, no una captura anterior que sigue en una conversación."
+        ],
+        [
+          "Cierre la revisión en el punto de carga",
+          "Acuerde quién puede aprobar la sustitución y qué pruebas se requieren. Antes de autorizar la salida, compare las mercancías embaladas con la propuesta aprobada y conserve fotografías fechadas que muestren la base, las sujeciones y las etiquetas identificativas. Registre cualquier discrepancia pendiente y resuélvala antes de declarar cerrada la revisión. Si no puede suministrarse el reemplazo acordado, eleve las opciones modificadas a los responsables en lugar de aceptar otro sustituto sin documentar. Mantenga la aprobación del embalaje vinculada a la orden de compra y a las referencias del envío. A la llegada, pida al equipo receptor que compare la disposición entregada y su estado visible con esos registros para que futuros pedidos se beneficien de observaciones concretas sobre la manipulación."
+        ]
+      ],
+      "checklist": [
+        "Conjuntos del palé original y sustituto identificados componente por componente.",
+        "Aplicabilidad de las reglas de materiales y protección mecánica evaluadas por separado.",
+        "Lista de empaque, supuestos de reserva e instrucciones de manipulación revisados conjuntamente.",
+        "Disposición cargada real contrastada con la aprobación del responsable designado."
+      ],
+      "faq": [
+        [
+          "¿Un envío de paneles WPC utiliza automáticamente embalaje exento?",
+          "No. El material del panel no identifica el material del palé ni de la estiba. Compruebe el conjunto completo del embalaje y confirme los requisitos aplicables a la ruta."
+        ],
+        [
+          "¿Podemos conservar la lista de empaque original si solo cambia el palé?",
+          "Compruebe si se ven afectadas las cantidades, medidas, pesos o descripciones registrados. Revise los registros pertinentes cuando sea necesario para que los equipos de transporte y recepción trabajen con la disposición real."
+        ]
+      ],
+      "closing": "Envíe a Luvie su referencia WPC y la disposición de entrega propuesta. Solicite una comparación documentada de cualquier sustitución de palé antes de acordar la revisión final del embalaje y las instrucciones de carga."
+    },
+    "pt-br": {
+      "title": "Painéis WPC para EAU: controle da troca de palete | Luvie",
+      "heading": "Painéis de parede WPC para EAU: aprove a troca do palete antes do carregamento",
+      "description": "Controle mudanças tardias de paletes em pedidos WPC para EAU com registros de embalagem revisados, verificação de materiais, análise do manuseio e aprovação clara do carregamento.",
+      "lead": "Um pedido de painéis WPC pode estar pronto quando o palete originalmente planejado deixa de estar disponível. Substituir a base pode parecer uma decisão pequena do armazém, mas pode alterar os pontos de apoio, o peso bruto, o acesso para movimentação e a descrição utilizada pela equipe de transporte. Para uma entrega nos EAU, trate a substituição como uma revisão de embalagem que precisa ser verificada antes do carregamento. Este é um procedimento de controle do comprador, não uma confirmação de que determinado palete ou remessa atende aos requisitos do destino.",
+      "answer": "Identifique o material e a construção do substituto, compare-os com a configuração de embalagem aprovada, atualize os registros da remessa afetados e obtenha a aprovação das partes responsáveis. Verifique a aplicabilidade das regras de embalagem de madeira separadamente da proteção mecânica. O nome de um produto WPC não estabelece de que são feitos seu palete, seus blocos de apoio ou seu material de estiva.",
+      "sections": [
+        [
+          "Descreva o que realmente está mudando",
+          "Solicite uma proposta de alteração datada com dimensões, materiais, disposição dos apoios e peso bruto esperado do palete original e do substituto. Inclua blocos, longarinas e material de estiva solto, em vez de descrever apenas a plataforma superior visível. Registre a quantidade de caixas e como serão fixadas. Pergunte se a mudança afeta o vão de apoio dos painéis ou cria extremidades sem suporte. As fotos devem mostrar o conjunto de embalagem efetivamente proposto; uma foto genérica de palete não identifica a configuração da remessa. Preserve a revisão original da embalagem para que o comprador possa comparar a proposta, em vez de reconstruí-la a partir de várias mensagens."
+        ],
+        [
+          "Separe as regras de materiais da adequação ao transporte",
+          "A IPPC descreve a NIMF 15 como uma norma que trata dos riscos de pragas associados a embalagens de madeira bruta no comércio internacional, incluindo madeira de estiva, e exclui determinadas embalagens de madeira processada, como compensado. Essa distinção diz respeito ao material da embalagem, não a uma aprovação geral da remessa. Uma plataforma de compensado com componentes de madeira bruta não deve ser avaliada apenas pela plataforma. Peça ao importador ou assessor de transporte que confirme os requisitos aplicáveis ao conjunto e à rota reais. Avalie separadamente se o substituto pode proteger os painéis durante o manuseio previsto. A condição fitossanitária não demonstra capacidade de carga, e um palete resistente não resolve, por si só, questões fitossanitárias."
+        ],
+        [
+          "Revise documentos e instruções de manuseio em conjunto",
+          "Compare o substituto com as dimensões e os pesos previstos na reserva de transporte. Se as medidas da carga embalada mudarem, peça à equipe de transporte que avalie o efeito no plano de embarque antes do carregamento. Atualize a lista de embalagem e quaisquer instruções de manuseio pertinentes com o mesmo identificador de revisão. Confira o acesso da empilhadeira, os pontos de elevação permitidos, a proteção de bordas e a disposição das amarrações com o responsável pela embalagem. Evite inventar um limite de empilhamento ou capacidade de carga com base na aparência do palete. Solicite informações de apoio ou uma análise documentada adequada à carga. Garanta que os responsáveis pelo carregamento recebam a revisão aprovada, não uma captura de tela anterior que permaneceu na conversa."
+        ],
+        [
+          "Encerre a revisão no ponto de carregamento",
+          "Combine quem pode aprovar a substituição e quais evidências são necessárias. Antes da liberação, compare as mercadorias embaladas com a proposta aprovada e retenha fotografias datadas mostrando a base, as amarrações e as etiquetas de identificação. Registre qualquer divergência remanescente e resolva-a antes de declarar a revisão encerrada. Se o substituto acordado não puder ser fornecido, encaminhe as opções alteradas aos responsáveis em vez de aceitar outro substituto sem documentação. Mantenha a aprovação da embalagem vinculada ao pedido de compra e às referências da remessa. Na chegada, peça à equipe de recebimento que compare a configuração entregue e a condição visível com esses registros para que os pedidos futuros se beneficiem de observações específicas sobre o manuseio."
+        ]
+      ],
+      "checklist": [
+        "Conjuntos do palete original e do substituto identificados componente por componente.",
+        "Aplicabilidade das regras de materiais e proteção mecânica avaliadas separadamente.",
+        "Lista de embalagem, premissas da reserva e instruções de manuseio revisadas em conjunto.",
+        "Configuração efetivamente carregada conferida com a aprovação do responsável designado."
+      ],
+      "faq": [
+        [
+          "Uma remessa de painéis WPC usa automaticamente embalagem isenta?",
+          "Não. O material do painel não identifica o material do palete ou da estiva. Verifique o conjunto completo da embalagem e confirme os requisitos aplicáveis à rota específica."
+        ],
+        [
+          "Podemos manter a lista de embalagem original se apenas o palete mudar?",
+          "Verifique se as quantidades, medidas, pesos ou descrições registrados são afetados. Revise os registros pertinentes quando necessário para que as equipes de transporte e recebimento trabalhem com a configuração real."
+        ]
+      ],
+      "closing": "Envie à Luvie sua referência WPC e a configuração de entrega proposta. Solicite uma comparação documentada de qualquer substituição de palete antes de acordar a revisão final da embalagem e as instruções de carregamento."
+    }
+  },
+  "uzbekistan-pu-stone-panels-certificate-scope-entity-match.html": {
+    "es": {
+      "title": "Paneles PU para Uzbekistán: alcance del certificado | Luvie",
+      "heading": "Paneles de piedra PU para Uzbekistán: vincule el certificado con la entidad y la actividad",
+      "description": "Compruebe la entidad, el centro, el alcance y la vía de verificación del certificado de un proveedor de paneles de piedra PU antes de utilizarlo para comprar en Uzbekistán.",
+      "lead": "Una captura de un certificado puede hacer que dos ofertas de paneles de piedra PU parezcan igualmente documentadas, aunque las pruebas subyacentes cubran empresas o actividades diferentes. Para un comprador de Uzbekistán, la pregunta útil no es qué proveedor muestra más distintivos. Es si el documento pertenece a la organización que participa en el pedido y respalda la afirmación concreta realizada. Una comprobación cuidadosa del alcance puede evitar que un documento de sistema de gestión se presente como prueba del desempeño del panel o de su aceptación para importación.",
+      "answer": "Lea el certificado completo, identifique al emisor y al titular, compare la entidad y los centros nombrados con la cadena comercial y verifique su estado actual mediante una vía independiente adecuada. Después separe lo que realmente cubre el documento de los ensayos del producto y los requisitos del destino que necesitan pruebas propias.",
+      "sections": [
+        [
+          "Empiece por el documento completo y la afirmación prevista",
+          "Solicite un certificado legible con su número, información de emisión, vigencia declarada, organización nombrada, direcciones, norma y alcance. Pida los anexos citados cuando los centros o actividades se enumeren por separado. Guarde la versión revisada y la fecha de revisión para que una sustitución posterior no borre el fundamento de la decisión de compra. Anote la afirmación exacta que el proveedor le pide aceptar. Una afirmación sobre un sistema de gestión, un resultado de ensayo y una aprobación para una aplicación prevista son cuestiones distintas. No permita que un número de norma conocido sustituya la lectura del texto que lo rodea."
+        ],
+        [
+          "Vincule la entidad con la cadena de compra",
+          "Compare al titular del certificado con el emisor de la cotización, el vendedor de la factura y la organización fabricante declarada. Los nombres distintos no constituyen automáticamente prueba de irregularidad: un comerciante puede abastecerse de un productor independiente. Sin embargo, requieren una explicación y vínculos que la respalden antes de atribuir el certificado al pedido. Pregunte qué centro fabricará la referencia seleccionada y si ese centro está dentro del alcance declarado. Registre las traducciones de los nombres de las empresas junto a sus denominaciones legales originales para reducir la ambigüedad. No suponga que compartir marca, una dirección similar o la pertenencia a un grupo empresarial amplía la cobertura a todas las entidades."
+        ],
+        [
+          "Verifique el estado sin exagerar lo que demuestra",
+          "ISO explica que desarrolla normas, pero no emite certificados por sí misma; la certificación la realizan organismos externos. Sus orientaciones remiten a los compradores a bases de datos de verificación y al organismo de certificación o acreditación pertinente. Utilice datos de contacto localizados de forma independiente cuando sea posible, en lugar de depender únicamente de un enlace proporcionado en una captura. Registre qué se confirmó, quién lo confirmó y en qué fecha. Si una búsqueda en una base de datos no devuelve resultados, solicite una aclaración en lugar de declarar inmediatamente que el documento es falso. Una verificación satisfactoria establece el estado de certificación comprobado, no todas las afirmaciones sobre desempeño del folleto del proveedor ni la idoneidad de un panel concreto para su proyecto."
+        ],
+        [
+          "Mantenga las pruebas del producto y del destino en etapas de decisión separadas",
+          "Para la referencia de panel de piedra PU seleccionada, enumere las afirmaciones del producto que realmente importan para la aplicación prevista y solicite pruebas apropiadas para ellas. Relacione cualquier informe de ensayo con la descripción de su muestra, método y condiciones pertinentes en lugar de confiar en un logotipo de portada. Pida al importador responsable en Uzbekistán y a asesores cualificados que confirmen la documentación local y los requisitos del proyecto aplicables. Este artículo no identifica certificados uzbekos obligatorios ni promete aceptación aduanera. Mantenga visibles las preguntas pendientes en la revisión de compra, con un responsable y un plazo de decisión. Apruebe únicamente las afirmaciones respaldadas por las pruebas revisadas y conserve la aclaración del proveedor con el registro del pedido."
+        ]
+      ],
+      "checklist": [
+        "Certificado completo y anexos de alcance o centros conservados.",
+        "Titular, vendedor, productor y centro de fabricación propuesto relacionados.",
+        "Emisor y estado actual comprobados mediante una vía de verificación adecuada.",
+        "Pruebas del producto y requisitos de Uzbekistán revisados por separado."
+      ],
+      "faq": [
+        [
+          "¿Un certificado ISO de sistema de gestión demuestra el comportamiento al fuego del panel?",
+          "No. No debe sustituir las pruebas adecuadas del producto relativas al panel seleccionado y a la aplicación prevista. Revise por separado el alcance real y la afirmación específica."
+        ],
+        [
+          "¿Un nombre de vendedor diferente debe descalificar automáticamente una oferta?",
+          "No automáticamente. Aclare las relaciones comerciales y de fabricación, identifique qué organización es titular del certificado y determine si su alcance resulta pertinente para el pedido. Una discrepancia sin explicar sigue siendo una cuestión pendiente."
+        ]
+      ],
+      "closing": "Envíe a Luvie la referencia del panel de piedra PU, la aplicación prevista y la lista de pruebas para su compra en Uzbekistán. Solicite una correspondencia clara entre entidades y documentos antes de utilizar afirmaciones de certificación en una especificación o presentación para clientes."
+    },
+    "pt-br": {
+      "title": "Painéis PU para Uzbequistão: escopo do certificado | Luvie",
+      "heading": "Painéis de pedra PU para Uzbequistão: relacione o certificado à entidade e à atividade",
+      "description": "Verifique a entidade, a unidade, o escopo e o caminho de verificação do certificado de um fornecedor de painéis de pedra PU antes de usá-lo em uma decisão de compra para o Uzbequistão.",
+      "lead": "Uma captura de tela de certificado pode fazer duas ofertas de painéis de pedra PU parecerem igualmente documentadas, mesmo quando as evidências subjacentes abrangem empresas ou atividades diferentes. Para um comprador do Uzbequistão, a pergunta útil não é qual fornecedor exibe mais selos. É se o documento pertence à organização envolvida no pedido e sustenta a alegação específica apresentada. Uma verificação cuidadosa do escopo pode evitar que um documento de sistema de gestão seja apresentado como prova de desempenho do painel ou de aceitação da importação.",
+      "answer": "Leia o certificado completo, identifique o emissor e o titular, compare a entidade e as unidades nomeadas com a cadeia comercial e verifique a situação atual por um caminho independente apropriado. Depois separe o que o documento realmente abrange dos ensaios de produto e dos requisitos do destino que precisam de evidências próprias.",
+      "sections": [
+        [
+          "Comece pelo documento completo e pela alegação pretendida",
+          "Solicite um certificado legível com número, informações de emissão, validade declarada, organização nomeada, endereços, norma e escopo. Peça os anexos citados quando unidades ou atividades estiverem listadas separadamente. Guarde a versão analisada e a data da análise para que uma substituição posterior não apague a base da decisão de compra. Registre a alegação exata que o fornecedor pede que você aceite. Uma alegação sobre um sistema de gestão, um resultado de ensaio e uma aprovação para uma aplicação pretendida são questões diferentes. Não permita que a presença de um número de norma conhecido substitua a leitura do texto ao redor."
+        ],
+        [
+          "Relacione a entidade à cadeia de compra",
+          "Compare o titular do certificado com o emissor da cotação, o vendedor da fatura e a organização fabricante declarada. Nomes diferentes não são automaticamente evidência de irregularidade: um comerciante pode comprar de um produtor independente. Porém, exigem uma explicação e vínculos comprobatórios antes que o certificado possa ser atribuído ao pedido. Pergunte qual unidade fabricará a referência selecionada e se essa unidade está dentro do escopo declarado. Registre traduções dos nomes das empresas ao lado das razões sociais originais para reduzir a ambiguidade. Não presuma que compartilhar uma marca, um endereço semelhante ou a participação em um grupo empresarial estende a cobertura a todas as entidades."
+        ],
+        [
+          "Verifique a situação sem exagerar o que a verificação comprova",
+          "A ISO explica que desenvolve normas, mas não emite certificados; a certificação é realizada por organismos externos. Suas orientações encaminham compradores a bases de verificação e ao organismo de certificação ou acreditação pertinente. Use contatos encontrados de forma independente quando possível, em vez de depender apenas de um link fornecido em uma captura de tela. Registre o que foi confirmado, por quem e em qual data. Se uma busca em uma base de dados não retornar resultado, peça esclarecimentos em vez de declarar imediatamente que o documento é falso. Uma verificação bem-sucedida estabelece a situação da certificação verificada, não todas as declarações de desempenho do folheto do fornecedor nem a adequação de um painel específico ao seu projeto."
+        ],
+        [
+          "Mantenha evidências do produto e do destino em etapas de decisão separadas",
+          "Para a referência de painel de pedra PU selecionada, liste as alegações do produto que realmente importam à aplicação pretendida e solicite evidências adequadas a essas alegações. Relacione qualquer relatório de ensaio à descrição da amostra, ao método e às condições pertinentes, em vez de confiar em um logotipo na capa. Peça ao importador responsável no Uzbequistão e a assessores qualificados que confirmem a documentação local e os requisitos de projeto aplicáveis. Este artigo não identifica certificados uzbeques obrigatórios nem promete aceitação aduaneira. Mantenha as questões pendentes visíveis na análise da compra, com um responsável e um prazo para decisão. Aprove apenas as alegações sustentadas pelas evidências analisadas e guarde o esclarecimento do fornecedor com o registro do pedido."
+        ]
+      ],
+      "checklist": [
+        "Certificado completo e anexos de escopo ou unidades preservados.",
+        "Titular, vendedor, produtor e unidade de fabricação proposta relacionados.",
+        "Emissor e situação atual verificados por um caminho adequado.",
+        "Evidências do produto e requisitos do Uzbequistão analisados separadamente."
+      ],
+      "faq": [
+        [
+          "Um certificado ISO de sistema de gestão comprova o desempenho do painel em relação ao fogo?",
+          "Não. Ele não deve substituir evidências adequadas do produto relativas ao painel selecionado e à aplicação pretendida. Analise o escopo real e a alegação específica separadamente."
+        ],
+        [
+          "Um nome de vendedor diferente deve desclassificar automaticamente uma oferta?",
+          "Não automaticamente. Esclareça as relações comerciais e de fabricação, identifique qual organização detém o certificado e determine se seu escopo é pertinente ao pedido. Uma divergência sem explicação continua sendo uma questão em aberto."
+        ]
+      ],
+      "closing": "Envie à Luvie a referência do painel de pedra PU, a aplicação pretendida e a lista de evidências para sua compra no Uzbequistão. Solicite uma correspondência clara entre entidades e documentos antes de usar alegações de certificação em uma especificação ou apresentação a clientes."
+    }
+  }
+}
