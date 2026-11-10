@@ -3,6 +3,7 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {families,locales,labels} from '../content/product-series.mjs';
 import {refreshProductGuides} from './refresh-product-guides.mjs';
+import {applyProductPhotos} from './product-photo-gallery.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const base='https://luvieindustry.com';
 const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;');
@@ -63,4 +64,4 @@ for(const l of locales){
 }
 let sitemap=fs.readFileSync(path.join(root,'sitemap.xml'),'utf8');for(const route of newRoutes)if(!sitemap.includes(`<loc>${base+route}</loc>`))sitemap=sitemap.replace('</urlset>',`<url><loc>${base+route}</loc></url>\n</urlset>`);fs.writeFileSync(path.join(root,'sitemap.xml'),sitemap);
 fs.writeFileSync(path.join(root,'content/product-series-release.json'),JSON.stringify({date:'2026-11-10',routes:newRoutes},null,2)+'\n');
-refreshProductGuides();console.log(`Built ${newRoutes.length} product hierarchy pages across four languages.`);
+refreshProductGuides();applyProductPhotos(root);console.log(`Built ${newRoutes.length} product hierarchy pages across four languages.`);
