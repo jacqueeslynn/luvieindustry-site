@@ -5,6 +5,8 @@
 
 Read `.impeccable.md` for the approved audience and beige/brown design direction.
 
+- Homepage spatial redesign is maintained by `scripts/redesign-home-20261111.mjs` and `assets/home-renewal.css`. Preserve its product-family section before latest guides when refreshing content. The hero uses an existing catalog illustration (`assets/extracted_from_pdf/p01_02_Im16.jpg`), not a verified customer project; keep localized illustration captions. Do not run the legacy homepage refiner without reapplying and visually checking this layout.
+
 - Product hierarchy released from `content/product-series.mjs`: `/products/` → family `.html` → nested size/collection pages. Preserve original article URLs and dates; `refreshHomepageLatest()` also calls `refreshProductGuides()` to associate new guides automatically. Do not regenerate old product pages without restoring hierarchy modules. Run `node scripts/check-product-series.mjs` after product/navigation/contact edits. Catalog dimensions are source references, not inventory or performance guarantees.
 - Homepage WhatsApp is a direct `wa.me/8619005833027` anchor, separate from `quickInquiryBtn` which opens the website quotation form. Never put WhatsApp behind that modal again. Nested product paths must survive inquiry source attribution. Contact clicks are not confirmed leads.
 
