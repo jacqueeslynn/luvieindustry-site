@@ -1,0 +1,49 @@
+name: Deploy verified website
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: website-pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install beautifulsoup4==4.13.4
+      - name: Validate website
+        run: |
+          node scripts/audit-site-seo.mjs
+          node scripts/check-product-series.mjs
+          node scripts/check-inquiry-path.mjs
+          node scripts/check-company-contact.mjs
+          python scripts/check-localized-archive.py
+          python scripts/test-translation-normalization.py
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+      - id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          timeout: '1800000'
+      - name: Verify public release
+        run: |
+          curl --fail --retry 5 --retry-delay 10 https://luvieindustry.com/sitemap.xml -o /tmp/live-sitemap.xml
+          curl --fail --retry 5 --retry-delay 10 https://luvieindustry.com/products/ -o /tmp/live-products.html
+          grep -q '/assets/catalogs/details/' /tmp/live-products.html
