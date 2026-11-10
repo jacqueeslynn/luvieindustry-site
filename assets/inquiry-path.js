@@ -5,7 +5,7 @@
   if (!form || !trigger) return;
   const language = document.documentElement.lang;
   const candidate = new URLSearchParams(location.search).get('from') || '';
-  const source = /^\/(?:es\/|pt-br\/|ar\/)?(?:articles|products)\/[a-z0-9-]+\.html$/.test(candidate) || /^\/(?:es|pt-br|ar)\/contact\.html$/.test(candidate) ? candidate : location.pathname;
+  const source = /^\/(?:es\/|pt-br\/|ar\/)?(?:articles\/[a-z0-9-]+\.html|products\/(?:[a-z0-9-]+(?:\/[a-z0-9-]+)?\.html)?)$/.test(candidate) || /^\/(?:es|pt-br|ar)\/contact\.html$/.test(candidate) ? candidate : location.pathname;
   const hidden = document.createElement('input');
   hidden.type = 'hidden'; hidden.name = 'source_page'; hidden.value = source;
   form.append(hidden);

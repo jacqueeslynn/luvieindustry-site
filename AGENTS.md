@@ -5,6 +5,9 @@
 
 Read `.impeccable.md` for the approved audience and beige/brown design direction.
 
+- Product hierarchy released from `content/product-series.mjs`: `/products/` → family `.html` → nested size/collection pages. Preserve original article URLs and dates; `refreshHomepageLatest()` also calls `refreshProductGuides()` to associate new guides automatically. Do not regenerate old product pages without restoring hierarchy modules. Run `node scripts/check-product-series.mjs` after product/navigation/contact edits. Catalog dimensions are source references, not inventory or performance guarantees.
+- Homepage WhatsApp is a direct `wa.me/8619005833027` anchor, separate from `quickInquiryBtn` which opens the website quotation form. Never put WhatsApp behind that modal again. Nested product paths must survive inquiry source attribution. Contact clicks are not confirmed leads.
+
 - Daily publishing remains three original English guides at 08:30 Asia/Shanghai, each with full Spanish, Brazilian Portuguese and Arabic counterparts. Do not increase counts or republish old work to imply new activity.
 - Every article and product family must have an independent URL in all four languages, reciprocal hreflang, correct lang/RTL, canonical, sitemap entry and language-preserving product/article/catalog/inquiry routes. PDF files remain unchanged; localize their introductions and links.
 - Never globally replace a short word inside translation strings. `or` to `o` previously corrupted Spanish spelling throughout the archive. Run the normalization regression tests and review paragraphs, not just labels.

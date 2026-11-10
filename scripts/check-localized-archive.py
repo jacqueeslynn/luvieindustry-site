@@ -78,7 +78,8 @@ for source in source_pages:
                 if sum(c.isascii() and c.isalpha() for c in sentence) > 50:
                     warnings.append(f"possible English text: {target_route}: {sentence[:100]}")
 
-for source_route in ("/", *[f'/products/{p.name}' for p in sorted((ROOT/'products').glob('*.html'))]):
+product_routes = ['/' + p.relative_to(ROOT).as_posix().removesuffix('index.html') if p.name == 'index.html' else '/' + p.relative_to(ROOT).as_posix() for p in sorted((ROOT/'products').rglob('*.html'))]
+for source_route in ("/", *product_routes):
     english = BeautifulSoup(local_file(source_route).read_text(), "html.parser")
     expected_sections = len(english.find_all("section"))
     for code, language in LOCALES.items():
@@ -127,8 +128,7 @@ for source in source_pages:
         if BASE + target_route not in sitemap_urls:
             errors.append(f"sitemap missing: {target_route}")
 
-for product in (ROOT/'products').glob('*.html'):
-    route=f'/products/{product.name}'
+for route in product_routes:
     for prefix in ('', '/es', '/pt-br', '/ar'):
         target=prefix+route
         soup=BeautifulSoup(local_file(target).read_text(),'html.parser')

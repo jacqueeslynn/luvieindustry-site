@@ -170,17 +170,19 @@ for (const target of ['/', '/articles/', '/products/pvc-wall-panels.html', '/pro
 for (const file of productFiles) {
   const relative = `products/${file}`;
   const source = fs.readFileSync(path.join(root, relative), 'utf8');
-  const canonical = `https://luvieindustry.com/${relative}`;
+  const canonical = `https://luvieindustry.com/${file === 'index.html' ? 'products/' : relative}`;
   if (!source.includes(`<link rel="canonical" href="${canonical}">`)) add(relative, 'missing or incorrect canonical');
   if (!source.includes('<meta name="robots" content="index, follow, max-image-preview:large">')) add(relative, 'missing indexable robots meta');
   if ((source.match(/<h1\b/g) ?? []).length !== 1) add(relative, 'expected one H1');
   if (!source.includes('"@type":"CollectionPage"')) add(relative, 'missing CollectionPage schema');
   if (!source.includes('G-VCLMP6Q5KJ') || !source.includes('1331142262420820')) add(relative, 'missing analytics tag');
-  if (!homepage.includes(`href="${relative}"`)) add('index.html', `missing direct product link ${relative}`);
-  if (!hub.includes(`href="../${relative}"`)) add('articles/index.html', `missing product link ${relative}`);
+  const route = file === 'index.html' ? 'products/' : relative;
+  if (![route, '/'+route].some(u=>homepage.includes(`href="${u}"`))) add('index.html', `missing direct product link ${relative}`);
+  if (!['../'+route, '/'+route].some(u=>hub.includes(`href="${u}"`))) add('articles/index.html', `missing product link ${relative}`);
   if (!sitemap.includes(`<loc>${canonical}</loc>`)) add('sitemap.xml', `missing product ${relative}`);
   for (const image of source.matchAll(/<img[^>]+src="([^"]+)"/g)) {
-    if (!fs.existsSync(path.resolve(root, 'products', image[1]))) add(relative, `missing image ${image[1]}`);
+    const imagePath=image[1].startsWith('/')?path.join(root,image[1]):path.resolve(root,'products',image[1]);
+    if (!fs.existsSync(imagePath)) add(relative, `missing image ${image[1]}`);
   }
   for (const anchor of source.matchAll(/<a[^>]+href="([^"]+)"/g)) {
     const href = anchor[1];

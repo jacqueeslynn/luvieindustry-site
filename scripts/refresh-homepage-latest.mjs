@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {refreshProductGuides} from './refresh-product-guides.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const meta=(html,key)=>[...html.matchAll(/<meta\b[^>]+>/g)].map(x=>x[0]).find(x=>x.includes(`property="${key}"`)||x.includes(`name="${key}"`))?.match(/content="([^"]+)"/)?.[1]??'';
 export function refreshHomepageLatest(){
@@ -44,5 +45,6 @@ export function refreshHomepageLatest(){
   home=home.replace(/<!--latest-guides:start-->[\s\S]*?<!--latest-guides:end-->/,`<!--latest-guides:start-->${cards}<!--latest-guides:end-->`);
   fs.writeFileSync(target,home);
  }
+ refreshProductGuides();
 }
 if(process.argv[1]===fileURLToPath(import.meta.url)) refreshHomepageLatest();
