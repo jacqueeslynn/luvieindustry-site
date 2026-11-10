@@ -1,0 +1,260 @@
+{
+  "brazil-pvc-wall-panels-picking-error-reconciliation.html": {
+    "es": {
+      "title": "Paneles PVC en Brasil: conciliar errores de preparación | Luvie",
+      "heading": "Paneles de pared PVC en Brasil: concilie un error de preparación sin ocultar movimientos de existencias",
+      "description": "Resuelva un envío incorrecto de paneles PVC relacionando pedido, cajas enviadas, sustitución y devoluciones antes de corregir los saldos del almacén.",
+      "lead": "Un distribuidor brasileño recibe una fotografía que muestra que un cliente pidió un acabado PVC y recibió otro. Enviar las cajas correctas puede resolver la reclamación inmediata, pero dejar dos saldos de existencias incorrectos y un ajuste de factura sin explicación. Un error de preparación necesita un registro vinculado de movimientos, no solo una disculpa y un cambio manual del total del inventario. Esta guía propone un proceso interno de conciliación para un despacho comercial incorrecto; no presupone un defecto de fabricación ni define remedios legales locales.",
+      "answer": "Compare lo pedido, preparado, despachado y recibido utilizando las referencias y unidades originales. Controle cada sustitución y devolución como movimientos vinculados separados, conserve la transacción original y cierre el caso solo cuando coincidan las cantidades físicas y los ajustes comerciales autorizados. No realice un ajuste de existencias sin explicación para forzar la coincidencia del sistema.",
+      "sections": [
+        [
+          "Determine qué discrepancia ocurrió realmente",
+          "Solicite la referencia del pedido y fotografías legibles de las etiquetas de las cajas recibidas, evitando datos personales innecesarios del cliente. Compare la versión aprobada del pedido con la orden de preparación, el registro de despacho y las pruebas del cliente. Distinga un acabado equivocado de una cantidad incorrecta, una caja mal etiquetada o una sustitución de pedido no autorizada. Si contenido y etiqueta no coinciden, registre ambas observaciones y solicite una inspección adicional en lugar de suponer que el preparador causó el problema. Exprese cantidades en paneles y cajas con la conversión confirmada entre ambas. Conserve los escaneos y marcas de tiempo originales. Identifique el conjunto más pequeño de movimientos relacionados que pueda justificarse para revisión, manteniendo visibles los elementos inciertos en lugar de declarar una causa prematuramente."
+        ],
+        [
+          "Compruebe el otro lado del saldo del almacén",
+          "Inspeccione la ubicación del producto previsto y la del artículo aparentemente enviado. Una preparación incorrecta puede crear una falta en una referencia y un excedente aparente en otra. Compruebe pedidos adyacentes si las pruebas sugieren un intercambio de cajas, pero no suponga que todos los envíos cercanos están afectados. GS1 describe la trazabilidad como la conexión de datos del producto y eventos registrados durante el flujo físico de mercancías. Ese principio ayuda a reconstruir el movimiento; no demuestra automáticamente quién cometió un error. Registre las cantidades contadas, la hora del recuento y cualquier movimiento durante este para que despachos posteriores no hagan engañosa la comparación."
+        ],
+        [
+          "Vincule la solución con movimientos identificados por separado",
+          "Acuerde la solución propuesta con el responsable de la cuenta y el cliente mediante el proceso comercial aplicable. Si se autorizan cajas de sustitución, cree una instrucción de sustitución trazable que haga referencia al pedido original y al incidente. No reescriba el despacho original como si siempre se hubieran enviado las mercancías correctas. Si habrá devolución, identifique por separado la referencia esperada, la cantidad y la autorización de devolución. Al recibirla, inspeccione el estado antes de restablecer la disponibilidad; una devolución de cliente no es automáticamente vendible. Pida al equipo financiero que gestione cualquier abono, cargo o documento corregido mediante sus procedimientos autorizados. Vincule los eventos logísticos y las decisiones financieras, pero no considere uno como prueba de que el otro está completo."
+        ],
+        [
+          "Cierre el incidente con una conciliación reproducible",
+          "Prepare una tabla breve de cierre que muestre despacho original, despacho de sustitución, devolución real, destino del material y ajustes aprobados por referencia y unidad. Explique cualquier cantidad pendiente en lugar de ocultarla en una variación general. Cuando sea viable, haga que alguien distinto del autor del ajuste original revise las pruebas. Compruebe si las existencias físicas restantes coinciden con el saldo registrado tras los movimientos documentados. Después corrija la causa demostrada: pueden ser apropiados etiquetas de ubicación más claras, una confirmación más sólida de referencias o un traspaso controlado de cambios de pedido. Evite añadir comprobaciones gravosas sin relación con las pruebas. Conserve el vínculo del incidente para entender una devolución posterior, una pregunta sobre la factura o una reclamación repetida sin reconstruir el caso a partir de mensajes."
+        ]
+      ],
+      "checklist": [
+        "Pedido aprobado e identidades reales de cajas comparados.",
+        "Ubicaciones de las existencias previstas y enviadas incorrectamente conciliadas.",
+        "Sustitución, devolución y decisiones financieras registradas por separado.",
+        "Cantidades de cierre y discrepancias pendientes revisadas de forma independiente."
+      ],
+      "faq": [
+        [
+          "¿Debemos borrar el despacho incorrecto e introducir la sustitución?",
+          "Conserve el historial original. Registre la corrección mediante el procedimiento autorizado con movimientos vinculados de sustitución o devolución para mantener comprensible la secuencia física."
+        ],
+        [
+          "¿Pueden las cajas devueltas volver directamente a las existencias disponibles?",
+          "Solo después de las comprobaciones aplicables de recepción y estado. Registre referencia, cantidad y destino del material en lugar de suponer que una caja aparentemente sin abrir es automáticamente apta para reventa."
+        ]
+      ],
+      "closing": "Envíe a Luvie la referencia PVC y los identificadores pertinentes del pedido o cajas cuando solicite revisar los registros de envío. Describa objetivamente la discrepancia y mantenga trazables las decisiones de sustitución, devolución e inventario."
+    },
+    "pt-br": {
+      "title": "Painéis PVC no Brasil: conciliar erros de separação | Luvie",
+      "heading": "Painéis de parede PVC no Brasil: concilie um erro de separação sem ocultar a movimentação do estoque",
+      "description": "Resolva uma separação incorreta de painéis PVC relacionando pedido, caixas enviadas, reposição e devoluções antes de corrigir os saldos do armazém.",
+      "lead": "Um distribuidor brasileiro recebe uma fotografia mostrando que um cliente pediu um acabamento PVC, mas recebeu outro. Enviar as caixas corretas pode resolver a reclamação imediata, porém deixar dois saldos de estoque incorretos e um ajuste de fatura sem explicação. Um erro de separação precisa de um registro vinculado de movimentações, não apenas de um pedido de desculpas e de uma alteração manual no total do inventário. Este guia propõe um processo interno de conciliação para uma expedição comercial incorreta; não presume defeito de fabricação nem define medidas jurídicas locais.",
+      "answer": "Compare o que foi pedido, separado, expedido e recebido usando as referências e unidades originais. Controle reposição e devolução como movimentações vinculadas separadas, preserve a transação original e encerre o caso apenas quando as quantidades físicas e os ajustes comerciais autorizados coincidirem. Não faça um ajuste de estoque sem explicação para forçar a correspondência do sistema.",
+      "sections": [
+        [
+          "Determine qual divergência realmente ocorreu",
+          "Peça a referência do pedido e fotografias legíveis das etiquetas das caixas recebidas, evitando dados pessoais desnecessários do cliente. Compare a versão aprovada do pedido com a ordem de separação, o registro de expedição e as evidências do cliente. Diferencie acabamento incorreto de quantidade errada, caixa mal identificada ou substituição não autorizada do pedido. Se o conteúdo e a etiqueta divergirem, registre ambas as observações e solicite inspeção adicional em vez de presumir que o separador causou o problema. Informe quantidades em painéis e caixas com a conversão confirmada entre eles. Preserve leituras e registros de horário originais. Identifique o menor conjunto justificável de movimentações relacionadas para análise, mantendo itens incertos visíveis em vez de declarar uma causa prematuramente."
+        ],
+        [
+          "Confira o outro lado do saldo do armazém",
+          "Inspecione o endereço de estoque previsto e o endereço do item aparentemente enviado. Uma separação errada pode criar falta em uma referência e sobra aparente em outra. Confira pedidos próximos se as evidências indicarem que caixas podem ter sido trocadas, mas não presuma que todas as remessas próximas foram afetadas. A GS1 descreve rastreabilidade como a conexão entre dados de produto e eventos registrados durante o fluxo físico das mercadorias. Esse princípio apoia a reconstrução da movimentação; não comprova automaticamente quem cometeu um erro. Registre as quantidades contadas, o horário da contagem e quaisquer movimentações ocorridas durante ela para que expedições posteriores não tornem a comparação enganosa."
+        ],
+        [
+          "Vincule a solução a movimentações identificadas separadamente",
+          "Acorde a solução proposta com o responsável pela conta e o cliente conforme o processo comercial aplicável. Se caixas de reposição forem autorizadas, crie uma instrução rastreável de reposição que faça referência ao pedido original e ao incidente. Não reescreva a expedição original como se as mercadorias corretas sempre tivessem sido enviadas. Se houver devolução, identifique separadamente a referência esperada, a quantidade e a autorização de devolução. No recebimento, inspecione a condição antes de restabelecer a disponibilidade; uma devolução de cliente não é automaticamente vendável. Peça à equipe financeira que trate qualquer crédito, cobrança ou documento corrigido pelos procedimentos autorizados. Mantenha eventos logísticos e decisões financeiras vinculados, mas não trate um como prova de que o outro foi concluído."
+        ],
+        [
+          "Encerre o incidente com uma conciliação reproduzível",
+          "Prepare uma breve tabela de encerramento mostrando expedição original, expedição de reposição, devolução efetiva, destinação e ajustes aprovados por referência e unidade. Explique qualquer quantidade pendente em vez de ocultá-la em uma diferença geral. Quando viável, peça a alguém diferente do autor do ajuste original que revise as evidências. Teste se o estoque físico restante corresponde ao saldo registrado após as movimentações documentadas. Em seguida, trate a causa demonstrada: etiquetas de endereço mais claras, confirmação mais robusta de referência ou repasse controlado de alterações de pedido podem ser adequados. Evite acrescentar verificações trabalhosas sem relação com as evidências. Preserve o vínculo do incidente para que uma devolução posterior, dúvida sobre fatura ou reclamação repetida possa ser entendida sem reconstruir o caso a partir de mensagens."
+        ]
+      ],
+      "checklist": [
+        "Pedido aprovado e identidades reais das caixas comparados.",
+        "Endereços do estoque previsto e enviado incorretamente conciliados.",
+        "Reposição, devolução e decisões financeiras registradas separadamente.",
+        "Quantidades de encerramento e divergências pendentes revisadas de forma independente."
+      ],
+      "faq": [
+        [
+          "Devemos excluir a expedição incorreta e lançar a reposição?",
+          "Preserve o histórico original. Registre a correção pelo fluxo autorizado com movimentações vinculadas de reposição ou devolução para manter a sequência física compreensível."
+        ],
+        [
+          "Caixas devolvidas podem voltar diretamente ao estoque disponível?",
+          "Somente após as verificações aplicáveis de recebimento e condição. Registre referência, quantidade e destinação em vez de presumir que caixas aparentemente fechadas são automaticamente adequadas para revenda."
+        ]
+      ],
+      "closing": "Envie à Luvie a referência PVC e os identificadores pertinentes do pedido ou das caixas ao solicitar a conferência do registro de remessa. Descreva a divergência de forma factual e mantenha rastreáveis as decisões de reposição, devolução e estoque."
+    }
+  },
+  "uae-wpc-wall-panels-mockup-signoff-responsibilities.html": {
+    "es": {
+      "title": "Paneles WPC para EAU: responsabilidades de aprobación | Luvie",
+      "heading": "Paneles de pared WPC para EAU: defina qué aprueba cada firma de la muestra",
+      "description": "Separe aprobaciones de aspecto, instalación, encuentros y compra de muestras WPC para que una firma no implique que todas las comprobaciones están completas.",
+      "lead": "Una muestra de instalación WPC puede llevar una firma de aprobación mientras el equipo de compras aún desconoce si puede liberar el pedido completo. El diseñador puede haber aceptado solo el color; el instalador puede seguir esperando una decisión sobre el soporte; el director del proyecto puede suponer que ambas cuestiones están resueltas. Para un proyecto de interiores en EAU, un registro útil identifica la pregunta que respondió cada revisor y las condiciones aún pendientes. No es una colección de firmas de significado indefinido.",
+      "answer": "Cree una matriz de revisión específica del proyecto antes de construir la muestra. Asigne revisores para aspecto, método de instalación, encuentros, pruebas exigidas y liberación comercial. Registre cada decisión contra la misma revisión identificada de la muestra. No utilice la aceptación estética como sustituto de la verificación técnica o de una autorización de compra.",
+      "sections": [
+        [
+          "Defina las preguntas de revisión y la autoridad contractual",
+          "Enumere lo que debe demostrar la muestra: selección de acabado, aspecto de juntas, calidad de ejecución, un encuentro específico u otra cuestión acordada. Para cada pregunta, identifique al revisor responsable según los nombramientos y contratos del proyecto. Una matriz sugerida es una ayuda de coordinación, no un cambio de responsabilidad contractual. Las orientaciones profesionales del estado de Nueva York distinguen la documentación presentada y la revisión del diseño, pero no son legislación de EAU y no deben importarse como regla local de aprobación. Pida al equipo del proyecto en EAU confirmar sus propios revisores y facultades requeridos. Registre quién prepara la presentación, quién consolida comentarios y quién puede autorizar el siguiente paso de compra o instalación."
+        ],
+        [
+          "Haga que todos revisen la misma configuración",
+          "Asigne un identificador y una revisión de muestra vinculados a la referencia WPC seleccionada, el acabado, la construcción de soporte y los planos pertinentes. Identifique las propuestas de accesorios y fijaciones sin afirmar su idoneidad antes de que las partes responsables las revisen. Registre el lugar y las condiciones de observación utilizados para revisar el aspecto. Si cambia un componente después de una firma, identifique si el cambio afecta la decisión anterior y obtenga la revisión necesaria. Las fotografías pueden respaldar el registro, pero no deben sustituir una inspección física acordada cuando la decisión dependa de la textura o calidad de los encuentros. Conserve las versiones sustituidas como historial, marcando claramente qué configuración está vigente."
+        ],
+        [
+          "Utilice estados explícitos en lugar de un sello ambiguo de aprobado",
+          "Asigne a cada elemento un resultado como aceptado para el propósito indicado, aceptado sujeto a condiciones enumeradas, revisar y volver a presentar, o no revisado. Defina qué permiten estos estados dentro del proceso del proyecto. Una condición debe tener responsable, respuesta requerida y registro de cierre; de lo contrario puede desaparecer entre una reunión y la orden de compra. Separe comentarios de aspecto de cuestiones sobre pruebas de desempeño o compatibilidad de instalación. No sugiera que una muestra demuestra comportamiento frente al fuego, acústico u otro desempeño regulado solo porque parece satisfactoria. Cuando el proyecto exija pruebas independientes, manténgalas como elemento de revisión separado con su propia decisión."
+        ],
+        [
+          "Libere compras solo cuando se cierren las etapas pertinentes",
+          "Antes de pedir la cantidad restante, compare el pedido propuesto con la referencia de muestra aprobada y las condiciones cerradas. Confirme qué cuestiones pendientes impiden liberar y cuáles, si las hay, ha aceptado explícitamente el responsable autorizado del proyecto para un siguiente paso limitado. Registre esa limitación en lugar de describir toda la instalación como aprobada. Conserve la muestra aceptada o un registro de referencia acordado para comparaciones posteriores de ejecución. En la entrega, transfiera el registro de decisiones a quienes inspeccionarán el trabajo instalado. Así se evita una disputa posterior en la que un equipo trate una firma de color como aceptación de todos los detalles y otro no pueda identificar la versión realmente revisada."
+        ]
+      ],
+      "checklist": [
+        "Preguntas y revisores autorizados acordados antes de fabricar.",
+        "Todas las decisiones vinculadas a una revisión identificada de la muestra.",
+        "Condiciones con responsables y cierre registrado por separado.",
+        "Liberación de compra contrastada con referencia y restricciones pendientes."
+      ],
+      "faq": [
+        [
+          "¿La aprobación del color por el diseñador autoriza la instalación?",
+          "No automáticamente. El registro debe indicar su propósito y las etapas técnicas, contractuales y de compra separadas del proyecto. Confirme la autoridad mediante los acuerdos reales del proyecto."
+        ],
+        [
+          "¿Todo cambio debe reiniciar todas las revisiones?",
+          "Evalúe qué decisiones anteriores afecta el cambio. Registre la evaluación y obtenga la nueva aprobación pertinente en lugar de conservar silenciosamente firmas para una configuración materialmente distinta."
+        ]
+      ],
+      "closing": "Envíe a Luvie la referencia WPC y sus preguntas de revisión de la muestra. Solicite información de producto y embalaje claramente identificada mientras su equipo asigna responsabilidades de aprobación y decide la liberación de compra."
+    },
+    "pt-br": {
+      "title": "Painéis WPC para EAU: responsabilidades de aprovação | Luvie",
+      "heading": "Painéis de parede WPC para EAU: defina o que cada assinatura do protótipo aprova",
+      "description": "Separe aprovações de aparência, instalação, interfaces e compra de protótipos WPC para que uma assinatura não implique conclusão de todas as verificações.",
+      "lead": "Um protótipo de instalação WPC pode ter uma assinatura de aprovação enquanto a equipe de compras ainda não sabe se pode liberar o pedido completo. O projetista pode ter aceitado apenas a cor; o instalador pode continuar aguardando uma decisão sobre o substrato; o gerente do projeto pode presumir que ambas as questões estão resolvidas. Para um projeto de interiores nos EAU, um registro útil identifica a pergunta respondida por cada revisor e as condições ainda abertas. Não é uma coleção de assinaturas com significado indefinido.",
+      "answer": "Crie uma matriz de revisão específica do projeto antes de construir o protótipo. Designe revisores para aparência, método de instalação, interfaces, evidências exigidas e liberação comercial. Registre cada decisão vinculada à mesma revisão identificada do protótipo. Não use aceitação estética como substituto de verificação técnica ou autorização de compra.",
+      "sections": [
+        [
+          "Defina as perguntas de revisão e a autoridade contratual",
+          "Liste o que o protótipo pretende demonstrar: seleção do acabamento, aparência das juntas, qualidade de execução, um encontro específico ou outra questão acordada. Para cada pergunta, identifique o revisor responsável conforme as designações e os contratos do projeto. Uma matriz sugerida é um auxílio de coordenação, não uma mudança de responsabilidade contratual. A orientação profissional do estado de Nova York distingue documentos submetidos e revisão de projeto, mas não é legislação dos EAU e não deve ser importada como regra local de aprovação. Peça à equipe do projeto nos EAU que confirme seus próprios revisores e autoridades exigidos. Registre quem prepara a submissão, quem consolida comentários e quem pode autorizar a próxima etapa de aquisição ou instalação."
+        ],
+        [
+          "Faça todos os revisores inspecionarem a mesma configuração",
+          "Atribua um identificador e uma revisão ao protótipo vinculados à referência WPC selecionada, ao acabamento, à construção de suporte e aos desenhos pertinentes. Identifique propostas de acessórios e fixações sem afirmar sua adequação antes da análise pelas partes responsáveis. Registre o local e as condições de observação utilizados na revisão da aparência. Se um componente mudar após a assinatura de um revisor, identifique se a mudança afeta sua decisão anterior e obtenha a nova revisão necessária. Fotografias podem apoiar o registro, mas não devem substituir uma inspeção física acordada quando a decisão depende da textura ou da qualidade dos encontros. Preserve versões substituídas para histórico, marcando claramente qual configuração está vigente."
+        ],
+        [
+          "Use status explícitos em vez de um carimbo ambíguo de aprovado",
+          "Dê a cada item de revisão um resultado como aceito para a finalidade declarada, aceito sujeito às condições listadas, revisar e reapresentar, ou não revisado. Defina o que esses status permitem no fluxo do projeto. Uma condição deve ter responsável, resposta necessária e registro de encerramento; caso contrário, pode desaparecer entre uma reunião e o pedido de compra. Separe comentários de aparência de questões sobre evidências de desempenho ou compatibilidade da instalação. Não sugira que um protótipo comprova desempenho ao fogo, acústico ou outro desempenho regulamentado apenas porque parece satisfatório. Quando o projeto exigir evidência independente, mantenha-a como item separado de revisão com sua própria decisão."
+        ],
+        [
+          "Libere compras somente após concluir as etapas pertinentes",
+          "Antes de pedir a quantidade restante, compare o pedido proposto com a referência do protótipo aprovado e quaisquer condições encerradas. Confirme quais itens pendentes impedem a liberação e quais, se houver, foram explicitamente aceitos pelo decisor autorizado do projeto para uma próxima etapa limitada. Registre essa limitação em vez de descrever toda a instalação como aprovada. Preserve o protótipo aceito ou um registro de referência acordado para comparação posterior da execução. Na entrega, transfira o registro de decisões às pessoas que inspecionarão o trabalho instalado. Isso evita uma disputa posterior em que uma equipe trate uma assinatura de cor como aceitação de todos os detalhes e outra não consiga identificar a versão efetivamente revisada."
+        ]
+      ],
+      "checklist": [
+        "Perguntas de revisão e revisores autorizados acordados antes da fabricação.",
+        "Todas as decisões vinculadas a uma revisão identificada do protótipo.",
+        "Condições com responsáveis e encerramento registrado separadamente.",
+        "Liberação da compra conferida com a referência e as restrições restantes."
+      ],
+      "faq": [
+        [
+          "A aprovação da cor pelo projetista autoriza a instalação?",
+          "Não automaticamente. O registro deve declarar sua finalidade e as etapas técnicas, contratuais e de compra separadas do projeto. Confirme a autoridade nos acordos efetivos do projeto."
+        ],
+        [
+          "Toda mudança deve reiniciar todas as revisões?",
+          "Avalie quais decisões anteriores a mudança afeta. Registre a avaliação e obtenha a nova aprovação pertinente em vez de manter silenciosamente assinaturas para uma configuração materialmente diferente."
+        ]
+      ],
+      "closing": "Envie à Luvie a referência WPC e suas perguntas de revisão do protótipo. Solicite informações de produto e embalagem claramente identificadas enquanto sua equipe define as responsabilidades de aprovação e a decisão de liberação da compra."
+    }
+  },
+  "uzbekistan-pu-stone-panels-survey-datum-floor-level.html": {
+    "es": {
+      "title": "Paneles PU para Uzbekistán: referencia y nivel de suelo | Luvie",
+      "heading": "Paneles de piedra PU para Uzbekistán: concilie la referencia de medición antes de liberar cantidades",
+      "description": "Coordine medidas de paredes, supuestos de suelo terminado y revisiones de planos antes de pedir paneles de piedra PU para interiores en Uzbekistán.",
+      "lead": "La altura de una pared medida desde la losa sin terminar puede diferir de la indicada sobre el futuro suelo terminado. Si esas cifras entran en la misma hoja de cantidades de paneles de piedra PU sin explicación, el comprador puede pedir desde una línea inicial incorrecta o aprobar una disposición que ya no coincide con los detalles de zócalos y puertas. Para un proyecto interior en Uzbekistán, la tarea práctica es acordar la referencia de medición y resolver dimensiones contradictorias antes de liberar el pedido, no seleccionar una separación universal de instalación.",
+      "answer": "Utilice una única referencia de proyecto documentada y distinga superficies existentes medidas de superficies terminadas propuestas. Vincule cada dimensión de pared con su ubicación, revisión de plano y base de medición. Haga que los equipos responsables de diseño y obra resuelvan discrepancias antes de convertir el alzado aprobado en cantidades de paneles y supuestos de corte.",
+      "sections": [
+        [
+          "Indique dónde comienza y termina cada medida",
+          "Identifique la pared por habitación y alzado y registre si su altura se midió desde la losa, el suelo existente o una referencia establecida de suelo terminado. Indique también la terminación superior: techo visible, línea de techo propuesta u otro límite aprobado. Mantenga explícitas las unidades y registre la fecha y quién midió. Una fotografía de una cinta métrica puede respaldar una lectura, pero rara vez explica todo el sistema de referencia. No combine dimensiones tomadas desde bases diferentes como si describieran la misma superficie terminada. Cuando el nivel terminado aún no esté confirmado, marque el supuesto y su responsable en lugar de permitir que una cifra provisional parezca definitiva."
+        ],
+        [
+          "Coordine los acabados adyacentes antes de fijar el alzado",
+          "Pida al equipo del proyecto confirmar las capas del suelo, la solución de zócalo, la terminación del techo y los encuentros pertinentes con puertas o carpintería. Las orientaciones de integración de sistemas de WBDG destacan la coordinación de elementos del edificio y necesidades del usuario; no prescriben dimensiones para una instalación concreta de paneles PU ni establecen requisitos de Uzbekistán. Trátelas como un principio general de coordinación. Los profesionales responsables deben determinar el detalle real y las restricciones aplicables. Registre qué trabajos adyacentes están completos y cuáles siguen propuestos. Si cambia un encuentro, compare el alzado afectado y los supuestos de cantidades en lugar de suponer que el panel decorativo puede absorber cualquier diferencia sin una decisión de diseño."
+        ],
+        [
+          "Concilie visiblemente las diferencias entre planos y obra",
+          "Cree una lista de discrepancias que muestre la dimensión del plano, la lectura en obra, la base de medición y la solución propuesta para cada pared afectada. Compruebe si un conflicto aparente es simplemente un nivel de referencia distinto antes de pedir material adicional. No promedie dimensiones incompatibles ni sustituya silenciosamente un valor del plano en una hoja de cálculo. Pida al revisor autorizado del proyecto confirmar la disposición que debe regir y documentar cualquier terminación o esquema de cortes revisado. Cuando una pared sea irregular, solicite medidas suficientes para la disposición real en lugar de representarla con una única altura conveniente. Mantenga las decisiones de medición y diseño técnico en manos del equipo competente; esta guía de compra no autoriza alteraciones estructurales ni de instalaciones del edificio."
+        ],
+        [
+          "Libere una hoja de cantidades que conserve sus supuestos",
+          "Convierta únicamente el alzado acordado en cantidades de paneles y accesorios utilizando dimensiones de producto confirmadas y la disposición seleccionada. Identifique por separado piezas completas, cortes previstos y cualquier margen acordado para que futuros lectores entiendan el cálculo. Vincule la hoja de cantidades con el registro de medición aprobado y la revisión del plano. Antes de emitir la orden de compra, compruebe si ha cambiado el suelo o el techo desde la revisión. Si no hay medidas finales disponibles, obtenga una decisión explícita del proyecto sobre la incertidumbre restante en lugar de describir la cantidad como verificada. En la entrega para instalación, proporcione la línea inicial aprobada y las referencias para que el equipo de obra no reconstruya la disposición desde un croquis de cotización desactualizado."
+        ]
+      ],
+      "checklist": [
+        "Referencia de medición, unidades y ubicaciones de paredes registradas.",
+        "Supuestos de suelo terminado y acabados adyacentes con responsables.",
+        "Discrepancias entre plano y obra resueltas mediante decisión documentada.",
+        "Liberación de cantidades vinculada a la revisión del alzado aprobado."
+      ],
+      "faq": [
+        [
+          "¿Puede usarse la altura desde la losa sin terminar como altura de pared terminada?",
+          "No sin comprobar el suelo previsto y la terminación superior. Identifique la base de medición y haga que el equipo confirme la disposición terminada antes de calcular la necesidad final."
+        ],
+        [
+          "¿Esta guía especifica una separación inferior estándar para paneles PU?",
+          "No. El detalle correcto depende del producto seleccionado y de los encuentros del proyecto. Obtenga instrucciones específicas del producto y la solución aprobada por el diseñador responsable en lugar de copiar una dimensión genérica."
+        ]
+      ],
+      "closing": "Envíe a Luvie la referencia del panel de piedra PU y un alzado de pared anotado con su base de medición. Confirme niveles terminados y detalles de terminación con su equipo antes de solicitar una cotización basada en cantidades."
+    },
+    "pt-br": {
+      "title": "Painéis PU para Uzbequistão: referência e nível do piso | Luvie",
+      "heading": "Painéis de pedra PU para Uzbequistão: concilie a referência de medição antes de liberar quantidades",
+      "description": "Coordene medidas de paredes, premissas de piso acabado e revisões de desenhos antes de comprar painéis de pedra PU para interiores no Uzbequistão.",
+      "lead": "A altura de uma parede medida a partir da laje sem acabamento pode diferir da altura indicada acima do futuro piso acabado. Se esses números entrarem na mesma planilha de quantidades de painéis de pedra PU sem explicação, o comprador poderá pedir com base em uma linha inicial errada ou aprovar um layout que não corresponde mais aos detalhes de rodapés e portas. Para um projeto de interiores no Uzbequistão, a tarefa prática é acordar a referência de medição e resolver dimensões conflitantes antes da liberação do pedido, não escolher uma folga universal de instalação.",
+      "answer": "Use uma única referência de projeto documentada e diferencie superfícies existentes medidas de superfícies acabadas propostas. Vincule cada dimensão de parede à localização, à revisão do desenho e à base de medição. Peça aos responsáveis por projeto e obra que resolvam divergências antes de converter a elevação aprovada em quantidades de painéis e premissas de corte.",
+      "sections": [
+        [
+          "Declare onde cada medição começa e termina",
+          "Identifique a parede por ambiente e elevação e registre se a altura foi medida a partir da laje, do piso existente ou de uma referência estabelecida de piso acabado. Declare também a terminação superior: teto visível, linha proposta de forro ou outro limite aprovado. Mantenha as unidades explícitas e registre a data e a pessoa que mediu. Uma fotografia de trena pode apoiar uma leitura, mas raramente explica todo o sistema de referência. Não combine dimensões tomadas de bases diferentes como se descrevessem a mesma área acabada. Quando o nível acabado ainda não estiver confirmado, marque a premissa e seu responsável em vez de permitir que um número provisório pareça definitivo."
+        ],
+        [
+          "Coordene os acabamentos adjacentes antes de fixar a elevação",
+          "Peça à equipe do projeto que confirme as camadas do piso, a solução de rodapé, a terminação do teto e as interfaces pertinentes com portas ou marcenaria. A orientação de integração de sistemas do WBDG enfatiza a coordenação dos elementos da edificação e dos requisitos do usuário; não prescreve dimensões para uma instalação específica de painéis PU nem estabelece requisitos do Uzbequistão. Trate-a como um princípio geral de coordenação. Os profissionais responsáveis devem determinar o detalhe real e quaisquer restrições aplicáveis. Registre quais trabalhos adjacentes estão concluídos e quais ainda são propostos. Se uma interface mudar, compare a elevação afetada e as premissas de quantidades em vez de presumir que o painel decorativo pode absorver toda diferença sem uma decisão de projeto."
+        ],
+        [
+          "Concilie de forma visível as diferenças entre desenho e obra",
+          "Crie uma lista de divergências mostrando a dimensão do desenho, a leitura em obra, a base de medição e a solução proposta para cada parede afetada. Verifique se um conflito aparente é apenas um nível de referência diferente antes de solicitar material adicional. Não faça a média de dimensões incompatíveis nem substitua silenciosamente um valor do desenho em uma planilha. Peça ao revisor autorizado do projeto que confirme o layout aplicável e documente qualquer terminação ou arranjo de cortes revisado. Quando uma parede for irregular, solicite medições suficientes para o layout real em vez de representá-la por uma única altura conveniente. Mantenha as decisões de levantamento e projeto técnico com a equipe competente; este guia de compras não autoriza alterações estruturais ou nas instalações prediais."
+        ],
+        [
+          "Libere uma planilha de quantidades que preserve suas premissas",
+          "Converta apenas a elevação acordada em quantidades de painéis e acessórios usando dimensões confirmadas do produto e o layout selecionado. Identifique separadamente peças inteiras, cortes planejados e qualquer margem acordada para que leitores posteriores entendam o cálculo. Vincule a planilha de quantidades ao registro de medição aprovado e à revisão do desenho. Antes de emitir o pedido de compra, verifique se houve mudança no piso ou no teto desde a revisão. Se as medidas finais não estiverem disponíveis, obtenha uma decisão explícita do projeto sobre a incerteza restante em vez de descrever a quantidade como verificada. Na entrega para instalação, forneça a linha inicial aprovada e as referências para que a equipe de obra não recrie o layout com base em um croqui de cotação desatualizado."
+        ]
+      ],
+      "checklist": [
+        "Referência de medição, unidades e localizações das paredes registradas.",
+        "Premissas de piso acabado e acabamentos adjacentes com responsáveis.",
+        "Divergências entre desenho e obra resolvidas por decisão documentada.",
+        "Liberação de quantidades vinculada à revisão da elevação aprovada."
+      ],
+      "faq": [
+        [
+          "A altura a partir da laje sem acabamento pode ser usada como altura da parede acabada?",
+          "Não sem verificar o piso previsto e a terminação superior. Identifique a base de medição e peça à equipe que confirme o layout acabado antes de calcular a necessidade final."
+        ],
+        [
+          "Este guia especifica uma folga inferior padrão para painéis PU?",
+          "Não. O detalhe correto depende do produto selecionado e das interfaces do projeto. Obtenha orientações específicas do produto e o arranjo aprovado pelo projetista responsável em vez de copiar uma dimensão genérica."
+        ]
+      ],
+      "closing": "Envie à Luvie a referência do painel de pedra PU e uma elevação anotada da parede com sua base de medição. Confirme os níveis acabados e os detalhes de terminação com sua equipe antes de solicitar uma cotação baseada em quantidades."
+    }
+  }
+}

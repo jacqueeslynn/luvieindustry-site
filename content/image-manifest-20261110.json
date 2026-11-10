@@ -1,0 +1,28 @@
+{
+  "images": [
+    {
+      "path": "assets/articles/november10-brazil.webp",
+      "source": "/Users/mac/.codex/generated_images/01a1c052-f5e7-7453-a3fd-3c36b4e3ad7d/exec-0be1cd80-d83e-496c-ac33-2c92f63c1448.png",
+      "prompt": "Use case: stylized-concept. Wide landscape editorial illustration for a Brazil PVC wall-panel warehouse picking-error reconciliation guide. An orderly miniature warehouse picking bench with two open cartons, cream hollow PVC panel samples with visibly different profiles, two blank order cards, handheld scanner, one separated incorrect panel beside the correct stack. Emphasize checking picked goods against order, not product defects. Warm beige and brown, tactile polished 3D illustration with soft daylight. No readable text, numbers, logos, watermark or identifiable actual warehouse. Not a real documentary photograph.",
+      "generator": "built-in image_gen",
+      "type": "AI-generated conceptual illustration",
+      "generatedAt": "2026-11-10"
+    },
+    {
+      "path": "assets/articles/november10-uae.webp",
+      "source": "/Users/mac/.codex/generated_images/01a1c052-f5e7-7453-a3fd-3c36b4e3ad7d/exec-3e0b9d28-d177-4736-8313-dc8fd2e2f198.png",
+      "prompt": "Use case: stylized-concept. Wide landscape editorial illustration for UAE WPC mockup approval and signoff responsibility. A freestanding small walnut fluted WPC wall mockup on an architectural review table, visible corner detail and trim, three separate blank review sheets aligned beside material swatches and pencils, abstract outlined approval boxes without writing. Warm beige and brown, tactile polished 3D illustration, soft daylight. No readable text, numbers, signatures, logos, watermark, or identifiable actual project. Conceptual not documentary photo.",
+      "generator": "built-in image_gen",
+      "type": "AI-generated conceptual illustration",
+      "generatedAt": "2026-11-10"
+    },
+    {
+      "path": "assets/articles/november10-uzbekistan.webp",
+      "source": "/Users/mac/.codex/generated_images/01a1c052-f5e7-7453-a3fd-3c36b4e3ad7d/exec-8ec6fe9e-a754-4f5c-b53c-181d5959d222.png",
+      "prompt": "Use case: stylized-concept. Wide landscape editorial illustration for Uzbekistan PU faux-stone wall-panel survey datum and finished-floor level reconciliation before quantity approval. Miniature architectural room corner with cream rough-stone-texture wall panel sample, a laser level on short tripod projecting a thin horizontal red reference line across a plain beige wall, a raised finished-floor layer visible in cutaway, measuring rod without numbers and blank survey drawing on work table. Emphasize consistent height reference, no hatch. Warm beige brown palette, tactile polished 3D illustration and soft daylight. No readable text, numbers, logos or watermarks, not a real project photo.",
+      "generator": "built-in image_gen",
+      "type": "AI-generated conceptual illustration",
+      "generatedAt": "2026-11-10"
+    }
+  ]
+}
