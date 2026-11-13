@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import {guides as november13Guides} from '../content/daily-guides-20261113.mjs';
 import {guides as november10Guides} from '../content/daily-guides-20261110.mjs';
 import {guides as makeupNovember8Guides} from '../content/makeup-guides-20261108.mjs';
 import {guides as november9Guides} from '../content/daily-guides-20261109.mjs';
@@ -14,6 +15,7 @@ import {guides as approvedSixtyGuides} from '../content/review-batch-20261106.mj
 const guides = [...dailyGuides, ...regionalGuides, ...latestGuides, ...october30Guides, ...october31Guides, ...november1Guides, ...november3Guides, ...november4Guides, ...approvedSixtyGuides];
 guides.push(...november9Guides);
 guides.push(...november10Guides);
+guides.push(...november13Guides);
 guides.push(...makeupNovember8Guides);
 const labels = {
   '': ['Request product details or a quotation', 'No WhatsApp or email app needed. Use our website form to tell us what you are considering; an approximate quantity is enough to start the conversation.', 'Open online inquiry form'],

@@ -66,6 +66,12 @@
     ]
   },
   {
+    "file": "brazil-pvc-panels-bank-detail-change-verification.html",
+    "families": [
+      "pvc-wall-panels"
+    ]
+  },
+  {
     "file": "brazil-pvc-shower-panels-joint-accessory-order.html",
     "families": [
       "pvc-wall-panels"
@@ -945,6 +951,12 @@
     ]
   },
   {
+    "file": "uae-wpc-wall-panels-tender-addendum-requotation.html",
+    "families": [
+      "wpc-wall-panels"
+    ]
+  },
+  {
     "file": "uae-wpc-wall-panels-vs-solid-wood-interiors.html",
     "families": [
       "wpc-wall-panels"
@@ -994,6 +1006,12 @@
   },
   {
     "file": "uzbekistan-pu-stone-panels-maintenance-reserve-handover.html",
+    "families": [
+      "pu-stone-panels"
+    ]
+  },
+  {
+    "file": "uzbekistan-pu-stone-panels-purchaser-transition-open-orders.html",
     "families": [
       "pu-stone-panels"
     ]

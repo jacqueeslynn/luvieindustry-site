@@ -1,0 +1,380 @@
+{
+  "brazil-pvc-panels-bank-detail-change-verification.html:es": {
+    "title": "PVC para Brasil: verificar cambios de pago | Luvie",
+    "heading": "Importación de paneles de PVC a Brasil: verificar un cambio en los datos de pago antes de liberar fondos",
+    "description": "Un flujo de trabajo práctico para el comprador para verificar los detalles modificados del beneficiario en un pedido de paneles de PVC sin confundir la aprobación comercial con la autorización de pago.",
+    "lead": "Es posible que un pedido de paneles de PVC ya tenga un acabado acordado, un plan de embalaje en cajas y una factura comercial cuando un nuevo correo electrónico solicita al comprador brasileño que pague una cuenta diferente. Los logotipos familiares y una referencia convincente al pedido no son prueba suficiente de que la instrucción sea genuina. Una conversación comprometida puede contener detalles comerciales precisos. Trate un cambio de beneficiario o procedimiento de pago como un evento de verificación separado, incluso cuando el pedido de material en sí no haya cambiado. Esta guía se refiere a controles de compras, no a asesoramiento bancario o fiscal brasileño.",
+    "answer": "Pause la instrucción de pago modificada, verifíquela a través de un canal de contacto establecido de forma independiente y envíe el resultado documentado a través de su proceso de aprobación financiera. Mantenga el pedido del producto separado de la decisión de cambio de beneficiario. Nunca utilice un número de teléfono proporcionado únicamente en el mensaje sospechoso como canal de verificación.",
+    "sections": [
+      [
+        "Reconocer el cambio que necesita una nueva decisión",
+        "Compare la nueva instrucción con el registro del proveedor aprobado, no simplemente con el mensaje anterior en la misma conversación por correo electrónico. Identifique si el nombre del beneficiario, cuenta, banco, moneda, destino del pago o procedimiento de pago ha cambiado. Guarde la instrucción recibida con su fecha y referencia del pedido, siguiendo su política interna de seguridad. No reenvíe información bancaria confidencial a un chat general del proyecto. Para un envío de PVC, la referencia de acabado, la cantidad de paneles y los detalles del embalaje pueden permanecer correctos mientras que las instrucciones de pago sean fraudulentas. Por el contrario, un verdadero cambio administrativo todavía necesita aprobación. Evite concluir fraude o autenticidad únicamente con el formato. Registre con precisión qué es diferente y quién es responsable de comprobarlo."
+      ],
+      [
+        "Verificar fuera de la conversación en disputa",
+        "El FBI recomienda verificar de forma independiente los cambios en los pagos y comunicarse con la empresa utilizando un número encontrado de forma independiente en lugar de uno proporcionado por un posible estafador. Aplique esa protección general al pedido que tiene delante: utilice un contacto de proveedor previamente verificado de sus registros controlados y solicite a su equipo financiero que siga su procedimiento de autenticación. La fuente del FBI es una guía para la prevención del fraude, no una determinación sobre un proveedor en particular o un requisito bancario brasileño. Una respuesta del mismo buzón no es una verificación independiente si ese buzón podría estar comprometido. Si no se puede contactar al contacto establecido, mantenga en espera la instrucción modificada y escale internamente en lugar de tratar el silencio como consentimiento."
+      ],
+      [
+        "Mantenga separadas la aprobación del pedido y la autoridad de pago",
+        "Un contacto comercial puede explicarte el modelo de PVC y los documentos comerciales sin ser la persona autorizada para aprobar un nuevo beneficiario en tu organización. Registre quién solicitó el cambio, quién lo confirmó de forma independiente y quién aprobó la acción financiera. Consulte sus reglas actuales de control de pagos y de incorporación de proveedores en lugar de improvisar una excepción porque un envío es urgente. Verifique que los documentos verificados pertenezcan a la misma contraparte legal que la transacción que se está aprobando. Resolver cualquier desfase a través del personal financiero responsable. No invente un acuerdo de enrutamiento alternativo ni divida una transferencia simplemente para evitar un control pendiente. Los plazos comerciales deberían discutirse por separado; La urgencia no establece la autenticidad de una cuenta."
+      ],
+      [
+        "Cierre la verificación con un registro de auditoría utilizable",
+        "Almacenar la decisión en el registro de orden controlada con la versión del documento relevante, fecha de verificación y revisor autorizado. Limitar el acceso a información sensible según la política de la empresa. Informe al equipo de compras qué instrucción está aprobada actualmente sin circular detalles de cuenta innecesarios. Si ya se ha enviado un pago y se sospecha de compromiso, comuníquese inmediatamente con su banco a través del canal establecido y siga su proceso de incidencia; No se puede prometer recuperación. Revise todos los pedidos conectados que utilicen el mismo registro de proveedor para que el próximo comprador no confíe sin saberlo en el cambio en disputa. Esta verificación final tiene que ver con el flujo de trabajo de pago, no con evidencia de que los paneles cumplan con una especificación técnica o que se haya producido la liberación del envío."
+      ]
+    ],
+    "checklist": [
+      "Identifique los campos modificados exactos con el registro de proveedor aprobado.",
+      "Utilice un canal de contacto establecido de forma independiente para la verificación.",
+      "Registre el aprobador financiero por separado de la aprobación del pedido de productos.",
+      "Mantenga en espera las instrucciones no resueltas y conserve el rastro de las decisiones."
+    ],
+    "faq": [
+      [
+        "¿Un logotipo de factura coincidente demuestra que la nueva cuenta es genuina?",
+        "No. Se pueden copiar logotipos y detalles del pedido. Utilice su proceso independiente de verificación y aprobación financiera en lugar de la apariencia como evidencia."
+      ],
+      [
+        "¿Deberíamos enviar información de la cuenta a través del formulario de consulta del sitio web?",
+        "No. Utilice el formulario de consulta para conocer los requisitos del producto. Intercambie documentación de pago confidencial solo a través de su proceso comercial establecido y adecuadamente controlado."
+      ]
+    ],
+    "closing": "Consulte a Luvie sobre los requisitos de modelo, acabado y embalaje de PVC a través del contacto establecido con la empresa. Mantenga los datos bancarios fuera de la consulta del producto y haga que su equipo financiero verifique de forma independiente cualquier cambio antes de autorizar el pago."
+  },
+  "brazil-pvc-panels-bank-detail-change-verification.html:pt-br": {
+    "title": "Painéis de PVC Brasil: Verifique alterações de pagamento | Luvie",
+    "heading": "Importando painéis de PVC para o Brasil: verifique a alteração dos dados de pagamento antes de liberar fundos",
+    "description": "Um fluxo de trabalho prático do comprador para verificar detalhes alterados do beneficiário em um pedido de painel de PVC sem confundir aprovação comercial com autorização de pagamento.",
+    "lead": "Um pedido de painel de PVC pode já ter acabamento acordado, plano de embalagem e fatura comercial quando um novo e-mail solicita ao comprador brasileiro que pague uma conta diferente. Logotipos familiares e uma referência de pedido convincente não são provas suficientes de que a instrução é genuína. Uma conversa comprometida pode conter detalhes comerciais precisos. Trate uma mudança de beneficiário ou procedimento de pagamento como um evento de verificação separado, mesmo quando o pedido de material em si não tiver sido alterado. Este guia trata de controles de compras, e não de consultoria bancária ou fiscal brasileira.",
+    "answer": "Pause a instrução de pagamento alterada, verifique-a através de um canal de contato estabelecido de forma independente e encaminhe o resultado documentado através do seu processo de aprovação financeira. Mantenha o pedido do produto separado da decisão de mudança de beneficiário. Nunca use um número de telefone fornecido apenas na mensagem suspeita como canal de verificação.",
+    "sections": [
+      [
+        "Reconheça a mudança que precisa de uma nova decisão",
+        "Compare a nova instrução com o registro do fornecedor aprovado, e não apenas com a mensagem anterior na mesma conversa por e-mail. Identifique se o nome do beneficiário, a conta, o banco, a moeda, o destino do pagamento ou o procedimento de pagamento foram alterados. Guarde a instrução recebida com sua data e referência do pedido, seguindo sua política de segurança interna. Não encaminhe informações bancárias confidenciais para um bate-papo geral do projeto. Para uma remessa de PVC, a referência de acabamento, a quantidade de painéis e os detalhes da embalagem podem permanecer corretos enquanto as instruções de pagamento são fraudulentas. Por outro lado, uma verdadeira mudança administrativa ainda precisa de aprovação. Evite concluir fraude ou autenticidade apenas pela formatação. Registre com precisão o que está diferente e quem é responsável por verificar."
+      ],
+      [
+        "Verifique fora da conversa contestada",
+        "O FBI recomenda verificar de forma independente as alterações de pagamento e entrar em contato com a empresa usando um número encontrado de forma independente, em vez de um fornecido por um possível golpista. Aplique essa salvaguarda geral ao pedido que tem à sua frente: use um contato de fornecedor previamente verificado em seus registros controlados e peça à sua equipe financeira para seguir o procedimento de autenticação. A fonte do FBI é uma orientação para prevenção de fraudes, e não uma determinação sobre um fornecedor específico ou uma exigência bancária brasileira. Uma resposta da mesma caixa de correio não é uma verificação independente se essa caixa de correio pode estar comprometida. Se o contato estabelecido não puder ser alcançado, mantenha a instrução alterada em espera e encaminhe internamente, em vez de tratar o silêncio como consentimento."
+      ],
+      [
+        "Mantenha a aprovação do pedido e a autoridade de pagamento separadas",
+        "Um contato de vendas pode explicar o modelo de PVC e os documentos comerciais sem ser a pessoa autorizada a aprovar um novo beneficiário em sua organização. Registre quem solicitou a alteração, quem a confirmou de forma independente e quem aprovou a ação financeira. Consulte as regras atuais de integração de fornecedores e controle de pagamentos em vez de improvisar uma exceção porque uma remessa é urgente. Verifique se os documentos verificados pertencem à mesma contraparte legal da transação que está sendo aprovada. Resolva qualquer incompatibilidade através do pessoal financeiro responsável. Não invente um arranjo de roteamento alternativo ou divida uma transferência simplesmente para contornar uma verificação não resolvida. Os prazos comerciais devem ser discutidos separadamente; a urgência não estabelece a autenticidade de uma conta."
+      ],
+      [
+        "Feche a verificação com uma trilha de auditoria utilizável",
+        "Armazene a decisão no registro do pedido controlado com a versão do documento relevante, a data de verificação e o revisor autorizado. Limite o acesso a informações confidenciais de acordo com a política da empresa. Informe à equipe de compras quais instruções estão aprovadas no momento, sem divulgar detalhes desnecessários da conta. Caso um pagamento já tenha sido enviado e haja suspeita de comprometimento, entre em contato imediatamente com seu banco através do canal estabelecido e acompanhe o processo de incidente; a recuperação não pode ser prometida. Revise quaisquer pedidos conectados que usem o mesmo registro de fornecedor para que o próximo comprador não confie inadvertidamente na alteração contestada. Esta verificação final diz respeito ao fluxo de trabalho de pagamento e não à evidência de que os painéis atendem a uma especificação técnica ou de que ocorreu a liberação da remessa."
+      ]
+    ],
+    "checklist": [
+      "Identifique os campos exatos alterados em relação ao registro do fornecedor aprovado.",
+      "Use um canal de contato estabelecido de forma independente para verificação.",
+      "Registre o aprovador financeiro separadamente da aprovação do pedido do produto.",
+      "Mantenha as instruções não resolvidas em espera e preserve o rastro de decisão."
+    ],
+    "faq": [
+      [
+        "O logotipo da fatura correspondente prova que a nova conta é genuína?",
+        "Não. Os logotipos e detalhes do pedido podem ser copiados. Use seu processo independente de verificação e aprovação financeira em vez da aparência como evidência."
+      ],
+      [
+        "Devemos enviar informações da conta através do formulário de consulta do site?",
+        "Não. Use o formulário de consulta para requisitos do produto. Troque documentação de pagamento confidencial somente por meio de seu processo comercial estabelecido e adequadamente controlado."
+      ]
+    ],
+    "closing": "Consulte a Luvie sobre modelo de PVC, acabamento e requisitos de embalagem através do contato estabelecido na empresa. Mantenha os dados bancários fora da consulta do produto e peça à sua equipe financeira para verificar qualquer alteração de forma independente antes de autorizar o pagamento."
+  },
+  "brazil-pvc-panels-bank-detail-change-verification.html:ar": {
+    "title": "ألواح PVC للبرازيل: التحقق من تغييرات الدفع | Luvie",
+    "heading": "استيراد ألواح PVC إلى البرازيل: تحقق من تغيير تفاصيل الدفع قبل الإفراج عن الأموال",
+    "description": "سير عمل عملي للمشتري للتحقق من تفاصيل المستفيد المتغيرة في طلب لوحة PVC دون الخلط بين الموافقة التجارية وتفويض الدفع.",
+    "lead": "قد يكون لطلب لوحة PVC بالفعل تشطيب متفق عليه وخطة كرتونية وفاتورة تجارية عندما تطلب رسالة بريد إلكتروني جديدة من المشتري البرازيلي دفع حساب مختلف. لا تعتبر الشعارات المألوفة ومرجع الطلب المقنع دليلاً كافيًا على أن التعليمات حقيقية. يمكن أن تحتوي المحادثة المخترقة على تفاصيل تجارية دقيقة. تعامل مع تغيير المستفيد أو إجراء الدفع كحدث تحقق منفصل، حتى عندما لا يتغير أمر المواد نفسه. يتعلق هذا الدليل بضوابط الشراء، وليس بالاستشارات المصرفية أو الضريبية البرازيلية.",
+    "answer": "قم بإيقاف تعليمات الدفع التي تم تغييرها مؤقتًا، والتحقق منها من خلال قناة اتصال تم إنشاؤها بشكل مستقل وتوجيه النتيجة الموثقة من خلال عملية الموافقة المالية الخاصة بك. احتفظ بطلب المنتج منفصلاً عن قرار تغيير المستفيد. لا تستخدم أبدًا رقم الهاتف المقدم فقط في الرسالة المشبوهة كقناة للتحقق.",
+    "sections": [
+      [
+        "التعرف على التغيير الذي يحتاج إلى قرار جديد",
+        "قارن التعليمات الجديدة بسجل المورد المعتمد، وليس فقط بالرسالة السابقة في نفس محادثة البريد الإلكتروني. حدد ما إذا كان اسم المستفيد أو الحساب أو البنك أو العملة أو وجهة الدفع أو إجراء الدفع قد تغير. احفظ التعليمات المستلمة مع تاريخها ومرجع الطلب، مع اتباع سياسة الأمان الداخلي لديك. لا تقم بإعادة توجيه المعلومات المصرفية الحساسة إلى دردشة المشروع العامة. بالنسبة لشحنة PVC، يمكن أن يظل مرجع التشطيب وكمية اللوحة وتفاصيل التعبئة صحيحة بينما تكون تعليمات الدفع احتيالية. وعلى العكس من ذلك، فإن التغيير الإداري الحقيقي لا يزال يحتاج إلى موافقة. تجنب استنتاج الاحتيال أو الأصالة من التنسيق وحده. سجل بدقة ما هو مختلف ومن المسؤول عن التحقق منه."
+      ],
+      [
+        "تحقق خارج المحادثة المتنازع عليها",
+        "يوصي مكتب التحقيقات الفيدرالي (FBI) بالتحقق بشكل مستقل من تغييرات الدفع والاتصال بالشركة باستخدام رقم تم العثور عليه بشكل مستقل بدلاً من الرقم الذي يقدمه محتال محتمل. قم بتطبيق هذه الحماية العامة على الطلب المعروض أمامك: استخدم جهة اتصال المورد التي تم التحقق منها مسبقًا من سجلاتك الخاضعة للرقابة واطلب من فريقك المالي اتباع إجراءات المصادقة الخاصة به. مصدر مكتب التحقيقات الفيدرالي هو توجيهات لمنع الاحتيال، وليس تحديدًا بشأن مورد معين أو متطلبات مصرفية برازيلية. لا يعد الرد من نفس صندوق البريد بمثابة فحص مستقل لما إذا كان صندوق البريد هذا قد تعرض للاختراق. إذا تعذر الوصول إلى جهة الاتصال القائمة، فاحتفظ بالتعليمات المتغيرة قيد الانتظار وقم بتصعيدها داخليًا بدلاً من اعتبار الصمت بمثابة موافقة."
+      ],
+      [
+        "أبقِ الموافقة على الطلب وسلطة الدفع منفصلتين",
+        "يمكن لجهة اتصال المبيعات شرح نموذج PVC والمستندات التجارية دون أن تكون الشخص المخول بالموافقة على مستفيد جديد في مؤسستك. سجل من طلب التغيير ومن أكده بشكل مستقل ومن وافق على الإجراء المالي. ارجع إلى قواعد تأهيل الموردين ومراقبة الدفع الحالية بدلاً من ارتجال استثناء لأن الشحنة عاجلة. تأكد من أن المستندات التي تم التحقق منها تنتمي إلى نفس الطرف القانوني المقابل للمعاملة التي تمت الموافقة عليها. قم بحل أي عدم تطابق من خلال الموظفين الماليين المسؤولين. لا تخترع ترتيب توجيه بديل أو تقسم التحويل لمجرد تجاوز الشيك الذي لم يتم حله. وينبغي مناقشة المواعيد النهائية التجارية بشكل منفصل؛ الاستعجال لا يثبت صحة الحساب."
+      ],
+      [
+        "قم بإغلاق عملية التحقق بمسار تدقيق قابل للاستخدام",
+        "قم بتخزين القرار في سجل الطلب الخاضع للرقابة مع إصدار المستند ذي الصلة وتاريخ التحقق والمراجع المعتمد. تقييد الوصول إلى المعلومات الحساسة وفقًا لسياسة الشركة. أخبر فريق الشراء بالتعليمات المعتمدة حاليًا دون تعميم تفاصيل الحساب غير الضرورية. إذا تم بالفعل إرسال دفعة والاشتباه في وجود تسوية، فاتصل بالبنك الذي تتعامل معه على الفور من خلال قناته القائمة واتبع عملية الحادث؛ لا يمكن الوعد بالتعافي. قم بمراجعة أي طلبات متصلة تستخدم نفس سجل المورد حتى لا يعتمد المشتري التالي دون علمه على التغيير المتنازع عليه. يتعلق هذا الفحص النهائي بسير عمل الدفع، وليس دليلاً على أن اللوحات تستوفي المواصفات الفنية أو أنه تم إطلاق الشحنة."
+      ]
+    ],
+    "checklist": [
+      "تحديد الحقول التي تم تغييرها بالضبط مقابل سجل المورد المعتمد.",
+      "استخدم قناة اتصال مستقلة للتحقق.",
+      "قم بتسجيل الموافق المالي بشكل منفصل عن الموافقة على أمر المنتج.",
+      "احتفظ بالتعليمات التي لم يتم حلها في وضع الانتظار وحافظ على مسار اتخاذ القرار."
+    ],
+    "faq": [
+      [
+        "هل يثبت شعار الفاتورة المطابق أن الحساب الجديد حقيقي؟",
+        "لا، يمكن نسخ الشعارات وتفاصيل الطلب. استخدم عملية التحقق المستقلة والموافقة المالية بدلاً من الظهور كدليل."
+      ],
+      [
+        "هل يجب أن نرسل معلومات الحساب من خلال نموذج الاستفسار الخاص بالموقع؟",
+        "لا. استخدم نموذج الاستفسار لمعرفة متطلبات المنتج. لا يمكنك تبادل وثائق الدفع الحساسة إلا من خلال عملية الأعمال القائمة والتي يتم التحكم فيها بشكل مناسب."
+      ]
+    ],
+    "closing": "اسأل Luvie عن نموذج PVC ومتطلبات التشطيب والتعبئة من خلال جهة اتصال الشركة القائمة. احتفظ بالتفاصيل المصرفية خارج الاستفسار عن المنتج واطلب من فريقك المالي التحقق بشكل مستقل من أي تغيير قبل الموافقة على الدفع."
+  },
+  "uae-wpc-wall-panels-tender-addendum-requotation.html:es": {
+    "title": "WPC para EAU: revisar la cotización tras una adenda | Luvie",
+    "heading": "Paneles de pared WPC de los Emiratos Árabes Unidos: convierta un anexo de licitación en una cotización revisada comparable",
+    "description": "Compare los cambios en las especificaciones, el acabado y la cantidad de WPC antes de aceptar una cotización revisada para un proyecto de interiores en los Emiratos Árabes Unidos.",
+    "lead": "Una actualización por licitación puede cambiar mucho más que el área total de los paneles de pared de WPC. Una elevación revisada puede introducir un perfil diferente, agregar retornos alrededor de las aberturas o reemplazar un acabado solo en una parte del proyecto. Si un comprador envía el nuevo dibujo sin identificar los cambios, las cotizaciones competitivas pueden fijar precios de diferentes alcances. Para un paquete de adquisiciones interiores de los EAU, el resultado útil es un cronograma de cambios conciliado que permite al comprador comparar la cotización anterior con la nueva. Este es un flujo de trabajo de compras, no una declaración de la ley de licitaciones local.",
+    "answer": "Emitir un paquete de apéndice identificado con una lista línea por línea de requisitos agregados, eliminados y modificados. Solicite al proveedor que reconozca la revisión exacta y muestre el efecto comercial por separado de los artículos sin cambios. No acepte un total general revisado hasta que se hayan conciliado el modelo, el acabado, la cantidad de unidades, los accesorios y las exclusiones.",
+    "sections": [
+      [
+        "Comience con el precio base",
+        "Identifique el número de cotización y el plano, especificación y programa de cantidades en el que se basó. Registre la referencia real del perfil de WPC, la referencia del acabado y la longitud propuesta en lugar de una descripción amplia, como panel de pared con apariencia de madera. Confirme si las cantidades se indicaron como paneles, paquetes o área y cómo se calculó la conversión. Mantenga esta línea de base disponible durante toda la comparación. Sin él, una nueva cotización puede parecer más barata simplemente porque una de las partes omitió los adornos o fijó el precio con una cantidad diferente. La línea base es una referencia para comparación, no un permiso automático para solicitar una configuración reemplazada. Márquelo en consecuencia para que el sitio o el equipo de compras no confundan la copia de comparación con la versión actual."
+      ],
+      [
+        "Describa cada requisito modificado",
+        "Construya una tabla de cambios con el requisito original, el requisito revisado, la habitación o elevación afectada y la referencia del documento de control. Separar un nuevo acabado de un nuevo perfil; fotografías similares no establecen que se propongan las mismas herramientas, dimensiones o disposición de accesorios. Si un área aumenta, identificar si la nueva área utiliza una referencia existente o introduce otra combinación. Pídale al equipo de diseño responsable que resuelva las transiciones poco claras y los bordes expuestos antes de que el proveedor asuma un detalle. La guía ISO sobre información documentada proporciona una base general para mantener la información del proceso utilizable y controlada. No certifica a Luvie ni prescribe un procedimiento de licitación en los EAU. La tabla de cambios aquí es una recomendación práctica adaptada a este problema de adquisición."
+      ],
+      [
+        "Solicite una cotización que exponga las diferencias",
+        "Solicite las cantidades y unidades revisadas junto con las referencias de producto correspondientes. Identificar por separado las adiciones, eliminaciones y líneas sin cambios; Es posible que un proveedor necesite razonablemente reevaluar el embalaje u otros términos comerciales, pero esos efectos deben ser explícitos. Confirme si los accesorios existentes siguen siendo apropiados cuando cambie la configuración del panel. Solicite una declaración clara de exclusiones y suposiciones no resueltas en lugar de aceptar una nota general de que el precio está sujeto a los planos. Compare constantemente la moneda, la base comercial y el alcance de cualquier asignación de entrega. Esta guía no proporciona precio, plazo de entrega ni pedido mínimo. Obtenga esos términos de la cotización real y evite interpretar una oferta anterior como un compromiso actual."
+      ],
+      [
+        "Cerrar el anexo antes de realizar el pedido",
+        "Registrar el acuse de recibo del proveedor de la revisión emitida y obtener la aprobación interna del alcance conciliado. El acuse de recibo por sí solo no confirma que se haya fijado el precio de cada cambio. Resolver excepciones por escrito y vincular la cotización final al paquete de adenda aceptado. Antes de liberar la orden de compra, verifique las referencias de los paneles, asignación de acabados, cantidades y líneas de accesorios con esa versión aceptada. Archive comparaciones anteriores sin eliminar su historial y, al mismo tiempo, facilite la identificación de la base de compra actual. Si llega otra revisión, reabrir sólo la comparación afectada con una decisión explícita sobre el alcance restante. Esto evita que una conversación en curso se convierta en una mezcla accidental de varias versiones tiernas."
+      ]
+    ],
+    "checklist": [
+      "Identifique el conjunto de documentos con precio original.",
+      "Separa cambios de perfil, acabado, cantidad y accesorios.",
+      "Obtenga un alcance revisado a nivel de línea y exclusiones explícitas.",
+      "Vincular la cotización aceptada y la orden de compra al mismo anexo."
+    ],
+    "faq": [
+      [
+        "¿Es suficiente un correo electrónico de proveedor que dice recibido?",
+        "Establece la recepción, no la aceptación completa del precio. Pídale al proveedor que identifique los cambios incluidos y las excepciones antes de que el comprador apruebe la oferta revisada."
+      ],
+      [
+        "¿Podemos comparar sólo el nuevo total?",
+        "Esto puede ocultar cantidades modificadas o exclusiones. Primero concilie el producto y el alcance comercial, luego compare los totales sobre la misma base."
+      ]
+    ],
+    "closing": "Envíe a Luvie las referencias de WPC, la asignación de acabados revisada y un cronograma de cambios anotado. Solicite una cotización vinculada a esa revisión, con los supuestos no resueltos mostrados por separado."
+  },
+  "uae-wpc-wall-panels-tender-addendum-requotation.html:pt-br": {
+    "title": "WPC para EAU: revisar a cotação após um adendo | Luvie",
+    "heading": "Painéis de parede WPC dos Emirados Árabes Unidos: transforme um adendo de licitação em uma cotação revisada comparável",
+    "description": "Compare as especificações do WPC, o acabamento e as alterações de quantidade antes de aceitar um orçamento revisado para um projeto de interiores nos Emirados Árabes Unidos.",
+    "lead": "Uma atualização do concurso pode alterar muito mais do que a área total dos painéis de parede WPC. Uma elevação revisada pode introduzir um perfil diferente, adicionar retornos em torno de aberturas ou substituir um acabamento apenas em parte do projeto. Caso um comprador encaminhe o novo desenho sem identificar as alterações, cotações concorrentes poderão precificar escopos diferentes. Para um pacote de compras internas nos Emirados Árabes Unidos, o resultado útil é um cronograma de alterações reconciliado que permite ao comprador comparar a cotação anterior com a nova. Este é um fluxo de trabalho de compras, não uma declaração da lei local de licitações.",
+    "answer": "Emita um pacote de adendo identificado com uma lista linha por linha dos requisitos adicionados, removidos e alterados. Peça ao fornecedor para confirmar a revisão exata e mostrar o efeito comercial separadamente dos itens inalterados. Não aceite um total geral revisado até que o modelo, acabamento, quantidade de unidades, acessórios e exclusões tenham sido reconciliados.",
+    "sections": [
+      [
+        "Comece com a linha de base do preço",
+        "Identifique o número da cotação e o desenho, especificação e cronograma de quantidade em que se baseou. Registre a referência real do perfil WPC, a referência de acabamento e o comprimento proposto, em vez de uma descrição ampla, como painel de parede com aparência de madeira. Confirme se as quantidades foram declaradas em painéis, embalagens ou área e como foi calculada qualquer conversão. Mantenha esta linha de base disponível durante toda a comparação. Sem ele, uma nova cotação pode parecer mais barata simplesmente porque uma das partes omitiu os acabamentos ou fixou o preço em uma base de quantidade diferente. A linha de base é uma referência para comparação, não uma permissão automática para solicitar uma configuração substituída. Marque-o adequadamente para que o site ou a equipe de compras não confunda a cópia de comparação com a versão atual."
+      ],
+      [
+        "Descreva cada requisito alterado",
+        "Construa uma tabela de alterações com o requisito original, requisito revisado, ambiente ou elevação afetado e controle de referência do documento. Separe um novo acabamento de um novo perfil; fotografias semelhantes não estabelecem que sejam propostas as mesmas ferramentas, dimensões ou disposição de acessórios. Se uma área aumentar, identifique se a nova área utiliza uma referência existente ou introduz outra combinação. Peça à equipe de design responsável para resolver transições pouco claras e arestas expostas antes que o fornecedor assuma um detalhe. A orientação ISO sobre informações documentadas fornece uma base geral para manter as informações do processo utilizáveis ​​e controladas. Ele não certifica Luvie nem prescreve um procedimento de licitação nos Emirados Árabes Unidos. A tabela de alterações aqui é uma recomendação prática adaptada a este problema de aquisição."
+      ],
+      [
+        "Solicite um orçamento que exponha as diferenças",
+        "Solicite as quantidades e unidades revisadas juntamente com as referências dos produtos correspondentes. Identificar acréscimos, exclusões e linhas inalteradas separadamente; um fornecedor pode razoavelmente precisar reavaliar a embalagem ou outros termos comerciais, mas esses efeitos devem ser explícitos. Confirme se os acessórios existentes permanecem apropriados quando a configuração do painel for alterada. Solicite uma declaração clara de exclusões e suposições não resolvidas, em vez de aceitar uma observação geral de que o preço está sujeito aos desenhos. Compare a moeda, a base comercial e o escopo de qualquer franquia de entrega de forma consistente. Este guia não fornece preço, prazo de entrega ou pedido mínimo. Obtenha esses termos a partir da cotação real e evite interpretar uma oferta anterior como um compromisso atual."
+      ],
+      [
+        "Feche o adendo antes de fazer o pedido",
+        "Registre o reconhecimento do fornecedor da revisão emitida e obtenha aprovação interna do escopo reconciliado. A confirmação do recebimento por si só não confirma que todas as alterações foram precificadas. Resolva as exceções por escrito e vincule a cotação final ao pacote de adendos aceito. Antes de liberar o pedido de compra, verifique as referências dos painéis, alocação de acabamentos, quantidades e linhas de acessórios com a versão aceita. Arquive comparações anteriores sem excluir seu histórico, facilitando a identificação da base de compras atual. Se chegar outra revisão, reabra apenas a comparação afetada com uma decisão explícita sobre o escopo restante. Isso evita que uma conversa corrente se torne uma mistura acidental de diversas versões do concurso."
+      ]
+    ],
+    "checklist": [
+      "Identifique o conjunto de documentos com preço original.",
+      "Alterações separadas de perfil, acabamento, quantidade e acessórios.",
+      "Obtenha escopo revisado em nível de linha e exclusões explícitas.",
+      "Vincule a cotação aceita e o pedido de compra ao mesmo adendo."
+    ],
+    "faq": [
+      [
+        "O e-mail de um fornecedor diz que foi recebido o suficiente?",
+        "Estabelece o recebimento, não a aceitação completa do preço. Peça ao fornecedor para identificar as alterações incluídas e quaisquer exceções antes que o comprador aprove a oferta revisada."
+      ],
+      [
+        "Podemos comparar apenas o novo total?",
+        "Isso pode ocultar quantidades alteradas ou exclusões. Reconcilie primeiro o produto e o escopo comercial e depois compare os totais na mesma base."
+      ]
+    ],
+    "closing": "Envie a Luvie as referências do WPC, a alocação de acabamento revisada e um cronograma de alterações anotado. Solicite uma cotação vinculada a essa revisão, com suposições não resolvidas mostradas separadamente."
+  },
+  "uae-wpc-wall-panels-tender-addendum-requotation.html:ar": {
+    "title": "ألواح WPC للإمارات: تحديث عرض السعر بعد ملحق المناقصة | Luvie",
+    "heading": "ألواح الجدران WPC في دولة الإمارات العربية المتحدة: تحويل ملحق العطاء إلى عرض أسعار منقح قابل للمقارنة",
+    "description": "قارن بين مواصفات WPC والتشطيب والتغييرات في الكمية قبل قبول عرض أسعار منقح لمشروع داخلي في دولة الإمارات العربية المتحدة.",
+    "lead": "يمكن أن يتغير تحديث العطاء أكثر بكثير من المساحة الإجمالية لألواح الجدران WPC. قد يؤدي الارتفاع المعدل إلى تقديم ملف تعريف مختلف أو إضافة تفاصيل ارتداد حول الفتحات أو استبدال التشطيب في جزء فقط من المشروع. إذا قام المشتري بإعادة توجيه الرسم الجديد دون تحديد التغييرات، فقد تقوم عروض الأسعار المتنافسة بتسعير نطاقات مختلفة. بالنسبة لحزمة المشتريات الداخلية في دولة الإمارات العربية المتحدة، فإن النتيجة المفيدة هي جدول التغيير المتوافق الذي يسمح للمشتري بمقارنة عرض الأسعار السابق مع العرض الجديد. هذا هو سير عمل الشراء، وليس بيانًا لقانون المناقصات المحلي.",
+    "answer": "قم بإصدار حزمة ملحقة واحدة محددة مع قائمة سطرية بالمتطلبات المضافة والمحذوفة والمتغيرة. اطلب من المورد الإقرار بالمراجعة الدقيقة وإظهار التأثير التجاري بشكل منفصل عن العناصر التي لم تتغير. لا تقبل الإجمالي الكلي المنقح حتى تتم تسوية النموذج والتشطيب ووحدات الكمية والملحقات والاستثناءات.",
+    "sections": [
+      [
+        "ابدأ بخط الأساس المسعر",
+        "تحديد رقم عرض الأسعار والرسم والمواصفات وجدول الكميات الذي تم الاعتماد عليه. قم بتسجيل مرجع ملف تعريف WPC الفعلي، ومرجع الإنهاء والطول المقترح بدلاً من الوصف الواسع مثل لوحة الحائط ذات المظهر الخشبي. تأكد مما إذا كانت الكميات قد تم ذكرها كألواح أو عبوات أو مساحة وكيف تم حساب أي تحويل. احتفظ بخط الأساس هذا متاحًا خلال المقارنة. وبدون ذلك، قد يبدو عرض الأسعار الجديد أرخص لمجرد أن أحد الأطراف قد أغفل الزخارف أو قام بتسعير أساس كمية مختلفة. يعتبر الخط الأساسي مرجعًا للمقارنة، وليس إذنًا تلقائيًا لطلب تكوين تم استبداله. قم بوضع علامة عليها وفقًا لذلك حتى لا يخطئ الموقع أو فريق الشراء في الخلط بين نسخة المقارنة والإصدار الحالي."
+      ],
+      [
+        "وصف كل متطلبات تم تغييرها",
+        "أنشئ جدول تغيير يتضمن المتطلبات الأصلية والمتطلبات المعدلة والغرفة المتأثرة أو الارتفاع والتحكم في مرجع المستند. فصل اللمسة النهائية الجديدة عن المظهر الجانبي الجديد؛ لا تثبت الصور المشابهة أنه تم اقتراح نفس الأدوات أو الأبعاد أو ترتيب الملحقات. إذا زادت المنطقة، حدد ما إذا كانت المنطقة الجديدة تستخدم مرجعًا موجودًا أم تقدم مجموعة أخرى. اطلب من فريق التصميم المسؤول حل التحولات غير الواضحة والحواف المكشوفة قبل أن يفترض المورد التفاصيل. توفر إرشادات ISO بشأن المعلومات الموثقة أساسًا عامًا للحفاظ على معلومات العملية قابلة للاستخدام والتحكم فيها. إنها لا تصدق على شركة Luvie أو تحدد إجراءات المناقصة في دولة الإمارات العربية المتحدة. يعد جدول التغيير هنا بمثابة توصية عملية مصممة خصيصًا لمشكلة الشراء هذه."
+      ],
+      [
+        "اطلب عرض أسعار يوضح الاختلافات",
+        "اطلب الكميات والوحدات المعدلة جنبًا إلى جنب مع مراجع المنتج المقابلة. تحديد الإضافات والحذف والسطور التي لم تتغير بشكل منفصل؛ قد يحتاج المورد بشكل معقول إلى إعادة تقييم التعبئة أو المصطلحات التجارية الأخرى، ولكن يجب أن تكون هذه التأثيرات واضحة. تأكد مما إذا كانت الملحقات الموجودة تظل مناسبة عند تغيير تكوين اللوحة. اطلب بيانًا واضحًا بالاستثناءات والافتراضات التي لم يتم حلها بدلاً من قبول ملاحظة شاملة بأن السعر يخضع للرسومات. قارن العملة والأساس التجاري ونطاق أي بدل تسليم بشكل ثابت. لا يوفر هذا الدليل السعر أو المهلة الزمنية أو الحد الأدنى للطلب. احصل على هذه الشروط من عرض الأسعار الفعلي وتجنب تفسير العرض السابق على أنه التزام حالي."
+      ],
+      [
+        "أغلق الملحق قبل الطلب",
+        "سجل إقرار المورد بالمراجعة الصادرة واحصل على موافقة داخلية على النطاق الذي تمت تسويته. إن الإقرار بالاستلام وحده لا يؤكد أن كل تغيير قد تم تسعيره. حل الاستثناءات كتابيًا وربط عرض الأسعار النهائي بحزمة الإضافات المقبولة. قبل إصدار أمر الشراء، تحقق من مراجع اللوحة وتخصيص الانتهاء والكميات وبنود الملحقات مقابل هذا الإصدار المقبول. أرشفة المقارنات السابقة دون حذف سجلها، مع تسهيل التعرف على أساس الشراء الحالي. في حالة وصول مراجعة أخرى، قم بإعادة فتح المقارنة المتأثرة فقط بقرار واضح بشأن النطاق المتبقي. وهذا يمنع المحادثة الجارية من أن تصبح خليطًا عرضيًا من عدة إصدارات لطيفة."
+      ]
+    ],
+    "checklist": [
+      "تحديد مجموعة المستندات الأصلية المسعرة.",
+      "تغييرات منفصلة في الملف الشخصي والتشطيب والكمية والملحقات.",
+      "احصل على النطاق المنقح على مستوى الخط والاستثناءات الصريحة.",
+      "ربط عرض الأسعار المقبول وأمر الشراء بنفس الملحق."
+    ],
+    "faq": [
+      [
+        "هل رسالة البريد الإلكتروني الخاصة بالمورد تفيد بأنه تم استلام ما يكفي؟",
+        "إنه يثبت الاستلام، وليس قبول التسعير الكامل. اطلب من المورد تحديد التغييرات المضمنة وأي استثناءات قبل موافقة المشتري على العرض المعدل."
+      ],
+      [
+        "هل يمكننا مقارنة المجموع الجديد فقط؟",
+        "يمكن أن يخفي ذلك الكميات أو الاستثناءات المتغيرة. قم بالتوفيق بين المنتج والنطاق التجاري أولاً، ثم قارن الإجماليين على نفس الأساس."
+      ]
+    ],
+    "closing": "أرسل إلى Luvie مراجع WPC وتوزيع التشطيب المنقحة وجدول التغيير المشروح. اطلب عرض أسعار مرتبطًا بتلك المراجعة، مع عرض الافتراضات التي لم يتم حلها بشكل منفصل."
+  },
+  "uzbekistan-pu-stone-panels-purchaser-transition-open-orders.html:es": {
+    "title": "PU para Uzbekistán: traspasar la gestión de pedidos | Luvie",
+    "heading": "Paneles de piedra de PU de Uzbekistán: traspaso de responsabilidad sobre pedidos pendientes cuando cambia el contacto de compra",
+    "description": "Preservar el modelo de PU, la textura del molde, la muestra aprobada y las decisiones de pedidos pendientes cuando un nuevo comprador asume la responsabilidad de un proyecto en Uzbekistán.",
+    "lead": "Un nuevo contacto de compras puede heredar una bandeja de entrada llena de fotografías de paneles de piedra de PU, pero ningún registro claro de qué textura fue aprobada o qué queda por entregar. Una muestra de aspecto similar puede confundirse con el modelo solicitado, mientras que las dudas sobre el acabado no resueltas desaparecen en un chat antiguo. Para un importador o comprador de proyecto de Uzbekistán, el traspaso de responsabilidades debe preservar la identidad y el estado de decisión actual de cada pedido abierto. Esto difiere de transferir existencias sobrantes o trasladar un expositor de una sala de exposición: el objetivo es permitir que un nuevo comprador continúe una transacción inconclusa sin cambiar silenciosamente su base.",
+    "answer": "Cree un traspaso de responsabilidad sobre pedidos pendientes que conecte cada línea de compra con su modelo confirmado, referencia de textura, acabado y muestra aprobada. Concilie las cantidades pedidas, entregadas y pendientes, enumere las decisiones no resueltas con los responsables y obtenga el reconocimiento del comprador entrante y del contacto establecido con el proveedor. Un cambio de contacto no autoriza por sí solo una sustitución de producto.",
+    "sections": [
+      [
+        "Recuperar la identidad exacta del producto",
+        "Comience con el documento de compra aceptado en lugar de con la fotografía atractiva más reciente. Registre la referencia del modelo de PU, las dimensiones indicadas y la identificación del acabado en ese documento. Cuando haya referencias del molde o textura disponibles, inclúyalas explícitamente y distingalas de un nombre de color comercial. Vincular el identificador de la muestra aprobada y su registro de aceptación; una fotografía sin referencia puede ser un contexto útil, pero no es suficiente para demostrar la equivalencia. Si dos registros no están de acuerdo, marque el conflicto para su confirmación antes de que el comprador entrante realice un pedido repetido. No inventes detalles del modelo que faltan en la apariencia. El traspaso de responsabilidades debería hacer visible la incertidumbre en lugar de hacer que un expediente incompleto parezca completo."
+      ],
+      [
+        "Conciliar cada cantidad abierta",
+        "Para cada línea, muestre la cantidad pedida, los recibos documentados, los cambios aceptados y el saldo que aún requiere acción. Mantenga las unidades consistentes y explique una conversión entre paneles y cajas utilizando información de embalaje confirmada. Separe una cantidad recibida físicamente de una simplemente descrita como enviada, y separe la aceptación comercial de una actualización de transporte. Enumere los artículos retenidos, rechazados o en disputa sin asumir el resultado del reclamo. Vincule los registros de respaldo para que el comprador entrante pueda reconstruir el saldo. Un total de una hoja de cálculo que no se puede rastrear hasta los documentos originales no es un punto de partida confiable para un pedido de reemplazo o una instrucción de entrega final."
+      ],
+      [
+        "Transferir decisiones y documentos.",
+        "Listar aprobaciones de muestras pendientes, aclaraciones sobre el acabado, solicitudes de documentos y otras acciones abiertas con el responsable y la próxima respuesta requerida. Incluya la última respuesta acordada, no solo la pregunta que inició la conversación. Identificar quién puede aprobar cambios según los procedimientos reales del comprador; un colega recién copiado no debe ser tratado como un aprobador autorizado por suposición. La guía ISO reconoce la importancia de la información documentada para operar y controlar los procesos. La transferencia propuesta aquí es una aplicación de esa idea general, no una reclamación de certificación o un requisito legal específico de Uzbekistán. Mantenga registros comercialmente confidenciales en el sistema comercial aprobado en lugar de adjuntarlo todo a una consulta pública."
+      ],
+      [
+        "Confirmar el traspaso de responsabilidades sin cambiar el pedido.",
+        "Organice un acuse de recibo de que el contacto entrante ha recibido la base del pedido actual y la lista de acciones pendientes. Solicite al contacto de proveedor establecido que confirme las referencias comerciales relevantes y la ruta correcta para consultas posteriores. Mantenga cualquier cambio de datos bancarios fuera de esta traspaso rutinario de responsabilidades de compra y sujeto a una verificación financiera independiente. Si el comprador entrante desea una textura o un acabado diferente, inicie un cambio documentado por separado en lugar de editar la referencia heredada. Conserve la correspondencia anterior como historial e identifique claramente al responsable de la acción actual. Una transferencia exitosa termina con la siguiente decisión obvia, no con una declaración sin fundamento de que todas las órdenes abiertas están completas."
+      ]
+    ],
+    "checklist": [
+      "Vincule cada línea con el modelo de PU aceptado y la referencia de muestra.",
+      "Conciliar cantidades entregadas y pendientes en unidades confirmadas.",
+      "Asigne un propietario y la siguiente acción a cada decisión no resuelta.",
+      "Reconocer el nuevo contacto sin que implique sustitución de producto."
+    ],
+    "faq": [
+      [
+        "¿Puede el nuevo comprador aprobar una textura similar a partir de una fotografía?",
+        "Una fotografía puede sustentar la discusión, pero se debe confirmar la referencia propuesta y las bases de aprobación. No trate la similitud visual como prueba de que el modelo solicitado no ha cambiado."
+      ],
+      [
+        "¿Un cambio de contacto de compra requiere un nuevo pedido?",
+        "No automáticamente. Seguir el contrato vigente y los procedimientos internos. Conserve la base del pedido existente y luego documente cualquier cambio de alcance genuino por separado."
+      ]
+    ],
+    "closing": "Envíe a Luvie el pedido de PU y las referencias del modelo, el identificador de muestra aprobado y las preguntas pendientes. Solicite una confirmación referencia por referencia para que el comprador entrante pueda continuar con la transacción correcta."
+  },
+  "uzbekistan-pu-stone-panels-purchaser-transition-open-orders.html:pt-br": {
+    "title": "PU para o Uzbequistão: transferir a gestão de pedidos | Luvie",
+    "heading": "Painéis de pedra PU do Uzbequistão: transferir a responsabilidade pelos pedidos em aberto quando o contato de compra mudar",
+    "description": "Preserve o modelo de PU, a textura do molde, a amostra aprovada e as decisões de pedidos pendentes quando um novo comprador assumir a responsabilidade por um projeto no Uzbequistão.",
+    "lead": "Um novo contato de compra pode herdar uma caixa de entrada cheia de fotografias de painéis de pedra PU, mas nenhum registro claro de qual textura foi aprovada ou o que ainda precisa ser entregue. Uma amostra de aparência semelhante pode então ser confundida com o modelo ordenado, enquanto as questões sobre acabamento não resolvidas desaparecem em um bate-papo antigo. Para um importador ou comprador de projeto do Uzbequistão, a transferência deve preservar a identidade e o status de decisão atual de cada pedido em aberto. Isto é diferente de transferir estoque sobressalente ou mover um expositor de showroom: o objetivo é permitir que um novo comprador continue uma transação inacabada sem alterar silenciosamente a sua base.",
+    "answer": "Crie uma transferência de responsabilidade pelos pedidos em aberto que conecte cada linha de compra ao seu modelo confirmado, referência de textura, acabamento e amostra aprovada. Reconcilie quantidades encomendadas, entregues e pendentes, liste decisões não resolvidas com os responsáveis e obtenha o reconhecimento do novo comprador e do contato estabelecido com o fornecedor. Uma mudança de contato não autoriza por si só uma substituição de produto.",
+    "sections": [
+      [
+        "Recupere a identidade exata do produto",
+        "Comece com o documento de compra aceito, em vez da última fotografia atraente. Registre a referência do modelo PU, as dimensões declaradas e a identificação do acabamento nesse documento. Quando houver referências de molde ou textura disponíveis, inclua-as explicitamente e diferencie-as de um nome de cor comercial. Vincular o identificador da amostra aprovada e seu registro de aceitação; uma fotografia sem referência pode ser um contexto útil, mas não é suficiente para provar a equivalência. Se dois registros discordarem, sinalize o conflito para confirmação antes que o novo comprador faça um novo pedido. Não invente detalhes que faltam no modelo pela aparência. A transferência deve tornar a incerteza visível em vez de fazer com que um arquivo incompleto pareça completo."
+      ],
+      [
+        "Reconcilie todas as quantidades em aberto",
+        "Para cada linha, mostre a quantidade solicitada, os recebimentos documentados, quaisquer alterações aceitas e o saldo que ainda requer ação. Mantenha as unidades consistentes e explique a conversão entre painéis e caixas usando informações de embalagem confirmadas. Separe uma quantidade recebida fisicamente de uma meramente descrita como despachada e separe a aceitação comercial de uma atualização de transporte. Liste quaisquer itens retidos, rejeitados ou contestados sem presumir o resultado da reclamação. Vincule registros de suporte para que o novo comprador possa reconstruir o saldo. Um total de planilha que não pode ser rastreado até os documentos de origem não é um ponto de partida confiável para um pedido de substituição ou instrução de entrega final."
+      ],
+      [
+        "Decisões de transferência, bem como documentos",
+        "Liste aprovações de amostras pendentes, esclarecimentos sobre acabamento, solicitações de documentos e outras ações em aberto com o responsável e a próxima resposta necessária. Inclua a última resposta acordada, não apenas a pergunta que iniciou a conversa. Identificar quem pode aprovar alterações nos procedimentos reais do comprador; um colega recém-copiado não deve ser tratado como um aprovador autorizado por suposição. A orientação ISO reconhece a importância da informação documentada para processos operacionais e de controle. A transferência aqui proposta é uma aplicação dessa ideia geral e não uma reivindicação de certificação ou um requisito legal específico do Uzbequistão. Mantenha registros comercialmente sensíveis no sistema comercial aprovado, em vez de anexar tudo a um consulta pública."
+      ],
+      [
+        "Confirme a transferência de responsabilidades sem alterar o pedido",
+        "Organize uma confirmação de que o contato recebido recebeu a base do pedido atual e a lista de ações pendentes. Solicite ao contato do fornecedor estabelecido que confirme as referências comerciais relevantes e o caminho correto para dúvidas posteriores. Mantenha qualquer alteração de dados bancários fora desta transferência de responsabilidades rotineira de produtos e sujeita a verificação financeira independente. Se o novo comprador desejar uma textura ou acabamento diferente, inicie uma alteração documentada separada em vez de editar a referência herdada. Retenha a correspondência anterior como histórico enquanto identifica claramente o proprietário da ação atual. Uma transferência bem-sucedida termina com a próxima decisão sendo óbvia, e não com uma declaração não comprovada de que todos os pedidos em aberto foram concluídos."
+      ]
+    ],
+    "checklist": [
+      "Vincule cada linha ao modelo PU aceito e à referência da amostra.",
+      "Reconcilie quantidades entregues e pendentes em unidades confirmadas.",
+      "Atribua um proprietário e a próxima ação para cada decisão não resolvida.",
+      "Reconheça o novo contato sem implicar substituição de produto."
+    ],
+    "faq": [
+      [
+        "O novo comprador pode aprovar uma textura semelhante em uma fotografia?",
+        "Uma fotografia pode apoiar a discussão, mas a referência proposta e a base de aprovação devem ser confirmadas. Não trate a similaridade visual como prova de que o modelo ordenado permanece inalterado."
+      ],
+      [
+        "Uma mudança de contato de compra exige um novo pedido?",
+        "Não automaticamente. Siga o contrato real e os procedimentos internos. Preserve a base de pedidos existente e documente separadamente qualquer alteração genuína no escopo."
+      ]
+    ],
+    "closing": "Envie a Luvie o pedido de PU e as referências do modelo, o identificador da amostra aprovada e as questões pendentes. Peça uma confirmação referência por referência para que o novo comprador possa continuar a transação correta."
+  },
+  "uzbekistan-pu-stone-panels-purchaser-transition-open-orders.html:ar": {
+    "title": "ألواح PU لأوزبكستان: نقل مسؤولية الطلبات المفتوحة | Luvie",
+    "heading": "الألواح الحجرية PU الأوزبكية: تسليم مسؤوليات الطلبات المفتوحة عندما تتغير جهة اتصال الشراء",
+    "description": "الحفاظ على نموذج PU، وقوام القالب، والعينة المعتمدة وقرارات الطلب المعلقة عندما يتولى مشتري جديد مسؤولية مشروع في أوزبكستان.",
+    "lead": "قد ترث جهة اتصال الشراء الجديدة صندوقًا واردًا مليئًا بصور الألواح الحجرية من مادة البولي يوريثان ولكن لا يوجد سجل واضح للنسيج الذي تمت الموافقة عليه أو ما تبقى ليتم تسليمه. يمكن بعد ذلك الخلط بين العينة ذات المظهر المماثل والنموذج المطلوب، بينما تختفي أسئلة التشطيب التي لم يتم حلها في الدردشة القديمة. بالنسبة للمستورد أو مشتري المشروع من أوزبكستان، يجب أن تحافظ عملية تسليم مسؤوليات الشراء على الهوية وحالة القرار الحالية لكل طلب مفتوح. وهذا يختلف عن نقل المخزون الاحتياطي أو نقل صالة العرض: الهدف هو السماح للمشتري الجديد بمواصلة الصفقة غير المكتملة دون تغيير أساسها بصمت.",
+    "answer": "قم بإنشاء سجل تسليم مسؤوليات الطلبات المفتوحة يربط كل سطر شراء بنموذجه المؤكد ومرجع النسيج والتشطيب والعينة المعتمدة. قم بتسوية الكميات المطلوبة والمسلمة والمعلقة، وإدراج القرارات التي لم يتم حلها مع المسؤولين، والحصول على إقرار من المشتري القادم والاتصال بالمورد. إن تغيير جهة الاتصال لا يسمح في حد ذاته باستبدال المنتج.",
+    "sections": [
+      [
+        "استعادة هوية المنتج بالضبط",
+        "ابدأ بوثيقة الشراء المقبولة بدلاً من أحدث صورة جذابة. سجل مرجع نموذج PU والأبعاد المذكورة والتعريف النهائي من هذا المستند. عندما تتوفر مراجع القالب أو الملمس، قم بتضمينها بشكل صريح وتمييزها عن اسم اللون التجاري. ربط معرّف العينة المعتمد وسجل قبولها؛ قد تكون الصورة بدون مرجع سياقًا مفيدًا ولكنها ليست كافية لإثبات التكافؤ. إذا اختلف سجلان، فقم بوضع علامة على التعارض للتأكيد قبل أن يقدم المشتري القادم طلبًا متكررًا. لا تخترع تفاصيل النموذج المفقودة من المظهر. يجب أن تجعل عملية تسليم مسؤوليات الشراء حالة عدم اليقين مرئية بدلاً من جعل الملف غير المكتمل يبدو مكتملاً."
+      ],
+      [
+        "التوفيق بين كل كمية مفتوحة",
+        "لكل سطر، قم بإظهار الكمية المطلوبة والإيصالات الموثقة وأي تغييرات مقبولة والرصيد الذي لا يزال يتطلب اتخاذ إجراء. حافظ على اتساق الوحدات واشرح التحويل بين الألواح والكرتون باستخدام معلومات التعبئة المؤكدة. افصل الكمية المستلمة فعليًا عن الكمية الموصوفة فقط على أنها مرسلة، وافصل القبول التجاري عن تحديث النقل. قم بإدراج أي عناصر محتجزة أو مرفوضة أو متنازع عليها دون افتراض نتيجة المطالبة. ربط السجلات الداعمة حتى يتمكن المشتري القادم من إعادة بناء الرصيد. لا يعد إجمالي جدول البيانات الذي لا يمكن تتبعه إلى المستندات المصدر نقطة بداية موثوقة لأمر بديل أو تعليمات التسليم النهائية."
+      ],
+      [
+        "نقل القرارات وكذلك الوثائق",
+        "قم بإدراج موافقات العينات المعلقة والتوضيحات النهائية وطلبات المستندات والإجراءات المفتوحة الأخرى مع الشخص المسؤول والاستجابة المطلوبة التالية. قم بتضمين آخر إجابة متفق عليها، وليس فقط السؤال الذي بدأ المحادثة. تحديد من يمكنه الموافقة على التغييرات بموجب الإجراءات الفعلية للمشتري؛ لا ينبغي معاملة الزميل المنسوخ حديثًا على أنه معتمد معتمد بالافتراض. تدرك إرشادات ISO أهمية المعلومات الموثقة لعمليات التشغيل والتحكم. والتسليم المقترح هنا هو تطبيق لتلك الفكرة العامة، وليس مطالبة بالتصديق أو متطلبًا قانونيًا خاصًا بأوزبكستان. احتفظ بسجلات حساسة تجاريًا في نظام الأعمال المعتمد بدلاً من ربط كل شيء باستفسار عام."
+      ],
+      [
+        "تأكيد انتقال المسؤوليات دون تغيير الطلب",
+        "قم بترتيب إقرار بأن جهة الاتصال الواردة قد تلقت أساس الطلب الحالي وقائمة الإجراءات المعلقة. اطلب من جهة اتصال المورد التأكد من المراجع التجارية ذات الصلة والطريق الصحيح للأسئلة اللاحقة. احتفظ بأي تغيير في تفاصيل البنك خارج هذا التسليم الروتيني للمسؤوليات للمنتج وخاضعًا للتحقق المالي المستقل. إذا كان المشتري القادم يريد مادة أو لمسة نهائية مختلفة، فقم ببدء تغيير موثق منفصل بدلاً من تحرير المرجع الموروث. احتفظ بالمراسلات السابقة كتاريخ مع تحديد مالك الإجراء الحالي بوضوح. تنتهي عملية تسليم مسؤوليات الشراء الناجحة عندما يكون القرار التالي واضحًا، وليس بإعلان غير مدعوم بأن جميع الأوامر المفتوحة مكتملة."
+      ]
+    ],
+    "checklist": [
+      "اربط كل سطر بنموذج PU المقبول ومرجع العينة.",
+      "التوفيق بين الكميات المسلمة والمعلقة في الوحدات المؤكدة.",
+      "قم بتعيين مالك والإجراء التالي لكل قرار لم يتم حله.",
+      "قم بالإقرار بجهة الاتصال الجديدة دون الإشارة إلى استبدال المنتج."
+    ],
+    "faq": [
+      [
+        "هل يمكن للمشتري الجديد الموافقة على نسيج مماثل من الصورة؟",
+        "يمكن للصورة أن تدعم المناقشة، ولكن يجب تأكيد المرجع المقترح وأساس الموافقة. لا تتعامل مع التشابه البصري كدليل على أن النموذج المطلوب لم يتغير."
+      ],
+      [
+        "هل يتطلب تغيير جهة اتصال الشراء طلبًا جديدًا؟",
+        "ليس تلقائيا. اتبع العقد الفعلي والإجراءات الداخلية. حافظ على أساس الطلب الحالي، ثم قم بتوثيق أي تغيير حقيقي في النطاق بشكل منفصل."
+      ]
+    ],
+    "closing": "أرسل إلى Luvie طلب PU ومراجع النموذج ومعرف العينة المعتمد والأسئلة المعلقة. اطلب تأكيدًا مرجعيًا لكل مرجع حتى يتمكن المشتري القادم من مواصلة المعاملة الصحيحة."
+  }
+}

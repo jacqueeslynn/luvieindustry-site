@@ -1,0 +1,28 @@
+{
+  "images": [
+    {
+      "path": "assets/articles/november13-brazil.webp",
+      "source": "/Users/mac/.codex/generated_images/01a1d286-39df-7df3-bcb9-17eea6f9359a/exec-0b386e3d-e2b3-4ccb-9b76-5650cde500b9.png",
+      "prompt": "Use case: stylized-concept. Wide landscape editorial illustration for a Brazil PVC panel buyer guide about independently verifying changed supplier bank details. A warm ivory procurement desk with a white hollow PVC panel sample, a telephone handset, two clearly separate blank invoice sheets and a small brass lock beside them. Polished tactile editorial 3D, restrained beige and brown, soft daylight, purposeful composition. No readable text, account numbers, logos, flags or watermarks. Conceptual illustration, not documentary photo.",
+      "generator": "built-in image_gen",
+      "type": "Original generated editorial illustration; not verified product photography",
+      "generatedAt": "2026-11-13"
+    },
+    {
+      "path": "assets/articles/november13-uae.webp",
+      "source": "/Users/mac/.codex/generated_images/01a1d286-39df-7df3-bcb9-17eea6f9359a/exec-7eb35270-e377-4a93-91bb-5f0ffa25a733.png",
+      "prompt": "Use case: stylized-concept. Wide landscape editorial illustration for UAE WPC wall panel tender revisions and revised quotation review. Architectural procurement tabletop with walnut fluted wall panel swatches in two finishes, an architectural elevation sheet with abstract grid without writing, a second revised sheet partly overlapping, pencil and measured stack of sample pieces. Emphasize revised finish selection and quantities. Warm sand, ivory, walnut palette, polished tactile 3D editorial art, soft directional light. No readable text, numbers, logos, signatures, watermark, actual client project or factory claims.",
+      "generator": "built-in image_gen",
+      "type": "Original generated editorial illustration; not verified product photography",
+      "generatedAt": "2026-11-13"
+    },
+    {
+      "path": "assets/articles/november13-uzbekistan.webp",
+      "source": "/Users/mac/.codex/generated_images/01a1d286-39df-7df3-bcb9-17eea6f9359a/exec-5a1b22d3-fc10-4b35-944f-134e971a3e38.png",
+      "prompt": "Use case: stylized-concept. Wide landscape editorial illustration for Uzbekistan PU faux-stone panel procurement handover. A warm workbench with three lightweight cream faux-stone relief sample panels in visibly different relief patterns, a neatly opened sample archive box, blank tied order folders and one matching sample placed on the current folder. Compose as careful material-reference handover, not warehouse inventory. Tactile refined 3D illustration, ivory limestone textures and brown paper, soft daylight. No readable text, numbers, logos, people, watermark or real customer project claims.",
+      "generator": "built-in image_gen",
+      "type": "Original generated editorial illustration; not verified product photography",
+      "generatedAt": "2026-11-13"
+    }
+  ]
+}
