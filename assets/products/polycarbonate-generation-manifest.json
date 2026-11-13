@@ -1,0 +1,42 @@
+{
+  "generator": "built-in image_gen",
+  "purpose": "AI-generated illustrative material renders; not customer project photography or technical specifications",
+  "references": "Visually inspected supplied /tmp/luvie-pc-review/ulock.jpg and interlocking.jpg for product category understanding only; not copied or used as image input",
+  "assets": [
+    {
+      "file": "polycarbonate-solid.webp",
+      "source": "/Users/mac/.codex/generated_images/01a1d379-bad7-76e2-9df5-9d3702ca3ae8/exec-dcced08f-fa7c-4c2c-835d-11b4c5c82330.png",
+      "prompt": "Use case: product-mockup. Asset: architectural material catalog conceptual illustration. Three clear solid flat polycarbonate rectangular sheet samples, slightly overlapping on a warm beige plinth, dramatic low three-quarter close view showing smooth thin solid edges and transparency, no hollow cells, no waves. Premium realistic 3D material rendering, warm beige and muted brown seamless studio background, soft directional daylight, carefully defined material edges and subtle shadows. Landscape 3:2. Product fills central frame with breathing room. No text, logos, watermark, people or dimensions. Illustrative visualization only, not a customer project photograph.",
+      "dimensions": "1200x800",
+      "review": "Visually checked; distinct geometry, consistent beige studio palette, no text/logo"
+    },
+    {
+      "file": "polycarbonate-corrugated.webp",
+      "source": "/Users/mac/.codex/generated_images/01a1d379-bad7-76e2-9df5-9d3702ca3ae8/exec-6a9e7633-53e5-4bd7-accc-693fb962290e.png",
+      "prompt": "Use case: product-mockup. Asset: architectural material catalog conceptual illustration. One clear transparent corrugated polycarbonate roofing sheet, smooth repeating sinusoidal waves visible along front cut edge, diagonally placed on taupe studio floor, elevated three-quarter view. Premium realistic 3D material rendering, warm beige and muted brown seamless studio background, soft directional daylight, carefully defined material edges and subtle shadows. Landscape 3:2. Product fills central frame with breathing room. No text, logos, watermark, people or dimensions. Illustrative visualization only, not a customer project photograph.",
+      "dimensions": "1200x800",
+      "review": "Visually checked; distinct geometry, consistent beige studio palette, no text/logo"
+    },
+    {
+      "file": "polycarbonate-multiwall.webp",
+      "source": "/Users/mac/.codex/generated_images/01a1d379-bad7-76e2-9df5-9d3702ca3ae8/exec-23b29e76-dfce-4c54-b7a1-902969236794.png",
+      "prompt": "Use case: product-mockup. Asset: architectural material catalog conceptual illustration. Two translucent multiwall polycarbonate sheet samples stacked offset, close three-quarter macro view clearly showing hollow rectangular channels and multiple internal layers along the front cut edge, straight flat outer surfaces. Premium realistic 3D material rendering, warm beige and muted brown seamless studio background, soft directional daylight, carefully defined material edges and subtle shadows. Landscape 3:2. Product fills central frame with breathing room. No text, logos, watermark, people or dimensions. Illustrative visualization only, not a customer project photograph.",
+      "dimensions": "1200x800",
+      "review": "Visually checked; distinct geometry, consistent beige studio palette, no text/logo"
+    },
+    {
+      "file": "polycarbonate-ulock.webp",
+      "source": "/Users/mac/.codex/generated_images/01a1d379-bad7-76e2-9df5-9d3702ca3ae8/exec-90d54598-917c-4073-8496-1ff16dec00c5.png",
+      "prompt": "Use case: product-mockup. Asset: architectural material catalog conceptual illustration. A single clear solid polycarbonate roofing panel, broad flat solid thin central sheet with both longitudinal side edges bent upward into narrow U shaped standing seam returns, low front three-quarter view revealing the profile. No hollow cells, no corrugated waves, no metal hardware. Premium realistic 3D material rendering, warm beige and muted brown seamless studio background, soft directional daylight, carefully defined material edges and subtle shadows. Landscape 3:2. Product fills central frame with breathing room. No text, logos, watermark, people or dimensions. Illustrative visualization only, not a customer project photograph.",
+      "dimensions": "1200x800",
+      "review": "Visually checked; distinct geometry, consistent beige studio palette, no text/logo"
+    },
+    {
+      "file": "polycarbonate-interlocking.webp",
+      "source": "/Users/mac/.codex/generated_images/01a1d379-bad7-76e2-9df5-9d3702ca3ae8/exec-bb5d53d5-b227-43b9-8200-d0a000a81dd9.png",
+      "prompt": "Use case: product-mockup. Asset: architectural material catalog conceptual illustration. Three translucent milky polycarbonate architectural cladding panels standing vertically in a small freestanding material display, deep multilayer hollow cellular structure visible at top cut edges, adjacent vertical edges joined by tongue and groove interlocking connection; one panel slightly separated to reveal mating edge. Close elevated three-quarter view, no actual building. Premium realistic 3D material rendering, warm beige and muted brown seamless studio background, soft directional daylight, carefully defined material edges and subtle shadows. Landscape 3:2. Product fills central frame with breathing room. No text, logos, watermark, people or dimensions. Illustrative visualization only, not a customer project photograph.",
+      "dimensions": "1200x800",
+      "review": "Visually checked; distinct geometry, consistent beige studio palette, no text/logo"
+    }
+  ]
+}
