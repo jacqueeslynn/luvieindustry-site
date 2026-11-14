@@ -1,0 +1,28 @@
+{
+  "images": [
+    {
+      "path": "assets/articles/november14-brazil.webp",
+      "source": "/Users/mac/.codex/generated_images/01a1d77c-2129-7aa3-9a7e-a104c242a94b/exec-a352c98c-30b5-45d4-8105-1336bcc4ebe5.png",
+      "prompt": "Wide 3:2 editorial 3D illustration for PVC ceiling panel printed versus laminated finish comparison. Two cream hollow PVC panel swatches on warm ivory tabletop, one with a subtly printed woodgrain face and the other with a visibly separate thin woodgrain laminate corner peeled back for conceptual comparison. Macro tactile materials, beige walnut palette, soft daylight. No text logos numbers watermark or real product claims.",
+      "generator": "built-in image_gen",
+      "type": "Original generated editorial illustration; not verified product photography",
+      "generatedAt": "2026-11-14"
+    },
+    {
+      "path": "assets/articles/november14-uae.webp",
+      "source": "/Users/mac/.codex/generated_images/01a1d77c-2129-7aa3-9a7e-a104c242a94b/exec-fbde648a-7c92-4269-99a6-701b3c46600e.png",
+      "prompt": "Wide 3:2 editorial 3D illustration comparing decorative WPC fluted wall panel flute pitch and usable coverage. Three walnut panel sample boards upright side by side, equal overall size with fine medium and wide rib spacing, visible interlocking side edges. Warm beige studio background, precise architectural composition, refined tactile material study. No text numbers logos watermark or real project claims.",
+      "generator": "built-in image_gen",
+      "type": "Original generated editorial illustration; not verified product photography",
+      "generatedAt": "2026-11-14"
+    },
+    {
+      "path": "assets/articles/november14-uzbekistan.webp",
+      "source": "/Users/mac/.codex/generated_images/01a1d77c-2129-7aa3-9a7e-a104c242a94b/exec-18f2bf7d-e0cb-438e-8384-d5137d589c78.png",
+      "prompt": "Wide 3:2 refined editorial illustration for a buyer guide asking whether PU stone-look decorative panels are suitable around a fireplace. A warm beige architectural procurement tabletop with a cream lightweight stone-relief panel offcut and an unlabelled line drawing of a rectangular electric fireplace appliance on paper, plus pencil and closed specification folder. Material eligibility review, not installation demonstration. No actual mounted panel beside a fireplace, no flames, no safety labels or claims, no readable text, no logos or watermarks. Soft daylight, realistic tactile 3D illustration, restrained ivory sand and walnut palette.",
+      "generator": "built-in image_gen",
+      "type": "Original generated editorial illustration; not verified product photography",
+      "generatedAt": "2026-11-14"
+    }
+  ]
+}

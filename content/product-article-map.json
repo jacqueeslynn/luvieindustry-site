@@ -66,6 +66,12 @@
     ]
   },
   {
+    "file": "brazil-pvc-ceiling-panels-printed-laminated-finish-comparison.html",
+    "families": [
+      "pvc-ceiling-panels"
+    ]
+  },
+  {
     "file": "brazil-pvc-panels-bank-detail-change-verification.html",
     "families": [
       "pvc-wall-panels"
@@ -921,6 +927,12 @@
     ]
   },
   {
+    "file": "uae-wpc-wall-panels-flute-pitch-pattern-selection.html",
+    "families": [
+      "wpc-wall-panels"
+    ]
+  },
+  {
     "file": "uae-wpc-wall-panels-glass-partition-junction.html",
     "families": [
       "wpc-wall-panels"
@@ -994,6 +1006,12 @@
   },
   {
     "file": "uzbekistan-pu-stone-panels-existing-wallpaper-assessment.html",
+    "families": [
+      "pu-stone-panels"
+    ]
+  },
+  {
+    "file": "uzbekistan-pu-stone-panels-fireplace-surround-suitability.html",
     "families": [
       "pu-stone-panels"
     ]
