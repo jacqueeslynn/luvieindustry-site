@@ -150,6 +150,12 @@
     ]
   },
   {
+    "file": "brazil-spc-flooring-full-carton-order-rounding.html",
+    "families": [
+      "spc-flooring"
+    ]
+  },
+  {
     "file": "brazil-spc-flooring-retail-cleaning-handover.html",
     "families": [
       "spc-flooring"
@@ -891,6 +897,12 @@
     ]
   },
   {
+    "file": "uae-pvc-wall-panel-showroom-sample-labels.html",
+    "families": [
+      "pvc-wall-panels"
+    ]
+  },
+  {
     "file": "uae-pvc-wall-panels-bilingual-tender-comparison.html",
     "families": [
       "pvc-wall-panels"
@@ -1084,6 +1096,12 @@
   },
   {
     "file": "uzbekistan-pu-stone-panels-unused-cartons-return-stock.html",
+    "families": [
+      "pu-stone-panels"
+    ]
+  },
+  {
+    "file": "uzbekistan-pu-stone-panels-visible-cut-end-wall-approval.html",
     "families": [
       "pu-stone-panels"
     ]

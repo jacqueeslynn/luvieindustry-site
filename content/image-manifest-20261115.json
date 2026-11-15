@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-15",
+  "tool": "built-in image_gen",
+  "purpose": "Editorial illustrations, not product evidence or customer projects",
+  "images": [
+    {
+      "file": "assets/articles/november15-brazil.webp",
+      "source": "exec-91a58ecd-9788-4363-9c40-ed6bcd8c34e7.png",
+      "prompt": "Editorial illustration for B2B SPC flooring procurement: neatly stacked unopened plain flooring cartons beside a small arranged floor area, extra full carton set apart, blank quantity checklist on desk. Warm beige brown architectural studio, no text, no logos, no numbers, no people, landscape 3:2."
+    },
+    {
+      "file": "assets/articles/november15-uae.webp",
+      "source": "exec-97cc7621-4309-4648-a3db-145f054e5ab0.png",
+      "prompt": "Editorial illustration for PVC wall panel showroom sample identification: three different decorative panel samples each with a blank hanging tag, clipboard with unlettered fields, neutral beige showroom tabletop. Elegant brown beige palette, no text numbers logos or people, landscape 3:2."
+    },
+    {
+      "file": "assets/articles/november15-uzbekistan.webp",
+      "source": "exec-a60c8b84-0889-49ea-b327-b062c97c5180.png",
+      "prompt": "Editorial illustration for PU stone-look decorative wall panel procurement: model corner of an interior wall with a visible cut edge at the end of stone-look cladding, sample edge pieces laid on table for inspection. Warm beige and brown studio, no tools in operation, no text logos people, landscape 3:2."
+    }
+  ]
+}

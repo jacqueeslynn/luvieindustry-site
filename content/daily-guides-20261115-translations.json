@@ -1,0 +1,380 @@
+{
+  "brazil-spc-flooring-full-carton-order-rounding.html:es": {
+    "title": "Pavimento SPC en Brasil: pedidos por cajas completas | Luvie",
+    "heading": "Pavimento SPC para Brasil: convierta la superficie medida en un pedido claro por cajas",
+    "description": "Separe superficie neta, margen de instalación y redondeo por cajas al comprar SPC para Brasil, y acuerde quién recibe el material sobrante.",
+    "lead": "La medición del suelo y la cantidad comprada responden a preguntas distintas. La primera describe el espacio que se cubrirá; la segunda, el material que se entregará. En un proyecto de pavimento SPC en Brasil, un presupuesto por metro cuadrado puede ocultar esta diferencia si el proveedor vende únicamente cajas completas. Defina el cálculo antes de comparar ofertas y deje constancia del excedente físico en el registro de compra.",
+    "answer": "Registre la superficie neta, añada el margen de corte aprobado por el instalador y la reserva de mantenimiento acordada, y divida por la cobertura confirmada por caja. Redondee hacia arriba hasta una caja entera cuando la venta sea por cajas completas. Confirme si las habitaciones compatibles pueden compartir material y documente quién recibirá las tablas restantes.",
+    "sections": [
+      [
+        "Empiece por la superficie medida, no por el total del carrito",
+        "Enumere las habitaciones y su superficie neta medida, indicando exclusiones y revisión del plano. Pida al instalador que aclare límites dudosos, huecos y zonas bajo elementos fijos. Mantenga esta medición separada de los márgenes. Los cortes dependen de la distribución, la orientación de las tablas y el plan de instalación; esta guía no establece un porcentaje universal de desperdicio. La reserva de mantenimiento también es una decisión de compra independiente, no un desperdicio de instalación automático. Registrar cada cantidad por separado permite explicar cambios posteriores."
+      ],
+      [
+        "Confirme qué caja corresponde al precio por metro cuadrado",
+        "Solicite en el presupuesto vigente el modelo, acabado, dimensiones de tabla, piezas por caja y cobertura declarada por caja. El documento Ambienta Series de Tarkett Brasil muestra cómo un fabricante identifica el embalaje junto con las especificaciones técnicas. Se refiere a los productos vinílicos de ese fabricante, no al SPC de Luvie: sus embalajes, dimensiones y prestaciones no deben trasladarse a un pedido de Luvie. Obtenga los datos confirmados por Luvie para la referencia exacta. Aclare también si la unidad comercial de venta es la caja y si el precio por metro cuadrado sirve únicamente como base de comparación."
+      ],
+      [
+        "Agrupe habitaciones solo cuando realmente puedan compartir material",
+        "Si varias habitaciones utilizan el mismo producto aprobado y un lote de suministro compatible, pregunte al instalador si se pueden agrupar sus necesidades antes de redondear las cajas. Redondear cada habitación por separado puede generar más cajas que redondear una necesidad conjunta. Sin embargo, agrupar no implica que todo recorte sea reutilizable: la longitud, la posición de las juntas y la secuencia de instalación pueden impedirlo. Mantenga acabados, construcciones o entregas controladas por separado en líneas de cálculo distintas. Muestre tanto la asignación por habitación como la cantidad consolidada de compra para que el equipo de obra identifique las cajas compartidas."
+      ],
+      [
+        "Explique el excedente de redondeo y su destino",
+        "Utilice un cálculo sencillo: superficie necesaria igual a superficie neta más márgenes acordados; número de cajas igual a superficie necesaria dividida por cobertura confirmada por caja, redondeando hacia arriba. La cobertura comprada equivale al número de cajas multiplicado por su cobertura. La diferencia entre cobertura comprada y superficie necesaria es el excedente de redondeo, no una prueba de medición incorrecta. Antes de comprar, acuerde si las cajas sin abrir y las tablas sueltas utilizables quedarán con el cliente, el responsable del edificio u otra parte identificada. Registre el lugar de entrega, el etiquetado y la responsabilidad del inventario. No suponga que el material sobrante admite devolución ni que el instalador puede conservarlo; confirme expresamente estas condiciones comerciales."
+      ]
+    ],
+    "checklist": [
+      "Superficie neta medida y revisión del plano registradas.",
+      "Margen y reserva de mantenimiento aprobados por separado.",
+      "Cobertura exacta por caja y unidad de venta confirmadas.",
+      "Agrupación de habitaciones, propiedad del excedente y entrega acordadas."
+    ],
+    "faq": [
+      [
+        "¿Puedo pedir exactamente los metros cuadrados medidos?",
+        "Solo si el proveedor permite esa cantidad de venta. En pedidos por cajas completas, la cobertura comprada normalmente sigue el cálculo por cajas, no la medición neta."
+      ],
+      [
+        "¿El excedente de redondeo es igual al desperdicio de corte?",
+        "No. El excedente de redondeo proviene del incremento del embalaje; el desperdicio de corte se produce durante la instalación. Separe ambos conceptos al conciliar la entrega y las existencias finales."
+      ]
+    ],
+    "closing": "Envíe a Luvie la relación de habitaciones y la referencia SPC seleccionada. Solicite la cobertura por caja y las condiciones de venta confirmadas; después, pida al instalador que apruebe márgenes y agrupación antes de emitir el pedido."
+  },
+  "brazil-spc-flooring-full-carton-order-rounding.html:pt-br": {
+    "title": "Piso SPC no Brasil: pedidos em caixas fechadas | Luvie",
+    "heading": "Piso SPC para o Brasil: transforme a área medida em um pedido claro por caixas",
+    "description": "Separe área líquida, margem de instalação e arredondamento por caixas ao comprar piso SPC para o Brasil, e combine quem recebe as sobras.",
+    "lead": "A medição do piso e a quantidade comprada respondem a perguntas diferentes. A primeira descreve o espaço a revestir; a segunda, o material que será entregue. Em um projeto de piso SPC no Brasil, um orçamento por metro quadrado pode esconder essa diferença quando o fornecedor vende apenas caixas fechadas. Defina o cálculo antes de comparar propostas e mantenha a sobra física resultante visível no registro da compra.",
+    "answer": "Registre a área líquida, acrescente a margem para cortes aprovada pelo instalador e a reserva de manutenção combinada, e divida pela cobertura confirmada por caixa. Arredonde para cima até uma caixa inteira quando a venda exigir caixas fechadas. Confirme se os ambientes compatíveis podem compartilhar o material e documente quem receberá as réguas restantes.",
+    "sections": [
+      [
+        "Comece pela área medida, não pelo total do carrinho",
+        "Liste cada ambiente e sua área líquida medida, anotando exclusões e a revisão da planta. Peça ao instalador que esclareça limites incertos, reentrâncias e áreas sob elementos fixos. Mantenha essa medição separada das margens. A necessidade de cortes depende da disposição, do sentido das réguas e do plano de instalação; este guia não estabelece um percentual universal de perda. A reserva de manutenção também é uma decisão de compra separada, não uma perda de instalação automática. Registrar essas quantidades individualmente permite explicar alterações posteriores."
+      ],
+      [
+        "Confirme a caixa por trás do preço por metro quadrado",
+        "Solicite no orçamento atual o modelo, acabamento, dimensões das réguas, peças por caixa e cobertura declarada por caixa. O documento Ambienta Series da Tarkett Brasil mostra como um fabricante identifica a embalagem junto das especificações técnicas. Ele trata dos produtos vinílicos desse fabricante, não do SPC da Luvie: embalagem, dimensões e desempenho não devem ser transferidos para um pedido Luvie. Obtenha os dados confirmados pela própria Luvie para a referência exata. Esclareça também se a unidade comercial de venda é a caixa e se o preço por metro quadrado é apenas uma base de comparação."
+      ],
+      [
+        "Agrupe ambientes somente quando o material puder ser compartilhado",
+        "Quando os ambientes usam o mesmo produto aprovado e um lote de fornecimento compatível, pergunte ao instalador se as necessidades podem ser agrupadas antes do arredondamento por caixas. Arredondar cada ambiente separadamente pode gerar mais caixas do que arredondar a necessidade conjunta. Porém, agrupar não significa presumir que todo recorte poderá ser reaproveitado: comprimento, posição das juntas e sequência de instalação podem impedir o reaproveitamento. Mantenha acabamentos, composições ou entregas controladas separadamente em linhas de cálculo distintas. Mostre a alocação por ambiente e a quantidade consolidada de compra, para que a equipe da obra saiba quais caixas pertencem ao estoque compartilhado."
+      ],
+      [
+        "Explique a sobra do arredondamento e seu destino",
+        "Use um cálculo simples: área necessária igual à área líquida mais as margens acordadas; quantidade de caixas igual à área necessária dividida pela cobertura confirmada por caixa, arredondada para cima. A cobertura comprada equivale à quantidade de caixas multiplicada pela cobertura de cada caixa. A diferença entre cobertura comprada e área necessária é a sobra do arredondamento, não evidência de erro na medição. Antes de comprar, combine se as caixas fechadas e as réguas avulsas utilizáveis ficarão com o cliente, o responsável pelo edifício ou outra parte identificada. Registre o local de entrega, a identificação e a responsabilidade pelo estoque. Não presuma que as sobras podem ser devolvidas ou que o instalador pode ficar com elas; confirme expressamente essas condições comerciais."
+      ]
+    ],
+    "checklist": [
+      "Área líquida medida e revisão da planta registradas.",
+      "Margem e reserva de manutenção aprovadas separadamente.",
+      "Cobertura exata por caixa e unidade de venda confirmadas.",
+      "Agrupamento de ambientes, propriedade das sobras e entrega acordados."
+    ],
+    "faq": [
+      [
+        "Posso pedir exatamente os metros quadrados medidos?",
+        "Somente se o fornecedor permitir essa quantidade de venda. Em pedidos por caixas fechadas, a cobertura comprada normalmente segue o cálculo por caixas, não a medição líquida."
+      ],
+      [
+        "A sobra do arredondamento é igual à perda de corte?",
+        "Não. A sobra do arredondamento decorre do incremento da embalagem; a perda de corte surge durante a instalação. Separe os dois conceitos ao conferir a entrega e o estoque final restante."
+      ]
+    ],
+    "closing": "Envie à Luvie a relação de ambientes e a referência SPC selecionada. Solicite a cobertura por caixa e as condições de venda confirmadas; depois, peça ao instalador que aprove as margens e o agrupamento antes de emitir o pedido de compra."
+  },
+  "brazil-spc-flooring-full-carton-order-rounding.html:ar": {
+    "title": "أرضيات SPC للبرازيل: الطلب بعبوات كاملة | Luvie",
+    "heading": "أرضيات SPC للبرازيل: تحويل المساحة المقاسة إلى طلب واضح بالعبوات",
+    "description": "افصل بين صافي المساحة وبدل التركيب والتقريب إلى عبوات كاملة عند شراء أرضيات SPC للبرازيل، واتفق على مستلم المواد المتبقية.",
+    "lead": "يجيب قياس الأرضية وكمية الشراء عن سؤالين مختلفين. يصف الأول المساحة المطلوب تغطيتها، بينما تصف الثانية المواد التي ستُسلَّم. في مشروع أرضيات SPC بالبرازيل، قد يخفي عرض السعر بالمتر المربع هذا الفرق إذا كان المورد يبيع عبوات كاملة فقط. حدد طريقة الحساب قبل مقارنة العروض، وأظهر الفائض الفعلي الناتج في سجل الشراء.",
+    "answer": "سجّل صافي المساحة، وأضف بدل القص المعتمد من منفذ التركيب وأي احتياطي صيانة متفق عليه، ثم اقسم الناتج على التغطية المؤكدة لكل عبوة. قرّب إلى العدد الصحيح الأعلى من العبوات عندما يكون البيع بعبوات كاملة. تأكد من إمكانية مشاركة المواد بين الغرف المتوافقة، ووثّق الجهة التي ستتسلم الألواح المتبقية.",
+    "sections": [
+      [
+        "ابدأ بالمساحة المقاسة، لا بإجمالي سلة الشراء",
+        "أدرج كل غرفة وصافي مساحتها المقاسة، مع توضيح الاستثناءات وإصدار المخطط. اطلب من منفذ التركيب حسم الحدود غير الواضحة والتجاويف والمناطق أسفل التجهيزات الثابتة. افصل هذا القياس عن البدلات. تعتمد احتياجات القص على التوزيع واتجاه الألواح وخطة التركيب؛ ولا يحدد هذا الدليل نسبة هدر عامة. كذلك يُعد احتياطي الصيانة قرار شراء مستقلاً، وليس هدر تركيب تلقائياً. يساعد تسجيل هذه الكميات بشكل منفصل على تفسير التغييرات اللاحقة."
+      ],
+      [
+        "تحقق من العبوة التي يستند إليها سعر المتر المربع",
+        "اطلب إدراج الطراز والتشطيب وأبعاد الألواح وعدد القطع والتغطية المعلنة لكل عبوة في عرض السعر الحالي. توضح وثيقة Ambienta Series من Tarkett Brazil كيف يحدد المصنع بيانات التعبئة إلى جانب المواصفات الفنية. وهي تخص منتجات الفينيل لذلك المصنع، لا أرضيات SPC من Luvie؛ لذلك لا يجوز نقل بيانات التعبئة أو الأبعاد أو الأداء منها إلى طلب Luvie. احصل على بيانات Luvie المؤكدة للمرجع المحدد. وضّح أيضاً ما إذا كانت وحدة البيع التجارية هي العبوة، وما إذا كان سعر المتر المربع مجرد أساس للمقارنة."
+      ],
+      [
+        "اجمع احتياجات الغرف فقط عندما يمكن مشاركة المواد فعلياً",
+        "إذا كانت الغرف تستخدم المنتج المعتمد نفسه ودفعة توريد متوافقة، فاسأل منفذ التركيب عن إمكانية جمع احتياجاتها قبل تقريب عدد العبوات. قد يؤدي تقريب كل غرفة منفردة إلى عبوات أكثر من تقريب الاحتياج المجمع. لكن التجميع لا يعني أن كل قطعة ناتجة عن القص قابلة لإعادة الاستخدام؛ فقد يمنع ذلك طولها أو موضع الوصلات أو تسلسل التركيب. ضع التشطيبات والتركيبات المختلفة أو التسليمات التي تُدار منفصلة في بنود حساب مستقلة. أظهر تخصيص كل غرفة وإجمالي كمية الشراء معاً، ليعرف فريق الموقع العبوات التابعة للمخزون المشترك."
+      ],
+      [
+        "اشرح فائض التقريب والجهة التي سيؤول إليها",
+        "استخدم حساباً بسيطاً: المساحة المطلوبة تساوي صافي المساحة مضافاً إليه البدلات المتفق عليها؛ وعدد العبوات يساوي المساحة المطلوبة مقسومة على التغطية المؤكدة للعبوة، مع التقريب إلى الأعلى. وتساوي التغطية المشتراة عدد العبوات مضروباً في تغطية العبوة. الفرق بين التغطية المشتراة والمساحة المطلوبة هو فائض التقريب، وليس دليلاً على خطأ القياس. قبل الطلب، اتفق على ما إذا كانت العبوات غير المفتوحة والألواح المنفردة الصالحة ستبقى لدى العميل أو مشغّل المبنى أو طرف آخر محدد. سجّل موقع التسليم وطريقة وضع الملصقات ومسؤولية المخزون. لا تفترض إمكانية إرجاع المواد غير المستخدمة أو حق منفذ التركيب في الاحتفاظ بها؛ بل أكد هذه الترتيبات التجارية صراحةً."
+      ]
+    ],
+    "checklist": [
+      "تسجيل صافي المساحة المقاسة وإصدار المخطط.",
+      "اعتماد البدل واحتياطي الصيانة كلٌّ على حدة.",
+      "تأكيد التغطية الدقيقة للعبوة ووحدة البيع.",
+      "الاتفاق على تجميع الغرف وملكية الفائض وتسليمه."
+    ],
+    "faq": [
+      [
+        "هل يمكنني طلب عدد الأمتار المربعة المقاس بالضبط؟",
+        "فقط إذا سمح المورد ببيع تلك الكمية. عند الطلب بعبوات كاملة، تتبع التغطية المشتراة عادةً حساب العبوات بدلاً من صافي القياس."
+      ],
+      [
+        "هل فائض التقريب هو نفسه هدر القص؟",
+        "لا. ينشأ فائض التقريب من زيادة الكمية بحسب حجم العبوة، بينما ينشأ هدر القص أثناء التركيب. افصل بين المفهومين عند مطابقة التسليم والمخزون المتبقي في النهاية."
+      ]
+    ],
+    "closing": "أرسل إلى Luvie قائمة الغرف ومرجع SPC المختار. اطلب تأكيد تغطية العبوة وشروط البيع، ثم احصل على اعتماد منفذ التركيب للبدلات وتجميع الغرف قبل إصدار أمر الشراء."
+  },
+  "uae-pvc-wall-panel-showroom-sample-labels.html:es": {
+    "title": "Muestras de paneles PVC en EAU: etiquetar antes de cotizar | Luvie",
+    "heading": "Muestras de paneles de pared PVC para salas de exposición en EAU: haga trazable cada selección",
+    "description": "Prepare una etiqueta útil para muestras de paneles PVC en EAU: vincule acabado, perfil, estado de la muestra y presupuesto sin inventar especificaciones.",
+    "lead": "Un visitante elige un panel de aspecto madera cálida en una sala de exposición de EAU y envía una fotografía al equipo de compras. La imagen muestra la cara, pero no el modelo, el código de acabado ni el perfil. Varios productos similares podrían encajar en esa descripción. Antes de ampliar la exposición, conviene decidir cómo conducirá cada muestra a un presupuesto identificable. Una etiqueta clara es una herramienta práctica de venta: conecta una selección física con la información que debe confirmar el proveedor.",
+    "answer": "Asigne a cada muestra un identificador interno estable y vincúlelo con el modelo del proveedor, la referencia del acabado y la ficha de especificaciones vigente. Separe los datos confirmados de los pendientes de verificar. Mantenga el identificador visible en las fotografías e inclúyalo en la consulta. La etiqueta no es un certificado, una confirmación de existencias ni una promesa de suministro futuro sin cambios.",
+    "sections": [
+      [
+        "Identifique la muestra física, no solo la colección",
+        "Empiece con una referencia interna única que el personal pueda leer y escribir. Registre por separado el modelo del proveedor y la referencia del acabado; un nombre atractivo de colección puede abarcar varios perfiles. Si están disponibles, incluya la fecha de recepción y la referencia de muestra del proveedor. Una muestra cortada puede no representar el ancho completo del panel: distinga su tamaño de las dimensiones del producto comercial. No deduzca medidas ausentes a partir de una fotografía. Coloque la referencia tanto en el reverso como en la tarjeta de exposición para que la muestra siga siendo identificable fuera de su soporte."
+      ],
+      [
+        "Separe la identificación de la información sobre prestaciones",
+        "GS1 distingue el identificador del producto del código de barras que transporta datos. Esta diferencia resulta útil al diseñar un sistema de muestras: un código escaneable debe conducir a un registro actualizado, no sustituirlo. Esta guía no exige un identificador GS1 para cada muestra ni implica que Luvie lo proporcione. Un número local puede servir para el trabajo interno. No imprima afirmaciones sin respaldo sobre impermeabilidad, clasificación frente al fuego o uso exterior. Si una especificación está pendiente, indique que requiere confirmación en lugar de tomar datos de un panel visualmente similar. Quien abra el registro debe ver qué datos se han verificado para el modelo exacto ofrecido."
+      ],
+      [
+        "Haga coincidir fotografías y registros digitales",
+        "Coloque el identificador donde pueda aparecer junto a la cara en una fotografía de selección. Añada una imagen del reverso cuando importe la geometría de unión, sin dar a entender que una fotografía determina la cobertura instalada. Mantenga un registro con el identificador, la referencia del proveedor, imágenes aprobadas y la última versión documental. Si utiliza un código QR, pruébelo con un teléfono corriente y conserve un identificador legible para quien no pueda escanearlo. Excluya los datos de clientes de los registros públicos. Un enlace roto no debe impedir rastrear la muestra, y sustituir una imagen digital no debe cambiar silenciosamente el producto vinculado a una aprobación existente."
+      ],
+      [
+        "Traslade la selección al presupuesto",
+        "Pida al comprador que incluya la referencia de muestra, la ubicación interior prevista y la cantidad aproximada en la consulta. El presupuesto debe nombrar el modelo y acabado ofrecidos, confirmando por separado las dimensiones actuales, el embalaje y las condiciones del pedido. Si el proveedor propone una alternativa, facilite una nueva muestra identificada y obtenga otra aprobación en vez de conservar la tarjeta anterior. En una sala de exposición de EAU que atienda en varios idiomas, mantenga los mismos códigos de modelo y muestra en todas las etiquetas traducidas. Traduzca las explicaciones, no el identificador. Así, ventas, compras y cliente hablarán de la misma selección sin suponer que la exposición garantiza existencias o plazos de entrega."
+      ]
+    ],
+    "checklist": [
+      "Identificador estable en la muestra y la tarjeta de exposición.",
+      "Modelo del proveedor y referencia de acabado registrados por separado.",
+      "Datos confirmados diferenciados de información pendiente.",
+      "Presupuesto vinculado a la muestra seleccionada y a la oferta vigente."
+    ],
+    "faq": [
+      [
+        "¿Todas las muestras necesitan código de barras?",
+        "No. Un identificador estable y legible y un registro actualizado pueden bastar. El código de barras o QR es una opción para acceder al registro."
+      ],
+      [
+        "¿La misma aprobación puede cubrir un modelo de sustitución?",
+        "No lo dé por supuesto. Identifique el sustituto y pida al comprador que revise las diferencias relevantes de aspecto y especificaciones antes de aceptarlo."
+      ]
+    ],
+    "closing": "Envíe a Luvie la referencia de la muestra elegida, fotografías y el uso interior previsto. Solicite el modelo y acabado actuales correspondientes y la información técnica de respaldo antes de preparar el pedido."
+  },
+  "uae-pvc-wall-panel-showroom-sample-labels.html:pt-br": {
+    "title": "Amostras de painéis PVC nos EAU: identifique antes de orçar | Luvie",
+    "heading": "Amostras de painéis de parede PVC para showrooms nos EAU: torne cada escolha rastreável",
+    "description": "Crie uma etiqueta útil para amostras de painéis PVC nos EAU: conecte acabamento, perfil, situação da amostra e referências do orçamento sem inventar especificações.",
+    "lead": "Um visitante escolhe um painel com aparência de madeira em tom quente em um showroom nos EAU e envia uma fotografia à equipe de compras. A imagem mostra a face, mas não o modelo, o código do acabamento ou o perfil. Vários produtos semelhantes podem corresponder à descrição. Antes de ampliar a exposição, vale definir como cada amostra levará a um orçamento identificável. Uma etiqueta clara é uma ferramenta prática de vendas: conecta a escolha física às informações que o fornecedor precisa confirmar.",
+    "answer": "Dê a cada amostra um identificador interno estável e vincule-o ao modelo do fornecedor, à referência do acabamento e à ficha de especificações atual. Separe informações confirmadas dos campos pendentes de verificação. Mantenha o identificador visível nas fotografias e inclua-o na consulta. Uma etiqueta não é certificado, confirmação de estoque nem promessa de fornecimento futuro sem alterações.",
+    "sections": [
+      [
+        "Identifique a amostra física, não apenas a coleção",
+        "Comece com uma referência interna única que a equipe consiga ler e digitar. Registre separadamente o modelo do fornecedor e a referência do acabamento; um nome de coleção atraente pode abranger vários perfis. Quando disponíveis, inclua a data de recebimento e a referência da amostra do fornecedor. Uma amostra cortada pode não representar a largura total do painel, por isso diferencie seu tamanho das dimensões do produto comercializado. Não estime medidas ausentes a partir de uma fotografia. Mantenha a referência no verso e no cartão de exposição para que a peça continue identificável fora do suporte."
+      ],
+      [
+        "Separe identificação de informações de desempenho",
+        "A GS1 diferencia o identificador de produto do código de barras que transporta dados. Essa distinção ajuda a planejar um sistema de amostras: um código escaneável deve levar a um registro atualizado, não substituí-lo. Este guia não exige um identificador GS1 para amostras de showroom nem indica que a Luvie o forneça. Um número local pode atender ao fluxo interno. Não imprima alegações sem comprovação sobre impermeabilidade, classificação ao fogo ou uso externo. Se uma especificação estiver pendente, informe que precisa de confirmação, em vez de usar dados de um painel visualmente parecido. Quem abrir o registro deve reconhecer quais informações foram verificadas para o modelo exato oferecido."
+      ],
+      [
+        "Alinhe fotografias e registros digitais",
+        "Posicione o identificador onde possa aparecer ao lado da face na fotografia de seleção. Acrescente uma fotografia do verso quando a geometria do encaixe for importante, sem sugerir que a imagem determina a cobertura instalada. Mantenha um registro com o identificador, a referência do fornecedor, imagens aprovadas e a versão documental mais recente. Se usar QR code, teste-o em um celular comum e conserve um identificador legível para quem não puder escanear. Não inclua dados de clientes em registros públicos. Um link quebrado não deve impedir o rastreamento da amostra, e a troca de uma imagem digital não deve alterar silenciosamente o produto ligado a uma aprovação existente."
+      ],
+      [
+        "Leve a escolha para o orçamento",
+        "Peça ao comprador que inclua na consulta a referência da amostra, o ambiente interno previsto e a quantidade aproximada. O orçamento deve informar o modelo e o acabamento oferecidos, com dimensões atuais, embalagem e condições do pedido confirmadas separadamente. Se o fornecedor sugerir uma alternativa, apresente uma nova amostra identificada e obtenha nova aprovação em vez de manter o cartão antigo. Em um showroom dos EAU que atenda em vários idiomas, mantenha os mesmos códigos de modelo e amostra nas etiquetas traduzidas. Traduza as explicações, não o identificador. Assim, vendas, compras e cliente discutem a mesma escolha sem presumir que a exposição garante estoque ou prazo de entrega."
+      ]
+    ],
+    "checklist": [
+      "Identificador estável na amostra e no cartão de exposição.",
+      "Modelo do fornecedor e referência do acabamento registrados separadamente.",
+      "Informações confirmadas diferenciadas das pendentes.",
+      "Orçamento vinculado à amostra escolhida e à oferta atual."
+    ],
+    "faq": [
+      [
+        "Toda amostra de showroom precisa de código de barras?",
+        "Não. Um identificador estável e legível e um registro atualizado podem bastar. Código de barras ou QR code são formas opcionais de acessar esse registro."
+      ],
+      [
+        "A mesma aprovação pode cobrir um modelo substituto?",
+        "Não presuma isso. Identifique o substituto e peça ao comprador que analise as diferenças relevantes de aparência e especificações antes de aceitá-lo."
+      ]
+    ],
+    "closing": "Envie à Luvie a referência da amostra escolhida, fotografias e o uso interno previsto. Solicite o modelo e acabamento atuais correspondentes e as informações técnicas de apoio antes de preparar o pedido."
+  },
+  "uae-pvc-wall-panel-showroom-sample-labels.html:ar": {
+    "title": "عينات ألواح PVC في الإمارات: التعريف قبل التسعير | Luvie",
+    "heading": "عينات ألواح الجدران PVC لصالات العرض في الإمارات: اجعل كل اختيار قابلاً للتتبع",
+    "description": "أعد بطاقة مفيدة لعينة لوح PVC في الإمارات تربط التشطيب والمقطع وحالة العينة ومراجع عرض السعر دون اختلاق مواصفات.",
+    "lead": "يختار زائر لوحاً بمظهر خشبي دافئ في صالة عرض بالإمارات، ثم يرسل صورة إلى فريق المشتريات. تُظهر الصورة الوجه، لكنها لا توضح الطراز أو رمز التشطيب أو المقطع. وقد تنطبق هذه الصورة على عدة منتجات متشابهة. قبل توسيع المعروضات، يجدر بالمستورد تحديد كيفية ربط كل عينة بعرض سعر يمكن التعرف عليه. البطاقة الواضحة أداة عملية للبيع: تربط الاختيار المادي بمعلومات المنتج التي يجب على المورد تأكيدها.",
+    "answer": "امنح كل عينة معرّفاً داخلياً ثابتاً واربطه بطراز المورد ومرجع التشطيب وسجل المواصفات الحالي. افصل المعلومات المؤكدة عن الحقول التي تنتظر التحقق. أبقِ المعرّف ظاهراً في صور العينة وأدرجه في الاستفسار. بطاقة العينة ليست شهادة أو تأكيداً للمخزون أو وعداً باستمرار التوريد مستقبلاً دون تغيير.",
+    "sections": [
+      [
+        "عرّف العينة الفعلية، لا المجموعة فقط",
+        "ابدأ بمرجع داخلي فريد يستطيع الموظفون قراءته وكتابته. سجل طراز المورد ومرجع التشطيب كلّاً على حدة؛ فقد يشمل اسم مجموعة جذاب عدة مقاطع. أضف تاريخ الاستلام ومرجع العينة لدى المورد عند توافرهما. قد لا تمثل العينة المقطوعة العرض الكامل للوح، لذا ميّز أبعاد العينة عن أبعاد المنتج المباع. لا تخمّن الأبعاد المفقودة من صورة. ضع مرجع العينة على ظهرها وعلى بطاقة العرض كي تظل قابلة للتعريف عند إخراجها من الحامل."
+      ],
+      [
+        "افصل التعريف عن معلومات الأداء",
+        "تميّز GS1 بين معرّف المنتج والرمز الشريطي الذي يحمل البيانات. وهذا التمييز مفيد عند تخطيط نظام للعينات: يجب أن يقود الرمز القابل للمسح إلى سجل يجري تحديثه، لا أن يحل محله. لا يشترط هذا الدليل معرّف GS1 لعينة صالة العرض، ولا يعني أن Luvie توفره. يمكن لرقم عينة محلي أن يخدم سير العمل الداخلي. تجنب طباعة ادعاءات غير مدعومة بشأن مقاومة الماء أو التصنيف ضد الحريق أو الاستخدام الخارجي. إذا كانت مواصفة معلقة، فاذكر أنها تحتاج إلى تأكيد بدلاً من استعارة بيانات لوح مشابه بصرياً. يجب أن يعرف من يفتح السجل أي المعلومات جرى التحقق منها للطراز المعروض تحديداً."
+      ],
+      [
+        "اجعل الصور والسجلات الرقمية متطابقة",
+        "ضع معرّف العينة حيث يظهر بجانب الوجه في صورة الاختيار. أضف صورة للظهر عندما تكون هندسة الوصل مهمة، دون الإيحاء بأن الصورة تحدد مساحة التغطية بعد التركيب. احتفظ بسجل واحد يتضمن المعرّف ومرجع المورد والصور المعتمدة وأحدث إصدار من المستندات. عند استخدام رمز QR، اختبره بهاتف عادي وأبقِ معرّفاً مقروءاً لمن يتعذر عليهم مسحه. استبعد بيانات العملاء من السجلات المتاحة للجمهور. يجب ألا يمنع رابط معطل تتبع العينة، وألا يؤدي استبدال صورة رقمية إلى تغيير المنتج المرتبط باعتماد قائم دون تنبيه."
+      ],
+      [
+        "انقل الاختيار إلى عرض السعر",
+        "اطلب من المشتري تضمين مرجع العينة والموقع الداخلي المقصود والكمية التقريبية في الاستفسار. يجب أن يذكر عرض السعر الطراز والتشطيب المعروضين، مع تأكيد الأبعاد الحالية والتعبئة وشروط الطلب بشكل منفصل. إذا اقترح المورد بديلاً، فقدم عينة جديدة محددة الهوية واحصل على اعتماد جديد بدلاً من الاحتفاظ ببطاقة العرض القديمة. في صالة عرض بالإمارات تخدم عدة لغات، احتفظ برموز الطراز والعينة نفسها في البطاقات المترجمة. ترجم العبارات التوضيحية، لا المعرّف ذاته. وبذلك يناقش موظفو المبيعات والمشتريات والعميل الاختيار نفسه دون افتراض أن وجوده في العرض يضمن المخزون أو موعد التسليم."
+      ]
+    ],
+    "checklist": [
+      "معرّف ثابت على العينة وبطاقة العرض.",
+      "تسجيل طراز المورد ومرجع التشطيب بشكل منفصل.",
+      "تمييز المعلومات المؤكدة عن المعلومات المعلقة.",
+      "ربط عرض السعر بالعينة المختارة والعرض الحالي."
+    ],
+    "faq": [
+      [
+        "هل تحتاج كل عينة في صالة العرض إلى رمز شريطي؟",
+        "لا. قد يكفي معرّف ثابت مقروء وسجل يجري تحديثه. الرمز الشريطي أو رمز QR وسيلة اختيارية للوصول إلى هذا السجل."
+      ],
+      [
+        "هل يمكن أن يشمل اعتماد العينة نفسه طرازاً بديلاً؟",
+        "لا تفترض ذلك. حدد هوية البديل واطلب من المشتري مراجعة فروق المظهر والمواصفات ذات الصلة قبل قبوله."
+      ]
+    ],
+    "closing": "أرسل إلى Luvie مرجع العينة المختارة وصورها والاستخدام الداخلي المقصود. اطلب الطراز والتشطيب الحاليين المطابقين ومعلومات المواصفات الداعمة قبل إعداد أمر الشراء."
+  },
+  "uzbekistan-pu-stone-panels-visible-cut-end-wall-approval.html:es": {
+    "title": "Paneles de piedra PU en Uzbekistán: aprobar los extremos visibles | Luvie",
+    "heading": "Paneles de piedra PU para Uzbekistán: aprobar el corte visible al final de la pared",
+    "description": "Defina el acabado de los extremos visibles, apruebe una muestra física y separe el suministro de paneles del trabajo de acabado en su presupuesto para Uzbekistán.",
+    "lead": "Una pared decorativa puede resultar convincente de frente y, sin embargo, mostrar claramente su último corte desde la entrada. En una sala de exposición o un interior de hostelería en Uzbekistán, ese extremo expuesto merece una decisión de compra específica. Una muestra de la cara del panel no demuestra cómo terminará la pared instalada. Antes de comparar presupuestos, identifique los extremos visibles y pida al proveedor y al instalador que expliquen qué incluye el acabado propuesto.",
+    "answer": "Apruebe una muestra representativa del extremo de la pared que muestre la cara real del panel, el borde cortado y la terminación propuesta. Vincule esa aprobación con una revisión del plano y con el alcance escrito del presupuesto. No suponga que un color frontal coincidente, una fotografía de un accesorio o un precio solo por panel garantizan un borde acabado aceptable.",
+    "sections": [
+      [
+        "Marque todos los extremos que quedarán a la vista",
+        "Identifique en el plano dónde termina la superficie decorativa junto a una puerta, un paso abierto o un acabado adyacente. Muestre la dirección de aproximación y el alzado frontal. Indique si el panel continúa alrededor de la pared o termina en su cara. Pida al equipo de obra que compruebe la geometría antes de encargar piezas cortadas. Para una consulta sobre una sala de exposición en Taskent, las fotografías con los extremos señalados ofrecen más contexto que la superficie total. Identifique claramente las medidas pendientes de confirmar para que un presupuesto orientativo no se confunda con un despiece de corte."
+      ],
+      [
+        "Estudie opciones sin dar por sentada la compatibilidad",
+        "Pregunte si el modelo ofrecido permite un retorno adecuado, un perfil compatible u otra terminación aprobada por el proveedor. Son opciones que deben investigarse, no promesas de disponibilidad de todos los accesorios. Las instrucciones de GenStone describen varias soluciones para los extremos de su sistema y requieren pintura del color correspondiente en los cortes personalizados. Esa fuente muestra por qué el borde necesita atención; sus especificaciones y requisitos de instalación no se aplican a los paneles Luvie. Obtenga instrucciones para el modelo exacto de Luvie que está considerando. No elija pintura, adhesivo o masilla únicamente porque figuren en la guía de otro fabricante."
+      ],
+      [
+        "Apruebe una muestra del borde con iluminación representativa",
+        "Solicite una muestra que incluya el corte y el método de acabado propuestos, no solo un borde de fábrica intacto. Obsérvela desde la dirección habitual de aproximación y en ángulo oblicuo, con iluminación representativa del interior previsto. Revise la transición a la superficie contigua, el perfil expuesto y la relación de color entre la cara y el extremo. Documente lo aceptado con fotografías identificadas y, cuando sea posible, conserve la muestra física. Las fotografías ayudan a registrar la decisión, pero pueden ocultar diferencias de textura o color. Un cambio de modelo, accesorio o método de acabado debe motivar una nueva revisión antes de instalar."
+      ],
+      [
+        "Defina expresamente los límites del presupuesto",
+        "Separe las cantidades de paneles de los accesorios de extremo, materiales de acabado, preparación de muestras y mano de obra. Pregunte quién suministra cada elemento y quién ejecuta y comprueba el borde. Identifique cualquier corte en obra, ajuste de color o retrabajo excluido del precio de suministro. No incorpore un porcentaje genérico de merma sin conocer la distribución y el criterio de corte. Si el comprador adquirirá materiales de acabado localmente en Uzbekistán, exija confirmación de compatibilidad antes de comprarlos. Incluya la referencia del detalle aprobado en el presupuesto y en el pedido para que una sustitución posterior no cambie inadvertidamente la solución aceptada."
+      ]
+    ],
+    "checklist": [
+      "Extremos visibles marcados en el plano vigente.",
+      "Modelo exacto y tratamiento del borde identificados.",
+      "Muestra representativa aceptada y documentada.",
+      "Materiales, mano de obra y exclusiones separados en la oferta."
+    ],
+    "faq": [
+      [
+        "¿Basta con una muestra acabada en fábrica?",
+        "No si el diseño instalado deja un corte personalizado a la vista. Solicite una muestra que muestre el acabado propuesto para ese corte."
+      ],
+      [
+        "¿La aprobación estética confirma la idoneidad técnica?",
+        "No. Obtenga por separado la confirmación de idoneidad del modelo ofrecido y sus requisitos de instalación para el lugar previsto."
+      ]
+    ],
+    "closing": "Envíe a Luvie el plano de la pared, fotografías con los extremos señalados y la referencia del panel seleccionado. Solicite las terminaciones disponibles y un presupuesto con alcance definido antes de aprobar el pedido."
+  },
+  "uzbekistan-pu-stone-panels-visible-cut-end-wall-approval.html:pt-br": {
+    "title": "Painéis de pedra PU no Uzbequistão: aprove as pontas visíveis | Luvie",
+    "heading": "Painéis de pedra PU para o Uzbequistão: aprove o corte visível no final da parede",
+    "description": "Defina o acabamento das extremidades visíveis, aprove uma amostra física e separe o fornecimento dos painéis dos serviços de acabamento no orçamento para o Uzbequistão.",
+    "lead": "Uma parede decorativa pode convencer vista de frente, enquanto seu último corte permanece evidente a partir da entrada. Em um showroom ou interior de hotelaria no Uzbequistão, essa extremidade exposta merece uma decisão de compra própria. Uma amostra apenas da face não mostra como a parede instalada terminará. Antes de comparar orçamentos, identifique as extremidades visíveis e peça ao fornecedor e ao instalador que expliquem o que está incluído no acabamento proposto.",
+    "answer": "Aprove uma amostra representativa da extremidade da parede, mostrando a face real do painel, a borda cortada e a terminação proposta. Vincule essa aprovação a uma revisão do desenho e ao escopo escrito do orçamento. Não suponha que uma cor frontal correspondente, uma fotografia de acessório ou um preço somente do painel garantam uma borda acabada aceitável.",
+    "sections": [
+      [
+        "Marque todas as extremidades que ficarão visíveis",
+        "Identifique no desenho onde a superfície decorativa termina junto a uma porta, passagem aberta ou acabamento adjacente. Mostre a direção de aproximação e a elevação frontal. Registre se o painel contorna a parede ou termina na face dela. Peça à equipe da obra que confira a geometria antes de encomendar peças cortadas. Em uma consulta para um showroom em Tashkent, fotografias com as extremidades marcadas dão ao fornecedor mais contexto do que apenas a área total. Identifique claramente as medidas ainda não confirmadas para que um orçamento preliminar não seja confundido com um plano de corte."
+      ],
+      [
+        "Discuta opções sem presumir compatibilidade",
+        "Pergunte se o modelo oferecido admite um retorno adequado, um perfil compatível ou outra solução aprovada pelo fornecedor. São opções a investigar, não promessas de disponibilidade de todos os acessórios. A orientação da GenStone descreve várias soluções para as extremidades de seu sistema e exige pintura de cor correspondente nos cortes personalizados. Essa fonte mostra por que a borda precisa de atenção; suas especificações e exigências de instalação não se aplicam aos painéis Luvie. Obtenha instruções para o modelo exato da Luvie em avaliação. Não escolha tinta, adesivo ou massa apenas porque aparecem no manual de outro fabricante."
+      ],
+      [
+        "Aprove uma amostra da borda sob iluminação representativa",
+        "Solicite uma amostra que inclua o corte e o método de acabamento propostos, não apenas uma borda de fábrica intacta. Observe-a pela direção normal de aproximação e em ângulo oblíquo, sob iluminação representativa do interior previsto. Revise a transição para a superfície adjacente, o perfil exposto e a relação de cor entre a face e a extremidade. Registre a aceitação com fotografias identificadas e, quando possível, guarde a amostra física. Fotografias ajudam a documentar a decisão, mas podem ocultar diferenças de textura ou cor. A alteração do modelo, acessório ou método de acabamento deve gerar nova análise antes da instalação."
+      ],
+      [
+        "Deixe os limites do orçamento explícitos",
+        "Separe as quantidades de painéis dos acessórios de extremidade, materiais de acabamento, preparação de amostras e mão de obra. Pergunte quem fornece cada item e quem executa e verifica a borda. Identifique cortes em obra, ajustes de cor ou retrabalhos excluídos do preço de fornecimento. Não acrescente um percentual genérico de perdas antes de entender a paginação e a estratégia de corte. Se o comprador adquirir materiais de acabamento localmente no Uzbequistão, exija confirmação de compatibilidade antes da compra. Mantenha a referência do detalhe aprovado no orçamento e no pedido para impedir que uma substituição posterior altere silenciosamente a solução aceita."
+      ]
+    ],
+    "checklist": [
+      "Extremidades visíveis marcadas no desenho atual.",
+      "Modelo exato e tratamento da borda identificados.",
+      "Amostra representativa aceita e documentada.",
+      "Materiais, mão de obra e exclusões separados na proposta."
+    ],
+    "faq": [
+      [
+        "Uma amostra com acabamento de fábrica é suficiente?",
+        "Não quando o projeto instalado deixa um corte personalizado exposto. Solicite uma amostra que demonstre o acabamento proposto para esse corte."
+      ],
+      [
+        "A aprovação visual confirma a adequação técnica?",
+        "Não. Obtenha separadamente a confirmação de adequação do modelo oferecido e seus requisitos de instalação para o local previsto."
+      ]
+    ],
+    "closing": "Envie à Luvie o desenho da parede, fotografias com as extremidades marcadas e a referência do painel escolhido. Solicite as opções de terminação disponíveis e um orçamento com escopo claro antes de aprovar o pedido."
+  },
+  "uzbekistan-pu-stone-panels-visible-cut-end-wall-approval.html:ar": {
+    "title": "ألواح الحجر PU في أوزبكستان: اعتماد النهايات الظاهرة | Luvie",
+    "heading": "ألواح الحجر PU لأوزبكستان: اعتماد القطع الظاهر عند نهاية الجدار",
+    "description": "حدد معالجة النهايات الظاهرة واعتمد نموذجاً فعلياً وافصل توريد الألواح عن أعمال التشطيب في عرض السعر لمشروع أوزبكستان.",
+    "lead": "قد يبدو الجدار الزخرفي مقنعاً من الأمام، بينما يظل القطع الأخير واضحاً من المدخل. وفي صالة عرض أو مساحة داخلية لقطاع الضيافة في أوزبكستان، تستحق هذه النهاية المكشوفة قرار شراء مستقلاً. فعينة وجه اللوح وحدها لا توضح كيف سينتهي الجدار بعد التركيب. قبل مقارنة عروض الأسعار، حدد النهايات الظاهرة واطلب من المورد وفريق التركيب توضيح ما يشمله التشطيب المقترح.",
+    "answer": "اعتمد نموذجاً ممثلاً لنهاية الجدار يوضح وجه اللوح الفعلي والحافة المقطوعة والتفصيل المقترح للنهاية. اربط الاعتماد بإصدار محدد من الرسم وبنطاق مكتوب في عرض السعر. لا تفترض أن تطابق لون الوجه أو صورة أحد الملحقات أو سعر الألواح وحدها يثبت قبول تشطيب الحافة.",
+    "sections": [
+      [
+        "حدد كل نهاية ستكون مرئية",
+        "حدد على المخطط مواضع توقف السطح الزخرفي بجانب باب أو ممر مفتوح أو تشطيب مجاور. وضح اتجاه الاقتراب إلى جانب الواجهة الأمامية. سجل ما إذا كان اللوح يلتف حول الجدار أو ينتهي على وجهه. اطلب من فريق الموقع التحقق من هندسة الجدار قبل طلب القطع المقصوصة. وللاستفسار عن صالة عرض في طشقند، تمنح الصور التي تحدد مواقع النهايات المورد سياقاً أوضح من مساحة الجدار الإجمالية وحدها. ضع علامة واضحة على القياسات غير المؤكدة حتى لا يُفهم عرض السعر الاسترشادي على أنه جدول قطع معتمد."
+      ],
+      [
+        "ناقش الخيارات دون افتراض التوافق",
+        "اسأل عما إذا كان الطراز المعروض يدعم امتداداً مناسباً حول الطرف أو قطاع إنهاء متوافقاً أو معالجة أخرى يعتمدها المورد. هذه خيارات تستحق الدراسة، وليست وعداً بتوافر جميع الملحقات. تصف إرشادات GenStone عدة طرق لإنهاء الجدار ضمن نظامها، وتشترط طلاءً مطابقاً للون عند القطع حسب المقاس. يوضح هذا المصدر أهمية معالجة الحافة، لكن مواصفات منتجاته ومتطلبات تركيبها لا تنطبق على ألواح Luvie. احصل على تعليمات الطراز المحدد من Luvie الذي تدرسه. ولا تختر الطلاء أو اللاصق أو مادة الحشو لمجرد ورودها في دليل مصنع آخر."
+      ],
+      [
+        "اعتمد عينة الحافة تحت إضاءة مناسبة",
+        "اطلب نموذجاً يتضمن القطع وطريقة التشطيب المقترحين، لا مجرد حافة مصنعية لم تُعدّل. افحصه من اتجاه الاقتراب المعتاد ومن زاوية مائلة تحت إضاءة تمثل المساحة الداخلية المقصودة. راجع الانتقال إلى السطح المجاور وشكل الحافة المكشوفة وعلاقة اللون بين الوجه والنهاية. وثق ما تم قبوله بصور تحمل مراجع واضحة، واحتفظ بالعينة الفعلية متى أمكن. تساعد الصور على توثيق القرار، لكنها قد تخفي فروق الملمس أو اللون. ويجب أن يؤدي تغيير طراز اللوح أو الملحق أو طريقة التشطيب إلى مراجعة جديدة قبل مواصلة التركيب."
+      ],
+      [
+        "اجعل حدود عرض السعر واضحة",
+        "افصل كميات الألواح عن ملحقات النهايات ومواد التشطيب وإعداد العينات وأجور العمل في الموقع. اسأل من يورد كل بند ومن ينفذ الحافة ويفحصها. حدد أعمال القطع بالموقع أو تعديل اللون أو إعادة العمل المستثناة من سعر التوريد. لا تضف نسبة هدر عامة قبل فهم توزيع الألواح وأسلوب القطع. إذا كان المشتري سيشتري مواد التشطيب محلياً في أوزبكستان، فاطلب تأكيد التوافق قبل الشراء. احتفظ بمرجع التفصيل المعتمد في عرض السعر وأمر الشراء معاً، حتى لا يؤدي استبدال لاحق إلى تغيير الحل المقبول دون تنبيه."
+      ]
+    ],
+    "checklist": [
+      "تحديد النهايات الظاهرة على المخطط الحالي.",
+      "تحديد الطراز الدقيق ومعالجة الحافة المقترحة.",
+      "قبول النموذج الممثل وتوثيقه.",
+      "فصل المواد والأجور والاستثناءات في العرض."
+    ],
+    "faq": [
+      [
+        "هل تكفي عينة مشطبة في المصنع؟",
+        "لا، إذا كان التصميم بعد التركيب سيُظهر قطعاً منفذاً حسب المقاس. اطلب عينة توضح التشطيب المقترح لهذا القطع."
+      ],
+      [
+        "هل اعتماد المظهر يؤكد الملاءمة الفنية؟",
+        "لا. احصل بشكل منفصل على تأكيد ملاءمة الطراز المعروض ومتطلبات تركيبه للموقع المقصود."
+      ]
+    ],
+    "closing": "أرسل إلى Luvie مخطط الجدار وصوراً تحدد النهايات ومرجع اللوح المختار. اطلب خيارات إنهاء الأطراف المتاحة وعرض سعر واضح النطاق قبل اعتماد الطلب."
+  }
+}
