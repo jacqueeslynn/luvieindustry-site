@@ -270,6 +270,12 @@
     ]
   },
   {
+    "file": "chile-spc-flooring-returned-click-joint-inspection.html",
+    "families": [
+      "spc-flooring"
+    ]
+  },
+  {
     "file": "chile-uv-marble-sheets-elevator-lobby-site-survey.html",
     "families": [
       "uv-marble-sheets"
@@ -518,6 +524,12 @@
   },
   {
     "file": "luvie-order-process-inquiry-to-shipment.html",
+    "families": [
+      "uv-marble-sheets"
+    ]
+  },
+  {
+    "file": "mexico-uv-marble-sheets-inch-millimetre-drawing-check.html",
     "families": [
       "uv-marble-sheets"
     ]
@@ -821,6 +833,12 @@
     "file": "saudi-pvc-ceiling-inspection-hatch-order-interface.html",
     "families": [
       "pvc-ceiling-panels"
+    ]
+  },
+  {
+    "file": "saudi-pvc-wall-panels-purchase-approval-handover.html",
+    "families": [
+      "pvc-wall-panels"
     ]
   },
   {
