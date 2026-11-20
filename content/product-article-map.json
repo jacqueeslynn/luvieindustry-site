@@ -102,6 +102,18 @@
     ]
   },
   {
+    "file": "brazil-pvc-wall-panels-carton-barcode-scan-acceptance.html",
+    "families": [
+      "pvc-wall-panels"
+    ]
+  },
+  {
+    "file": "brazil-pvc-wall-panels-destructive-test-sample-custody.html",
+    "families": [
+      "pvc-wall-panels"
+    ]
+  },
+  {
     "file": "brazil-pvc-wall-panels-obsolete-sku-migration.html",
     "families": [
       "pvc-wall-panels"
@@ -271,6 +283,12 @@
   },
   {
     "file": "chile-spc-flooring-returned-click-joint-inspection.html",
+    "families": [
+      "spc-flooring"
+    ]
+  },
+  {
+    "file": "chile-spc-flooring-robot-mop-cleaning-program-review.html",
     "families": [
       "spc-flooring"
     ]
@@ -619,6 +637,12 @@
     ]
   },
   {
+    "file": "peru-spc-flooring-thickness-measurement-agreement.html",
+    "families": [
+      "spc-flooring"
+    ]
+  },
+  {
     "file": "peru-uv-marble-sheets-bathroom-vanity-wall-scope.html",
     "families": [
       "uv-marble-sheets"
@@ -752,6 +776,12 @@
     ]
   },
   {
+    "file": "qatar-pu-stone-panels-curtain-snag-clearance.html",
+    "families": [
+      "pu-stone-panels"
+    ]
+  },
+  {
     "file": "qatar-pvc-ceiling-retail-night-shift-handover.html",
     "families": [
       "pvc-ceiling-panels"
@@ -771,6 +801,12 @@
   },
   {
     "file": "qatar-wpc-wall-panel-digital-sample-register.html",
+    "families": [
+      "wpc-wall-panels"
+    ]
+  },
+  {
+    "file": "qatar-wpc-wall-panels-remote-video-inspection-evidence-gaps.html",
     "families": [
       "wpc-wall-panels"
     ]
@@ -942,6 +978,18 @@
     "file": "uae-spc-flooring-tenant-fitout-approval-pack.html",
     "families": [
       "spc-flooring"
+    ]
+  },
+  {
+    "file": "uae-uv-marble-sheets-backlit-display-suitability.html",
+    "families": [
+      "uv-marble-sheets"
+    ]
+  },
+  {
+    "file": "uae-uv-marble-sheets-temporary-support-release.html",
+    "families": [
+      "uv-marble-sheets"
     ]
   },
   {
@@ -1363,6 +1411,12 @@
   },
   {
     "file": "wall-panel-quality-inspection-guide.html",
+    "families": [
+      "general-procurement"
+    ]
+  },
+  {
+    "file": "wall-panel-quotation-customer-plan-minimum-sharing.html",
     "families": [
       "general-procurement"
     ]
