@@ -1,0 +1,33 @@
+{
+  "publicationDate": "2026-11-21",
+  "method": "Built-in image_gen; topic-specific editorial illustrations, not verified product, warehouse or customer photography",
+  "assets": [
+    {
+      "file": "nov21-1.webp",
+      "source": "/Users/mac/.codex/generated_images/01a1fb82-62c9-7d72-bf08-f74e54318cd0/exec-2ae41d1d-a689-45bf-8e3e-bbd686d4ebb2.png",
+      "prompt": "Wide editorial illustration of SPC planks, closed carton on platform scale, strapped pallet and blank reconciliation sheet. Warm beige/brown, no claims or numeric weight.",
+      "status": "generated-inspected",
+      "derivative": "cwebp quality84 1200x800"
+    },
+    {
+      "file": "nov21-2.webp",
+      "prompt": "Wide overhead editorial illustration of hollow PVC panel samples, plain brochure, separate evidence folder, magnifier and pencil. Beige/brown, no antimicrobial imagery, shields or efficacy claims.",
+      "status": "generated-inspected",
+      "firstAttempt": "network error: error decoding response body",
+      "retry": "network error: error decoding response body",
+      "source": "/Users/mac/.codex/generated_images/01a1fb82-62c9-7d72-bf08-f74e54318cd0/exec-051e64a5-a6a7-4493-9b5d-6b19808aebdf.png",
+      "successfulRetry": "2026-11-21 10:32 scheduled retry",
+      "derivative": "cwebp quality84 1200x800"
+    },
+    {
+      "file": "nov21-3.webp",
+      "prompt": "Wide architectural editorial illustration of PU stone-effect wall, finish-location register with elevation drawing, relief samples and handover binder. Warm beige/brown, no text, logos or project claims.",
+      "status": "generated-inspected",
+      "firstAttempt": "network error: error decoding response body",
+      "retry": "network error: error decoding response body",
+      "source": "/Users/mac/.codex/generated_images/01a1fb82-62c9-7d72-bf08-f74e54318cd0/exec-6c2b14df-ebc0-441e-b6a4-f3636c2972ec.png",
+      "successfulRetry": "2026-11-21 10:32 scheduled retry",
+      "derivative": "cwebp quality84 1200x800"
+    }
+  ]
+}

@@ -246,6 +246,12 @@
     ]
   },
   {
+    "file": "canada-pvc-wall-panels-antimicrobial-claim-review.html",
+    "families": [
+      "pvc-wall-panels"
+    ]
+  },
+  {
     "file": "chile-pu-stone-panels-retail-display-fixture-change.html",
     "families": [
       "pu-stone-panels"
@@ -631,6 +637,12 @@
     ]
   },
   {
+    "file": "peru-spc-flooring-packed-weight-reconciliation.html",
+    "families": [
+      "spc-flooring"
+    ]
+  },
+  {
     "file": "peru-spc-flooring-stair-nosing-procurement.html",
     "families": [
       "spc-flooring"
@@ -940,6 +952,12 @@
   },
   {
     "file": "uae-pu-stone-panels-exhibition-display-reuse.html",
+    "families": [
+      "pu-stone-panels"
+    ]
+  },
+  {
+    "file": "uae-pu-stone-panels-finish-register-operator-transfer.html",
     "families": [
       "pu-stone-panels"
     ]
