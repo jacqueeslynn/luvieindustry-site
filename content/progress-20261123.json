@@ -1,1 +1,56 @@
-{"publicationDate":"2026-11-23","stage":"local-verified","guides":3,"pages":12,"images":3,"published":false,"topic":"Three named-model numerical SPC comparisons","visual":{"articleViewsInspected":24,"mobileTableEndViewsInspected":12,"additionalHomeAndProductViewsInspected":16,"inquiryChecks":8,"overflow":0,"brokenImages":0,"evidenceDirectory":"../verification-20261123","arabicNumericIsolation":"corrected and visually rechecked"},"checksPassed":["dated-all","seo","product-series","inquiry-path","localized-archive-zero-warnings","normalization-3-tests","publishing-3-tests","archive-navigation","company-contact","git-diff-check"],"additionalFix":"Corrected old email in three localized SPC family page footers to globalsales@luvieindustry.com"}
+{
+  "publicationDate": "2026-11-23",
+  "stage": "live-verified",
+  "guides": 3,
+  "pages": 12,
+  "images": 3,
+  "published": true,
+  "topic": "Three named-model numerical SPC comparisons",
+  "visual": {
+    "articleViewsInspected": 24,
+    "mobileTableEndViewsInspected": 12,
+    "additionalHomeAndProductViewsInspected": 16,
+    "inquiryChecks": 8,
+    "overflow": 0,
+    "brokenImages": 0,
+    "evidenceDirectory": "../verification-20261123",
+    "arabicNumericIsolation": "corrected and visually rechecked"
+  },
+  "checksPassed": [
+    "dated-all",
+    "seo",
+    "product-series",
+    "inquiry-path",
+    "localized-archive-zero-warnings",
+    "normalization-3-tests",
+    "publishing-3-tests",
+    "archive-navigation",
+    "company-contact",
+    "git-diff-check"
+  ],
+  "additionalFix": "Corrected old email in three localized SPC family page footers to globalsales@luvieindustry.com",
+  "releaseCommit": "70d18675079d85cfc68ba2939233d4025d889a2e",
+  "deployment": {
+    "runId": 45073129583,
+    "conclusion": "success",
+    "url": "https://github.com/jacqueeslynn/luvieindustry-site/actions/runs/45073129583"
+  },
+  "seoCI": {
+    "runId": 45073129578,
+    "conclusion": "success"
+  },
+  "liveVerification": {
+    "checkedAt": "2026-11-22T21:38:28.706Z",
+    "http200Pages": 12,
+    "exactContentMatches": 12,
+    "sitemapEntries": 12,
+    "http200Images": 3,
+    "comparisonCSS": 200,
+    "localizedSpcFooterContacts": 3
+  },
+  "limits": [
+    "Search-engine indexing not verified",
+    "Native-language professional editorial approval not claimed",
+    "Inquiry delivery not submitted or tested"
+  ]
+}
