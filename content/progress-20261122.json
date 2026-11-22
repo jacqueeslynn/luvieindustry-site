@@ -1,1 +1,24 @@
-{"publicationDate":"2026-11-22","stage":"local-verified","guides":3,"pages":12,"images":3,"published":false,"visual":{"articleViewsInspected":24,"widths":[390,1440],"locales":["en","es","pt-br","ar"],"overflow":0,"brokenImages":0,"inquiryOpenCloseAndSourceChecks":8,"evidenceDirectory":"../verification-20261122"},"checksPassed":["daily-guides-all","site-seo","product-series","inquiry-path","localized-archive-zero-warnings","archive-navigation","company-contact","normalization-tests","publishing-tests","git-diff-check"]}
+{
+  "publicationDate": "2026-11-22",
+  "stage": "live-verified",
+  "guides": 3,
+  "pages": 12,
+  "images": 3,
+  "published": true,
+  "releaseCommit": "b72f3fc39cc0f6562f7e99ee7f0074eab05e2ed1",
+  "deployment": {"runId":44967856126,"conclusion":"success","url":"https://github.com/jacqueeslynn/luvieindustry-site/actions/runs/44967856126"},
+  "seoCI": {"runId":44967856128,"conclusion":"success"},
+  "liveVerification": {
+    "checkedAt":"2026-11-22T00:42:49.675Z",
+    "command":"node scripts/verify-daily-guides-20261122.mjs",
+    "http200Pages":12,
+    "exactContentMatches":12,
+    "publicSitemapEntries":12,
+    "http200Images":["nov22-1.webp","nov22-2.webp","nov22-3.webp"],
+    "locales":["en","es","pt-br","ar"],
+    "slugs":["peru-pvc-wall-panels-pallet-footprint-overhang-review.html","uk-spc-flooring-slip-test-evidence-review.html","chile-spc-flooring-remote-inspection-time-zone-plan.html"]
+  },
+  "visual":{"articleViewsInspected":24,"widths":[390,1440],"locales":["en","es","pt-br","ar"],"overflow":0,"brokenImages":0,"inquiryOpenCloseAndSourceChecks":8,"additionalHomeAndProductViewsInspected":16,"evidenceDirectory":"../verification-20261122"},
+  "checksPassed":["daily-guides-all","site-seo","product-series","inquiry-path","localized-archive-zero-warnings","archive-navigation","company-contact","normalization-tests","publishing-tests","git-diff-check"],
+  "limits":["Search-engine indexing not verified","Inquiry delivery not submitted or tested","Translations not independently reviewed by native speakers"]
+}
