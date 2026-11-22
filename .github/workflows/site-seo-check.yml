@@ -55,3 +55,4 @@ jobs:
           node scripts/check-company-contact.mjs
           node scripts/check-daily-guides-20261121.mjs
           node scripts/check-daily-guides-20261122.mjs
+          node scripts/check-daily-guides-20261123.mjs

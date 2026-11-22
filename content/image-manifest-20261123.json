@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-23",
+  "method": "built-in image_gen",
+  "disclosure": "Editorial concept illustrations, not exact branded specimens, measured cross-sections, laboratory evidence or customer photography.",
+  "images": [
+    {
+      "file": "assets/articles/nov23-1.webp",
+      "source": "exec-4dd4997a-66bf-4461-9d05-ac8e9a990bde.png",
+      "prompt": "Landscape3:2 warm ivory worktable; oak-look rigid mineral-core click plank and matte sand porcelain tile; brass caliper and blank notebook. Beige brown natural daylight. No labels numbers logos certification or fabricated tests."
+    },
+    {
+      "file": "assets/articles/nov23-2.webp",
+      "source": "exec-1fcb580a-b5af-4182-ba8e-b044dae80698.png",
+      "prompt": "Landscape3:2 rigid SPC click plank beside gently curved flexible glue-down vinyl sample; separate notched trowel and blank cards. Warm sand workbench natural side light. No text numbers branding lab ratings; conceptual still life."
+    },
+    {
+      "file": "assets/articles/nov23-3.webp",
+      "source": "exec-7dbe8ac9-c0bb-4396-af29-bbdb0bc62fb9.png",
+      "prompt": "Landscape3:2 separate oak-look samples, pale mineral-core click edge with dark pad versus brown fibreboard core laminate. Blank comparison worksheet and pencil. Warm ivory desk. No text logos dimensions test marks; not exact cross-sections."
+    }
+  ],
+  "sourceDirectory": "/Users/mac/.codex/generated_images/01a1fb82-62c9-7d72-bf08-f74e54318cd0",
+  "output": {
+    "width": 1200,
+    "height": 800,
+    "format": "webp",
+    "quality": 84
+  },
+  "visuallyInspected": true
+}

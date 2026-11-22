@@ -1,0 +1,361 @@
+{
+  "file": "spc-vs-porcelain-tile-thickness-format-data.html",
+  "image": "nov23-1.webp",
+  "product": "/products/spc-flooring.html",
+  "catalog": "/assets/catalogs/spc-flooring-catalog.pdf",
+  "source": "https://www.polyflor.com/products/9025/icelandic-oak",
+  "sourceName": "Polyflor Icelandic Oak 9025",
+  "sources": [
+    {
+      "url": "https://www.polyflor.com/products/9025/icelandic-oak",
+      "name": "Polyflor: Icelandic Oak 9025 dimensions and carton"
+    },
+    {
+      "url": "https://www.marazzigroup.com/collections/slow-cold-collection/",
+      "name": "Marazzi: Slow Cold Nebbia R10 RT MPEU"
+    },
+    {
+      "url": "https://www.polyflor.com/products/expona-encore-rigid-loc-pur",
+      "name": "Polyflor: Expona EnCore technical performance"
+    },
+    {
+      "url": "https://www.polyflor.com/about-us/polyflor-company-history",
+      "name": "Polyflor: SPC construction identification"
+    }
+  ],
+  "related": [
+    "spc-flooring-distributor-spec-guide.html",
+    "spc-flooring-subfloor-flatness-before-order.html"
+  ],
+  "en": {
+    "title": "SPC vs Porcelain Tile: Dimensions Compared | Luvie",
+    "heading": "SPC vs porcelain tile: compare real thickness and module data before a fit-out",
+    "description": "Compare named Polyflor SPC and Marazzi porcelain dimensions, calculated module areas and floor build-up limits before requesting a project quotation.",
+    "lead": "A thinner floor covering is not automatically a lower finished floor. This comparison puts two named products beside each other: Polyflor Expona EnCore Rigid Loc PUR, Icelandic Oak 9025, and Marazzi Slow Cold Nebbia R10 RT, code MPEU. The ceramic example is specifically porcelain stoneware, not every kind of ceramic tile. Figures were checked on manufacturer pages on 23 November 2026. These products are reference examples, not Luvie stock, specifications or proof that either material wins every project.",
+    "answer": "The published covering thicknesses are 6.5 mm and 9 mm: a 2.5 mm difference before installation layers. Their listed formats imply approximately 0.2150 m² and 0.7200 m² per module. Use those figures for an initial layout comparison, then price the complete installed assemblies and confirm actual working dimensions. Do not infer a sound, slip or durability winner from unrelated tests.",
+    "comparison": {
+      "caption": "Named-product comparison; source numbers match the reference list. Calculations exclude joints, cuts and waste.",
+      "headers": [
+        "Measure",
+        "Polyflor Icelandic Oak 9025 [1,3]",
+        "Marazzi Nebbia MPEU [2]"
+      ],
+      "rows": [
+        [
+          "Covering thickness",
+          "6.5 mm total; attached IXPE is included",
+          "9 mm tile; installation layers excluded"
+        ],
+        [
+          "Listed module dimensions",
+          "177.35 × 1212.4 mm",
+          "60 × 120 cm, converted to 600 × 1200 mm"
+        ],
+        [
+          "Calculated module area",
+          "0.17735 × 1.2124 = 0.21501914 m²",
+          "0.60 × 1.20 = 0.7200 m²"
+        ],
+        [
+          "Calculated modules per 1 m²",
+          "About 4.65, before cuts/joints",
+          "About 1.39, before cuts/joints"
+        ],
+        [
+          "Published carton coverage",
+          "2.15 m²; 10 planks [1]",
+          "Not used: confirm current packing for MPEU"
+        ],
+        [
+          "Published thermal resistance",
+          "0.034 m²K/W; EN 12667 [3]",
+          "No matching value on the reviewed model page; no ranking"
+        ]
+      ]
+    },
+    "sections": [
+      [
+        "What the 2.5 mm difference actually tells a buyer",
+        "Subtracting 6.5 from 9 gives a covering-only difference of 2.5 mm. Polyflor lists the EnCore range with an integrated 1 mm IXPE acoustic layer; do not add that layer again and call the product 7.5 mm. For a doorway, request a section through each proposed assembly: the covering, approved support or bonding layers, any moisture-control system and the prepared substrate. A tile adhesive bed is not included in the tile thickness. Neither a nominal plank gauge nor a tile thickness tells you how much levelling the existing floor needs. Where a door cannot be altered, the installation designer must compare final levels, not simply select the smaller brochure number."
+      ],
+      [
+        "Use module arithmetic to compare layouts, not order quantities",
+        "The published plank dimensions multiply to 0.21501914 m². The tile's listed 60 by 120 cm format multiplies to 0.72 m²; this is a nominal format calculation, not a measured working-size certificate. Dividing one square metre by those areas gives approximately 4.65 planks versus 1.39 tiles. The tile module is about 3.35 times the listed plank area, which changes the layout conversation: a narrow corridor, doorway return or small room may create very different cut pieces. This does not prove lower waste, quicker installation or a lower labour bill. Ask the installer for a layout using the chosen joint width and usable dimensions, then separate net coverage, cuts, reserve material and carton rounding. Polyflor's 2.15 m² carton figure is rounded; use the supplier's sales unit for the purchase order."
+      ],
+      [
+        "Do not turn missing test data into a material advantage",
+        "Polyflor publishes thermal resistance of 0.034 m²K/W under EN 12667 for EnCore. The reviewed Marazzi model page does not give a matching thermal-resistance result, so the table deliberately leaves that comparison unresolved. Missing data is not zero resistance. Likewise, Polyflor's 19 dB impact-sound reduction under ISO 10140-3 is a declared tested result, not a prediction that this plank makes every room 19 dB quieter than ceramic. A tile assembly may include other acoustic layers. Request comparable assembly evidence if the building has a sound requirement. The 0.55 mm vinyl wear layer also cannot be treated as an equivalent ceramic wear-depth measurement. These different constructions need relevant evidence, not a score assembled from whichever numbers appear in a brochure."
+      ],
+      [
+        "When SPC should leave the shortlist",
+        "Do not select this SPC example for a proposal that exceeds its declared limits merely because its covering is thinner. Polyflor's page states a maximum of 27°C for underfloor heating; a design requiring a higher floor temperature needs another approved solution or a revised heating design. For exterior exposure, continuously wet areas, demanding rolling loads or an unresolved substrate, require explicit written suitability for the complete system before treating SPC as an option. Porcelain is not an automatic approval either: the chosen tile finish, fixing system and location still matter. For an interior where the exact SPC system is approved, its interlocking format may suit the installation plan; where the approved design calls for a bonded tile system, a thin SPC substitute does not satisfy that requirement by itself."
+      ]
+    ],
+    "checklist": [
+      "Name the exact product, finish and source revision on both quotations.",
+      "Draw finished levels using all installation layers, without double-counting an attached pad.",
+      "Calculate the layout from confirmed working dimensions before rounding to cartons.",
+      "Keep thermal, acoustic and use-condition approvals separate from visual selection."
+    ],
+    "faq": [
+      [
+        "Does 6.5 mm SPC always save 2.5 mm against this tile?",
+        "Only the listed coverings differ by 2.5 mm. The finished-height difference depends on each complete installation and the substrate preparation."
+      ],
+      [
+        "Can these reference figures be used as Luvie specifications?",
+        "No. Request the current Luvie model sheet, installation conditions and applicable evidence. Named third-party examples explain the comparison method; they do not certify another product."
+      ]
+    ],
+    "closing": "Send Luvie the destination, floor plan, intended use, permitted finished level and the SPC reference you want to evaluate. Ask for model-specific dimensions, available evidence and quotation scope. Keep tile alternatives in the same project comparison rather than promising a universal material winner."
+  },
+  "es": {
+    "referenceNames": ["Polyflor: dimensiones y embalaje de Icelandic Oak 9025", "Marazzi: ficha del producto Slow Cold Nebbia R10 RT MPEU", "Polyflor: prestaciones técnicas de Expona EnCore", "Polyflor: identificación de la construcción SPC"],
+    "title": "SPC frente a porcelánico: dimensiones comparadas | Luvie",
+    "heading": "SPC frente a porcelánico: compare espesores y módulos reales antes de acondicionar",
+    "description": "Compare dimensiones de SPC Polyflor y porcelánico Marazzi, áreas calculadas y límites del conjunto instalado antes de solicitar una cotización.",
+    "lead": "Un revestimiento más delgado no produce automáticamente un piso terminado más bajo. Esta comparación enfrenta dos productos identificados: Polyflor Expona EnCore Rigid Loc PUR, Icelandic Oak 9025, y Marazzi Slow Cold Nebbia R10 RT, código MPEU. El ejemplo cerámico es específicamente gres porcelánico, no cualquier baldosa cerámica. Los datos se comprobaron en las páginas de los fabricantes el 23 de noviembre de 2026. Son ejemplos de referencia, no existencias ni especificaciones Luvie, ni prueban que un material gane en todos los proyectos.",
+    "answer": "Los espesores publicados son 6,5 y 9 mm: una diferencia de 2,5 mm antes de las capas de instalación. Sus formatos implican aproximadamente 0,2150 y 0,7200 m² por módulo. Use esos datos para comparar inicialmente distribuciones, después cotice los conjuntos completos y confirme dimensiones útiles reales. No deduzca ventajas acústicas, antideslizantes o de durabilidad a partir de ensayos sin equivalencia.",
+    "comparison": {
+      "caption": "Comparación de productos identificados; los números corresponden a las fuentes. Los cálculos excluyen juntas, cortes y desperdicio.",
+      "headers": [
+        "Medida",
+        "Polyflor Icelandic Oak 9025 [1,3]",
+        "Marazzi Nebbia MPEU [2]"
+      ],
+      "rows": [
+        [
+          "Espesor del revestimiento",
+          "6,5 mm total; incluye IXPE adherido",
+          "9 mm de baldosa; excluye capas de instalación"
+        ],
+        [
+          "Dimensiones publicadas",
+          "177,35 × 1212,4 mm",
+          "60 × 120 cm, convertidos a 600 × 1200 mm"
+        ],
+        [
+          "Área calculada por módulo",
+          "0,17735 × 1,2124 = 0,21501914 m²",
+          "0,60 × 1,20 = 0,7200 m²"
+        ],
+        [
+          "Módulos calculados por 1 m²",
+          "Aproximadamente 4,65, antes de cortes/juntas",
+          "Aproximadamente 1,39, antes de cortes/juntas"
+        ],
+        [
+          "Cobertura publicada por caja",
+          "2,15 m²; 10 tablas [1]",
+          "No utilizada: confirme embalaje actual de MPEU"
+        ],
+        [
+          "Resistencia térmica publicada",
+          "0,034 m²K/W; EN 12667 [3]",
+          "La página revisada no aporta un valor equivalente; sin clasificación"
+        ]
+      ]
+    },
+    "sections": [
+      [
+        "Qué significa realmente la diferencia de 2,5 mm",
+        "Restar 6,5 de 9 da una diferencia de revestimiento de 2,5 mm. Polyflor presenta EnCore con una capa acústica IXPE integrada de 1 mm; no la sume otra vez para describir un producto de 7,5 mm. Para una puerta, solicite una sección de cada conjunto propuesto: revestimiento, capas de soporte o adhesión aprobadas, sistema de control de humedad y soporte preparado. El adhesivo no está incluido en el espesor de la baldosa. Ni el espesor nominal de la tabla ni el de la baldosa indican cuánto necesita nivelarse el piso existente. Si la puerta no puede modificarse, el responsable debe comparar cotas finales, no escoger simplemente el número menor."
+      ],
+      [
+        "Use el cálculo modular para distribuciones, no para el pedido",
+        "Multiplicar las dimensiones publicadas de la tabla da 0,21501914 m². El formato de baldosa de 60 por 120 cm da 0,72 m²: es un cálculo nominal, no un certificado de dimensión útil medida. Dividir un metro cuadrado por esas áreas da unas 4,65 tablas frente a 1,39 baldosas. El módulo cerámico tiene aproximadamente 3,35 veces el área de la tabla, lo que cambia la discusión sobre distribución: un pasillo estrecho, un retorno de puerta o una estancia pequeña pueden generar recortes muy diferentes. No demuestra menos desperdicio, instalación más rápida ni menor coste laboral. Pida un despiece con la junta elegida y dimensiones útiles; separe cobertura neta, cortes, reserva y redondeo por cajas. La cobertura Polyflor de 2,15 m² está redondeada; utilice la unidad comercial del proveedor en el pedido."
+      ],
+      [
+        "No convierta datos ausentes en ventajas de material",
+        "Polyflor publica para EnCore una resistencia térmica de 0,034 m²K/W según EN 12667. La página revisada de Marazzi no ofrece una resistencia térmica equivalente, por lo que la tabla deja la comparación pendiente. Un dato ausente no significa resistencia cero. Asimismo, los 19 dB de reducción de ruido de impacto de Polyflor según ISO 10140-3 son un resultado declarado de ensayo, no una predicción de que la tabla haga cualquier habitación 19 dB más silenciosa que la cerámica. Un conjunto cerámico puede incorporar otras capas acústicas. Solicite evidencia de conjuntos comparables si el edificio tiene requisitos de sonido. Tampoco puede tratar la capa de uso vinílica de 0,55 mm como una profundidad de desgaste cerámico equivalente. Estas construcciones requieren pruebas pertinentes, no una puntuación formada con cualquier cifra del folleto."
+      ],
+      [
+        "Cuándo excluir SPC de la selección",
+        "No elija este ejemplo SPC para una propuesta que supere sus límites declarados solo porque es más delgado. Polyflor indica un máximo de 27°C para calefacción radiante; un diseño que requiera mayor temperatura necesita otra solución aprobada o revisar la calefacción. Para exposición exterior, zonas continuamente mojadas, cargas rodantes exigentes o un soporte sin resolver, exija idoneidad escrita explícita del sistema completo antes de considerar SPC. El porcelánico tampoco queda aprobado automáticamente: importan acabado, fijación y ubicación. En un interior donde el sistema SPC exacto esté aprobado, su formato encajable puede servir al plan; donde se exige baldosa adherida, sustituirla por SPC delgado no cumple por sí solo el requisito."
+      ]
+    ],
+    "checklist": [
+      "Identifique producto, acabado y revisión de fuente en ambas ofertas.",
+      "Dibuje cotas terminadas con todas las capas, sin duplicar la base adherida.",
+      "Calcule el despiece con dimensiones útiles confirmadas antes de redondear por cajas.",
+      "Separe aprobaciones térmicas, acústicas y de uso de la selección visual."
+    ],
+    "faq": [
+      [
+        "¿SPC de 6,5 mm siempre ahorra 2,5 mm frente a esta baldosa?",
+        "Solo los revestimientos publicados difieren en 2,5 mm. La diferencia terminada depende de cada instalación completa y de la preparación del soporte."
+      ],
+      [
+        "¿Pueden usarse estas cifras como especificaciones Luvie?",
+        "No. Solicite la ficha actual del modelo Luvie, condiciones de instalación y evidencia aplicable. Los ejemplos externos explican el método; no certifican otro producto."
+      ]
+    ],
+    "closing": "Envíe a Luvie destino, plano, uso previsto, cota terminada permitida y referencia SPC a evaluar. Solicite dimensiones del modelo, evidencia disponible y alcance de la cotización. Mantenga las alternativas cerámicas en la misma comparación del proyecto sin prometer un ganador universal."
+  },
+  "pt-br": {
+    "referenceNames": ["Polyflor: dimensões e embalagem de Icelandic Oak 9025", "Marazzi: ficha do produto Slow Cold Nebbia R10 RT MPEU", "Polyflor: desempenho técnico de Expona EnCore", "Polyflor: identificação da construção SPC"],
+    "title": "SPC versus porcelanato: dimensões comparadas | Luvie",
+    "heading": "SPC versus porcelanato: compare espessuras e módulos reais antes da obra",
+    "description": "Compare dimensões de SPC Polyflor e porcelanato Marazzi, áreas calculadas e limites do conjunto instalado antes de solicitar cotação.",
+    "lead": "Um revestimento mais fino não produz automaticamente um piso acabado mais baixo. Esta comparação coloca lado a lado Polyflor Expona EnCore Rigid Loc PUR, Icelandic Oak 9025, e Marazzi Slow Cold Nebbia R10 RT, código MPEU. O exemplo cerâmico é especificamente porcelanato, não qualquer tipo de placa cerâmica. Os dados foram conferidos nas páginas dos fabricantes em 23 de novembro de 2026. São exemplos de referência, não estoque ou especificações Luvie, nem prova de que um material vence em todos os projetos.",
+    "answer": "As espessuras publicadas são 6,5 e 9 mm: diferença de 2,5 mm antes das camadas de instalação. Os formatos indicam aproximadamente 0,2150 e 0,7200 m² por módulo. Use esses valores na comparação inicial da paginação, depois cote os conjuntos completos e confirme dimensões úteis reais. Não deduza superioridade acústica, antiderrapante ou de durabilidade a partir de ensaios sem equivalência.",
+    "comparison": {
+      "caption": "Comparação de produtos identificados; os números correspondem às fontes. Cálculos excluem juntas, cortes e perdas.",
+      "headers": [
+        "Medida",
+        "Polyflor Icelandic Oak 9025 [1,3]",
+        "Marazzi Nebbia MPEU [2]"
+      ],
+      "rows": [
+        [
+          "Espessura do revestimento",
+          "6,5 mm total; inclui IXPE aderido",
+          "9 mm da placa; exclui camadas de instalação"
+        ],
+        [
+          "Dimensões publicadas",
+          "177,35 × 1212,4 mm",
+          "60 × 120 cm, convertidos para 600 × 1200 mm"
+        ],
+        [
+          "Área calculada por módulo",
+          "0,17735 × 1,2124 = 0,21501914 m²",
+          "0,60 × 1,20 = 0,7200 m²"
+        ],
+        [
+          "Módulos calculados por 1 m²",
+          "Cerca de 4,65, antes de cortes/juntas",
+          "Cerca de 1,39, antes de cortes/juntas"
+        ],
+        [
+          "Cobertura publicada por caixa",
+          "2,15 m²; 10 réguas [1]",
+          "Não utilizada: confirme embalagem atual de MPEU"
+        ],
+        [
+          "Resistência térmica publicada",
+          "0,034 m²K/W; EN 12667 [3]",
+          "A página revisada não apresenta valor equivalente; sem classificação"
+        ]
+      ]
+    },
+    "sections": [
+      [
+        "O que a diferença de 2,5 mm realmente informa",
+        "Subtrair 6,5 de 9 resulta em 2,5 mm apenas de revestimento. A Polyflor apresenta EnCore com camada acústica IXPE integrada de 1 mm; não a some novamente para chamar o produto de 7,5 mm. Para uma porta, solicite um corte de cada conjunto proposto: revestimento, camadas de apoio ou colagem aprovadas, controle de umidade e contrapiso preparado. A argamassa colante não está incluída na espessura da placa. Nem a espessura nominal da régua nem a da placa indica quanto nivelamento o piso existente exige. Se a porta não puder ser alterada, o projetista deve comparar níveis finais, não simplesmente escolher o menor número."
+      ],
+      [
+        "Use a aritmética modular para paginação, não para comprar",
+        "Multiplicar as dimensões publicadas da régua resulta em 0,21501914 m². O formato de placa de 60 por 120 cm resulta em 0,72 m²; é cálculo nominal, não certificado de dimensão útil medida. Dividir um metro quadrado pelas áreas resulta em aproximadamente 4,65 réguas contra 1,39 placas. O módulo cerâmico tem cerca de 3,35 vezes a área da régua, alterando a discussão de paginação: corredor estreito, retorno de porta ou cômodo pequeno podem gerar recortes muito diferentes. Isso não comprova menor perda, instalação mais rápida ou mão de obra mais barata. Peça uma paginação com a junta escolhida e dimensões úteis; separe cobertura líquida, recortes, reserva e arredondamento por caixas. A cobertura Polyflor de 2,15 m² é arredondada; utilize a unidade comercial do fornecedor no pedido."
+      ],
+      [
+        "Não transforme dados ausentes em vantagem do material",
+        "A Polyflor publica resistência térmica de 0,034 m²K/W segundo EN 12667 para EnCore. A página Marazzi revisada não fornece resultado equivalente, portanto a tabela deixa a comparação em aberto. Dado ausente não significa resistência zero. Da mesma forma, os 19 dB de redução de ruído de impacto da Polyflor segundo ISO 10140-3 são resultado declarado de ensaio, não previsão de que a régua torne qualquer ambiente 19 dB mais silencioso que cerâmica. Um conjunto cerâmico pode incluir outras camadas acústicas. Solicite evidências de conjuntos comparáveis quando houver requisito sonoro. A camada de uso vinílica de 0,55 mm também não equivale a uma profundidade de desgaste cerâmico. Construções diferentes precisam de evidência pertinente, não de pontuação montada com quaisquer números de catálogo."
+      ],
+      [
+        "Quando retirar SPC da seleção",
+        "Não escolha esse SPC para uma proposta que exceda seus limites declarados apenas por ser mais fino. A Polyflor informa máximo de 27°C para piso aquecido; um projeto que exija temperatura superior precisa de outra solução aprovada ou revisão do aquecimento. Para exposição externa, áreas continuamente molhadas, cargas rolantes exigentes ou contrapiso não resolvido, exija adequação explícita por escrito do sistema completo antes de considerar SPC. Porcelanato também não está automaticamente aprovado: acabamento, fixação e local continuam importantes. Em um interior onde o sistema SPC exato esteja aprovado, seu encaixe pode servir ao plano; onde o projeto exige placa colada, a substituição por SPC fino não atende sozinha ao requisito."
+      ]
+    ],
+    "checklist": [
+      "Identifique produto, acabamento e revisão da fonte nas duas propostas.",
+      "Desenhe níveis acabados com todas as camadas, sem contar a manta aderida duas vezes.",
+      "Calcule a paginação com dimensões úteis confirmadas antes de arredondar caixas.",
+      "Separe aprovações térmicas, acústicas e de uso da escolha visual."
+    ],
+    "faq": [
+      [
+        "SPC de 6,5 mm sempre economiza 2,5 mm frente a essa placa?",
+        "Somente os revestimentos publicados diferem em 2,5 mm. A diferença acabada depende de cada instalação completa e da preparação do contrapiso."
+      ],
+      [
+        "Esses valores podem ser usados como especificações Luvie?",
+        "Não. Solicite ficha atual do modelo Luvie, condições de instalação e evidências aplicáveis. Exemplos externos explicam o método; não certificam outro produto."
+      ]
+    ],
+    "closing": "Envie à Luvie destino, planta, uso previsto, nível acabado permitido e referência SPC a avaliar. Solicite dimensões específicas, evidências disponíveis e escopo da cotação. Mantenha alternativas cerâmicas na mesma comparação de projeto sem prometer um vencedor universal."
+  },
+  "ar": {
+    "referenceNames": ["Polyflor: أبعاد وتعبئة Icelandic Oak 9025", "Marazzi: بيانات منتج Slow Cold Nebbia R10 RT MPEU", "Polyflor: الأداء الفني لمنتج Expona EnCore", "Polyflor: تحديد بنية SPC"],
+    "title": "SPC والبورسلان: مقارنة الأبعاد | Luvie",
+    "heading": "SPC والبورسلان: قارن السماكات والمقاسات الفعلية قبل التجهيز",
+    "description": "قارن أبعاد SPC من Polyflor وبورسلان Marazzi ومساحات الوحدات المحسوبة وحدود المجموعة المركبة قبل طلب عرض مشروع.",
+    "lead": "لا يعني غطاء الأرضية الأقل سماكة تلقائياً منسوباً نهائياً أقل. تقارن هذه الصفحة منتجين محددين: Polyflor Expona EnCore Rigid Loc PUR، Icelandic Oak 9025، وMarazzi Slow Cold Nebbia R10 RT بالرمز MPEU. المثال الخزفي بورسلان تحديداً وليس كل أنواع البلاط. روجعت الأرقام في صفحات المصنعين يوم 23 نوفمبر 2026. هذه أمثلة مرجعية وليست مخزون Luvie أو مواصفاتها ولا تثبت تفوق مادة في جميع المشاريع.",
+    "answer": "السماكتان المنشورتان 6.5 و9 مم؛ أي فرق 2.5 مم قبل طبقات التركيب. وتعطي المقاسات المعلنة نحو 0.2150 و0.7200 م² للوحدة. استخدمها لمقارنة أولية للتوزيع ثم سعّر المجموعات المركبة كاملة وأكد الأبعاد العملية الفعلية. لا تستنتج تفوقاً صوتياً أو في الانزلاق أو المتانة من اختبارات غير متكافئة.",
+    "comparison": {
+      "caption": "مقارنة منتجات محددة؛ أرقام المصادر تطابق القائمة. الحسابات تستثني الفواصل والقص والهدر.",
+      "headers": [
+        "القياس",
+        "Polyflor Icelandic Oak 9025 [1,3]",
+        "Marazzi Nebbia MPEU [2]"
+      ],
+      "rows": [
+        [
+          "سماكة الغطاء",
+          "6.5 mm إجمالاً؛ تشمل IXPE الملصق",
+          "9 mm للبلاطة؛ دون طبقات التركيب"
+        ],
+        [
+          "أبعاد الوحدة المعلنة",
+          "177.35 × 1212.4 mm",
+          "60 × 120 cm، محولة إلى 600 × 1200 mm"
+        ],
+        [
+          "مساحة الوحدة المحسوبة",
+          "0.17735 × 1.2124 = 0.21501914 m²",
+          "0.60 × 1.20 = 0.7200 m²"
+        ],
+        [
+          "عدد الوحدات المحسوب لكل 1 m²",
+          "نحو 4.65 قبل القص والفواصل",
+          "نحو 1.39 قبل القص والفواصل"
+        ],
+        [
+          "تغطية العبوة المنشورة",
+          "2.15 m²؛ 10 ألواح [1]",
+          "غير مستخدمة؛ أكد تعبئة MPEU الحالية"
+        ],
+        [
+          "المقاومة الحرارية المنشورة",
+          "0.034 m²K/W; EN 12667 [3]",
+          "لا توجد قيمة مكافئة في صفحة النموذج المراجعة؛ لا ترتيب"
+        ]
+      ]
+    },
+    "sections": [
+      [
+        "ما الذي يعنيه فرق 2.5 مم للمشتري؟",
+        "طرح 6.5 من 9 يعطي فرقاً قدره 2.5 مم للغطاء وحده. تعرض Polyflor مجموعة EnCore بطبقة صوتية IXPE مدمجة سماكتها 1 مم؛ لا تضفها ثانية وتصف المنتج بأنه 7.5 مم. عند الباب اطلب قطاعاً لكل مجموعة مقترحة يشمل الغطاء وطبقات الدعم أو اللصق المعتمدة ونظام التحكم بالرطوبة والسطح التحتي المجهز. طبقة لاصق البلاط ليست ضمن سماكة البلاطة. ولا تبين سماكة اللوح الاسمية أو البلاطة مقدار التسوية الذي يحتاجه السطح القائم. إذا تعذر تعديل الباب فعلى مصمم التركيب مقارنة المناسيب النهائية لا اختيار الرقم الأصغر في الكتيب فقط."
+      ],
+      [
+        "استخدم حساب الوحدات لمقارنة التوزيع لا لتحديد الطلب",
+        "ينتج ضرب أبعاد اللوح المنشورة مساحة 0.21501914 م². ويعطي مقاس البلاطة 60 في 120 سم مساحة 0.72 م²؛ إنه حساب لمقاس اسمي وليس شهادة قياس للأبعاد العملية. بقسمة متر مربع على المساحتين نحصل على نحو 4.65 ألواح مقابل 1.39 بلاطات. مساحة وحدة البلاط نحو 3.35 أضعاف مساحة اللوح، وهذا يغير نقاش التوزيع: قد ينتج الممر الضيق أو رجوع الباب أو الغرفة الصغيرة قطعاً مختلفة جداً. لكنه لا يثبت هدراً أقل أو تركيباً أسرع أو عمالة أرخص. اطلب من المركب توزيعاً بعرض الفاصل المختار والأبعاد القابلة للاستخدام، وافصل التغطية الصافية والقص والاحتياط وتقريب العبوات. رقم تغطية Polyflor البالغ 2.15 م² مقرب؛ استخدم وحدة بيع المورد في أمر الشراء."
+      ],
+      [
+        "لا تحول غياب بيانات الاختبار إلى أفضلية للمادة",
+        "تنشر Polyflor مقاومة حرارية 0.034 م²K/W وفق EN 12667 لمجموعة EnCore. لا تقدم صفحة Marazzi المراجعة نتيجة حرارية مكافئة، ولذلك يترك الجدول المقارنة دون حسم. غياب البيانات لا يعني مقاومة صفراً. وكذلك فإن خفض صوت الصدمات المعلن من Polyflor بمقدار 19 dB وفق ISO 10140-3 نتيجة اختبار، وليس توقعاً بأن اللوح يجعل كل غرفة أهدأ من السيراميك بمقدار 19 dB. قد تتضمن مجموعة البلاط طبقات صوتية أخرى. اطلب أدلة لمجموعات متقابلة إذا كان للمبنى متطلب صوتي. ولا تعادل طبقة تآكل الفينيل 0.55 مم قياس عمق تآكل خزفي. تحتاج هذه البنى المختلفة أدلة ذات صلة، لا نقاطاً تجمع من أي أرقام متاحة في كتيب."
+      ],
+      [
+        "متى يخرج SPC من القائمة المختصرة؟",
+        "لا تختر مثال SPC هذا لمقترح يتجاوز حدوده المعلنة لمجرد أن الغطاء أرق. تذكر Polyflor حداً أقصى 27°C للتدفئة الأرضية؛ يحتاج التصميم الذي يتطلب حرارة أعلى إلى حل آخر معتمد أو تعديل التدفئة. للتعرض الخارجي أو المناطق المبللة باستمرار أو الأحمال المتدحرجة الشديدة أو السطح التحتي غير المحسوم، اطلب ملاءمة صريحة مكتوبة للنظام الكامل قبل اعتبار SPC خياراً. ولا يعتمد البورسلان تلقائياً أيضاً؛ فالتشطيب والتثبيت والموقع عوامل مهمة. في مساحة داخلية اعتمد فيها نظام SPC المحدد قد يناسب التعشيق خطة التركيب؛ أما عندما يشترط التصميم المعتمد بلاطاً ملتصقاً، فلا يفي بديل SPC رقيق بذلك وحده."
+      ]
+    ],
+    "checklist": [
+      "حدد المنتج والتشطيب ونسخة المصدر في العرضين.",
+      "ارسم المناسيب النهائية بكل طبقات التركيب دون تكرار احتساب البطانة الملصقة.",
+      "احسب التوزيع من أبعاد عملية مؤكدة قبل تقريب العبوات.",
+      "افصل الاعتماد الحراري والصوتي وشروط الاستخدام عن الاختيار البصري."
+    ],
+    "faq": [
+      [
+        "هل يوفر SPC بسماكة 6.5 مم دائماً 2.5 مم مقارنة بهذه البلاطة؟",
+        "يختلف الغطاءان المعلنان فقط بمقدار 2.5 مم. يعتمد فرق المنسوب النهائي على كل تركيب كامل وتحضير السطح التحتي."
+      ],
+      [
+        "هل تستخدم هذه الأرقام المرجعية كمواصفات Luvie؟",
+        "لا. اطلب ورقة نموذج Luvie الحالية وشروط التركيب والأدلة المنطبقة. توضح الأمثلة الخارجية طريقة المقارنة ولا تصدق منتجاً آخر."
+      ]
+    ],
+    "closing": "أرسل إلى Luvie الوجهة والمخطط والاستخدام المقصود والمنسوب النهائي المسموح ومرجع SPC المطلوب تقييمه. اطلب أبعاد النموذج والأدلة المتاحة ونطاق العرض. أبق بدائل البلاط ضمن مقارنة المشروع نفسها دون وعد بتفوق مادة بصورة مطلقة."
+  }
+}

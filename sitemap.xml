@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://luvieindustry.com/</loc>
-        <lastmod>2026-11-22</lastmod>
+        <lastmod>2026-11-23</lastmod>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://luvieindustry.com/articles/</loc>
-        <lastmod>2026-11-22</lastmod>
+        <lastmod>2026-11-23</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
@@ -332,17 +332,17 @@
     </url>
     <url>
         <loc>https://luvieindustry.com/es/articles/</loc>
-        <lastmod>2026-11-22</lastmod>
+        <lastmod>2026-11-23</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://luvieindustry.com/pt-br/articles/</loc>
-        <lastmod>2026-11-22</lastmod>
+        <lastmod>2026-11-23</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://luvieindustry.com/ar/articles/</loc>
-        <lastmod>2026-11-22</lastmod>
+        <lastmod>2026-11-23</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -2515,4 +2515,16 @@
     <url><loc>https://luvieindustry.com/es/articles/chile-spc-flooring-remote-inspection-time-zone-plan.html</loc><lastmod>2026-11-22</lastmod><priority>0.7</priority></url>
     <url><loc>https://luvieindustry.com/pt-br/articles/chile-spc-flooring-remote-inspection-time-zone-plan.html</loc><lastmod>2026-11-22</lastmod><priority>0.7</priority></url>
     <url><loc>https://luvieindustry.com/ar/articles/chile-spc-flooring-remote-inspection-time-zone-plan.html</loc><lastmod>2026-11-22</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/articles/spc-vs-porcelain-tile-thickness-format-data.html</loc><lastmod>2026-11-23</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/es/articles/spc-vs-porcelain-tile-thickness-format-data.html</loc><lastmod>2026-11-23</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/pt-br/articles/spc-vs-porcelain-tile-thickness-format-data.html</loc><lastmod>2026-11-23</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/ar/articles/spc-vs-porcelain-tile-thickness-format-data.html</loc><lastmod>2026-11-23</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/articles/spc-vs-glue-down-lvt-polyflor-camaro-data-comparison.html</loc><lastmod>2026-11-23</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/es/articles/spc-vs-glue-down-lvt-polyflor-camaro-data-comparison.html</loc><lastmod>2026-11-23</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/pt-br/articles/spc-vs-glue-down-lvt-polyflor-camaro-data-comparison.html</loc><lastmod>2026-11-23</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/ar/articles/spc-vs-glue-down-lvt-polyflor-camaro-data-comparison.html</loc><lastmod>2026-11-23</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/articles/spc-vs-laminate-starfloor-impressive-data-comparison.html</loc><lastmod>2026-11-23</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/es/articles/spc-vs-laminate-starfloor-impressive-data-comparison.html</loc><lastmod>2026-11-23</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/pt-br/articles/spc-vs-laminate-starfloor-impressive-data-comparison.html</loc><lastmod>2026-11-23</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/ar/articles/spc-vs-laminate-starfloor-impressive-data-comparison.html</loc><lastmod>2026-11-23</lastmod><priority>0.7</priority></url>
 </urlset>

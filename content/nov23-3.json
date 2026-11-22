@@ -1,0 +1,382 @@
+{
+  "file": "spc-vs-laminate-starfloor-impressive-data-comparison.html",
+  "image": "nov23-3.webp",
+  "product": "/products/spc-flooring.html",
+  "catalog": "/assets/catalogs/spc-flooring-catalog.pdf",
+  "source": "https://media.tarkett-image.com/docs/DS-Tarkett-starfloor_click_ultimate_55-en_INTL.pdf",
+  "sourceName": "Tarkett Starfloor Click Ultimate 55 datasheet",
+  "sources": [
+    {
+      "url": "https://media.tarkett-image.com/docs/DS-Tarkett-starfloor_click_ultimate_55-en_INTL.pdf",
+      "name": "Tarkett Starfloor Click Ultimate 55"
+    },
+    {
+      "url": "https://media.tarkett-image.com/docs/TS_IT_Starfloor_Click_Ultimate.pdf",
+      "name": "Tarkett SPC identification"
+    },
+    {
+      "url": "https://www.quick-step.com.au/-/media/imported%20assets/flooring/b/2/0/qstdslmpimpressiveenpdf225360.ashx?filename=Technical+Information.pdf&rev=445f8c394409421ba9ea516ddc18474c&type=original",
+      "name": "Quick-Step Impressive IMXXXX, 01.2026"
+    }
+  ],
+  "related": [
+    "wall-panel-quality-inspection-guide.html",
+    "questions-to-ask-wall-panel-supplier.html"
+  ],
+  "en": {
+    "title": "SPC vs laminate: two named products compared | Luvie",
+    "heading": "SPC versus laminate: what Starfloor Ultimate 55 and Impressive data actually show",
+    "description": "Compare named Tarkett SPC and Quick-Step laminate data, with units, methods and limits. Separate useful dimensions from unsupported performance rankings.",
+    "lead": "Is SPC better than laminate? A professional purchasing comparison starts with named products, not generic ranges. Here the examples are Tarkett Starfloor Click Ultimate 55 and Quick-Step Impressive, reference IMXXXX, technical-sheet edition 01.2026. Tarkett's Italian specification identifies its example as SPC with integrated acoustic backing; the international literature also uses the proprietary RCC description. Quick-Step identifies its example as laminate with an HDF core. These are external reference products, not Luvie models, and this comparison does not imply that Luvie supplies either brand or matches their performance. IMXXXX is the manufacturer's family reference pattern, not an individual décor SKU; confirm the chosen décor separately.",
+    "answer": "The published nominal thicknesses are 6.50 mm and 8.0 mm respectively. That is a useful starting point for floor-height coordination, not a durability ranking. Published thermal resistance values are numerically close but use different referenced standards. Acoustic results depend on assembly and documentation. A missing comparable result means not established, not zero or inferior. Select against the actual project requirements and obtain current model-specific evidence before ordering.",
+    "comparison": {
+      "caption": "Manufacturer-sheet values: product-specific, not category averages or Luvie specifications",
+      "headers": [
+        "Property / basis",
+        "Tarkett Starfloor Click Ultimate 55 [1,2]",
+        "Quick-Step Impressive IMXXXX [3]",
+        "Comparison limit"
+      ],
+      "rows": [
+        [
+          "Nominal total thickness",
+          "6.50 mm; EN ISO 24346",
+          "8.0 mm; product-characteristics table",
+          "Different constructions; include required underlay in installed height"
+        ],
+        [
+          "Plank length × width",
+          "1213 × 176 mm; declared format",
+          "1380 × 190 mm; declared format",
+          "Layout inputs, not strength measurements"
+        ],
+        [
+          "Declared pack coverage",
+          "1.281 m²; 6 planks",
+          "1.835 m²; 7 panels",
+          "Round to packs after project-specific cutting allowance"
+        ],
+        [
+          "Thermal resistance",
+          "0.05 m²K/W; EN ISO 10456",
+          "0.055 m²K/W; EN 12667",
+          "Different standards; confirm complete floor assembly"
+        ],
+        [
+          "Surface durability descriptor",
+          "0.55 mm wear layer; EN ISO 24340",
+          "No equivalent PVC wear-layer thickness used here",
+          "Thickness is not an abrasion-class conversion"
+        ],
+        [
+          "Impact sound reduction ΔLw",
+          "19 dB; EN ISO 717-2",
+          "≤21 dB with Quick-Step underlay; sheet prints ISO 712/2",
+          "Underlay-dependent; method notation needs clarification, no winner inferred"
+        ]
+      ]
+    },
+    "sections": [
+      [
+        "Use geometry for quantities, not a quality score",
+        "The table preserves declared pack coverage rather than presenting calculated rounding as a new manufacturer specification. For the same measured room, different plank formats can produce different cutting layouts, so neither pack coverage nor plank size alone determines the final order. Prepare a layout, identify permitted installation direction and agree the cutting allowance for that design. Then round the resulting requirement to the offered pack configuration. A thinner board may help at a constrained doorway, but the complete installed build-up includes whatever layers the selected system requires. Never remove a required layer just to make the arithmetic fit."
+      ],
+      [
+        "Do not turn unlike durability measurements into a league table",
+        "The SPC sheet gives a PVC wear-layer thickness. That describes a layer dimension under its stated method; it is not a promise of a particular service life. Laminate surface-performance evidence belongs to a different construction and testing framework. Do not convert millimetres of PVC into a laminate abrasion class or claim that the thicker overall board automatically resists scratches better. Request the property that matters to the intended use, together with its test method, result and configuration. If the two offers do not report comparable evidence, identify the gap and ask for clarification instead of filling it with an industry-wide range."
+      ],
+      [
+        "Read thermal and acoustic numbers with their conditions",
+        "A small numerical difference in thermal resistance does not establish a heating-cost saving. These sheets cite different standards, and the project designer needs the resistance of the actual installed assembly, including any required underlay. The acoustic row is an even clearer warning against casual ranking: the laminate result varies with the underlay, and its sheet prints a method designation that needs manufacturer clarification. We preserve that notation rather than silently correcting it. Ask for the relevant test report and assembly description before using either value in a building acoustic assessment. A laboratory improvement figure is not a prediction of the sound heard in every room."
+      ],
+      [
+        "Know when SPC is the wrong purchasing shortcut",
+        "Do not select SPC to avoid unresolved subfloor moisture, inadequate flatness, an incompatible heating arrangement or a project requirement that lacks supporting evidence. A rigid core is not permission to ignore preparation. For the named Tarkett example, the sheet limits underfloor-heating suitability to a maximum subfloor temperature of 27°C; this is not a universal limit for every SPC product. If the proposed assembly cannot satisfy its current instructions, choose a compliant alternative or redesign the build-up with the responsible professional. Laminate may remain a viable candidate where its own conditions are met. Neither material should be approved simply because the other is unsuitable."
+      ]
+    ],
+    "checklist": [
+      "Confirm exact model, market and current document revision.",
+      "Compare complete installed height and layout-based pack quantities.",
+      "Obtain matching methods and assembly descriptions for critical performance.",
+      "Resolve substrate, heating and installation restrictions before purchase."
+    ],
+    "faq": [
+      [
+        "Does 8 mm laminate outlast 6.5 mm SPC?",
+        "The stated thicknesses alone cannot answer that. Construction, surface tests, installation, traffic and maintenance differ; request evidence for the property and use that matter."
+      ],
+      [
+        "Can these figures be entered as Luvie specifications?",
+        "No. They belong to the named external products. Ask Luvie for the current offered model's documentation and evaluate it independently against the same project requirements."
+      ]
+    ],
+    "closing": "Send Luvie the intended application, substrate conditions and the performance evidence your project requires. Request a model-specific SPC offer and supporting documents. Keep this two-product comparison as a method for checking evidence, not as a substitute for the offered product's data."
+  },
+  "es": {
+    "title": "SPC frente a laminado: dos productos con datos | Luvie",
+    "heading": "SPC frente a laminado: qué muestran los datos de Starfloor Ultimate 55 e Impressive",
+    "description": "Compare datos de SPC Tarkett y laminado Quick-Step con unidades, métodos y límites, sin trasladar resultados a productos Luvie.",
+    "lead": "¿Es mejor el SPC que el laminado? Una comparación profesional empieza por productos identificados, no por rangos genéricos. Los ejemplos son Tarkett Starfloor Click Ultimate 55 y Quick-Step Impressive, referencia IMXXXX, ficha edición 01.2026. La especificación italiana de Tarkett identifica su producto como SPC con base acústica integrada; su documentación internacional también utiliza la denominación propia RCC. Quick-Step identifica el suyo como laminado con núcleo HDF. Son referencias externas, no modelos Luvie. La comparación no implica que Luvie venda estas marcas ni iguale sus prestaciones. IMXXXX es el patrón de referencia de la familia, no un SKU de decoración concreto; confirme la decoración por separado.",
+    "answer": "Los espesores nominales publicados son respectivamente 6,50 y 8,0 mm. Sirven para empezar a coordinar alturas, no para clasificar durabilidad. Las resistencias térmicas son numéricamente próximas, pero citan normas diferentes. Los resultados acústicos dependen del conjunto y la documentación. La falta de un resultado comparable significa no establecido, no cero ni inferior. Seleccione según el proyecto y solicite pruebas actuales del modelo antes de comprar.",
+    "comparison": {
+      "caption": "Valores de fichas de fabricante: no son promedios ni especificaciones Luvie",
+      "headers": [
+        "Propiedad / base",
+        "Tarkett Starfloor Click Ultimate 55 [1,2]",
+        "Quick-Step Impressive IMXXXX [3]",
+        "Límite"
+      ],
+      "rows": [
+        [
+          "Espesor total nominal",
+          "6,50 mm; EN ISO 24346",
+          "8,0 mm; tabla de características",
+          "Incluya la base necesaria en la altura instalada"
+        ],
+        [
+          "Largo × ancho de tabla",
+          "1213 × 176 mm; formato declarado",
+          "1380 × 190 mm; formato declarado",
+          "Datos de distribución, no resistencia"
+        ],
+        [
+          "Cobertura declarada por paquete",
+          "1,281 m²; 6 tablas",
+          "1,835 m²; 7 paneles",
+          "Redondee tras calcular los recortes del proyecto"
+        ],
+        [
+          "Resistencia térmica",
+          "0,05 m²K/W; EN ISO 10456",
+          "0,055 m²K/W; EN 12667",
+          "Normas distintas; confirme el conjunto completo"
+        ],
+        [
+          "Descriptor superficial",
+          "Capa de uso 0,55 mm; EN ISO 24340",
+          "No se utiliza un espesor de PVC equivalente",
+          "No convierte espesor en clase de abrasión"
+        ],
+        [
+          "Reducción de ruido de impacto ΔLw",
+          "19 dB; EN ISO 717-2",
+          "≤21 dB con base Quick-Step; la ficha indica ISO 712/2",
+          "Depende de la base; aclarar método, sin ganador"
+        ]
+      ]
+    },
+    "sections": [
+      [
+        "Use geometría para cantidades, no para puntuar calidad",
+        "La tabla conserva la cobertura declarada por paquete: un redondeo calculado no se presenta como especificación nueva. Para una misma habitación, formatos distintos pueden producir despieces diferentes; ni cobertura ni tamaño determinan por sí solos el pedido final. Prepare la distribución, identifique la dirección de instalación permitida y acuerde la previsión de recortes. Después redondee la necesidad a los paquetes ofrecidos. Una tabla más delgada puede ayudar en una puerta con altura limitada, pero el conjunto instalado incluye las capas exigidas por el sistema. Nunca elimine una capa necesaria para que encajen los números."
+      ],
+      [
+        "No clasifique durabilidad con medidas diferentes",
+        "La ficha SPC indica el espesor de una capa de uso de PVC. Describe una dimensión según su método, no promete una vida útil concreta. Las pruebas superficiales del laminado pertenecen a otra construcción y otro marco de ensayo. No convierta milímetros de PVC en una clase de abrasión del laminado ni afirme que el mayor espesor total resiste mejor los arañazos. Solicite la propiedad pertinente, su método, resultado y configuración. Si las ofertas no aportan pruebas comparables, señale la carencia y pida aclaración en lugar de inventar un rango general."
+      ],
+      [
+        "Lea los datos térmicos y acústicos con sus condiciones",
+        "Una pequeña diferencia de resistencia térmica no demuestra ahorro de calefacción. Las fichas citan normas distintas y el proyectista necesita la resistencia del conjunto realmente instalado, incluida la base requerida. La fila acústica advierte todavía más contra las clasificaciones rápidas: el resultado del laminado depende de la base y su ficha imprime una designación de método que requiere aclaración del fabricante. Se conserva esa notación sin corregirla silenciosamente. Pida el informe y la descripción del montaje antes de usar los valores en una evaluación acústica. Una mejora de laboratorio no predice el ruido de cualquier habitación."
+      ],
+      [
+        "Reconozca cuándo SPC no es una solución adecuada",
+        "No seleccione SPC para eludir humedad sin resolver, falta de planitud, calefacción incompatible o requisitos sin evidencia. Un núcleo rígido no autoriza a omitir preparación. La ficha del ejemplo Tarkett limita la aptitud para suelo radiante a una temperatura máxima del soporte de 27°C; no es un límite universal para todos los SPC. Si el conjunto propuesto no cumple sus instrucciones vigentes, elija una alternativa conforme o rediseñe con el profesional responsable. El laminado puede seguir siendo candidato si cumple sus propias condiciones. No apruebe un material simplemente porque el otro sea inadecuado."
+      ]
+    ],
+    "checklist": [
+      "Confirme modelo, mercado y revisión documental actual.",
+      "Compare altura instalada completa y cantidades basadas en despiece.",
+      "Obtenga métodos y montajes comparables para prestaciones críticas.",
+      "Resuelva restricciones del soporte, calefacción e instalación."
+    ],
+    "faq": [
+      [
+        "¿Dura más el laminado de 8 mm que el SPC de 6,5 mm?",
+        "Esos espesores no bastan para responder. Construcción, ensayos superficiales, instalación, tráfico y mantenimiento difieren; solicite evidencia de la propiedad y uso relevantes."
+      ],
+      [
+        "¿Pueden registrarse estos valores como especificaciones Luvie?",
+        "No. Pertenecen a los productos externos identificados. Solicite la documentación actual del modelo ofrecido por Luvie y evalúelo independientemente frente al proyecto."
+      ]
+    ],
+    "closing": "Envíe a Luvie el uso previsto, condiciones del soporte y pruebas exigidas. Solicite una oferta SPC específica y documentos de respaldo. Use esta comparación como método para revisar evidencia, no como sustituto de los datos del producto ofrecido."
+  },
+  "pt-br": {
+    "title": "SPC versus laminado: dois produtos com dados | Luvie",
+    "heading": "SPC versus laminado: o que mostram os dados de Starfloor Ultimate 55 e Impressive",
+    "description": "Compare dados de SPC Tarkett e laminado Quick-Step com unidades, métodos e limites, sem transferir resultados para produtos Luvie.",
+    "lead": "SPC é melhor que laminado? Uma comparação profissional começa por produtos identificados, não por faixas genéricas. Os exemplos são Tarkett Starfloor Click Ultimate 55 e Quick-Step Impressive, referência IMXXXX, ficha edição 01.2026. A especificação italiana da Tarkett identifica seu produto como SPC com base acústica integrada; a documentação internacional também usa a denominação própria RCC. A Quick-Step identifica seu exemplo como laminado com núcleo HDF. São referências externas, não modelos Luvie. A comparação não implica que a Luvie forneça essas marcas ou iguale seu desempenho. IMXXXX é o padrão de referência da família, não um SKU de decoração individual; confirme a decoração separadamente.",
+    "answer": "As espessuras nominais publicadas são respectivamente 6,50 e 8,0 mm. São um ponto inicial para coordenar alturas, não uma classificação de durabilidade. As resistências térmicas são numericamente próximas, mas citam normas diferentes. Resultados acústicos dependem do conjunto e da documentação. Um resultado comparável ausente significa não estabelecido, não zero ou inferior. Selecione conforme o projeto e solicite evidências atuais do modelo antes de comprar.",
+    "comparison": {
+      "caption": "Valores das fichas dos fabricantes: não são médias nem especificações Luvie",
+      "headers": [
+        "Propriedade / base",
+        "Tarkett Starfloor Click Ultimate 55 [1,2]",
+        "Quick-Step Impressive IMXXXX [3]",
+        "Limite"
+      ],
+      "rows": [
+        [
+          "Espessura total nominal",
+          "6,50 mm; EN ISO 24346",
+          "8,0 mm; tabela de características",
+          "Inclua a manta necessária na altura instalada"
+        ],
+        [
+          "Comprimento × largura",
+          "1213 × 176 mm; formato declarado",
+          "1380 × 190 mm; formato declarado",
+          "Dados de paginação, não de resistência"
+        ],
+        [
+          "Cobertura declarada por caixa",
+          "1,281 m²; 6 réguas",
+          "1,835 m²; 7 painéis",
+          "Arredonde após calcular os recortes do projeto"
+        ],
+        [
+          "Resistência térmica",
+          "0,05 m²K/W; EN ISO 10456",
+          "0,055 m²K/W; EN 12667",
+          "Normas distintas; confirme o conjunto completo"
+        ],
+        [
+          "Descrição superficial",
+          "Camada de uso 0,55 mm; EN ISO 24340",
+          "Não se usa espessura equivalente de PVC",
+          "Espessura não se converte em classe de abrasão"
+        ],
+        [
+          "Redução de ruído de impacto ΔLw",
+          "19 dB; EN ISO 717-2",
+          "≤21 dB com manta Quick-Step; ficha indica ISO 712/2",
+          "Depende da manta; esclarecer método, sem vencedor"
+        ]
+      ]
+    },
+    "sections": [
+      [
+        "Use geometria para quantidades, não para pontuar qualidade",
+        "A tabela mantém a cobertura declarada por caixa: um arredondamento calculado não vira nova especificação do fabricante. Para o mesmo ambiente, formatos diferentes podem gerar recortes diferentes; cobertura e tamanho não determinam sozinhos o pedido. Prepare a paginação, identifique a direção permitida e combine a previsão de recortes. Depois arredonde a necessidade para a configuração de caixas oferecida. Uma régua mais fina pode ajudar em uma porta com altura limitada, mas o conjunto instalado inclui as camadas exigidas pelo sistema. Nunca retire uma camada necessária somente para fazer a conta caber."
+      ],
+      [
+        "Não classifique durabilidade usando medidas diferentes",
+        "A ficha SPC informa a espessura da camada de uso de PVC. Ela descreve uma dimensão pelo método indicado, não promete uma vida útil específica. Evidências da superfície do laminado pertencem a outra construção e estrutura de ensaios. Não converta milímetros de PVC em classe de abrasão do laminado nem afirme que maior espessura total significa melhor resistência a riscos. Solicite a propriedade relevante, com método, resultado e configuração. Se as ofertas não apresentam evidências comparáveis, identifique a lacuna e peça esclarecimentos, em vez de preencher a tabela com uma faixa genérica."
+      ],
+      [
+        "Leia números térmicos e acústicos com suas condições",
+        "Uma pequena diferença de resistência térmica não estabelece economia no aquecimento. As fichas citam normas diferentes e o projetista precisa da resistência do conjunto instalado, incluindo a manta exigida. A linha acústica exige ainda mais cuidado: o resultado do laminado depende da manta e a ficha imprime uma designação de método que precisa de esclarecimento do fabricante. Mantemos essa notação sem corrigi-la silenciosamente. Solicite o relatório e a descrição do conjunto antes de usar os valores na avaliação acústica do edifício. Uma melhoria de laboratório não prevê o som ouvido em qualquer ambiente."
+      ],
+      [
+        "Reconheça quando SPC não é o atalho correto",
+        "Não escolha SPC para contornar umidade não resolvida, falta de planicidade, aquecimento incompatível ou requisitos sem evidência. Núcleo rígido não autoriza ignorar preparação. A ficha do exemplo Tarkett limita a adequação ao piso aquecido a uma temperatura máxima do contrapiso de 27°C; isso não é um limite universal de SPC. Se o conjunto proposto não cumprir as instruções atuais, selecione uma alternativa conforme ou revise a composição com o profissional responsável. Laminado pode continuar sendo candidato quando atende às próprias condições. Nenhum material deve ser aprovado apenas porque o outro é inadequado."
+      ]
+    ],
+    "checklist": [
+      "Confirme modelo, mercado e revisão documental atual.",
+      "Compare altura completa e quantidades baseadas na paginação.",
+      "Obtenha métodos e conjuntos comparáveis para propriedades críticas.",
+      "Resolva restrições de contrapiso, aquecimento e instalação."
+    ],
+    "faq": [
+      [
+        "Laminado de 8 mm dura mais que SPC de 6,5 mm?",
+        "As espessuras não respondem sozinhas. Construção, ensaios superficiais, instalação, tráfego e manutenção variam; solicite evidências para a propriedade e o uso relevantes."
+      ],
+      [
+        "Esses números podem ser especificações Luvie?",
+        "Não. Pertencem aos produtos externos identificados. Solicite documentação atual do modelo oferecido pela Luvie e avalie-o separadamente conforme o projeto."
+      ]
+    ],
+    "closing": "Envie à Luvie o uso previsto, condições do contrapiso e evidências exigidas. Solicite proposta SPC específica e documentos de apoio. Use a comparação como método para conferir evidências, não como substituto dos dados do produto oferecido."
+  },
+  "ar": {
+    "title": "مقارنة SPC واللامينيت ببيانات منتجين | Luvie",
+    "heading": "SPC واللامينيت: ما الذي تبينه بيانات Starfloor Ultimate 55 وImpressive فعلاً؟",
+    "description": "قارن بيانات SPC من Tarkett ولامينيت Quick-Step مع الوحدات وطرق الاختبار والحدود دون نقل النتائج إلى منتجات Luvie.",
+    "lead": "هل SPC أفضل من اللامينيت؟ تبدأ المقارنة المهنية بمنتجات محددة لا بنطاقات عامة. المثالان هما Tarkett Starfloor Click Ultimate 55 وQuick-Step Impressive بالمرجع IMXXXX وإصدار ورقة البيانات 01.2026. تعرف مواصفة Tarkett الإيطالية المنتج بأنه SPC مع بطانة صوتية مدمجة، وتستخدم وثائقها الدولية أيضاً تسمية RCC الخاصة بها. وتعرف Quick-Step مثالها بأنه لامينيت ذو قلب HDF. هذه منتجات مرجعية خارجية وليست نماذج Luvie؛ ولا تعني المقارنة أن Luvie تورد هاتين العلامتين أو تطابق أداءهما. IMXXXX نمط مرجع عائلة المنتج وليس رمز زخرفة منفردة؛ أكد الزخرفة المختارة بصورة مستقلة.",
+    "answer": "السماكتان الاسميتان المنشورتان هما 6.50 و8.0 مم على التوالي. تفيدان في بدء تنسيق ارتفاع الأرضية، لا في ترتيب المتانة. قيم المقاومة الحرارية متقاربة رقمياً لكنها تستند إلى معايير مختلفة. وتعتمد النتائج الصوتية على المجموعة والوثائق. غياب نتيجة قابلة للمقارنة يعني أنها غير مثبتة هنا، وليس صفراً أو أداءً أدنى. اختر وفق متطلبات المشروع واطلب أدلة حالية خاصة بالنموذج قبل الشراء.",
+    "comparison": {
+      "caption": "قيم أوراق المصنعين: ليست متوسطات للفئات أو مواصفات Luvie",
+      "headers": [
+        "الخاصية والأساس",
+        "Tarkett Starfloor Click Ultimate 55 [1,2]",
+        "Quick-Step Impressive IMXXXX [3]",
+        "حد المقارنة"
+      ],
+      "rows": [
+        [
+          "السماكة الكلية الاسمية",
+          "6.50 mm; EN ISO 24346",
+          "8.0 mm; جدول الخصائص",
+          "أضف البطانة المطلوبة إلى الارتفاع المركب"
+        ],
+        [
+          "طول اللوح × عرضه",
+          "1213 × 176 mm; مقاس معلن",
+          "1380 × 190 mm; مقاس معلن",
+          "بيانات توزيع لا قياسات قوة"
+        ],
+        [
+          "تغطية العبوة المعلنة",
+          "1.281 m²; 6 ألواح",
+          "1.835 m²; 7 ألواح",
+          "قرب للعبوات بعد حساب قص المشروع"
+        ],
+        [
+          "المقاومة الحرارية",
+          "0.05 m²K/W; EN ISO 10456",
+          "0.055 m²K/W; EN 12667",
+          "معايير مختلفة؛ أكد المجموعة الكاملة"
+        ],
+        [
+          "وصف السطح",
+          "طبقة تآكل 0.55 mm; EN ISO 24340",
+          "لا تستخدم هنا سماكة PVC مكافئة",
+          "لا تتحول السماكة إلى فئة احتكاك"
+        ],
+        [
+          "خفض صوت الصدمات ΔLw",
+          "19 dB; EN ISO 717-2",
+          "≤21 dB مع بطانة Quick-Step؛ الورقة تطبع ISO 712/2",
+          "يعتمد على البطانة؛ يلزم توضيح الطريقة ولا يستنتج فائز"
+        ]
+      ]
+    },
+    "sections": [
+      [
+        "استخدم الأبعاد للكميات لا لتقييم الجودة",
+        "يحافظ الجدول على التغطية المعلنة للعبوة ولا يقدم تقريب الحساب كمواصفة جديدة. قد تؤدي مقاسات مختلفة إلى توزيعات قص مختلفة للغرفة نفسها، فلا تحدد التغطية أو مساحة اللوح وحدهما الطلب النهائي. أعد مخطط توزيع وحدد اتجاه التركيب المسموح واتفق على سماحية القص لذلك التصميم. بعد ذلك قرب الاحتياج إلى العبوات المعروضة. قد يساعد لوح أقل سماكة عند باب محدود الارتفاع، لكن المجموعة المركبة تشمل كل الطبقات التي يشترطها النظام المختار. لا تحذف طبقة مطلوبة لمجرد جعل الحساب ملائماً."
+      ],
+      [
+        "لا ترتب المتانة بمقاييس غير متكافئة",
+        "تذكر ورقة SPC سماكة طبقة تآكل PVC. تصف هذه بُعد طبقة وفق طريقتها وليست وعداً بعمر خدمة معين. أدلة أداء سطح اللامينيت تخص تركيباً وإطار اختبار مختلفين. لا تحول مليمترات PVC إلى فئة احتكاك للامينيت ولا تدع أن السماكة الكلية الأعلى تعني مقاومة أفضل للخدش. اطلب الخاصية المهمة للاستخدام مع طريقة الاختبار والنتيجة والتكوين. إذا لم يقدم العرضان أدلة قابلة للمقارنة، فسجل الفجوة واطلب التوضيح بدلاً من ملئها بنطاق عام للصناعة."
+      ],
+      [
+        "اقرأ الأرقام الحرارية والصوتية مع شروطها",
+        "لا يثبت الفرق العددي الصغير في المقاومة الحرارية وفراً في تكلفة التدفئة. تستشهد الورقتان بمعايير مختلفة ويحتاج المصمم مقاومة المجموعة المركبة فعلياً بما فيها أي بطانة مطلوبة. ويستدعي الصف الصوتي حذراً أكبر: نتيجة اللامينيت مرتبطة بالبطانة، وتطبع ورقته تسمية طريقة تحتاج توضيح المصنع. نحافظ على هذه الكتابة ولا نصححها بصمت. اطلب تقرير الاختبار ووصف المجموعة قبل إدخال القيم في تقييم صوتيات المبنى. رقم التحسن المختبري لا يتنبأ بالصوت المسموع في كل غرفة."
+      ],
+      [
+        "اعرف متى لا يكون SPC اختياراً مناسباً",
+        "لا تختَر SPC لتجاوز رطوبة غير محسومة أو استواء غير كافٍ أو تدفئة غير متوافقة أو متطلب مشروع بلا أدلة. القلب الصلب ليس إذناً بإهمال التحضير. تحصر ورقة مثال Tarkett ملاءمة التدفئة الأرضية في درجة حرارة قصوى للسطح التحتي تبلغ 27°C؛ وليست هذه قاعدة عامة لكل SPC. إذا تعذر التزام المجموعة المقترحة بالتعليمات الحالية، فاختر بديلاً مطابقاً أو أعد التصميم مع المختص المسؤول. قد يبقى اللامينيت مرشحاً إذا استوفى شروطه. لا يعتمد أي من المادتين لمجرد عدم ملاءمة الأخرى."
+      ]
+    ],
+    "checklist": [
+      "أكد النموذج والسوق ونسخة المستندات الحالية.",
+      "قارن الارتفاع المركب الكامل والكميات وفق مخطط القص.",
+      "اطلب طرقاً ومجموعات متقابلة للأداء الحاسم.",
+      "احسم قيود السطح التحتي والتدفئة والتركيب قبل الشراء."
+    ],
+    "faq": [
+      [
+        "هل يدوم لامينيت 8 مم أكثر من SPC بسماكة 6.5 مم؟",
+        "لا تجيب السماكة وحدها. تختلف البنية واختبارات السطح والتركيب والحركة والصيانة؛ اطلب أدلة الخاصية والاستخدام المهمين للمشروع."
+      ],
+      [
+        "هل يمكن تسجيل هذه الأرقام كمواصفات Luvie؟",
+        "لا. تخص المنتجات الخارجية المحددة. اطلب وثائق النموذج المعروض حالياً من Luvie وقيمه مستقلاً وفق متطلبات المشروع نفسها."
+      ]
+    ],
+    "closing": "أرسل إلى Luvie الاستخدام المقصود وظروف السطح التحتي وأدلة الأداء المطلوبة. اطلب عرض SPC محدد النموذج ومستنداته. استخدم المقارنة طريقة للتحقق من الأدلة، لا بديلاً عن بيانات المنتج المعروض."
+  }
+}
