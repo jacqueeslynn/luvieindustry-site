@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-22",
+  "method": "Built-in image_gen; three distinct newly generated editorial illustrations",
+  "assets": [
+    {
+      "file": "nov22-1.webp",
+      "source": "/Users/mac/.codex/generated_images/01a1fb82-62c9-7d72-bf08-f74e54318cd0/exec-40354bae-d7a7-4247-aa5e-8ed44128f419.png",
+      "prompt": "Long PVC cartons fully supported within pallet footprint, packing sketch and tape measure; warm beige editorial illustration.",
+      "status": "generated-inspected",
+      "derivative": "cwebp quality84 1200x800",
+      "disclosure": "Illustration; not verified product/shipment/customer photography"
+    },
+    {
+      "file": "nov22-2.webp",
+      "source": "/Users/mac/.codex/generated_images/01a1fb82-62c9-7d72-bf08-f74e54318cd0/exec-8bd7c682-5e44-4a7c-bf5c-3cb5c4d03985.png",
+      "prompt": "SPC swatches and slip-test evidence review report with water droplets in sample tray; no performance claims.",
+      "status": "generated-inspected",
+      "derivative": "cwebp quality84 1200x800",
+      "disclosure": "Illustration; not verified product/shipment/customer photography"
+    },
+    {
+      "file": "nov22-3.webp",
+      "source": "/Users/mac/.codex/generated_images/01a1fb82-62c9-7d72-bf08-f74e54318cd0/exec-2e6cd2da-ad6d-41b1-975c-98e3b7e2ed1c.png",
+      "prompt": "SPC remote inspection scheduling with laptop, two clocks and blank date calendar; conceptual not factory evidence.",
+      "status": "generated-inspected",
+      "derivative": "cwebp quality84 1200x800",
+      "disclosure": "Illustration; not verified product/shipment/customer photography"
+    }
+  ]
+}

@@ -288,6 +288,12 @@
     ]
   },
   {
+    "file": "chile-spc-flooring-remote-inspection-time-zone-plan.html",
+    "families": [
+      "spc-flooring"
+    ]
+  },
+  {
     "file": "chile-spc-flooring-returned-click-joint-inspection.html",
     "families": [
       "spc-flooring"
@@ -620,6 +626,12 @@
   },
   {
     "file": "peru-pvc-wall-panels-lcl-consolidation-unpacking.html",
+    "families": [
+      "pvc-wall-panels"
+    ]
+  },
+  {
+    "file": "peru-pvc-wall-panels-pallet-footprint-overhang-review.html",
     "families": [
       "pvc-wall-panels"
     ]
@@ -1080,6 +1092,12 @@
     "file": "uae-wpc-wall-panels-vs-solid-wood-interiors.html",
     "families": [
       "wpc-wall-panels"
+    ]
+  },
+  {
+    "file": "uk-spc-flooring-slip-test-evidence-review.html",
+    "families": [
+      "spc-flooring"
     ]
   },
   {

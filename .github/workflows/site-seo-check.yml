@@ -54,3 +54,4 @@ jobs:
           node scripts/check-product-series.mjs
           node scripts/check-company-contact.mjs
           node scripts/check-daily-guides-20261121.mjs
+          node scripts/check-daily-guides-20261122.mjs
