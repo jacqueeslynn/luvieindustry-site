@@ -1,0 +1,43 @@
+{
+  "mode": "built-in image_gen",
+  "usage": "Editorial concepts, not product test evidence or customer case documentation",
+  "promptStyle": "Landscape 3:2 editorial material still life. Realistic textures, warm neutral palette, no text, brands, watermark or people.",
+  "images": [
+    {
+      "article": "articles/field-guides/uae-spc-vs-glue-down-lvt.html",
+      "asset": "assets/articles/uae-spc-vs-glue-down-lvt-cover-v2.webp",
+      "source": "/Users/mac/.codex/generated_images/019fc5d2-a412-7900-a024-83ab8a045577/exec-124f5549-c2ca-4855-9566-24559d863946.png",
+      "scene": "Retail renovation flooring samples and floor plan"
+    },
+    {
+      "article": "pt-br/articles/field-guides/spc-ou-porcelanato-portas.html",
+      "asset": "assets/articles/spc-ou-porcelanato-portas-cover-v2.webp",
+      "source": "/Users/mac/.codex/generated_images/019fc5d2-a412-7900-a024-83ab8a045577/exec-aa42533c-dddc-4841-964a-7eed212ccce1.png",
+      "scene": "Flooring samples at a door clearance"
+    },
+    {
+      "article": "pt-br/articles/field-guides/wpc-ou-mdf-acesso-tecnico.html",
+      "asset": "assets/articles/wpc-ou-mdf-acesso-tecnico-cover-v2.webp",
+      "source": "/Users/mac/.codex/generated_images/019fc5d2-a412-7900-a024-83ab8a045577/exec-9b8c8c80-6e63-4e35-ab8a-fdaa804adf0e.png",
+      "scene": "Slatted panel service-access mockup and material samples"
+    },
+    {
+      "article": "pt-br/articles/field-guides/pvc-ou-gesso-acesso.html",
+      "asset": "assets/articles/pvc-ou-gesso-acesso-cover-v2.webp",
+      "source": "/Users/mac/.codex/generated_images/019fc5d2-a412-7900-a024-83ab8a045577/exec-b1e0cc09-7492-45ae-8079-8c886b57f2da.png",
+      "scene": "Ceiling panels and gypsum samples in a corridor"
+    },
+    {
+      "article": "es/articles/field-guides/colombia-pvc-o-ceramica.html",
+      "asset": "assets/articles/colombia-pvc-o-ceramica-cover-v2.webp",
+      "source": "/Users/mac/.codex/generated_images/019fc5d2-a412-7900-a024-83ab8a045577/exec-3aea4b26-5fb1-4e09-836c-e85234573f82.png",
+      "scene": "PVC panel and ceramic sample with corner trims"
+    },
+    {
+      "article": "es/articles/field-guides/mexico-pu-o-piedra.html",
+      "asset": "assets/articles/mexico-pu-o-piedra-cover-v2.webp",
+      "source": "/Users/mac/.codex/generated_images/019fc5d2-a412-7900-a024-83ab8a045577/exec-0b30a2ff-b390-4ccb-a317-71f468703140.png",
+      "scene": "Stone-look panel and stone sample beside a corner mockup"
+    }
+  ]
+}
