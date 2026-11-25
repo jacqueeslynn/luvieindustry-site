@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://luvieindustry.com/</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-25</lastmod>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://luvieindustry.com/articles/</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-25</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
@@ -332,17 +332,17 @@
     </url>
     <url>
         <loc>https://luvieindustry.com/es/articles/</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-25</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://luvieindustry.com/pt-br/articles/</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-25</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://luvieindustry.com/ar/articles/</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-25</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -2527,4 +2527,16 @@
     <url><loc>https://luvieindustry.com/es/articles/spc-vs-laminate-starfloor-impressive-data-comparison.html</loc><lastmod>2026-11-23</lastmod><priority>0.7</priority></url>
     <url><loc>https://luvieindustry.com/pt-br/articles/spc-vs-laminate-starfloor-impressive-data-comparison.html</loc><lastmod>2026-11-23</lastmod><priority>0.7</priority></url>
     <url><loc>https://luvieindustry.com/ar/articles/spc-vs-laminate-starfloor-impressive-data-comparison.html</loc><lastmod>2026-11-23</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/articles/brazil-pvc-ceiling-nominal-working-width-order-comparison.html</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/es/articles/brazil-pvc-ceiling-nominal-working-width-order-comparison.html</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/pt-br/articles/brazil-pvc-ceiling-nominal-working-width-order-comparison.html</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/ar/articles/brazil-pvc-ceiling-nominal-working-width-order-comparison.html</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/articles/brazil-spc-flooring-carton-rounding-freight-data.html</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/es/articles/brazil-spc-flooring-carton-rounding-freight-data.html</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/pt-br/articles/brazil-spc-flooring-carton-rounding-freight-data.html</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/ar/articles/brazil-spc-flooring-carton-rounding-freight-data.html</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/articles/uae-spc-flooring-residual-indentation-test-limits.html</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/es/articles/uae-spc-flooring-residual-indentation-test-limits.html</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/pt-br/articles/uae-spc-flooring-residual-indentation-test-limits.html</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+    <url><loc>https://luvieindustry.com/ar/articles/uae-spc-flooring-residual-indentation-test-limits.html</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
 </urlset>

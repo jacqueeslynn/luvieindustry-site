@@ -54,6 +54,12 @@
     ]
   },
   {
+    "file": "brazil-pvc-ceiling-nominal-working-width-order-comparison.html",
+    "families": [
+      "pvc-ceiling-panels"
+    ]
+  },
+  {
     "file": "brazil-pvc-ceiling-panel-import-documents.html",
     "families": [
       "pvc-ceiling-panels"
@@ -159,6 +165,12 @@
     "file": "brazil-pvc-wall-panels-warranty-claim-documents.html",
     "families": [
       "pvc-wall-panels"
+    ]
+  },
+  {
+    "file": "brazil-spc-flooring-carton-rounding-freight-data.html",
+    "families": [
+      "spc-flooring"
     ]
   },
   {
@@ -1020,6 +1032,12 @@
     "file": "uae-pvc-wall-panels-replacement-stock-custody.html",
     "families": [
       "pvc-wall-panels"
+    ]
+  },
+  {
+    "file": "uae-spc-flooring-residual-indentation-test-limits.html",
+    "families": [
+      "spc-flooring"
     ]
   },
   {

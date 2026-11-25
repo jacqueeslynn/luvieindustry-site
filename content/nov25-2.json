@@ -1,0 +1,386 @@
+{
+  "file": "brazil-spc-flooring-carton-rounding-freight-data.html",
+  "image": "nov25-2.webp",
+  "product": "/products/spc-flooring.html",
+  "catalog": "/assets/catalogs/spc-flooring-catalog.pdf",
+  "source": "https://www.polyflor.com/products/9025/icelandic-oak",
+  "sourceName": "Polyflor Icelandic Oak 9025 packing table",
+  "sources": [
+    {
+      "url": "https://www.polyflor.com/products/9025/icelandic-oak",
+      "name": "Polyflor Icelandic Oak 9025 packing table"
+    }
+  ],
+  "related": [
+    "spc-flooring-distributor-spec-guide.html",
+    "spc-flooring-subfloor-flatness-before-order.html"
+  ],
+  "en": {
+    "title": "Brazil SPC Flooring: Carton Rounding and Freight | Luvie",
+    "heading": "Brazil SPC flooring buyers: compare carton rounding before requesting freight",
+    "description": "Calculate whole-box SPC quantities and distinguish coverage from gross shipping mass before requesting a Brazil-bound freight quotation.",
+    "lead": "A quotation for 100 square metres does not identify a shipment. Brazilian importers need carton counts, pallet arrangements and gross packing mass. The named manufacturer example below explains a calculation method; it is not Luvie inventory or a specification for another model.",
+    "answer": "Using the reference coverage of 2.15 m² per box, a hypothetical approved target of 100 m² requires 47 whole boxes, supplying 101.05 m². The extra 1.05 m² comes from rounding, not a recommended waste percentage. Gross shipping mass remains a separate input.",
+    "comparison": {
+      "caption": "Reference packing data and explicitly hypothetical order calculations; source [1].",
+      "headers": [
+        "Measure",
+        "Value",
+        "Interpretation"
+      ],
+      "rows": [
+        [
+          "Approved target",
+          "100 m²",
+          "Hypothetical purchase target"
+        ],
+        [
+          "Box coverage",
+          "2.15 m²",
+          "Named reference only"
+        ],
+        [
+          "Whole boxes",
+          "100 / 2.15 = 46.5116 → 47",
+          "Confirm ordering unit"
+        ],
+        [
+          "Supplied area",
+          "47 × 2.15 = 101.05 m²",
+          "Includes rounding"
+        ],
+        [
+          "Reference pallet",
+          "40 boxes; 86 m²",
+          "Not another model's packing"
+        ],
+        [
+          "Remainder",
+          "47 − 40 = 7 boxes",
+          "Shipping arrangement unconfirmed"
+        ],
+        [
+          "Gross mass",
+          "Not stated in the cited table",
+          "Request packing data"
+        ]
+      ]
+    },
+    "sections": [
+      [
+        "Start from an approved purchase area",
+        "Use the area already approved by the buyer and installer. Do not quietly add a generic waste percentage. Record cutting allowance and maintenance stock separately, with their basis. Here, 100 m² is a hypothetical purchase target, not a room measurement. Polyflor lists 2.15 m² per box, ten planks per box and forty boxes per pallet for Icelandic Oak 9025. Forty-six complete boxes fall short of the example target; forty-seven exceed it by 1.05 m²."
+      ],
+      [
+        "A partial pallet is a question, not a promise",
+        "Forty-seven boxes can be separated mathematically into forty plus seven. This does not prove the supplier will dispatch one full pallet and one small pallet. Request the proposed pallet count, external dimensions, carton orientation and stackability. Do not substitute plank dimensions for packing dimensions. The actual arrangement can change the transport quotation."
+      ],
+      [
+        "Keep area and shipment mass in separate columns",
+        "Net product mass, gross carton mass and gross loaded-pallet mass are different inputs. A declared mass per square metre can support a net material calculation, but cannot establish the final gross shipment mass. Do not invent packaging or pallet weight. Ask the forwarder which measured weights and dimensions it needs for the proposed route and who will confirm the final packing list. This guide does not determine freight rates, taxes or Brazilian import approval."
+      ],
+      [
+        "Compare the actual order, not an artificial equal area",
+        "For two alternative models, calculate whole-box quantities independently using each current packing table. Comparing prices for exactly 100 m² can hide rounding and packaging differences. Keep the approved installation allowance separate from surplus caused by complete-box ordering. Ask how incomplete pallets are handled before booking transport, and confirm whether the quoted packing configuration applies to your actual order."
+      ]
+    ],
+    "checklist": [
+      "Identify the model and current packing revision.",
+      "Separate project area, cutting allowance and maintenance stock.",
+      "Confirm the ordering unit before rounding.",
+      "Request gross weights and external packing dimensions.",
+      "Confirm the arrangement for incomplete pallets."
+    ],
+    "faq": [
+      [
+        "Does 1.05 m² extra cover installation waste?",
+        "Not necessarily. It is only the rounding difference in this example; layout and cutting determine the installation allowance."
+      ],
+      [
+        "Can forty boxes per pallet be used for another SPC model?",
+        "No. Obtain the selected model's current packing data."
+      ],
+      [
+        "Can net flooring mass serve as the final freight weight?",
+        "No. Request the gross packing weights and dimensions required by the forwarder."
+      ]
+    ],
+    "closing": "Send Luvie the selected model, approved purchase area and destination in Brazil. Request confirmed box coverage and proposed packing information before comparing transport quotations."
+  },
+  "es": {
+    "title": "SPC para Brasil: cajas completas y transporte | Luvie",
+    "heading": "Compradores de SPC para Brasil: calculen las cajas completas antes de cotizar el transporte",
+    "description": "Distinga la cobertura del SPC, el redondeo a cajas completas y la masa bruta del envío antes de solicitar transporte a Brasil.",
+    "lead": "Una cotización de 100 metros cuadrados no define un envío. El importador necesita cantidades de cajas, distribución de palés y masa bruta. El ejemplo del fabricante explica un cálculo; no representa existencias Luvie ni especificaciones de otro modelo.",
+    "answer": "Con la cobertura de referencia de 2,15 m² por caja, un objetivo hipotético aprobado de 100 m² requiere 47 cajas completas, equivalentes a 101,05 m². Los 1,05 m² adicionales proceden del redondeo, no de una recomendación de merma. La masa bruta se solicita por separado.",
+    "comparison": {
+      "caption": "Datos de embalaje de referencia y cálculo de pedido hipotético; fuente [1].",
+      "headers": [
+        "Medida",
+        "Valor",
+        "Interpretación"
+      ],
+      "rows": [
+        [
+          "Objetivo aprobado",
+          "100 m²",
+          "Compra hipotética"
+        ],
+        [
+          "Cobertura por caja",
+          "2,15 m²",
+          "Solo modelo de referencia"
+        ],
+        [
+          "Cajas completas",
+          "100 / 2,15 = 46,5116 → 47",
+          "Confirmar unidad de pedido"
+        ],
+        [
+          "Superficie suministrada",
+          "47 × 2,15 = 101,05 m²",
+          "Incluye redondeo"
+        ],
+        [
+          "Palé de referencia",
+          "40 cajas; 86 m²",
+          "No extrapolar"
+        ],
+        [
+          "Resto",
+          "47 − 40 = 7 cajas",
+          "Distribución sin confirmar"
+        ],
+        [
+          "Masa bruta",
+          "No indicada en la tabla citada",
+          "Solicitar datos de embalaje"
+        ]
+      ]
+    },
+    "sections": [
+      [
+        "Partir de una superficie de compra aprobada",
+        "Utilice la cantidad aprobada por comprador e instalador. No añada silenciosamente un porcentaje genérico de merma. Registre por separado los cortes y las reservas de mantenimiento, explicando su base. Aquí, 100 m² es un objetivo hipotético de compra, no la superficie de una habitación. Polyflor indica 2,15 m² por caja, diez lamas y cuarenta cajas por palé para Icelandic Oak 9025. Cuarenta y seis cajas no alcanzan el objetivo; cuarenta y siete lo superan en 1,05 m²."
+      ],
+      [
+        "Un palé parcial es una pregunta, no una promesa",
+        "Matemáticamente, 47 cajas se dividen en 40 cajas más 7 cajas restantes. Eso no demuestra que se enviarán un palé completo y otro pequeño. Solicite cantidad de palés, dimensiones exteriores, orientación de cajas y posibilidad de apilado. Las dimensiones de las lamas no sustituyen las del embalaje. La distribución real puede modificar la cotización logística."
+      ],
+      [
+        "Separar superficie y masa del envío",
+        "La masa neta del producto, la masa bruta de una caja y la del palé cargado son datos distintos. La masa por metro cuadrado permite calcular material neto, pero no la masa bruta final. No invente pesos de embalajes o palés. Pregunte al transitario qué mediciones requiere para la ruta y quién confirmará la lista final de empaque. Este texto no establece tarifas, impuestos ni autorización de importación brasileña."
+      ],
+      [
+        "Comparar el pedido real",
+        "Calcule las cajas completas de cada alternativa con su tabla de embalaje vigente. Comparar precios para exactamente 100 m² puede ocultar diferencias de redondeo y embalaje. Mantenga la merma aprobada separada del sobrante provocado por cajas completas. Confirme cómo se despachan palés incompletos antes de reservar transporte y si la configuración cotizada corresponde al pedido real."
+      ]
+    ],
+    "checklist": [
+      "Identificar modelo y revisión del embalaje.",
+      "Separar superficie, cortes y reserva de mantenimiento.",
+      "Confirmar unidad de pedido antes del redondeo.",
+      "Solicitar pesos brutos y dimensiones exteriores.",
+      "Confirmar tratamiento de palés incompletos."
+    ],
+    "faq": [
+      [
+        "¿Los 1,05 m² adicionales cubren los cortes?",
+        "No necesariamente. Son solo el redondeo del ejemplo; el diseño y los cortes determinan la reserva necesaria."
+      ],
+      [
+        "¿Puedo usar cuarenta cajas por palé para otro SPC?",
+        "No. Solicite los datos vigentes del modelo seleccionado."
+      ],
+      [
+        "¿La masa neta sirve como peso final del transporte?",
+        "No. Obtenga los pesos brutos y dimensiones que requiera el transitario."
+      ]
+    ],
+    "closing": "Envíe a Luvie el modelo, la cantidad aprobada y el destino en Brasil. Solicite cobertura por caja y embalaje propuesto antes de comparar transporte."
+  },
+  "pt-br": {
+    "title": "SPC para o Brasil: caixas e peso de embarque | Luvie",
+    "heading": "Compradores de SPC no Brasil: calculem caixas inteiras antes de cotar o frete",
+    "description": "Separe cobertura do SPC, arredondamento de caixas e massa bruta do embarque na comparação de propostas para o Brasil.",
+    "lead": "Uma proposta de 100 metros quadrados não define uma carga. O importador precisa de quantidade de caixas, organização dos paletes e massa bruta. O exemplo do fabricante explica o cálculo, sem representar estoque Luvie ou especificações de outro modelo.",
+    "answer": "Com a cobertura de referência de 2,15 m² por caixa, uma meta hipotética aprovada de 100 m² exige 47 caixas inteiras, fornecendo 101,05 m². Os 1,05 m² adicionais resultam do arredondamento, não de uma recomendação de perda. A massa bruta é um dado separado.",
+    "comparison": {
+      "caption": "Embalagem de referência e cálculo de pedido hipotético; fonte [1].",
+      "headers": [
+        "Medida",
+        "Valor",
+        "Interpretação"
+      ],
+      "rows": [
+        [
+          "Meta aprovada",
+          "100 m²",
+          "Compra hipotética"
+        ],
+        [
+          "Cobertura por caixa",
+          "2,15 m²",
+          "Somente modelo de referência"
+        ],
+        [
+          "Caixas inteiras",
+          "100 / 2,15 = 46,5116 → 47",
+          "Confirmar unidade de pedido"
+        ],
+        [
+          "Área fornecida",
+          "47 × 2,15 = 101,05 m²",
+          "Inclui arredondamento"
+        ],
+        [
+          "Palete de referência",
+          "40 caixas; 86 m²",
+          "Não extrapolar"
+        ],
+        [
+          "Saldo",
+          "47 − 40 = 7 caixas",
+          "Arranjo não confirmado"
+        ],
+        [
+          "Massa bruta",
+          "Ausente na tabela citada",
+          "Solicitar dados de embalagem"
+        ]
+      ]
+    },
+    "sections": [
+      [
+        "Comece pela área de compra aprovada",
+        "Use a quantidade aprovada pelo comprador e instalador. Não acrescente silenciosamente uma porcentagem genérica de perda. Registre cortes e estoque de manutenção separadamente, explicando sua base. Aqui, 100 m² é uma meta hipotética de compra, não a área de um cômodo. A Polyflor informa 2,15 m² por caixa, dez réguas e quarenta caixas por palete para Icelandic Oak 9025. Quarenta e seis caixas ficam abaixo da meta; quarenta e sete a ultrapassam em 1,05 m²."
+      ],
+      [
+        "Palete parcial é uma pergunta, não uma promessa",
+        "Matematicamente, 47 caixas correspondem a quarenta mais sete. Isso não prova que o fornecedor enviará um palete completo e um pequeno. Solicite quantidade de paletes, dimensões externas, orientação das caixas e possibilidade de empilhamento. Não substitua dimensões da embalagem pelas dimensões das réguas. O arranjo real pode alterar a cotação de transporte."
+      ],
+      [
+        "Separe área e massa do embarque",
+        "Massa líquida do produto, massa bruta da caixa e massa bruta do palete carregado são informações diferentes. A massa por metro quadrado permite um cálculo de material líquido, mas não define a massa bruta final. Não invente peso de embalagem ou palete. Consulte o agente de cargas sobre medições exigidas para a rota e quem confirmará o packing list final. Este guia não define frete, tributos ou aprovação de importação no Brasil."
+      ],
+      [
+        "Compare o pedido real",
+        "Calcule as caixas inteiras de cada alternativa com sua tabela de embalagem atual. Comparar preços para exatamente 100 m² pode esconder diferenças de arredondamento e embalagem. Separe a perda aprovada da sobra causada pela compra de caixas inteiras. Confirme como os paletes incompletos serão tratados antes de reservar transporte e se a configuração cotada corresponde ao pedido efetivo."
+      ]
+    ],
+    "checklist": [
+      "Identifique modelo e revisão da embalagem.",
+      "Separe área, cortes e reserva de manutenção.",
+      "Confirme a unidade de pedido antes de arredondar.",
+      "Solicite pesos brutos e dimensões externas.",
+      "Confirme o arranjo dos paletes incompletos."
+    ],
+    "faq": [
+      [
+        "Os 1,05 m² adicionais cobrem as perdas de instalação?",
+        "Não necessariamente. São apenas o arredondamento do exemplo; paginação e cortes determinam a reserva necessária."
+      ],
+      [
+        "Posso aplicar quarenta caixas por palete a outro SPC?",
+        "Não. Solicite a embalagem atual do modelo escolhido."
+      ],
+      [
+        "A massa líquida é suficiente para o peso final do frete?",
+        "Não. Obtenha pesos brutos e dimensões exigidos pelo agente de cargas."
+      ]
+    ],
+    "closing": "Envie à Luvie o modelo, a área aprovada e o destino no Brasil. Solicite cobertura por caixa e embalagem proposta antes de comparar fretes."
+  },
+  "ar": {
+    "title": "أرضيات SPC للبرازيل: العبوات ووزن الشحن | Luvie",
+    "heading": "لمشتري أرضيات SPC في البرازيل: احسبوا العبوات الكاملة قبل طلب أجرة الشحن",
+    "description": "افصل بين تغطية أرضيات SPC وتقريب عدد العبوات والكتلة الإجمالية للشحنة عند مقارنة عروض التوريد إلى البرازيل.",
+    "lead": "عرض سعر لمساحة 100 متر مربع لا يحدد الشحنة. يحتاج المستورد إلى عدد العبوات وترتيب المنصات والكتلة الإجمالية. يوضح مثال الشركة المصنعة طريقة الحساب، ولا يمثل مخزون Luvie أو مواصفات طراز آخر.",
+    "answer": "بتغطية مرجعية قدرها 2.15 م² للعبوة، يتطلب هدف شراء افتراضي معتمد قدره 100 م² عدد 47 عبوة كاملة، توفر 101.05 م². الزيادة البالغة 1.05 م² ناتجة عن التقريب وليست نسبة هدر موصى بها. وتبقى كتلة الشحن الإجمالية معلومة مستقلة.",
+    "comparison": {
+      "caption": "بيانات تعبئة مرجعية وحساب طلب افتراضي؛ المصدر [1].",
+      "headers": [
+        "البند",
+        "القيمة",
+        "التفسير"
+      ],
+      "rows": [
+        [
+          "الهدف المعتمد",
+          "100 م²",
+          "شراء افتراضي"
+        ],
+        [
+          "تغطية العبوة",
+          "2.15 م²",
+          "للطراز المرجعي فقط"
+        ],
+        [
+          "العبوات الكاملة",
+          "100 / 2.15 = 46.5116 → 47",
+          "تأكيد وحدة الطلب"
+        ],
+        [
+          "المساحة الموردة",
+          "47 × 2.15 = 101.05 م²",
+          "تشمل أثر التقريب"
+        ],
+        [
+          "المنصة المرجعية",
+          "40 عبوة؛ 86 م²",
+          "لا تعمم على طراز آخر"
+        ],
+        [
+          "المتبقي",
+          "47 − 40 = 7 عبوات",
+          "ترتيب الشحن غير مؤكد"
+        ],
+        [
+          "الكتلة الإجمالية",
+          "غير مذكورة في الجدول المرجعي",
+          "اطلب بيانات التعبئة"
+        ]
+      ]
+    },
+    "sections": [
+      [
+        "ابدأ بمساحة شراء معتمدة",
+        "استخدم الكمية التي وافق عليها المشتري والمركب. لا تضف نسبة هدر عامة دون توضيح. سجل مخصص القص ومخزون الصيانة كلّاً على حدة مع أساس تحديده. تمثل 100 م² هنا هدف شراء افتراضياً وليست مساحة غرفة. تنشر Polyflor تغطية 2.15 م² لكل عبوة وعشرة ألواح للعبوة وأربعين عبوة للمنصة لطراز Icelandic Oak 9025. لا تحقق 46 عبوة الهدف، بينما تتجاوزه 47 عبوة بمقدار 1.05 م²."
+      ],
+      [
+        "المنصة الجزئية سؤال وليست وعداً",
+        "يمكن حسابياً تقسيم 47 عبوة إلى أربعين وسبع عبوات متبقية. لكن ذلك لا يثبت أن المورد سيرسل منصة كاملة وأخرى صغيرة. اطلب عدد المنصات وأبعادها الخارجية واتجاه العبوات وإمكانية التكديس. لا تستبدل أبعاد التعبئة بأبعاد الألواح. قد يؤثر الترتيب الفعلي في عرض الشحن."
+      ],
+      [
+        "افصل المساحة عن كتلة الشحنة",
+        "كتلة المنتج الصافية والكتلة الإجمالية للعبوة والكتلة الإجمالية للمنصة المحملة معلومات مختلفة. تسمح الكتلة لكل متر مربع بحساب مادة صافية، لكنها لا تحدد الكتلة الإجمالية النهائية. لا تختلق وزن العبوات أو المنصات. اسأل وكيل الشحن عن الأوزان والأبعاد المقاسة المطلوبة للمسار ومن سيؤكد قائمة التعبئة النهائية. لا يحدد هذا الدليل أجور الشحن أو الضرائب أو الموافقة على الاستيراد إلى البرازيل."
+      ],
+      [
+        "قارن الطلب الفعلي",
+        "احسب العبوات الكاملة لكل بديل باستخدام جدول التعبئة الحالي لذلك الطراز. قد تخفي مقارنة أسعار 100 م² بالضبط فروق التقريب والتعبئة. افصل مخصص الهدر المعتمد عن الفائض الناتج عن شراء عبوات كاملة. أكد طريقة معالجة المنصات غير المكتملة قبل حجز النقل، وتحقق من أن ترتيب التعبئة المعروض ينطبق على طلبك الفعلي."
+      ]
+    ],
+    "checklist": [
+      "حدد الطراز وإصدار بيانات التعبئة الحالي.",
+      "افصل مساحة المشروع ومخصص القص ومخزون الصيانة.",
+      "أكد وحدة الطلب قبل التقريب.",
+      "اطلب الأوزان الإجمالية وأبعاد التعبئة الخارجية.",
+      "أكد ترتيب المنصات غير المكتملة."
+    ],
+    "faq": [
+      [
+        "هل تغطي الزيادة البالغة 1.05 م² هدر التركيب؟",
+        "ليس بالضرورة. إنها فرق التقريب في المثال فقط؛ يحدد مخطط التركيب والقص المخصص المطلوب."
+      ],
+      [
+        "هل أستخدم أربعين عبوة للمنصة لطراز SPC آخر؟",
+        "لا. اطلب بيانات التعبئة الحالية للطراز المختار."
+      ],
+      [
+        "هل تكفي كتلة الأرضيات الصافية لتحديد وزن الشحن النهائي؟",
+        "لا. احصل على أوزان التعبئة الإجمالية والأبعاد التي يطلبها وكيل الشحن."
+      ]
+    ],
+    "closing": "أرسل إلى Luvie الطراز ومساحة الشراء المعتمدة والوجهة في البرازيل. اطلب تغطية العبوة وترتيب التعبئة المقترح قبل مقارنة عروض النقل."
+  }
+}

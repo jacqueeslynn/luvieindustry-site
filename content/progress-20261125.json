@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-25",
+  "status": "validated",
+  "articles": [
+    {"file": "brazil-pvc-ceiling-nominal-working-width-order-comparison.html", "status": "validated", "locales": ["en", "es", "pt-br", "ar"]},
+    {"file": "brazil-spc-flooring-carton-rounding-freight-data.html", "status": "validated", "locales": ["en", "es", "pt-br", "ar"]},
+    {"file": "uae-spc-flooring-residual-indentation-test-limits.html", "status": "validated", "locales": ["en", "es", "pt-br", "ar"]}
+  ],
+  "verification": {"localPages": 12, "visualViews": 24, "visualEvidence": "../verification-20261125/visual-results.json", "live": false},
+  "nextStep": "Push main, await Pages deployment, verify all 12 public pages and sitemap."
+}
