@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-27",
+  "languageQuota": {
+    "en": 1,
+    "pt-BR": 1,
+    "es": 1
+  },
+  "articles": [
+    {
+      "article": "articles/field-guides/uzbekistan-spc-laminate-thermal-resistance.html",
+      "asset": "assets/articles/uzbekistan-spc-laminate-thermal-resistance.webp",
+      "sourceImage": "/Users/mac/.codex/generated_images/01a21bb4-b3e2-73b1-89a1-8486ff783252/exec-53886e74-efcb-427a-9c50-e5c991e598ad.png",
+      "generator": "OpenAI imagegen",
+      "created": "2026-11-27",
+      "usage": "Original generated editorial material illustration; not a real project or test result",
+      "status": "validated"
+    },
+    {
+      "article": "pt-br/articles/field-guides/brasil-spc-laminado-ac4-camada-uso.html",
+      "asset": "assets/articles/brasil-spc-laminado-ac4-camada-uso.webp",
+      "sourceImage": "/Users/mac/.codex/generated_images/01a21bb4-b3e2-73b1-89a1-8486ff783252/exec-3731e868-4a22-49b8-9b4e-d9ff110d462d.png",
+      "generator": "OpenAI imagegen",
+      "created": "2026-11-27",
+      "usage": "Original generated editorial material illustration; not a real project or test result",
+      "status": "validated"
+    },
+    {
+      "article": "es/articles/field-guides/mexico-spc-porcelanato-absorcion-agua.html",
+      "asset": "assets/articles/mexico-spc-porcelanato-absorcion-agua.webp",
+      "sourceImage": "/Users/mac/.codex/generated_images/01a21bb4-b3e2-73b1-89a1-8486ff783252/exec-1f18a848-5e8a-4757-82f5-36c80e8fdeb6.png",
+      "generator": "OpenAI imagegen",
+      "created": "2026-11-27",
+      "usage": "Original generated editorial material illustration; not a real project or test result",
+      "status": "validated"
+    }
+  ],
+  "validation": {
+    "seo": true,
+    "localizedArchives": true,
+    "translationNormalization": true,
+    "productHierarchy": true,
+    "publishingTests": true,
+    "visualWidths": [
+      1440,
+      390
+    ],
+    "homepageChanges": false
+  }
+}
