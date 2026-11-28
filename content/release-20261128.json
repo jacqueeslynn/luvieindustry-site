@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-28",
+  "languageQuota": {
+    "en": 1,
+    "pt-BR": 1,
+    "es": 1
+  },
+  "articles": [
+    {
+      "article": "articles/field-guides/uae-spc-flooring-iic-impact-sound-decibels.html",
+      "asset": "assets/articles/uae-spc-flooring-iic-impact-sound-decibels.webp",
+      "sourceImage": "/Users/mac/.codex/generated_images/01a21bb4-b3e2-73b1-89a1-8486ff783252/exec-fb9e59ba-be46-4b9b-bab4-f271db46abf8.png",
+      "generator": "OpenAI imagegen",
+      "created": "2026-11-28",
+      "usage": "Original generated editorial material illustration; not a real project or test result",
+      "status": "validated"
+    },
+    {
+      "article": "pt-br/articles/field-guides/brasil-painel-ripado-wpc-absorcao-area-nrc.html",
+      "asset": "assets/articles/brasil-painel-ripado-wpc-absorcao-area-nrc.webp",
+      "sourceImage": "/Users/mac/.codex/generated_images/01a21bb4-b3e2-73b1-89a1-8486ff783252/exec-bb3ef06c-e46f-4e67-bdf2-92522f643cc1.png",
+      "generator": "OpenAI imagegen",
+      "created": "2026-11-28",
+      "usage": "Original generated editorial material illustration; not a real project or test result",
+      "status": "validated"
+    },
+    {
+      "article": "es/articles/field-guides/mexico-spc-lvt-emisiones-voc-unidades.html",
+      "asset": "assets/articles/mexico-spc-lvt-emisiones-voc-unidades.webp",
+      "sourceImage": "/Users/mac/.codex/generated_images/01a21bb4-b3e2-73b1-89a1-8486ff783252/exec-2bda3e43-b064-47ff-8690-638b7e4467cf.png",
+      "generator": "OpenAI imagegen",
+      "created": "2026-11-28",
+      "usage": "Original generated editorial material illustration; not a real project or test result",
+      "status": "validated"
+    }
+  ],
+  "validation": {
+    "seo": true,
+    "localizedArchives": true,
+    "translationNormalization": true,
+    "productHierarchy": true,
+    "publishingTests": true,
+    "visualWidths": [
+      1440,
+      390
+    ],
+    "homepageChanges": false
+  }
+}
